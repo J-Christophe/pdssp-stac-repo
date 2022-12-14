@@ -1517,7 +1517,10 @@
       "title": "STAC Catalog holding PDSSP-compliant MRO_HIRISE_RDRV11 collection."
     }
   ],
-  "stac_extensions": [],
+  "stac_extensions": [
+    "ssys"
+  ],
+  "ssys:targets": "Mars",
   "title": "MRO/HIRISE Reduced Data Record with Embedded Map Projection",
   "extent": {
     "spatial": {

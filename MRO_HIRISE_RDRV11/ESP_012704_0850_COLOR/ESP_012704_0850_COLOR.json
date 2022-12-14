@@ -10,6 +10,9 @@
     "platform": "MRO",
     "instruments": [
       "HIRISE"
+    ],
+    "ssys:targets": [
+      "MARS"
     ]
   },
   "geometry": {
@@ -283,6 +286,8 @@
     67.1351,
     -84.8712
   ],
-  "stac_extensions": [],
+  "stac_extensions": [
+    "ssys"
+  ],
   "collection": "MRO_HIRISE_RDRV11"
 }
