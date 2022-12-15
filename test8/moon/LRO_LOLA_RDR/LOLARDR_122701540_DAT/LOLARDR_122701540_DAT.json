@@ -10,6 +10,9 @@
     "platform": "LRO",
     "instruments": [
       "LOLA"
+    ],
+    "ssys:targets": [
+      "MOON"
     ]
   },
   "geometry": null,
