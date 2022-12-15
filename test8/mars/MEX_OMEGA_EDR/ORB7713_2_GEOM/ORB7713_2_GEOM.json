@@ -1,0 +1,169 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "ORB7713_2_GEOM",
+  "properties": {
+    "datetime": "2010-01-07T20:22:22.073000Z",
+    "created": "2011-09-01T07:08:53",
+    "start_datetime": "2010-01-07T20:22:22.073000",
+    "end_datetime": "2010-01-07T20:32:21.061000",
+    "platform": "MEX",
+    "instruments": [
+      "OMEGA"
+    ],
+    "ssys:targets": [
+      "MARS"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          158.9918,
+          18.8707
+        ],
+        [
+          156.0399,
+          19.2074
+        ],
+        [
+          154.5513,
+          19.3758
+        ],
+        [
+          153.0684,
+          19.5419
+        ],
+        [
+          152.7184,
+          12.8651
+        ],
+        [
+          152.2875,
+          6.2932
+        ],
+        [
+          151.7876,
+          -0.2301
+        ],
+        [
+          151.2172,
+          -6.7582
+        ],
+        [
+          153.2354,
+          -6.9916
+        ],
+        [
+          155.2027,
+          -7.2216
+        ],
+        [
+          157.1948,
+          -7.4552
+        ],
+        [
+          159.1257,
+          -7.6802
+        ],
+        [
+          158.9954,
+          -0.9964
+        ],
+        [
+          158.9463,
+          5.6663
+        ],
+        [
+          158.9529,
+          12.3664
+        ],
+        [
+          158.9918,
+          18.8707
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Experiment Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Experiment Data Record"
+    }
+  ],
+  "assets": {
+    "GEOCUBE_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-2-edr-flight-ext3-v1/mexomg_0004/document/geocube_desc.txt",
+      "title": "GEOCUBE_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "MEX_ORIENTATION_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-2-edr-flight-ext3-v1/mexomg_0004/document/mex_orientation_desc.txt",
+      "title": "MEX_ORIENTATION_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "ORB7713_2.NAV": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-2-edr-flight-ext3-v1/mexomg_0004/data/gem77/orb7713_2.nav",
+      "title": "ORB7713_2.NAV",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "ORB7713_2_NAV.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mex-m-omega-2-edr-flight-ext3-v1/mexomg_0004/data/gem77/orb7713_2_nav.kml",
+      "title": "ORB7713_2_NAV.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ORB7713_2_NAV.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-omega-2-edr-flight-ext3-v1/mexomg_0004/data/gem77/orb7713_2_nav.tar.gz",
+      "title": "ORB7713_2_NAV.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ORB7713_2_NAV.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-omega-2-edr-flight-ext3-v1/mexomg_0004/data/gem77/orb7713_2_nav.zip",
+      "title": "ORB7713_2_NAV.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    151.2172,
+    -7.6802,
+    159.1257,
+    19.5419
+  ],
+  "stac_extensions": [
+    "ssys"
+  ],
+  "collection": "MEX_OMEGA_EDR"
+}

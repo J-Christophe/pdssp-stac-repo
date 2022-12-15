@@ -1,0 +1,157 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "ORBB254_0_GEOM",
+  "properties": {
+    "datetime": "2012-11-03T17:49:47.003000Z",
+    "created": "2012-11-10T13:01:44",
+    "start_datetime": "2012-11-03T17:49:47.003000",
+    "end_datetime": "2012-11-03T17:51:10.011000",
+    "platform": "MEX",
+    "instruments": [
+      "OMEGA"
+    ],
+    "ssys:targets": [
+      "MARS"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.2483,
+          30.4315
+        ],
+        [
+          6.9838,
+          30.3381
+        ],
+        [
+          5.786,
+          30.2182
+        ],
+        [
+          4.6153,
+          30.0716
+        ],
+        [
+          3.4624,
+          29.8988
+        ],
+        [
+          3.2224,
+          30.061
+        ],
+        [
+          2.9822,
+          30.2229
+        ],
+        [
+          4.2094,
+          30.4124
+        ],
+        [
+          5.3951,
+          30.5654
+        ],
+        [
+          6.588,
+          30.6896
+        ],
+        [
+          7.7869,
+          30.7842
+        ],
+        [
+          7.9046,
+          30.6945
+        ],
+        [
+          8.2483,
+          30.4315
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Experiment Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Experiment Data Record"
+    }
+  ],
+  "assets": {
+    "GEOCUBE_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-2-edr-flight-ext4-v1/mexomg_0005/document/geocube_desc.txt",
+      "title": "GEOCUBE_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "MEX_ORIENTATION_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-2-edr-flight-ext4-v1/mexomg_0005/document/mex_orientation_desc.txt",
+      "title": "MEX_ORIENTATION_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "ORBB254_0.NAV": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-2-edr-flight-ext4-v1/mexomg_0005/data/gemb2/orbb254_0.nav",
+      "title": "ORBB254_0.NAV",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "ORBB254_0_NAV.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mex-m-omega-2-edr-flight-ext4-v1/mexomg_0005/data/gemb2/orbb254_0_nav.kml",
+      "title": "ORBB254_0_NAV.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ORBB254_0_NAV.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-omega-2-edr-flight-ext4-v1/mexomg_0005/data/gemb2/orbb254_0_nav.tar.gz",
+      "title": "ORBB254_0_NAV.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ORBB254_0_NAV.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-omega-2-edr-flight-ext4-v1/mexomg_0005/data/gemb2/orbb254_0_nav.zip",
+      "title": "ORBB254_0_NAV.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    2.9822,
+    29.8988,
+    8.2483,
+    30.7842
+  ],
+  "stac_extensions": [
+    "ssys"
+  ],
+  "collection": "MEX_OMEGA_EDR"
+}

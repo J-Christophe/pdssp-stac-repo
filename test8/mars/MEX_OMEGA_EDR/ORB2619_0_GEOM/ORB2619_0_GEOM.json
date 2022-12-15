@@ -1,0 +1,207 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "ORB2619_0_GEOM",
+  "properties": {
+    "datetime": "2006-01-26T02:33:47.067000Z",
+    "created": "2006-03-21T07:04:26",
+    "start_datetime": "2006-01-26T02:33:47.067000",
+    "end_datetime": "2006-01-26T02:51:18.077000",
+    "platform": "MEX",
+    "instruments": [
+      "OMEGA"
+    ],
+    "ssys:targets": [
+      "MARS"
+    ]
+  },
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            132.6068,
+            6.4845
+          ],
+          [
+            143.3985,
+            19.296
+          ],
+          [
+            148.5854,
+            33.3469
+          ],
+          [
+            156.9048,
+            39.1685
+          ],
+          [
+            158.095,
+            41.3351
+          ],
+          [
+            145.8143,
+            33.3034
+          ],
+          [
+            132.6068,
+            6.4845
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            138.0269,
+            4.7448
+          ],
+          [
+            161.4363,
+            20.8558
+          ],
+          [
+            173.1968,
+            39.1535
+          ],
+          [
+            170.3828,
+            41.0937
+          ],
+          [
+            167.3605,
+            42.9481
+          ],
+          [
+            164.2588,
+            44.634
+          ],
+          [
+            160.8047,
+            46.2678
+          ],
+          [
+            158.095,
+            41.3351
+          ],
+          [
+            158.934,
+            41.8838
+          ],
+          [
+            159.6085,
+            42.0161
+          ],
+          [
+            160.2852,
+            42.1627
+          ],
+          [
+            160.9696,
+            42.3251
+          ],
+          [
+            161.678,
+            42.5085
+          ],
+          [
+            156.9048,
+            39.1685
+          ],
+          [
+            150.8436,
+            28.1345
+          ],
+          [
+            143.3985,
+            19.296
+          ],
+          [
+            138.0269,
+            4.7448
+          ]
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Experiment Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Experiment Data Record"
+    }
+  ],
+  "assets": {
+    "GEOCUBE_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-2-edr-flight-ext-v1/mexomg-0002/document/geocube_desc.txt",
+      "title": "GEOCUBE_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "MEX_ORIENTATION_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-2-edr-flight-ext-v1/mexomg-0002/document/mex_orientation_desc.txt",
+      "title": "MEX_ORIENTATION_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "ORB2619_0.NAV": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-2-edr-flight-ext-v1/mexomg-0002/data/gem26/orb2619_0.nav",
+      "title": "ORB2619_0.NAV",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "ORB2619_0_NAV.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mex-m-omega-2-edr-flight-ext1-v1/mexomg_0002/data/gem26/orb2619_0_nav.kml",
+      "title": "ORB2619_0_NAV.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ORB2619_0_NAV.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-omega-2-edr-flight-ext1-v1/mexomg_0002/data/gem26/orb2619_0_nav.tar.gz",
+      "title": "ORB2619_0_NAV.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ORB2619_0_NAV.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-omega-2-edr-flight-ext1-v1/mexomg_0002/data/gem26/orb2619_0_nav.zip",
+      "title": "ORB2619_0_NAV.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    132.6068,
+    4.7448,
+    173.1968,
+    46.2678
+  ],
+  "stac_extensions": [
+    "ssys"
+  ],
+  "collection": "MEX_OMEGA_EDR"
+}

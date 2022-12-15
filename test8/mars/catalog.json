@@ -21,6 +21,12 @@
       "href": "./MRO_HIRISE_RDR/collection.json",
       "type": "application/json",
       "title": "MRO/HIRISE Reduced Data Record w/o Embedded Map Projection"
+    },
+    {
+      "rel": "child",
+      "href": "./MEX_OMEGA_EDR/collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Experiment Data Record"
     }
   ],
   "stac_extensions": [
