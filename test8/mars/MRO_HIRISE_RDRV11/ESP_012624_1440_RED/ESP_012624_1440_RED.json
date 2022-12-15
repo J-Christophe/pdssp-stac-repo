@@ -10,9 +10,6 @@
     "platform": "MRO",
     "instruments": [
       "HIRISE"
-    ],
-    "ssys:targets": [
-      "MARS"
     ]
   },
   "geometry": {
