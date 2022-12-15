@@ -1,0 +1,1546 @@
+{
+  "type": "Collection",
+  "id": "MRO_HIRISE_RDRV11",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/HIRISE/RDRV11 (Reduced Data Record with Embedded Map Projection)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012600_1655_RED/ESP_012600_1655_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012600_2080_COLOR/ESP_012600_2080_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012600_2080_RED/ESP_012600_2080_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012601_0930_COLOR/ESP_012601_0930_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012601_0930_RED/ESP_012601_0930_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012601_1400_COLOR/ESP_012601_1400_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012601_1400_RED/ESP_012601_1400_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012602_1415_COLOR/ESP_012602_1415_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012602_1415_RED/ESP_012602_1415_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012602_2265_COLOR/ESP_012602_2265_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012602_2265_RED/ESP_012602_2265_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012603_1300_COLOR/ESP_012603_1300_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012603_1300_RED/ESP_012603_1300_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012604_0965_COLOR/ESP_012604_0965_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012604_0965_RED/ESP_012604_0965_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012604_1450_COLOR/ESP_012604_1450_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012604_1450_RED/ESP_012604_1450_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012605_1685_COLOR/ESP_012605_1685_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012605_1685_RED/ESP_012605_1685_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012606_1510_RED/ESP_012606_1510_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012607_0980_COLOR/ESP_012607_0980_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012607_0980_RED/ESP_012607_0980_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012607_1545_COLOR/ESP_012607_1545_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012607_1545_RED/ESP_012607_1545_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012609_1130_RED/ESP_012609_1130_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012609_1570_COLOR/ESP_012609_1570_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012609_1570_RED/ESP_012609_1570_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012610_1250_COLOR/ESP_012610_1250_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012610_1250_RED/ESP_012610_1250_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012611_1650_COLOR/ESP_012611_1650_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012611_1650_RED/ESP_012611_1650_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012611_2170_COLOR/ESP_012611_2170_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012611_2170_RED/ESP_012611_2170_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012612_1940_COLOR/ESP_012612_1940_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012612_1940_RED/ESP_012612_1940_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012614_1220_COLOR/ESP_012614_1220_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012614_1220_RED/ESP_012614_1220_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012616_1800_COLOR/ESP_012616_1800_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012616_1800_RED/ESP_012616_1800_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012618_1090_RED/ESP_012618_1090_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012619_1220_RED/ESP_012619_1220_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012620_0975_COLOR/ESP_012620_0975_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012620_0975_RED/ESP_012620_0975_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012620_1540_COLOR/ESP_012620_1540_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012620_1540_RED/ESP_012620_1540_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012622_1905_COLOR/ESP_012622_1905_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012622_1905_RED/ESP_012622_1905_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012623_1170_RED/ESP_012623_1170_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012624_1440_COLOR/ESP_012624_1440_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012624_1440_RED/ESP_012624_1440_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012625_1720_COLOR/ESP_012625_1720_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012625_1720_RED/ESP_012625_1720_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012627_1245_COLOR/ESP_012627_1245_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012627_1245_RED/ESP_012627_1245_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012627_1975_COLOR/ESP_012627_1975_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012627_1975_RED/ESP_012627_1975_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012628_1835_COLOR/ESP_012628_1835_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012628_1835_RED/ESP_012628_1835_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012630_1840_COLOR/ESP_012630_1840_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012630_1840_RED/ESP_012630_1840_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012631_1555_COLOR/ESP_012631_1555_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012631_1555_RED/ESP_012631_1555_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012633_0930_COLOR/ESP_012633_0930_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012633_0930_RED/ESP_012633_0930_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012633_1610_COLOR/ESP_012633_1610_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012633_1610_RED/ESP_012633_1610_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012634_0930_COLOR/ESP_012634_0930_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012634_0930_RED/ESP_012634_0930_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012636_1490_COLOR/ESP_012636_1490_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012636_1490_RED/ESP_012636_1490_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012637_0935_COLOR/ESP_012637_0935_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012637_0935_RED/ESP_012637_0935_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012637_1400_COLOR/ESP_012637_1400_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012637_1400_RED/ESP_012637_1400_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012638_1700_COLOR/ESP_012638_1700_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012638_1700_RED/ESP_012638_1700_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012639_1990_COLOR/ESP_012639_1990_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012639_1990_RED/ESP_012639_1990_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012640_1415_COLOR/ESP_012640_1415_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012640_1415_RED/ESP_012640_1415_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012642_1400_COLOR/ESP_012642_1400_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012642_1400_RED/ESP_012642_1400_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012642_1895_COLOR/ESP_012642_1895_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012642_1895_RED/ESP_012642_1895_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012643_0945_COLOR/ESP_012643_0945_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012643_0945_RED/ESP_012643_0945_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012643_1825_COLOR/ESP_012643_1825_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012643_1825_RED/ESP_012643_1825_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012644_1565_COLOR/ESP_012644_1565_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012644_1565_RED/ESP_012644_1565_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012647_0980_COLOR/ESP_012647_0980_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012647_0980_RED/ESP_012647_0980_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012648_0930_COLOR/ESP_012648_0930_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012648_0930_RED/ESP_012648_0930_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012648_1815_COLOR/ESP_012648_1815_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012648_1815_RED/ESP_012648_1815_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012649_1770_COLOR/ESP_012649_1770_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012649_1770_RED/ESP_012649_1770_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012650_1780_COLOR/ESP_012650_1780_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012650_1780_RED/ESP_012650_1780_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012650_2180_RED/ESP_012650_2180_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012652_0950_COLOR/ESP_012652_0950_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012652_0950_RED/ESP_012652_0950_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012653_1955_COLOR/ESP_012653_1955_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012653_1955_RED/ESP_012653_1955_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012654_1895_COLOR/ESP_012654_1895_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012654_1895_RED/ESP_012654_1895_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012655_1510_COLOR/ESP_012655_1510_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012655_1510_RED/ESP_012655_1510_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012655_2070_COLOR/ESP_012655_2070_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012655_2070_RED/ESP_012655_2070_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012656_1355_COLOR/ESP_012656_1355_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012656_1355_RED/ESP_012656_1355_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012656_1875_COLOR/ESP_012656_1875_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012656_1875_RED/ESP_012656_1875_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012658_0985_COLOR/ESP_012658_0985_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012658_0985_RED/ESP_012658_0985_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012658_1680_COLOR/ESP_012658_1680_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012658_1680_RED/ESP_012658_1680_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012659_1900_COLOR/ESP_012659_1900_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012659_1900_RED/ESP_012659_1900_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012661_1325_COLOR/ESP_012661_1325_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012661_1325_RED/ESP_012661_1325_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012662_1505_COLOR/ESP_012662_1505_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012662_1505_RED/ESP_012662_1505_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012663_1440_COLOR/ESP_012663_1440_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012663_1440_RED/ESP_012663_1440_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012663_1960_COLOR/ESP_012663_1960_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012663_1960_RED/ESP_012663_1960_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012664_1720_COLOR/ESP_012664_1720_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012664_1720_RED/ESP_012664_1720_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012665_1365_COLOR/ESP_012665_1365_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012665_1365_RED/ESP_012665_1365_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012667_1745_COLOR/ESP_012667_1745_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012667_1745_RED/ESP_012667_1745_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012668_1495_COLOR/ESP_012668_1495_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012668_1495_RED/ESP_012668_1495_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012669_1290_COLOR/ESP_012669_1290_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012669_1290_RED/ESP_012669_1290_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012669_1880_COLOR/ESP_012669_1880_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012669_1880_RED/ESP_012669_1880_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012670_1055_COLOR/ESP_012670_1055_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012670_1055_RED/ESP_012670_1055_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012670_1845_COLOR/ESP_012670_1845_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012670_1845_RED/ESP_012670_1845_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012671_0930_COLOR/ESP_012671_0930_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012671_0930_RED/ESP_012671_0930_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012671_1795_COLOR/ESP_012671_1795_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012671_1795_RED/ESP_012671_1795_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012672_1645_COLOR/ESP_012672_1645_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012672_1645_RED/ESP_012672_1645_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012673_1530_COLOR/ESP_012673_1530_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012673_1530_RED/ESP_012673_1530_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012674_1745_COLOR/ESP_012674_1745_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012674_1745_RED/ESP_012674_1745_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012675_1565_COLOR/ESP_012675_1565_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012675_1565_RED/ESP_012675_1565_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012676_1545_COLOR/ESP_012676_1545_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012676_1545_RED/ESP_012676_1545_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012677_1395_COLOR/ESP_012677_1395_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012677_1395_RED/ESP_012677_1395_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012677_2035_COLOR/ESP_012677_2035_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012677_2035_RED/ESP_012677_2035_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012679_1420_COLOR/ESP_012679_1420_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012679_1420_RED/ESP_012679_1420_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012679_2040_COLOR/ESP_012679_2040_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012679_2040_RED/ESP_012679_2040_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012680_1000_COLOR/ESP_012680_1000_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012680_1000_RED/ESP_012680_1000_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012687_1385_COLOR/ESP_012687_1385_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012687_1385_RED/ESP_012687_1385_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012687_1930_COLOR/ESP_012687_1930_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012687_1930_RED/ESP_012687_1930_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012688_1155_COLOR/ESP_012688_1155_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012688_1155_RED/ESP_012688_1155_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012688_1765_COLOR/ESP_012688_1765_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012688_1765_RED/ESP_012688_1765_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012689_1600_COLOR/ESP_012689_1600_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012689_1600_RED/ESP_012689_1600_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012690_0940_COLOR/ESP_012690_0940_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012690_0940_RED/ESP_012690_0940_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012690_2055_COLOR/ESP_012690_2055_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012690_2055_RED/ESP_012690_2055_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012691_0985_COLOR/ESP_012691_0985_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012691_0985_RED/ESP_012691_0985_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012693_0950_COLOR/ESP_012693_0950_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012693_0950_RED/ESP_012693_0950_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012693_1470_COLOR/ESP_012693_1470_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012693_1470_RED/ESP_012693_1470_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012698_1815_COLOR/ESP_012698_1815_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012698_1815_RED/ESP_012698_1815_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012699_1590_COLOR/ESP_012699_1590_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012699_1590_RED/ESP_012699_1590_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012700_1375_COLOR/ESP_012700_1375_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012700_1375_RED/ESP_012700_1375_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012700_2025_COLOR/ESP_012700_2025_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012700_2025_RED/ESP_012700_2025_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012702_1640_COLOR/ESP_012702_1640_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012702_1640_RED/ESP_012702_1640_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012702_2055_COLOR/ESP_012702_2055_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012703_1365_COLOR/ESP_012703_1365_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012703_1365_RED/ESP_012703_1365_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012703_1925_COLOR/ESP_012703_1925_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012703_1925_RED/ESP_012703_1925_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012704_0850_COLOR/ESP_012704_0850_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012704_0850_RED/ESP_012704_0850_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012704_1445_COLOR/ESP_012704_1445_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012704_1445_RED/ESP_012704_1445_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012705_1555_COLOR/ESP_012705_1555_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012705_1555_RED/ESP_012705_1555_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012706_1510_RED/ESP_012706_1510_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012706_1995_COLOR/ESP_012706_1995_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012706_1995_RED/ESP_012706_1995_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012707_1445_COLOR/ESP_012707_1445_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012707_1445_RED/ESP_012707_1445_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012708_1450_COLOR/ESP_012708_1450_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012708_1450_RED/ESP_012708_1450_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012708_2150_COLOR/ESP_012708_2150_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012708_2150_RED/ESP_012708_2150_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012709_1445_COLOR/ESP_012709_1445_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012709_1445_RED/ESP_012709_1445_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012710_0955_COLOR/ESP_012710_0955_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012710_0955_RED/ESP_012710_0955_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012711_1495_COLOR/ESP_012711_1495_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012711_1495_RED/ESP_012711_1495_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012712_1980_COLOR/ESP_012712_1980_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012712_1980_RED/ESP_012712_1980_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012713_1675_COLOR/ESP_012713_1675_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012713_1675_RED/ESP_012713_1675_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012714_1175_RED/ESP_012714_1175_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012714_1815_COLOR/ESP_012714_1815_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012714_1815_RED/ESP_012714_1815_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012715_1740_COLOR/ESP_012715_1740_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012715_1740_RED/ESP_012715_1740_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012715_1975_COLOR/ESP_012715_1975_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012715_1975_RED/ESP_012715_1975_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012716_1885_COLOR/ESP_012716_1885_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012716_1885_RED/ESP_012716_1885_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012717_1380_COLOR/ESP_012717_1380_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012717_1380_RED/ESP_012717_1380_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012717_1910_COLOR/ESP_012717_1910_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012717_1910_RED/ESP_012717_1910_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012718_0935_COLOR/ESP_012718_0935_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012718_0935_RED/ESP_012718_0935_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012721_1485_COLOR/ESP_012721_1485_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012721_1485_RED/ESP_012721_1485_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012722_0930_COLOR/ESP_012722_0930_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012722_0930_RED/ESP_012722_0930_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012722_1400_COLOR/ESP_012722_1400_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012722_1400_RED/ESP_012722_1400_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012723_1065_COLOR/ESP_012723_1065_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012723_1065_RED/ESP_012723_1065_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012723_1470_COLOR/ESP_012723_1470_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012723_1470_RED/ESP_012723_1470_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012724_1915_COLOR/ESP_012724_1915_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012724_1915_RED/ESP_012724_1915_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012727_1540_COLOR/ESP_012727_1540_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012727_1540_RED/ESP_012727_1540_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012728_1070_COLOR/ESP_012728_1070_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012728_1070_RED/ESP_012728_1070_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012728_1795_COLOR/ESP_012728_1795_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012728_1795_RED/ESP_012728_1795_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012729_1020_COLOR/ESP_012729_1020_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012729_1020_RED/ESP_012729_1020_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012729_1830_COLOR/ESP_012729_1830_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012729_1830_RED/ESP_012729_1830_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012730_1475_COLOR/ESP_012730_1475_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012730_1475_RED/ESP_012730_1475_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012730_2025_COLOR/ESP_012730_2025_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012730_2025_RED/ESP_012730_2025_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012731_1365_COLOR/ESP_012731_1365_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012731_1365_RED/ESP_012731_1365_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012734_1265_COLOR/ESP_012734_1265_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012734_1265_RED/ESP_012734_1265_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012735_1095_RED/ESP_012735_1095_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012735_1830_COLOR/ESP_012735_1830_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012735_1830_RED/ESP_012735_1830_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012736_1445_COLOR/ESP_012736_1445_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012736_1445_RED/ESP_012736_1445_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012737_0985_COLOR/ESP_012737_0985_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012737_0985_RED/ESP_012737_0985_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012737_1550_COLOR/ESP_012737_1550_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012737_1550_RED/ESP_012737_1550_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012738_1785_COLOR/ESP_012738_1785_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012738_1785_RED/ESP_012738_1785_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012739_0935_COLOR/ESP_012739_0935_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012739_0935_RED/ESP_012739_0935_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012739_1560_COLOR/ESP_012739_1560_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012739_1560_RED/ESP_012739_1560_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012740_1265_COLOR/ESP_012740_1265_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012740_1265_RED/ESP_012740_1265_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012741_1115_COLOR/ESP_012741_1115_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012741_1115_RED/ESP_012741_1115_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012741_1750_COLOR/ESP_012741_1750_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012741_1750_RED/ESP_012741_1750_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012742_1435_COLOR/ESP_012742_1435_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012742_1435_RED/ESP_012742_1435_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012743_1620_COLOR/ESP_012743_1620_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012743_1620_RED/ESP_012743_1620_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ESP_012744_0985_COLOR/ESP_012744_0985_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys"
+  ],
+  "ssys:targets": "Mars",
+  "title": "MRO/HIRISE Reduced Data Record with Embedded Map Projection",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.938,
+          -87.1313,
+          178.289,
+          46.4136
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-04-04T07:13:43.380000Z",
+          "2009-04-15T12:10:57.763000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TBC]"
+}

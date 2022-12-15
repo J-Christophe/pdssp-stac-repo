@@ -1,0 +1,96 @@
+{
+  "type": "Collection",
+  "id": "MRO_HIRISE_RDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/HIRISE/RDR (Reduced Data Record w/o Embedded Map Projection)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./AEB_000002_0100_RED/AEB_000002_0100_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PSP_001804_1890_RED/PSP_001804_1890_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PSP_002343_1735_RED/PSP_002343_1735_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PSP_004471_2030_RED/PSP_004471_2030_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PSP_006913_1765_COLOR/PSP_006913_1765_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PSP_006913_1765_RED/PSP_006913_1765_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PSP_007134_1435_COLOR/PSP_007134_1435_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PSP_007134_1435_RED/PSP_007134_1435_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PSP_007519_2170_COLOR/PSP_007519_2170_COLOR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PSP_007519_2170_RED/PSP_007519_2170_RED.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys"
+  ],
+  "ssys:targets": "Mars",
+  "title": "MRO/HIRISE Reduced Data Record w/o Embedded Map Projection",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -158.455,
+          -47.5039,
+          155.983,
+          36.8806
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2006-03-25T16:18:52.639000Z",
+          "2008-03-04T08:42:50.781000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TBC]"
+}
