@@ -16,12 +16,12 @@
       "MARS"
     ],
     "ssys:solar_longitude": 242.525159,
-    "ssys:incidence_angle": null,
-    "ssys:emission_angle": null,
-    "ssys:phase_angle": null,
-    "ssys:spatial_resolution": null,
-    "ssys:processing_level": null,
-    "ssys:product_type": null
+    "ssys:incidence_angle": 68.798185,
+    "ssys:emission_angle": 1.193989,
+    "ssys:phase_angle": 69.72222,
+    "ssys:spatial_resolution": 0.25,
+    "ssys:processing_level": "RDRV11",
+    "ssys:product_type": "RDRV11"
   },
   "geometry": {
     "type": "Polygon",

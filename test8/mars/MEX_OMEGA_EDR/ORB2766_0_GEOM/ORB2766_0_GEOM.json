@@ -20,8 +20,8 @@
     "ssys:emission_angle": null,
     "ssys:phase_angle": null,
     "ssys:spatial_resolution": null,
-    "ssys:processing_level": null,
-    "ssys:product_type": null
+    "ssys:processing_level": "EDR",
+    "ssys:product_type": "EDR"
   },
   "geometry": {
     "type": "GeometryCollection",
