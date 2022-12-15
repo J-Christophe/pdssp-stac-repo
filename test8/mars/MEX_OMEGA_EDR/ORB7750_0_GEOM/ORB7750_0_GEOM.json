@@ -13,7 +13,8 @@
     ],
     "ssys:targets": [
       "MARS"
-    ]
+    ],
+    "ssys_solar_longitude": null
   },
   "geometry": {
     "type": "MultiPolygon",
