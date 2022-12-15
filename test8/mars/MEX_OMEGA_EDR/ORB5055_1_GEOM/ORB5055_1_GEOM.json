@@ -14,7 +14,7 @@
     "ssys:targets": [
       "MARS"
     ],
-    "ssys_solar_longitude": null
+    "ssys:solar_longitude": 359.772
   },
   "geometry": {
     "type": "Polygon",
