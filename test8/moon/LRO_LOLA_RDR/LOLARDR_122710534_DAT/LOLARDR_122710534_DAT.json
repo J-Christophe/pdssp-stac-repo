@@ -11,10 +11,17 @@
     "instruments": [
       "LOLA"
     ],
+    "gsd": null,
     "ssys:targets": [
       "MOON"
     ],
-    "ssys:solar_longitude": null
+    "ssys:solar_longitude": null,
+    "ssys:incidence_angle": null,
+    "ssys:emission_angle": null,
+    "ssys:phase_angle": null,
+    "ssys:spatial_resolution": null,
+    "ssys:processing_level": null,
+    "ssys:product_type": null
   },
   "geometry": {
     "type": "GeometryCollection",

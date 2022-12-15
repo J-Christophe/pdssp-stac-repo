@@ -11,10 +11,17 @@
     "instruments": [
       "OMEGA"
     ],
+    "gsd": null,
     "ssys:targets": [
       "MARS"
     ],
-    "ssys:solar_longitude": 37.98
+    "ssys:solar_longitude": 37.98,
+    "ssys:incidence_angle": null,
+    "ssys:emission_angle": null,
+    "ssys:phase_angle": null,
+    "ssys:spatial_resolution": null,
+    "ssys:processing_level": null,
+    "ssys:product_type": null
   },
   "geometry": {
     "type": "Polygon",

@@ -11,10 +11,17 @@
     "instruments": [
       "HIRISE"
     ],
+    "gsd": 0.5,
     "ssys:targets": [
       "MARS"
     ],
-    "ssys:solar_longitude": 243.280135
+    "ssys:solar_longitude": 243.280135,
+    "ssys:incidence_angle": null,
+    "ssys:emission_angle": null,
+    "ssys:phase_angle": null,
+    "ssys:spatial_resolution": null,
+    "ssys:processing_level": null,
+    "ssys:product_type": null
   },
   "geometry": {
     "type": "Polygon",
