@@ -27,6 +27,24 @@
       "href": "./MEX_OMEGA_EDR/collection.json",
       "type": "application/json",
       "title": "MEX/OMEGA Experiment Data Record"
+    },
+    {
+      "rel": "child",
+      "href": "./MEX_OMEGA_DDRGM/collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Global Maps"
+    },
+    {
+      "rel": "child",
+      "href": "./MEX_HRSC_RDRV4/collection.json",
+      "type": "application/json",
+      "title": "MEX/HRSC Version 4 Reduced Data Record"
+    },
+    {
+      "rel": "child",
+      "href": "./MRO_CRISM_MTRDR/collection.json",
+      "type": "application/json",
+      "title": "MRO/CRISM Map-Projected Targeted Reduced Data Record"
     }
   ],
   "stac_extensions": [
