@@ -1520,7 +1520,7 @@
   "stac_extensions": [
     "ssys"
   ],
-  "ssys:targets": "Mars",
+  "ssys:targets": "MARS",
   "title": "MRO/HIRISE Reduced Data Record with Embedded Map Projection",
   "extent": {
     "spatial": {
