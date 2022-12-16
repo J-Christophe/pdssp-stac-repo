@@ -1,0 +1,657 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "H0024_0000_BL3.IMG",
+  "properties": {
+    "datetime": "2004-01-16T11:35:38.558000Z",
+    "created": "2022-02-03T14:36:51",
+    "start_datetime": "2004-01-16T11:35:38.558000",
+    "end_datetime": "2004-01-16T11:52:29.237000",
+    "platform": "MEX",
+    "instruments": [
+      "HRSC"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "MARS"
+    ],
+    "ssys:solar_longitude": null,
+    "ssys:incidence_angle": null,
+    "ssys:emission_angle": null,
+    "ssys:phase_angle": null,
+    "ssys:spatial_resolution": null,
+    "ssys:processing_level": "RDRV4",
+    "ssys:product_type": "RDRV4"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          170.919,
+          -51.311
+        ],
+        [
+          171.213,
+          -50.203
+        ],
+        [
+          171.48,
+          -49.121
+        ],
+        [
+          171.722,
+          -48.065
+        ],
+        [
+          171.944,
+          -47.034
+        ],
+        [
+          172.146,
+          -46.027
+        ],
+        [
+          172.331,
+          -45.043
+        ],
+        [
+          172.501,
+          -44.083
+        ],
+        [
+          172.657,
+          -43.144
+        ],
+        [
+          172.802,
+          -42.225
+        ],
+        [
+          172.935,
+          -41.326
+        ],
+        [
+          173.059,
+          -40.446
+        ],
+        [
+          173.174,
+          -39.583
+        ],
+        [
+          173.281,
+          -38.739
+        ],
+        [
+          173.381,
+          -37.91
+        ],
+        [
+          173.473,
+          -37.101
+        ],
+        [
+          173.56,
+          -36.305
+        ],
+        [
+          173.642,
+          -35.524
+        ],
+        [
+          173.718,
+          -34.757
+        ],
+        [
+          173.789,
+          -34.005
+        ],
+        [
+          173.856,
+          -33.264
+        ],
+        [
+          173.919,
+          -32.537
+        ],
+        [
+          173.978,
+          -31.823
+        ],
+        [
+          174.034,
+          -31.12
+        ],
+        [
+          174.086,
+          -30.427
+        ],
+        [
+          174.136,
+          -29.745
+        ],
+        [
+          174.183,
+          -29.072
+        ],
+        [
+          174.227,
+          -28.413
+        ],
+        [
+          174.269,
+          -27.761
+        ],
+        [
+          174.309,
+          -27.117
+        ],
+        [
+          174.346,
+          -26.483
+        ],
+        [
+          174.382,
+          -25.859
+        ],
+        [
+          174.415,
+          -25.238
+        ],
+        [
+          174.447,
+          -24.631
+        ],
+        [
+          174.478,
+          -24.026
+        ],
+        [
+          174.506,
+          -23.432
+        ],
+        [
+          174.534,
+          -22.843
+        ],
+        [
+          174.584,
+          -21.682
+        ],
+        [
+          174.63,
+          -20.548
+        ],
+        [
+          174.651,
+          -19.991
+        ],
+        [
+          174.671,
+          -19.438
+        ],
+        [
+          174.69,
+          -18.885
+        ],
+        [
+          174.708,
+          -18.345
+        ],
+        [
+          174.742,
+          -17.266
+        ],
+        [
+          174.758,
+          -16.724
+        ],
+        [
+          174.773,
+          -16.182
+        ],
+        [
+          174.801,
+          -15.095
+        ],
+        [
+          174.814,
+          -14.549
+        ],
+        [
+          174.85,
+          -12.907
+        ],
+        [
+          174.88,
+          -11.258
+        ],
+        [
+          174.888,
+          -10.707
+        ],
+        [
+          174.897,
+          -10.155
+        ],
+        [
+          174.918,
+          -8.495
+        ],
+        [
+          174.924,
+          -7.94
+        ],
+        [
+          174.934,
+          -6.831
+        ],
+        [
+          174.942,
+          -5.719
+        ],
+        [
+          174.948,
+          -4.606
+        ],
+        [
+          174.95,
+          -4.049
+        ],
+        [
+          174.953,
+          -2.379
+        ],
+        [
+          174.953,
+          -1.264
+        ],
+        [
+          174.952,
+          -0.707
+        ],
+        [
+          174.946,
+          0.963
+        ],
+        [
+          174.943,
+          1.52
+        ],
+        [
+          174.939,
+          2.076
+        ],
+        [
+          174.936,
+          2.632
+        ],
+        [
+          174.921,
+          4.298
+        ],
+        [
+          174.909,
+          5.406
+        ],
+        [
+          174.895,
+          6.512
+        ],
+        [
+          174.887,
+          7.065
+        ],
+        [
+          174.879,
+          7.616
+        ],
+        [
+          174.861,
+          8.716
+        ],
+        [
+          174.831,
+          10.362
+        ],
+        [
+          174.82,
+          10.909
+        ],
+        [
+          174.796,
+          11.999
+        ],
+        [
+          176.16,
+          11.977
+        ],
+        [
+          176.156,
+          11.432
+        ],
+        [
+          176.154,
+          10.886
+        ],
+        [
+          176.148,
+          9.791
+        ],
+        [
+          176.144,
+          8.692
+        ],
+        [
+          176.141,
+          8.141
+        ],
+        [
+          176.139,
+          7.591
+        ],
+        [
+          176.137,
+          7.039
+        ],
+        [
+          176.136,
+          6.486
+        ],
+        [
+          176.132,
+          5.379
+        ],
+        [
+          176.131,
+          4.825
+        ],
+        [
+          176.129,
+          4.27
+        ],
+        [
+          176.126,
+          2.603
+        ],
+        [
+          176.124,
+          2.047
+        ],
+        [
+          176.116,
+          -2.412
+        ],
+        [
+          176.116,
+          -2.969
+        ],
+        [
+          176.109,
+          -6.868
+        ],
+        [
+          176.109,
+          -7.424
+        ],
+        [
+          176.1,
+          -12.402
+        ],
+        [
+          176.098,
+          -12.952
+        ],
+        [
+          176.093,
+          -15.687
+        ],
+        [
+          176.091,
+          -16.231
+        ],
+        [
+          176.089,
+          -17.317
+        ],
+        [
+          176.087,
+          -17.858
+        ],
+        [
+          176.085,
+          -18.939
+        ],
+        [
+          176.083,
+          -19.493
+        ],
+        [
+          176.082,
+          -20.047
+        ],
+        [
+          176.078,
+          -21.175
+        ],
+        [
+          176.077,
+          -21.742
+        ],
+        [
+          176.069,
+          -24.093
+        ],
+        [
+          176.061,
+          -26.557
+        ],
+        [
+          176.058,
+          -27.194
+        ],
+        [
+          176.056,
+          -27.84
+        ],
+        [
+          176.053,
+          -28.494
+        ],
+        [
+          176.051,
+          -29.156
+        ],
+        [
+          176.042,
+          -31.212
+        ],
+        [
+          176.038,
+          -31.919
+        ],
+        [
+          176.035,
+          -32.637
+        ],
+        [
+          176.023,
+          -34.87
+        ],
+        [
+          176.018,
+          -35.641
+        ],
+        [
+          176.014,
+          -36.428
+        ],
+        [
+          176.008,
+          -37.23
+        ],
+        [
+          176.003,
+          -38.045
+        ],
+        [
+          175.991,
+          -39.732
+        ],
+        [
+          175.977,
+          -41.492
+        ],
+        [
+          175.969,
+          -42.401
+        ],
+        [
+          175.96,
+          -43.33
+        ],
+        [
+          175.951,
+          -44.28
+        ],
+        [
+          175.941,
+          -45.253
+        ],
+        [
+          175.929,
+          -46.251
+        ],
+        [
+          175.917,
+          -47.273
+        ],
+        [
+          175.904,
+          -48.322
+        ],
+        [
+          175.889,
+          -49.397
+        ],
+        [
+          175.872,
+          -50.5
+        ],
+        [
+          175.854,
+          -51.632
+        ],
+        [
+          170.919,
+          -51.311
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/HRSC Version 4 Reduced Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/HRSC Version 4 Reduced Data Record"
+    }
+  ],
+  "assets": {
+    "H0024_0000_BL3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-3-rdr-v4/mexhrs_4000/data/0024/h0024_0000_bl3.img",
+      "title": "H0024_0000_BL3.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "H0024_0000_BL3.JPG": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-3-rdr-v4/mexhrs_4000/browse/0024/h0024_0000_bl3.jpg",
+      "title": "H0024_0000_BL3.JPG",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "H0024_0000_BL3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-3-rdr-v4/mexhrs_4000/browse/0024/h0024_0000_bl3.lbl",
+      "title": "H0024_0000_BL3.LBL",
+      "description": "BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "H0024_0000_BL3_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mex-m-hrsc-3-rdr-v4/mexhrs_4000/data/0024/h0024_0000_bl3_img.kml",
+      "title": "H0024_0000_BL3_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "H0024_0000_BL3_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-hrsc-3-rdr-v4/mexhrs_4000/data/0024/h0024_0000_bl3_img.tar.gz",
+      "title": "H0024_0000_BL3_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "H0024_0000_BL3_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-hrsc-3-rdr-v4/mexhrs_4000/data/0024/h0024_0000_bl3_img.zip",
+      "title": "H0024_0000_BL3_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "MEX_ORIENTATION_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-3-rdr-v4/mexhrs_4000/document/mex_orientation_desc.txt",
+      "title": "MEX_ORIENTATION_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "MEX_POINTING_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-3-rdr-v4/mexhrs_4000/document/mex_pointing_desc.txt",
+      "title": "MEX_POINTING_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "VICAR2.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-3-rdr-v4/mexhrs_4000/document/vicar2.txt",
+      "title": "VICAR2.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    170.919,
+    -51.632,
+    176.16,
+    11.999
+  ],
+  "stac_extensions": [
+    "ssys"
+  ],
+  "collection": "MEX_HRSC_RDRV4"
+}
