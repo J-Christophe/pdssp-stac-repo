@@ -39,6 +39,12 @@
       "href": "./MRO_CRISM_MTRDR/collection.json",
       "type": "application/json",
       "title": "MRO/CRISM Map-Projected Targeted Reduced Data Record"
+    },
+    {
+      "rel": "child",
+      "href": "./MEX_OMEGA_EDR/collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Experiment Data Record"
     }
   ],
   "stac_extensions": [
