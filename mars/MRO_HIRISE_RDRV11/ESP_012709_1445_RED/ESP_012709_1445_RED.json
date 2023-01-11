@@ -21,7 +21,34 @@
     "ssys:phase_angle": 48.247419,
     "ssys:spatial_resolution": 0.5,
     "ssys:processing_level": "RDRV11",
-    "ssys:product_type": "RDRV11"
+    "ssys:product_type": "RDRV11",
+    "processing:expression": null,
+    "processing:lineage": "",
+    "processing:level": "3",
+    "processing:facility": "",
+    "processing:software": {},
+    "pdsode:ode_id": "13005773",
+    "pdsode:pdsid": "ESP_012709_1445_RED",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "HIRISE",
+    "pdsode:pt": "RDRV11",
+    "pdsode:Data_Set_Id": "MRO-M-HIRISE-3-RDR-V1.1",
+    "pdsode:PDSVolume_Id": "MROHR_0001",
+    "pdsode:RelativePathtoVol": "rdr\\esp\\orb_012700_012799\\esp_012709_1445\\",
+    "pdsode:LabelFileName": "esp_012709_1445_red.lbl",
+    "pdsode:Product_creation_time": "2009-08-16T03:13:57.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.0",
+    "pdsode:Observation_id": "ESP_012709_1445",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((147.028 -35.339, 146.923 -35.3488, 146.886 -35.0917, 146.991 -35.0819, 147.028 -35.339))",
+    "pdsode:UTC_start_time": "2009-04-12T18:58:00.015",
+    "pdsode:UTC_stop_time": "2009-04-12T18:58:04.837",
+    "pdsode:Solar_longitude": 245.54598,
+    "pdsode:Incidence_angle": 46.672245,
+    "pdsode:Emission_angle": 1.576204,
+    "pdsode:Phase_angle": 48.247419,
+    "pdsode:Map_resolution": 118318.46526548,
+    "pdsode:Map_scale": 0.5
   },
   "geometry": {
     "type": "Polygon",
@@ -295,7 +322,8 @@
     -35.0819
   ],
   "stac_extensions": [
-    "ssys"
+    "ssys",
+    "processing"
   ],
   "collection": "MRO_HIRISE_RDRV11"
 }

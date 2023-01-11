@@ -1518,7 +1518,8 @@
     }
   ],
   "stac_extensions": [
-    "ssys"
+    "ssys",
+    "processing"
   ],
   "ssys:targets": "MARS",
   "title": "MRO/HIRISE Reduced Data Record with Embedded Map Projection",
