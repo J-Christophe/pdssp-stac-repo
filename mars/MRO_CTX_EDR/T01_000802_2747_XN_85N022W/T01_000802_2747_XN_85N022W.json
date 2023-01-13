@@ -1,0 +1,192 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "T01_000802_2747_XN_85N022W",
+  "properties": {
+    "datetime": "2006-09-28T00:34:04.293000Z",
+    "created": "2007-05-17T22:49:54.000",
+    "start_datetime": "2006-09-28T00:34:04.293",
+    "end_datetime": "2006-09-28T00:34:13.902",
+    "platform": "MRO",
+    "instruments": [
+      "CTX"
+    ],
+    "gsd": 6.27,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 112.81,
+    "ssys:solar_distance": 242877526.0,
+    "ssys:incidence_angle": 67.38,
+    "ssys:emission_angle": 0.08,
+    "ssys:phase_angle": 67.43,
+    "processing:level": "2",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "9029809",
+    "pdsode:pdsid": "T01_000802_2747_XN_85N022W",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "CTX",
+    "pdsode:pt": "EDR",
+    "pdsode:Data_Set_Id": "MRO-M-CTX-2-EDR-L0-V1.0",
+    "pdsode:PDSVolume_Id": "MROX_0003",
+    "pdsode:RelativePathtoVol": "data\\",
+    "pdsode:LabelFileName": "t01_000802_2747_xn_85n022w.img",
+    "pdsode:Product_creation_time": "2007-05-17T22:49:54.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Producer_id": "MRO_CTX_TEAM",
+    "pdsode:Observation_time": "2006-09-28T00:34:09.097",
+    "pdsode:SpaceCraft_clock_start_count": "0843870863:026",
+    "pdsode:SpaceCraft_clock_stop_count": "0843870863:026",
+    "pdsode:Stop_orbit_number": "802",
+    "pdsode:UTC_start_time": "2006-09-28T00:34:04.293",
+    "pdsode:UTC_stop_time": "2006-09-28T00:34:13.902",
+    "pdsode:Emission_angle": 0.08,
+    "pdsode:Phase_angle": 67.43,
+    "pdsode:Incidence_angle": 67.38,
+    "pdsode:Map_scale": 6.27,
+    "pdsode:Solar_distance": 242877526.0,
+    "pdsode:Solar_longitude": 112.81,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "85.3109",
+    "pdsode:Center_longitude": "337.3033",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "341.8",
+    "pdsode:Maximum_latitude": "85.6694",
+    "pdsode:Minimum_latitude": "84.951",
+    "pdsode:Westernmost_longitude": "332.93",
+    "pdsode:Footprint_geometry": "POLYGON ((332.93 85.2343, 336.2 85.6694, 341.8 85.3557, 338.25 84.951, 332.93 85.2343))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-27.07 85.2343, -23.8 85.6694, -18.2 85.3557, -21.75 84.951, -27.07 85.2343))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((332.93 85.2343, 336.2 85.6694, 341.8 85.3557, 338.25 84.951, 332.93 85.2343))",
+    "pdsode:Footprint_NP_geometry": "POLYGON ((-110318.34084980334 -276515.10526099836, -85523.274460152461 -260120.51703669826, -103027.41478222916 -233594.41941372087, -127870.20515258143 -250203.25204979326, -110318.34084980334 -276515.10526099836))",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Comment": "Chasma Boreale scarp and dunes",
+    "pdsode:External_url": "https://pds-imaging.jpl.nasa.gov/pds/prod?q=OFSN+%3D/data/mro/mars_reconnaissance_orbiter/ctx/mrox_0003/data/T01_000802_2747_XN_85N022W.IMG+AND+RT+%3D+PDS_ZIPN",
+    "pdsode:External_url2": "http://viewer.mars.asu.edu/planetview/inst/ctx/T01_000802_2747_XN_85N022W#start",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=T01_000802_2747_XN_85N022W&product_idGeo=9029809",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=T01_000802_2747_XN_85N022W&product_idGeo=9029809",
+    "pdsode:LabelURL": "https://pds-imaging.jpl.nasa.gov/data/mro/mars_reconnaissance_orbiter/ctx/mrox_0003/data/T01_000802_2747_XN_85N022W.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -27.07,
+          85.2343
+        ],
+        [
+          -23.8,
+          85.6694
+        ],
+        [
+          -18.2,
+          85.3557
+        ],
+        [
+          -21.75,
+          84.951
+        ],
+        [
+          -27.07,
+          85.2343
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CTX Experiment Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CTX Experiment Data Record"
+    }
+  ],
+  "assets": {
+    "T01_000802_2747_XN_85N022W.IMG": {
+      "href": "https://pds-imaging.jpl.nasa.gov/data/mro/mars_reconnaissance_orbiter/ctx/mrox_0003/data/T01_000802_2747_XN_85N022W.IMG",
+      "type": "",
+      "title": "T01_000802_2747_XN_85N022W.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "T01_000802_2747_XN_85N022W.IMG.JPEG": {
+      "href": "https://pds-imaging.jpl.nasa.gov/data/mro/mars_reconnaissance_orbiter/ctx/mrox_0003/extras/browse/T01_000802_2747_XN_85N022W.IMG.jpeg",
+      "type": "image/jpeg",
+      "title": "T01_000802_2747_XN_85N022W.IMG.JPEG",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "T01_000802_2747_XN_85N022W.IMG.JPEG_SMALL": {
+      "href": "https://pds-imaging.jpl.nasa.gov/data/mro/mars_reconnaissance_orbiter/ctx/mrox_0003/extras/thumbnail/T01_000802_2747_XN_85N022W.IMG.jpeg_small",
+      "type": "",
+      "title": "T01_000802_2747_XN_85N022W.IMG.JPEG_SMALL",
+      "description": "THUMBNAIL IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "T01_000802_2747_XN_85N022W_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-ctx-2-edr-l0-v1/mrox_0003/data/t01_000802_2747_xn_85n022w_img.kml",
+      "type": "",
+      "title": "T01_000802_2747_XN_85N022W_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "T01_000802_2747_XN_85N022W_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-ctx-2-edr-l0-v1/mrox_0003/data/t01_000802_2747_xn_85n022w_img.tar.gz",
+      "type": "",
+      "title": "T01_000802_2747_XN_85N022W_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "T01_000802_2747_XN_85N022W_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-ctx-2-edr-l0-v1/mrox_0003/data/t01_000802_2747_xn_85n022w_img.zip",
+      "type": "",
+      "title": "T01_000802_2747_XN_85N022W_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    -27.07,
+    84.951,
+    -18.2,
+    85.6694
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_CTX_EDR"
+}

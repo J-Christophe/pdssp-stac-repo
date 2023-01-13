@@ -1,0 +1,383 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "PSP_007519_2170_COLOR",
+  "properties": {
+    "datetime": "2008-03-04T08:42:42.844000Z",
+    "created": "2008-03-20T09:05:25.000",
+    "start_datetime": "2008-03-04T08:42:42.844",
+    "end_datetime": "2008-03-04T08:42:50.781",
+    "platform": "MRO",
+    "instruments": [
+      "HIRISE"
+    ],
+    "gsd": 0.25,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 40.372537,
+    "ssys:incidence_angle": 41.398898,
+    "ssys:emission_angle": 7.97117,
+    "ssys:phase_angle": 49.283702,
+    "processing:level": "3",
+    "_keywords": [
+      {
+        "id": "season:spring",
+        "title": "Spring",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "9887171",
+    "pdsode:pdsid": "PSP_007519_2170_COLOR",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "HIRISE",
+    "pdsode:pt": "RDR",
+    "pdsode:Data_Set_Id": "MRO-M-HIRISE-3-RDR-V1.0",
+    "pdsode:PDSVolume_Id": "MROHR_0001",
+    "pdsode:RelativePathtoVol": "rdr\\psp\\orb_007500_007599\\psp_007519_2170\\",
+    "pdsode:LabelFileName": "psp_007519_2170_color.lbl",
+    "pdsode:Product_creation_time": "2008-03-20T09:05:25.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.0",
+    "pdsode:Observation_id": "PSP_007519_2170",
+    "pdsode:Producer_id": "UA",
+    "pdsode:Observation_time": "2008-03-04T08:42:46.812",
+    "pdsode:SpaceCraft_clock_start_count": "889087382:51955",
+    "pdsode:SpaceCraft_clock_stop_count": "889087390:44032",
+    "pdsode:Stop_orbit_number": "7519",
+    "pdsode:UTC_start_time": "2008-03-04T08:42:42.844",
+    "pdsode:UTC_stop_time": "2008-03-04T08:42:50.781",
+    "pdsode:Emission_angle": 7.97117,
+    "pdsode:Phase_angle": 49.283702,
+    "pdsode:Incidence_angle": 41.398898,
+    "pdsode:Map_resolution": 236636.930531,
+    "pdsode:Map_scale": 0.25,
+    "pdsode:Solar_longitude": 40.372537,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "36.6749",
+    "pdsode:Center_longitude": "359.9997",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "359.98",
+    "pdsode:Maximum_latitude": "36.8778",
+    "pdsode:Minimum_latitude": "36.4719",
+    "pdsode:Westernmost_longitude": "0.0194",
+    "pdsode:Footprint_geometry": "GEOMETRYCOLLECTION (POLYGON ((360 36.5915, 359.954 36.8752, 359.98 36.8778, 360 36.7539, 360 36.5915)), POLYGON ((0.0451 36.4746, 0.0194 36.4719, 0 36.5915, 0.0451 36.4746)))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((0.0451 36.4746, 0.0194 36.4719, -0.046 36.8752, -0.02 36.8778, 0.0451 36.4746))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((0.0451 36.4746, 0.0194 36.4719, 359.954 36.8752, 359.98 36.8778, 0.0451 36.4746))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "True",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Comment": "Channel enters a large depression",
+    "pdsode:Description": "HiRISE projected and mosaicked product",
+    "pdsode:External_url": "http://www.uahirise.org/PSP_007519_2170",
+    "pdsode:External_url2": "jpip://hijpip.lpl.arizona.edu:8064/PDS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_COLOR.JP2",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=PSP_007519_2170_COLOR&product_idGeo=9887171",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=PSP_007519_2170_COLOR&product_idGeo=9887171",
+    "pdsode:LabelURL": "https://hirise.lpl.arizona.edu/PDS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_COLOR.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.0451,
+          36.4746
+        ],
+        [
+          0.0194,
+          36.4719
+        ],
+        [
+          -0.046,
+          36.8752
+        ],
+        [
+          -0.02,
+          36.8778
+        ],
+        [
+          0.0451,
+          36.4746
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/HIRISE Reduced Data Record w/o Embedded Map Projection"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/HIRISE Reduced Data Record w/o Embedded Map Projection"
+    }
+  ],
+  "assets": {
+    "DSMAP.CAT": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/CATALOG/DSMAP.CAT",
+      "type": "",
+      "title": "DSMAP.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "JP2INFO.TXT": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/DOCUMENT/JP2INFO.TXT",
+      "type": "",
+      "title": "JP2INFO.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "PSP_007519_2170_COLOR.ABROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_COLOR.abrowse.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_COLOR.ABROWSE.JPG",
+      "description": "ANNOTATED BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_COLOR.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_COLOR.browse.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_COLOR.BROWSE.JPG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_COLOR.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_COLOR.JP2",
+      "type": "image/jp2",
+      "title": "PSP_007519_2170_COLOR.JP2",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "PSP_007519_2170_COLOR.LBL": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_COLOR.LBL",
+      "type": "text/plain",
+      "title": "PSP_007519_2170_COLOR.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "PSP_007519_2170_COLOR.QLOOK.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_COLOR.QLOOK.JP2",
+      "type": "image/jp2",
+      "title": "PSP_007519_2170_COLOR.QLOOK.JP2",
+      "description": "QUICKLOOK JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_COLOR.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_COLOR.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_COLOR.THUMB.JPG",
+      "description": "THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_COLOR_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-hirise-3-rdr-v1/mrohr_0001/rdr/psp/orb_007500_007599/psp_007519_2170/psp_007519_2170_color_lbl.kml",
+      "type": "",
+      "title": "PSP_007519_2170_COLOR_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "PSP_007519_2170_COLOR_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-hirise-3-rdr-v1/mrohr_0001/rdr/psp/orb_007500_007599/psp_007519_2170/psp_007519_2170_color_lbl.tar.gz",
+      "type": "",
+      "title": "PSP_007519_2170_COLOR_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "PSP_007519_2170_COLOR_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-hirise-3-rdr-v1/mrohr_0001/rdr/psp/orb_007500_007599/psp_007519_2170/psp_007519_2170_color_lbl.zip",
+      "type": "",
+      "title": "PSP_007519_2170_COLOR_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "PSP_007519_2170_IRB.NOMAP.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_IRB.NOMAP.browse.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_IRB.NOMAP.BROWSE.JPG",
+      "description": "IRB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_IRB.NOMAP.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_IRB.NOMAP.JP2",
+      "type": "image/jp2",
+      "title": "PSP_007519_2170_IRB.NOMAP.JP2",
+      "description": "IRB JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_IRB.NOMAP.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_IRB.NOMAP.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_IRB.NOMAP.THUMB.JPG",
+      "description": "IRB THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MIRB.ABROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MIRB.abrowse.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_MIRB.ABROWSE.JPG",
+      "description": "ANNOTATED MERGED IRB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MIRB.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MIRB.browse.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_MIRB.BROWSE.JPG",
+      "description": "MERGED IRB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MIRB.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MIRB.JP2",
+      "type": "image/jp2",
+      "title": "PSP_007519_2170_MIRB.JP2",
+      "description": "MERGED IRB JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MIRB.LBL": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MIRB.LBL",
+      "type": "text/plain",
+      "title": "PSP_007519_2170_MIRB.LBL",
+      "description": "MERGED IRB LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MIRB.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MIRB.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_MIRB.THUMB.JPG",
+      "description": "MERGED IRB THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MRGB.ABROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MRGB.abrowse.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_MRGB.ABROWSE.JPG",
+      "description": "ANNOTATED MERGED RGB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MRGB.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MRGB.browse.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_MRGB.BROWSE.JPG",
+      "description": "MERGED RGB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MRGB.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MRGB.JP2",
+      "type": "image/jp2",
+      "title": "PSP_007519_2170_MRGB.JP2",
+      "description": "MERGED RGB JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MRGB.LBL": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MRGB.LBL",
+      "type": "text/plain",
+      "title": "PSP_007519_2170_MRGB.LBL",
+      "description": "MERGED RGB LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_MRGB.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_MRGB.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_MRGB.THUMB.JPG",
+      "description": "MERGED RGB THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_RGB.NOMAP.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_RGB.NOMAP.browse.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_RGB.NOMAP.BROWSE.JPG",
+      "description": "RGB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_RGB.NOMAP.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_RGB.NOMAP.JP2",
+      "type": "image/jp2",
+      "title": "PSP_007519_2170_RGB.NOMAP.JP2",
+      "description": "RGB JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "PSP_007519_2170_RGB.NOMAP.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/PSP/ORB_007500_007599/PSP_007519_2170/PSP_007519_2170_RGB.NOMAP.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "PSP_007519_2170_RGB.NOMAP.THUMB.JPG",
+      "description": "RGB THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    -0.046,
+    36.4719,
+    0.0451,
+    36.8778
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_HIRISE_RDR"
+}

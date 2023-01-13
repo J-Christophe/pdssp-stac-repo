@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "LRO_LOLA_RDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of LRO/LOLA/RDR (Reduced Data  Record (See Tools: LOLA RDR Query Tool))  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122590153_DAT/LOLARDR_122590153_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122590352_DAT/LOLARDR_122590352_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122590551_DAT/LOLARDR_122590551_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122590750_DAT/LOLARDR_122590750_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122590949_DAT/LOLARDR_122590949_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122591148_DAT/LOLARDR_122591148_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122591347_DAT/LOLARDR_122591347_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122591546_DAT/LOLARDR_122591546_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122591745_DAT/LOLARDR_122591745_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LOLARDR_122591944_DAT/LOLARDR_122591944_DAT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "LRO/LOLA Reduced Data  Record (See Tools: LOLA RDR Query Tool)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.6969,
+          -88.8823,
+          9.1943,
+          17.4367
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2012-09-15T01:53:15.500000Z",
+          "2012-09-15T21:43:41.505000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

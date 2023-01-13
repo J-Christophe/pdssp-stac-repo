@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MEX_OMEGA_EDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MEX/OMEGA/EDR (Experiment Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./ORB7701_0_GEOM/ORB7701_0_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ORB4931_0_GEOM/ORB4931_0_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ORB2607_0_GEOM/ORB2607_0_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./CRUISE030220_0_DATA/CRUISE030220_0_DATA.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ORBB215_0_GEOM/ORBB215_0_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./CRUISE030220_1_DATA/CRUISE030220_1_DATA.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./CRUISE030220_2_DATA/CRUISE030220_2_DATA.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./CRUISE030220_3_DATA/CRUISE030220_3_DATA.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./CRUISE030220_4_DATA/CRUISE030220_4_DATA.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./CRUISE030220_5_DATA/CRUISE030220_5_DATA.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MEX/OMEGA Experiment Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -61.4842,
+          180.0,
+          86.3472
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2003-02-19T20:13:53.017000Z",
+          "2012-10-23T13:53:18.098000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

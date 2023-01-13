@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "EM16TGO_CASSIS_CALSC",
+  "stac_version": "1.0.0",
+  "description": "Collection of EM16TGO/CASSIS/CALSC (Calibrated Science Data)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155759-20200219t155803-10000-39-blu-557352316-0-3/cas_cal_sc_20200219t155759-20200219t155803-10000-39-blu-557352316-0-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155759-20200219t155803-10000-39-blu-557352316-1-3/cas_cal_sc_20200219t155759-20200219t155803-10000-39-blu-557352316-1-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155759-20200219t155823-blu-557352316-sti/cas_cal_sc_20200219t155759-20200219t155823-blu-557352316-sti.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155800-20200219t155804-10000-39-blu-557352316-2-3/cas_cal_sc_20200219t155800-20200219t155804-10000-39-blu-557352316-2-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155800-20200219t155804-10000-39-blu-557352316-3-3/cas_cal_sc_20200219t155800-20200219t155804-10000-39-blu-557352316-3-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155800-20200219t155804-10000-39-blu-557352316-4-3/cas_cal_sc_20200219t155800-20200219t155804-10000-39-blu-557352316-4-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155801-20200219t155805-10000-39-blu-557352316-5-3/cas_cal_sc_20200219t155801-20200219t155805-10000-39-blu-557352316-5-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155801-20200219t155805-10000-39-blu-557352316-6-3/cas_cal_sc_20200219t155801-20200219t155805-10000-39-blu-557352316-6-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155801-20200219t155805-10000-39-blu-557352316-7-3/cas_cal_sc_20200219t155801-20200219t155805-10000-39-blu-557352316-7-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./cas_cal_sc_20200219t155802-20200219t155806-10000-39-blu-557352316-10-3/cas_cal_sc_20200219t155802-20200219t155806-10000-39-blu-557352316-10-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "EM16TGO/CASSIS Calibrated Science Data",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -123.6459,
+          -8.9586,
+          -123.4559,
+          -8.7317
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-19T15:57:59Z",
+          "2020-02-19T15:58:23Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

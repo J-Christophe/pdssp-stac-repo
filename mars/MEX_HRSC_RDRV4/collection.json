@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MEX_HRSC_RDRV4",
+  "stac_version": "1.0.0",
+  "description": "Collection of MEX/HRSC/RDRV4 (Version 4 Reduced Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0000_BL3.IMG/H0010_0000_BL3.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0000_GR3.IMG/H0010_0000_GR3.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0000_IR3.IMG/H0010_0000_IR3.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0000_ND3.IMG/H0010_0000_ND3.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0000_P13.IMG/H0010_0000_P13.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0000_P23.IMG/H0010_0000_P23.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0000_RE3.IMG/H0010_0000_RE3.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0000_S13.IMG/H0010_0000_S13.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0000_S23.IMG/H0010_0000_S23.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0001_SR3.IMG/H0010_0001_SR3.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MEX/HRSC Version 4 Reduced Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          86.166,
+          -57.429,
+          92.311,
+          -27.04
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2004-01-10T13:50:36.474000Z",
+          "2004-01-10T13:57:05.847000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

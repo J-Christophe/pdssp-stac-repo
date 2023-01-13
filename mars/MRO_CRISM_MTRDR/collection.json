@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MRO_CRISM_MTRDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/CRISM/MTRDR (Map-Projected Targeted Reduced Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./HRS00002F45_07_IF174J_MTR3/HRS00002F45_07_IF174J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./HRS00002F4D_07_IF174J_MTR3/HRS00002F4D_07_IF174J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT00002F7F_07_IF168J_MTR3/FRT00002F7F_07_IF168J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./HRS00002F87_07_IF173J_MTR3/HRS00002F87_07_IF173J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT00002FA6_07_IF168J_MTR3/FRT00002FA6_07_IF168J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./HRS00002FA5_07_IF175J_MTR3/HRS00002FA5_07_IF175J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./HRS00002FC5_07_IF175J_MTR3/HRS00002FC5_07_IF175J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./HRS00002FD4_07_IF173J_MTR3/HRS00002FD4_07_IF173J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./HRS00002FFD_07_IF173J_MTR3/HRS00002FFD_07_IF173J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT00003050_07_IF164J_MTR3/FRT00003050_07_IF164J_MTR3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MRO/CRISM Map-Projected Targeted Reduced Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -142.3143,
+          -27.9849,
+          70.301,
+          85.1787
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2006-11-10T10:45:42.230000Z",
+          "2006-11-16T19:56:56.024000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

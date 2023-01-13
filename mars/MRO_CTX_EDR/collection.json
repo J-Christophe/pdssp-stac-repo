@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MRO_CTX_EDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/CTX/EDR (Experiment Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./MOI_000009_0186_XI_18S051W/MOI_000009_0186_XI_18S051W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./MOI_000009_0438_XN_43S057W/MOI_000009_0438_XN_43S057W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./T01_000801_1353_XN_44S195W/T01_000801_1353_XN_44S195W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./T01_000801_1867_XN_06N202W/T01_000801_1867_XN_06N202W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./T01_000801_2584_XN_78N219W/T01_000801_2584_XN_78N219W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./T01_000802_1412_XN_38S223W/T01_000802_1412_XN_38S223W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./T01_000802_2102_XN_30N232W/T01_000802_2102_XN_30N232W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./T01_000802_2747_XN_85N022W/T01_000802_2747_XN_85N022W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./T01_000803_1393_XN_40S250W/T01_000803_1393_XN_40S250W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./T01_000803_1580_XN_22S253W/T01_000803_1580_XN_22S253W.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MRO/CTX Experiment Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -63.11,
+          -59.0826,
+          164.87,
+          85.6694
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2006-03-24T04:28:07.724000Z",
+          "2006-09-28T01:50:04.265000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

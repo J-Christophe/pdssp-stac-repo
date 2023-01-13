@@ -1,0 +1,377 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "ESP_012724_1915_COLOR",
+  "properties": {
+    "datetime": "2009-04-13T23:15:47.217000Z",
+    "created": "2009-08-16T05:16:24",
+    "start_datetime": "2009-04-13T23:15:47.217000",
+    "end_datetime": "2009-04-13T23:15:50.589000",
+    "platform": "MRO",
+    "instruments": [
+      "HIRISE"
+    ],
+    "gsd": 0.25,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 246.293941,
+    "ssys:incidence_angle": 59.074531,
+    "ssys:emission_angle": 9.448211,
+    "ssys:phase_angle": 67.528974,
+    "ssys:season": "Northern Hemisphere Automn",
+    "processing:level": "3",
+    "pdsode:ode_id": "13005831",
+    "pdsode:pdsid": "ESP_012724_1915_COLOR",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "HIRISE",
+    "pdsode:pt": "RDRV11",
+    "pdsode:Data_Set_Id": "MRO-M-HIRISE-3-RDR-V1.1",
+    "pdsode:PDSVolume_Id": "MROHR_0001",
+    "pdsode:RelativePathtoVol": "rdr\\esp\\orb_012700_012799\\esp_012724_1915\\",
+    "pdsode:LabelFileName": "esp_012724_1915_color.lbl",
+    "pdsode:Product_creation_time": "2009-08-16T05:16:24.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.0",
+    "pdsode:Observation_id": "ESP_012724_1915",
+    "pdsode:Producer_id": "UA",
+    "pdsode:Observation_time": "2009-04-13T23:15:48.903",
+    "pdsode:SpaceCraft_clock_start_count": "924131768:62949",
+    "pdsode:SpaceCraft_clock_stop_count": "924131772:18312",
+    "pdsode:Stop_orbit_number": "12724",
+    "pdsode:UTC_start_time": "2009-04-13T23:15:47.217",
+    "pdsode:UTC_stop_time": "2009-04-13T23:15:50.589",
+    "pdsode:Emission_angle": 9.448211,
+    "pdsode:Phase_angle": 67.528974,
+    "pdsode:Incidence_angle": 59.074531,
+    "pdsode:Map_resolution": 237056.34557639,
+    "pdsode:Map_scale": 0.25,
+    "pdsode:Solar_longitude": 246.293941,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "11.5993",
+    "pdsode:Center_longitude": "90.9185",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "90.9389",
+    "pdsode:Maximum_latitude": "11.6831",
+    "pdsode:Minimum_latitude": "11.5155",
+    "pdsode:Westernmost_longitude": "90.898",
+    "pdsode:Footprint_geometry": "POLYGON ((90.9389 11.5179, 90.9191 11.5155, 90.898 11.6807, 90.9178 11.6831, 90.9389 11.5179))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((90.9389 11.5179, 90.9191 11.5155, 90.898 11.6807, 90.9178 11.6831, 90.9389 11.5179))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((90.9389 11.5179, 90.9191 11.5155, 90.898 11.6807, 90.9178 11.6831, 90.9389 11.5179))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Comment": "Search for Beagle 2 hardware",
+    "pdsode:Description": "HiRISE projected and mosaicked product  HiRISE RDR V1.1 files has map projection data embedded in the header - please see SIS for more details.",
+    "pdsode:External_url": "http://www.uahirise.org/ESP_012724_1915",
+    "pdsode:External_url2": "jpip://hijpip.lpl.arizona.edu:8064/PDS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_COLOR.JP2",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=ESP_012724_1915_COLOR&product_idGeo=13005831",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=ESP_012724_1915_COLOR&product_idGeo=13005831",
+    "pdsode:LabelURL": "https://hirise.lpl.arizona.edu/PDS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_COLOR.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          90.9389,
+          11.5179
+        ],
+        [
+          90.9191,
+          11.5155
+        ],
+        [
+          90.898,
+          11.6807
+        ],
+        [
+          90.9178,
+          11.6831
+        ],
+        [
+          90.9389,
+          11.5179
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/HIRISE Reduced Data Record with Embedded Map Projection"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/HIRISE Reduced Data Record with Embedded Map Projection"
+    }
+  ],
+  "assets": {
+    "DSMAP.CAT": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/CATALOG/DSMAP.CAT",
+      "type": "",
+      "title": "DSMAP.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "ESP_012724_1915_COLOR.ABROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_COLOR.abrowse.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_COLOR.ABROWSE.JPG",
+      "description": "ANNOTATED BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_COLOR.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_COLOR.browse.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_COLOR.BROWSE.JPG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_COLOR.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_COLOR.JP2",
+      "type": "image/jp2",
+      "title": "ESP_012724_1915_COLOR.JP2",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "ESP_012724_1915_COLOR.LBL": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_COLOR.LBL",
+      "type": "text/plain",
+      "title": "ESP_012724_1915_COLOR.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "ESP_012724_1915_COLOR.QLOOK.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_COLOR.QLOOK.JP2",
+      "type": "image/jp2",
+      "title": "ESP_012724_1915_COLOR.QLOOK.JP2",
+      "description": "QUICKLOOK JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_COLOR.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_COLOR.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_COLOR.THUMB.JPG",
+      "description": "THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_COLOR_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-hirise-3-rdr-v11/mrohr_0001/rdr/esp/orb_012700_012799/esp_012724_1915/esp_012724_1915_color_lbl.kml",
+      "type": "",
+      "title": "ESP_012724_1915_COLOR_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ESP_012724_1915_COLOR_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-hirise-3-rdr-v11/mrohr_0001/rdr/esp/orb_012700_012799/esp_012724_1915/esp_012724_1915_color_lbl.tar.gz",
+      "type": "",
+      "title": "ESP_012724_1915_COLOR_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ESP_012724_1915_COLOR_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-hirise-3-rdr-v11/mrohr_0001/rdr/esp/orb_012700_012799/esp_012724_1915/esp_012724_1915_color_lbl.zip",
+      "type": "",
+      "title": "ESP_012724_1915_COLOR_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ESP_012724_1915_IRB.NOMAP.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_IRB.NOMAP.browse.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_IRB.NOMAP.BROWSE.JPG",
+      "description": "IRB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_IRB.NOMAP.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_IRB.NOMAP.JP2",
+      "type": "image/jp2",
+      "title": "ESP_012724_1915_IRB.NOMAP.JP2",
+      "description": "IRB JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_IRB.NOMAP.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_IRB.NOMAP.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_IRB.NOMAP.THUMB.JPG",
+      "description": "IRB THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MIRB.ABROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MIRB.abrowse.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_MIRB.ABROWSE.JPG",
+      "description": "ANNOTATED MERGED IRB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MIRB.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MIRB.browse.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_MIRB.BROWSE.JPG",
+      "description": "MERGED IRB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MIRB.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MIRB.JP2",
+      "type": "image/jp2",
+      "title": "ESP_012724_1915_MIRB.JP2",
+      "description": "MERGED IRB JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MIRB.LBL": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MIRB.LBL",
+      "type": "text/plain",
+      "title": "ESP_012724_1915_MIRB.LBL",
+      "description": "MERGED IRB LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MIRB.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MIRB.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_MIRB.THUMB.JPG",
+      "description": "MERGED IRB THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MRGB.ABROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MRGB.abrowse.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_MRGB.ABROWSE.JPG",
+      "description": "ANNOTATED MERGED RGB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MRGB.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MRGB.browse.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_MRGB.BROWSE.JPG",
+      "description": "MERGED RGB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MRGB.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MRGB.JP2",
+      "type": "image/jp2",
+      "title": "ESP_012724_1915_MRGB.JP2",
+      "description": "MERGED RGB JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MRGB.LBL": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MRGB.LBL",
+      "type": "text/plain",
+      "title": "ESP_012724_1915_MRGB.LBL",
+      "description": "MERGED RGB LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_MRGB.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_MRGB.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_MRGB.THUMB.JPG",
+      "description": "MERGED RGB THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_RGB.NOMAP.BROWSE.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_RGB.NOMAP.browse.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_RGB.NOMAP.BROWSE.JPG",
+      "description": "RGB BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_RGB.NOMAP.JP2": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_RGB.NOMAP.JP2",
+      "type": "image/jp2",
+      "title": "ESP_012724_1915_RGB.NOMAP.JP2",
+      "description": "RGB JP2",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "ESP_012724_1915_RGB.NOMAP.THUMB.JPG": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/EXTRAS/RDR/ESP/ORB_012700_012799/ESP_012724_1915/ESP_012724_1915_RGB.NOMAP.thumb.jpg",
+      "type": "image/jpeg",
+      "title": "ESP_012724_1915_RGB.NOMAP.THUMB.JPG",
+      "description": "RGB THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "JP2INFO.TXT": {
+      "href": "https://hirise.lpl.arizona.edu/PDS/DOCUMENT/JP2INFO.TXT",
+      "type": "",
+      "title": "JP2INFO.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    90.898,
+    11.5155,
+    90.9389,
+    11.6831
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_HIRISE_RDRV11"
+}

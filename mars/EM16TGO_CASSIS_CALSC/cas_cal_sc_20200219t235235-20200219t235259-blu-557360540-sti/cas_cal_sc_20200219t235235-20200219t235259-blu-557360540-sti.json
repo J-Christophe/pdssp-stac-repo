@@ -1,0 +1,184 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "cas_cal_sc_20200219t235235-20200219t235259-blu-557360540-sti",
+  "properties": {
+    "datetime": "2020-02-19T23:52:35Z",
+    "created": "2020-02-26T17:44:31.000",
+    "start_datetime": "2020-02-19T23:52:35.000",
+    "end_datetime": "2020-02-19T23:52:59.000",
+    "platform": "EM16TGO",
+    "instruments": [
+      "CASSIS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 153.722787752803,
+    "ssys:phase_angle": 73.604,
+    "ssys:season": "Northern Hemisphere Summer",
+    "processing:level": "",
+    "pdsode:ode_id": "28831107",
+    "pdsode:pdsid": "cas_cal_sc_20200219t235235-20200219t235259-blu-557360540-sti",
+    "pdsode:ihid": "EM16TGO",
+    "pdsode:iid": "CASSIS",
+    "pdsode:pt": "CALSC",
+    "pdsode:Data_Set_Id": "em16_tgo_cas-data_calibrated",
+    "pdsode:PDSVolume_Id": "em16_tgo_cas",
+    "pdsode:RelativePathtoVol": "data_calibrated\\science_phase\\orbit_range_10000_10099\\orbit_10004\\science\\557360540\\blu\\",
+    "pdsode:LabelFileName": "cas_cal_sc_20200219T235235-20200219T235259-BLU-557360540-sti.xml",
+    "pdsode:Product_creation_time": "2020-02-26T17:44:31",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "2.0",
+    "pdsode:Observation_time": "2020-02-19T23:52:47.000Z",
+    "pdsode:Stop_orbit_number": "10004",
+    "pdsode:UTC_start_time": "2020-02-19T23:52:35.000Z",
+    "pdsode:UTC_stop_time": "2020-02-19T23:52:59.000Z",
+    "pdsode:Phase_angle": 73.604,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-0.272",
+    "pdsode:Center_longitude": "121.7263",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "121.805",
+    "pdsode:Maximum_latitude": "-0.2448",
+    "pdsode:Minimum_latitude": "-0.2992",
+    "pdsode:Westernmost_longitude": "121.6476",
+    "pdsode:Footprint_geometry": "POLYGON ((121.8008 -0.2992, 121.6476 -0.2644, 121.6517 -0.2448, 121.805 -0.2798, 121.8008 -0.2992))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((121.8008 -0.2992, 121.6476 -0.2644, 121.6517 -0.2448, 121.805 -0.2798, 121.8008 -0.2992))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((121.8008 -0.2992, 121.6476 -0.2644, 121.6517 -0.2448, 121.805 -0.2798, 121.8008 -0.2992))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Footprint from FOOTPRINT keyword set in PDS Label",
+    "pdsode:Description": "Calibrated Image Data",
+    "pdsode:External_url": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/data_calibrated/Science_Phase/Orbit_Range_10000_10099/Orbit_10004/Science/557360540/BLU/cas_cal_sc_20200219T235235-20200219T235259-BLU-557360540-sti.xml",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=cas_cal_sc_20200219t235235-20200219t235259-blu-557360540-sti&product_idGeo=28831107",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=cas_cal_sc_20200219t235235-20200219t235259-blu-557360540-sti&product_idGeo=28831107",
+    "pdsode:LabelURL": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/data_calibrated/Science_Phase/Orbit_Range_10000_10099/Orbit_10004/Science/557360540/BLU/cas_cal_sc_20200219T235235-20200219T235259-BLU-557360540-sti.xml"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          121.8008,
+          -0.2992
+        ],
+        [
+          121.6476,
+          -0.2644
+        ],
+        [
+          121.6517,
+          -0.2448
+        ],
+        [
+          121.805,
+          -0.2798
+        ],
+        [
+          121.8008,
+          -0.2992
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "EM16TGO/CASSIS Calibrated Science Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "EM16TGO/CASSIS Calibrated Science Data"
+    }
+  ],
+  "assets": {
+    "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI.DAT": {
+      "href": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/data_calibrated/Science_Phase/Orbit_Range_10000_10099/Orbit_10004/Science/557360540/BLU/cas_cal_sc_20200219T235235-20200219T235259-BLU-557360540-sti.dat",
+      "type": "",
+      "title": "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI.DAT",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI.XML": {
+      "href": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/data_calibrated/Science_Phase/Orbit_Range_10000_10099/Orbit_10004/Science/557360540/BLU/cas_cal_sc_20200219T235235-20200219T235259-BLU-557360540-sti.xml",
+      "type": "",
+      "title": "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI.XML",
+      "description": "PDS4 PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI_XML.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/em16_tgo_cas-data_calibrated/em16_tgo_cas/data_calibrated/science_phase/orbit_range_10000_10099/orbit_10004/science/557360540/blu/cas_cal_sc_20200219T235235-20200219T235259-BLU-557360540-sti_xml.kml",
+      "type": "",
+      "title": "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI_XML.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/QUICKSTARTGUIDE/ABOUTFOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI_XML.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/em16_tgo_cas-data_calibrated/em16_tgo_cas/data_calibrated/science_phase/orbit_range_10000_10099/orbit_10004/science/557360540/blu/cas_cal_sc_20200219T235235-20200219T235259-BLU-557360540-sti_xml.tar.gz",
+      "type": "",
+      "title": "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI_XML.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/QUICKSTARTGUIDE/ABOUTFOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI_XML.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/em16_tgo_cas-data_calibrated/em16_tgo_cas/data_calibrated/science_phase/orbit_range_10000_10099/orbit_10004/science/557360540/blu/cas_cal_sc_20200219T235235-20200219T235259-BLU-557360540-sti_xml.zip",
+      "type": "",
+      "title": "CAS_CAL_SC_20200219T235235-20200219T235259-BLU-557360540-STI_XML.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/QUICKSTARTGUIDE/ABOUTFOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "CAS_CAL_SC_BROWSE_20200219T235235-20200219T235259-BLU-557360540-STI.JPG": {
+      "href": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/browse/Science_Phase/Orbit_Range_10000_10099/Orbit_10004/Science/557360540/BLU/cas_cal_sc_browse_20200219T235235-20200219T235259-BLU-557360540-sti.jpg",
+      "type": "image/jpeg",
+      "title": "CAS_CAL_SC_BROWSE_20200219T235235-20200219T235259-BLU-557360540-STI.JPG",
+      "description": "BROWSE JPG",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "CAS_CAL_SC_BROWSE_20200219T235235-20200219T235259-BLU-557360540-STI.XML": {
+      "href": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/browse/Science_Phase/Orbit_Range_10000_10099/Orbit_10004/Science/557360540/BLU/cas_cal_sc_browse_20200219T235235-20200219T235259-BLU-557360540-sti.xml",
+      "type": "",
+      "title": "CAS_CAL_SC_BROWSE_20200219T235235-20200219T235259-BLU-557360540-STI.XML",
+      "description": "BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    121.6476,
+    -0.2992,
+    121.805,
+    -0.2448
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "EM16TGO_CASSIS_CALSC"
+}
