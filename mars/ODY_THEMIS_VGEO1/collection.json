@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "ODY_THEMIS_VGEO1",
+  "stac_version": "1.0.0",
+  "description": "Collection of ODY/THEMIS/VGEO1 (Visible Geometric Projection V1)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./V02400006LOC/V02400006LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V00816002LOC/V00816002LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V00817003LOC/V00817003LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V00819005LOC/V00819005LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V00821003LOC/V00821003LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V00821007LOC/V00821007LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V00822003LOC/V00822003LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V00822010LOC/V00822010LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V00823007LOC/V00823007LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V00824003LOC/V00824003LOC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "ODY/THEMIS Visible Geometric Projection V1",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -142.269,
+          -54.992,
+          140.561,
+          80.519
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-02-19T19:00:29.623000Z",
+          "2002-06-30T04:15:06.842000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

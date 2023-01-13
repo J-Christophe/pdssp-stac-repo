@@ -1,0 +1,191 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "I55600011PBT",
+  "properties": {
+    "datetime": "2014-06-26T21:26:15.605000Z",
+    "created": "2017-05-15T23:13:34.000",
+    "start_datetime": "2014-06-26T21:26:15.605",
+    "end_datetime": "2014-06-26T21:32:14.542",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": 100.0,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 152.073,
+    "ssys:incidence_angle": 82.638,
+    "ssys:emission_angle": 1.3,
+    "ssys:phase_angle": 82.786,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "26233763",
+    "pdsode:pdsid": "I55600011PBT",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "IRPBT2",
+    "pdsode:Data_Set_Id": "ODY-M-THM-5-IRPBT-V2.0",
+    "pdsode:PDSVolume_Id": "ODTGEO_2XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtip2_0051\\i556xxpbt\\",
+    "pdsode:LabelFileName": "i55600011pbt.img",
+    "pdsode:Product_creation_time": "2017-05-15T23:13:34.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "2.2",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2014-06-26T21:29:15.073",
+    "pdsode:SpaceCraft_clock_start_count": "1088285714.179",
+    "pdsode:SpaceCraft_clock_stop_count": "1088286073.163",
+    "pdsode:Stop_orbit_number": "55600",
+    "pdsode:UTC_start_time": "2014-06-26T21:26:15.605",
+    "pdsode:UTC_stop_time": "2014-06-26T21:32:14.542",
+    "pdsode:Emission_angle": 1.3,
+    "pdsode:Phase_angle": 82.786,
+    "pdsode:Incidence_angle": 82.638,
+    "pdsode:Map_resolution": 589.258,
+    "pdsode:Map_scale": 100.0,
+    "pdsode:Solar_longitude": 152.073,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "64.305",
+    "pdsode:Center_longitude": "266.445",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "269.75",
+    "pdsode:Maximum_latitude": "73.194",
+    "pdsode:Minimum_latitude": "55.378",
+    "pdsode:Westernmost_longitude": "260.66",
+    "pdsode:Footprint_geometry": "POLYGON ((262.689 73.194, 269.75 55.436, 268.726 55.378, 260.66 73.077, 262.689 73.194))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-97.311 73.194, -90.25 55.436, -91.274 55.378, -99.34 73.077, -97.311 73.194))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((262.689 73.194, 269.75 55.436, 268.726 55.378, 260.66 73.077, 262.689 73.194))",
+    "pdsode:Footprint_NP_geometry": "POLYGON ((-1808843.7436422971 41277.00070703368, -1784290.5768682351 43943.655712532905, -1721749.6779739752 50697.312897643133, -1659480.3092378154 57384.861111694292, -1597473.4935092514 64004.777543817247, -1535713.3776420318 70560.91324911495, -1474195.9793595811 77055.517066960456, -1412904.2210132158 83489.118713272532, -1351826.3584600061 89861.671437626734, -1290961.4294747291 96177.428038862621, -1230288.7453696835 102436.67438488714, -1169803.9946384623 108640.93322560456, -1109494.411436223 114790.13654847906, -1049349.9100279836 120886.85906060044, -989362.34631007176 126933.30532204975, -991200.41091434506 163025.91834367084, -991479.52243138733 162998.95751623667, -1051497.9668261798 157087.38613794916, -1111670.6860098888 151117.84133955278, -1172011.5420864928 145092.76066080423, -1232530.0112457997 139008.46974041764, -1293231.0176442571 132864.57774388092, -1354128.8110701526 126658.11572912951, -1415234.9176717114 120387.94324359427, -1476552.6911138196 114052.65111530025, -1538102.3604288267 107651.70931112966, -1599890.6003853492 101183.63272953941, -1661922.9686648753 94647.27357123376, -1724216.8113839151 88038.990965253921, -1786782.3639192029 81359.185352325236, -1807583.7714146597 79122.8140301849, -1807592.6622285633 78921.200027406987, -1807660.8456791048 77343.748002117281, -1807727.6525172768 75766.23707619893, -1807793.0826922031 74188.668450995145, -1807857.1361540561 72611.043327893043, -1807919.812854056 71033.362908322772, -1807981.1127444722 69455.628393755018, -1808041.0357786212 67877.840985708055, -1808099.58191087 66300.001885730817, -1808156.7510966328 64722.112295417995, -1808212.5432923727 63144.173416399586, -1808266.9584556015 61566.186450347879, -1808319.9965448796 59988.1525989686, -1808371.6575198167 58410.073063998338, -1808421.9413410702 56831.949047218157, -1808470.8479703469 55253.781750436516, -1808518.3773704024 53675.572375496464, -1808564.529505041 52097.3221242731, -1808609.3043391157 50519.032198672663, -1808652.7018385287 48940.703800631549, -1808694.7219702306 47362.338132115525, -1808735.3647022217 45783.9363951187, -1808774.6300035503 44205.499791662653, -1808812.5178443145 42627.029523795529, -1808843.7436422971 41277.00070703368))",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "No Description Given",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/I55600011",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=I55600011PBT&product_idGeo=26233763",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=I55600011PBT&product_idGeo=26233763",
+    "pdsode:LabelURL": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtip2_0051/i556xxpbt/I55600011PBT.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -97.311,
+          73.194
+        ],
+        [
+          -90.25,
+          55.436
+        ],
+        [
+          -91.274,
+          55.378
+        ],
+        [
+          -99.34,
+          73.077
+        ],
+        [
+          -97.311,
+          73.194
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Projected Brightness Temperature ImageV2"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Projected Brightness Temperature ImageV2"
+    }
+  ],
+  "assets": {
+    "DSMAP_POL.CAT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/catalog/dsmap_pol.cat",
+      "type": "",
+      "title": "DSMAP_POL.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "I55600011PBT.IMG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtip2_0051/i556xxpbt/I55600011PBT.IMG",
+      "type": "",
+      "title": "I55600011PBT.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "I55600011PBT_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-5-irpbt-v2/odtgeo_v2/data/odtip2_0051/i556xxpbt/i55600011pbt_img.kml",
+      "type": "",
+      "title": "I55600011PBT_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I55600011PBT_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irpbt-v2/odtgeo_v2/data/odtip2_0051/i556xxpbt/i55600011pbt_img.tar.gz",
+      "type": "",
+      "title": "I55600011PBT_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I55600011PBT_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irpbt-v2/odtgeo_v2/data/odtip2_0051/i556xxpbt/i55600011pbt_img.zip",
+      "type": "",
+      "title": "I55600011PBT_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ODY_ORIENT_POINT.TXT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/document/ody_orient_point.txt",
+      "type": "",
+      "title": "ODY_ORIENT_POINT.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    -99.34,
+    55.378,
+    -90.25,
+    73.194
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_IRPBT2"
+}

@@ -1,0 +1,442 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "FHA/00463",
+  "properties": {
+    "datetime": "1999-03-09T11:00:56.110000Z",
+    "created": "2000-04-07T23:05:01.000",
+    "start_datetime": "1999-03-09T11:00:56.110",
+    "end_datetime": "1999-03-09T11:01:00.740",
+    "platform": "MGS",
+    "instruments": [
+      "MOC-NA/WA"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 107.47689253906907,
+    "processing:level": "2",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "9163009",
+    "pdsode:pdsid": "FHA/00463",
+    "pdsode:ihid": "MGS",
+    "pdsode:iid": "MOC-NA/WA",
+    "pdsode:pt": "NASDP",
+    "pdsode:Data_Set_Id": "MGS-M-MOC-NA/WA-2-SDP-L0-V1.0",
+    "pdsode:PDSVolume_Id": "MGSC_1001",
+    "pdsode:RelativePathtoVol": "fha004\\",
+    "pdsode:LabelFileName": "fha00463.imq",
+    "pdsode:Product_creation_time": "2000-04-07T23:05:01.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Producer_id": "MGS_MOC_TEAM",
+    "pdsode:Observation_time": "1999-03-09T11:00:58.425",
+    "pdsode:SpaceCraft_clock_start_count": "605444478:240",
+    "pdsode:SpaceCraft_clock_stop_count": "N/A",
+    "pdsode:Stop_orbit_number": "5",
+    "pdsode:UTC_start_time": "1999-03-09T11:00:56.110",
+    "pdsode:UTC_stop_time": "1999-03-09T11:01:00.740",
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-2.797",
+    "pdsode:Center_longitude": "11.617",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "11.639",
+    "pdsode:Maximum_latitude": "-2.679",
+    "pdsode:Minimum_latitude": "-2.915",
+    "pdsode:Westernmost_longitude": "11.596",
+    "pdsode:Footprint_geometry": "POLYGON ((11.639 -2.914, 11.632 -2.915, 11.627 -2.915, 11.626 -2.908, 11.625 -2.901, 11.624 -2.894, 11.623 -2.887, 11.622 -2.88, 11.621 -2.873, 11.62 -2.866, 11.619 -2.859, 11.618 -2.852, 11.618 -2.845, 11.617 -2.837, 11.616 -2.83, 11.615 -2.823, 11.614 -2.816, 11.613 -2.809, 11.612 -2.802, 11.611 -2.795, 11.61 -2.788, 11.609 -2.781, 11.608 -2.774, 11.607 -2.767, 11.606 -2.76, 11.606 -2.753, 11.605 -2.746, 11.604 -2.739, 11.603 -2.732, 11.602 -2.725, 11.601 -2.718, 11.6 -2.711, 11.599 -2.704, 11.598 -2.697, 11.597 -2.689, 11.596 -2.682, 11.596 -2.68, 11.603 -2.68, 11.609 -2.679, 11.61 -2.687, 11.61 -2.694, 11.611 -2.701, 11.612 -2.708, 11.613 -2.715, 11.614 -2.722, 11.615 -2.729, 11.616 -2.736, 11.617 -2.743, 11.618 -2.75, 11.619 -2.757, 11.62 -2.764, 11.621 -2.771, 11.622 -2.778, 11.622 -2.785, 11.623 -2.792, 11.624 -2.799, 11.625 -2.806, 11.626 -2.813, 11.627 -2.821, 11.628 -2.828, 11.629 -2.835, 11.63 -2.842, 11.631 -2.849, 11.632 -2.856, 11.633 -2.863, 11.633 -2.87, 11.634 -2.877, 11.635 -2.884, 11.636 -2.891, 11.637 -2.898, 11.638 -2.905, 11.639 -2.912, 11.639 -2.914))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((11.639 -2.914, 11.632 -2.915, 11.627 -2.915, 11.626 -2.908, 11.625 -2.901, 11.624 -2.894, 11.623 -2.887, 11.622 -2.88, 11.621 -2.873, 11.62 -2.866, 11.619 -2.859, 11.618 -2.852, 11.618 -2.845, 11.617 -2.837, 11.616 -2.83, 11.615 -2.823, 11.614 -2.816, 11.613 -2.809, 11.612 -2.802, 11.611 -2.795, 11.61 -2.788, 11.609 -2.781, 11.608 -2.774, 11.607 -2.767, 11.606 -2.76, 11.606 -2.753, 11.605 -2.746, 11.604 -2.739, 11.603 -2.732, 11.602 -2.725, 11.601 -2.718, 11.6 -2.711, 11.599 -2.704, 11.598 -2.697, 11.597 -2.689, 11.596 -2.682, 11.596 -2.68, 11.603 -2.68, 11.609 -2.679, 11.61 -2.687, 11.61 -2.694, 11.611 -2.701, 11.612 -2.708, 11.613 -2.715, 11.614 -2.722, 11.615 -2.729, 11.616 -2.736, 11.617 -2.743, 11.618 -2.75, 11.619 -2.757, 11.62 -2.764, 11.621 -2.771, 11.622 -2.778, 11.622 -2.785, 11.623 -2.792, 11.624 -2.799, 11.625 -2.806, 11.626 -2.813, 11.627 -2.821, 11.628 -2.828, 11.629 -2.835, 11.63 -2.842, 11.631 -2.849, 11.632 -2.856, 11.633 -2.863, 11.633 -2.87, 11.634 -2.877, 11.635 -2.884, 11.636 -2.891, 11.637 -2.898, 11.638 -2.905, 11.639 -2.912, 11.639 -2.914))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((11.639 -2.914, 11.632 -2.915, 11.627 -2.915, 11.626 -2.908, 11.625 -2.901, 11.624 -2.894, 11.623 -2.887, 11.622 -2.88, 11.621 -2.873, 11.62 -2.866, 11.619 -2.859, 11.618 -2.852, 11.618 -2.845, 11.617 -2.837, 11.616 -2.83, 11.615 -2.823, 11.614 -2.816, 11.613 -2.809, 11.612 -2.802, 11.611 -2.795, 11.61 -2.788, 11.609 -2.781, 11.608 -2.774, 11.607 -2.767, 11.606 -2.76, 11.606 -2.753, 11.605 -2.746, 11.604 -2.739, 11.603 -2.732, 11.602 -2.725, 11.601 -2.718, 11.6 -2.711, 11.599 -2.704, 11.598 -2.697, 11.597 -2.689, 11.596 -2.682, 11.596 -2.68, 11.603 -2.68, 11.609 -2.679, 11.61 -2.687, 11.61 -2.694, 11.611 -2.701, 11.612 -2.708, 11.613 -2.715, 11.614 -2.722, 11.615 -2.729, 11.616 -2.736, 11.617 -2.743, 11.618 -2.75, 11.619 -2.757, 11.62 -2.764, 11.621 -2.771, 11.622 -2.778, 11.622 -2.785, 11.623 -2.792, 11.624 -2.799, 11.625 -2.806, 11.626 -2.813, 11.627 -2.821, 11.628 -2.828, 11.629 -2.835, 11.63 -2.842, 11.631 -2.849, 11.632 -2.856, 11.633 -2.863, 11.633 -2.87, 11.634 -2.877, 11.635 -2.884, 11.636 -2.891, 11.637 -2.898, 11.638 -2.905, 11.639 -2.912, 11.639 -2.914))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "USGS UPC Database",
+    "pdsode:FilesURL": "http://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=FHA/00463&product_idGeo=9163009",
+    "pdsode:ProductURL": "http://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=FHA/00463&product_idGeo=9163009",
+    "pdsode:LabelURL": "https://pds-imaging.jpl.nasa.gov/data/mgs-m-moc-na_wa-2-sdp-l0-v1.0/mgsc_1001/fha004/fha00463.imq"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.639,
+          -2.914
+        ],
+        [
+          11.632,
+          -2.915
+        ],
+        [
+          11.627,
+          -2.915
+        ],
+        [
+          11.626,
+          -2.908
+        ],
+        [
+          11.625,
+          -2.901
+        ],
+        [
+          11.624,
+          -2.894
+        ],
+        [
+          11.623,
+          -2.887
+        ],
+        [
+          11.622,
+          -2.88
+        ],
+        [
+          11.621,
+          -2.873
+        ],
+        [
+          11.62,
+          -2.866
+        ],
+        [
+          11.619,
+          -2.859
+        ],
+        [
+          11.618,
+          -2.852
+        ],
+        [
+          11.618,
+          -2.845
+        ],
+        [
+          11.617,
+          -2.837
+        ],
+        [
+          11.616,
+          -2.83
+        ],
+        [
+          11.615,
+          -2.823
+        ],
+        [
+          11.614,
+          -2.816
+        ],
+        [
+          11.613,
+          -2.809
+        ],
+        [
+          11.612,
+          -2.802
+        ],
+        [
+          11.611,
+          -2.795
+        ],
+        [
+          11.61,
+          -2.788
+        ],
+        [
+          11.609,
+          -2.781
+        ],
+        [
+          11.608,
+          -2.774
+        ],
+        [
+          11.607,
+          -2.767
+        ],
+        [
+          11.606,
+          -2.76
+        ],
+        [
+          11.606,
+          -2.753
+        ],
+        [
+          11.605,
+          -2.746
+        ],
+        [
+          11.604,
+          -2.739
+        ],
+        [
+          11.603,
+          -2.732
+        ],
+        [
+          11.602,
+          -2.725
+        ],
+        [
+          11.601,
+          -2.718
+        ],
+        [
+          11.6,
+          -2.711
+        ],
+        [
+          11.599,
+          -2.704
+        ],
+        [
+          11.598,
+          -2.697
+        ],
+        [
+          11.597,
+          -2.689
+        ],
+        [
+          11.596,
+          -2.682
+        ],
+        [
+          11.596,
+          -2.68
+        ],
+        [
+          11.603,
+          -2.68
+        ],
+        [
+          11.609,
+          -2.679
+        ],
+        [
+          11.61,
+          -2.687
+        ],
+        [
+          11.61,
+          -2.694
+        ],
+        [
+          11.611,
+          -2.701
+        ],
+        [
+          11.612,
+          -2.708
+        ],
+        [
+          11.613,
+          -2.715
+        ],
+        [
+          11.614,
+          -2.722
+        ],
+        [
+          11.615,
+          -2.729
+        ],
+        [
+          11.616,
+          -2.736
+        ],
+        [
+          11.617,
+          -2.743
+        ],
+        [
+          11.618,
+          -2.75
+        ],
+        [
+          11.619,
+          -2.757
+        ],
+        [
+          11.62,
+          -2.764
+        ],
+        [
+          11.621,
+          -2.771
+        ],
+        [
+          11.622,
+          -2.778
+        ],
+        [
+          11.622,
+          -2.785
+        ],
+        [
+          11.623,
+          -2.792
+        ],
+        [
+          11.624,
+          -2.799
+        ],
+        [
+          11.625,
+          -2.806
+        ],
+        [
+          11.626,
+          -2.813
+        ],
+        [
+          11.627,
+          -2.821
+        ],
+        [
+          11.628,
+          -2.828
+        ],
+        [
+          11.629,
+          -2.835
+        ],
+        [
+          11.63,
+          -2.842
+        ],
+        [
+          11.631,
+          -2.849
+        ],
+        [
+          11.632,
+          -2.856
+        ],
+        [
+          11.633,
+          -2.863
+        ],
+        [
+          11.633,
+          -2.87
+        ],
+        [
+          11.634,
+          -2.877
+        ],
+        [
+          11.635,
+          -2.884
+        ],
+        [
+          11.636,
+          -2.891
+        ],
+        [
+          11.637,
+          -2.898
+        ],
+        [
+          11.638,
+          -2.905
+        ],
+        [
+          11.639,
+          -2.912
+        ],
+        [
+          11.639,
+          -2.914
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "MGS/MOC-NA/WA Narrow Angle Standard Data Product"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "MGS/MOC-NA/WA Narrow Angle Standard Data Product"
+    }
+  ],
+  "assets": {
+    "FHA00463.IMQ": {
+      "href": "https://pds-imaging.jpl.nasa.gov/data/mgs-m-moc-na_wa-2-sdp-l0-v1.0/mgsc_1001/fha004/fha00463.imq",
+      "type": "",
+      "title": "FHA00463.IMQ",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "FHA00463.IMQ.JPG": {
+      "href": "https://pds-imaging.jpl.nasa.gov/data/mgs-m-moc-na_wa-2-sdp-l0-v1.0/mgsc_1001/extras/browse/fha004/fha00463.imq.jpg",
+      "type": "image/jpeg",
+      "title": "FHA00463.IMQ.JPG",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FHA00463_IMQ.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mgs-m-moc-na_wa-2-sdp-l0-v1/mgsc_1001/fha004/fha00463_imq.kml",
+      "type": "",
+      "title": "FHA00463_IMQ.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "FHA00463_IMQ.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mgs-m-moc-na_wa-2-sdp-l0-v1/mgsc_1001/fha004/fha00463_imq.tar.gz",
+      "type": "",
+      "title": "FHA00463_IMQ.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "FHA00463_IMQ.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mgs-m-moc-na_wa-2-sdp-l0-v1/mgsc_1001/fha004/fha00463_imq.zip",
+      "type": "",
+      "title": "FHA00463_IMQ.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    11.596,
+    -2.915,
+    11.639,
+    -2.679
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MGS_MOC-NA/WA_NASDP"
+}

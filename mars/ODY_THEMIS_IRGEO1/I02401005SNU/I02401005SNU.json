@@ -1,0 +1,243 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "I02401005SNU",
+  "properties": {
+    "datetime": "2002-06-30T06:32:37.828000Z",
+    "created": "2009-08-12T16:04:22.000",
+    "start_datetime": "2002-06-30T06:32:37.828",
+    "end_datetime": "2002-06-30T06:36:37.296",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 34.419,
+    "ssys:incidence_angle": 56.689,
+    "ssys:emission_angle": 1.668,
+    "ssys:phase_angle": 56.677,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:spring",
+        "title": "Spring",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "23542980",
+    "pdsode:pdsid": "I02401005SNU",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "IRGEO1",
+    "pdsode:Data_Set_Id": "ODY-M-THM-5-IRGEO-V1.0",
+    "pdsode:PDSVolume_Id": "ODTGEO_2XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtig1_0003\\i024xxgeo\\",
+    "pdsode:LabelFileName": "i02401005snu.lbl",
+    "pdsode:Product_creation_time": "2009-08-12T16:04:22.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.1",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2002-06-30T06:34:37.562",
+    "pdsode:SpaceCraft_clock_start_count": "709886026.179",
+    "pdsode:SpaceCraft_clock_stop_count": "709886266.043",
+    "pdsode:Stop_orbit_number": "2401",
+    "pdsode:UTC_start_time": "2002-06-30T06:32:37.828",
+    "pdsode:UTC_stop_time": "2002-06-30T06:36:37.296",
+    "pdsode:Emission_angle": 1.668,
+    "pdsode:Phase_angle": 56.677,
+    "pdsode:Incidence_angle": 56.689,
+    "pdsode:Solar_longitude": 34.419,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "16.795",
+    "pdsode:Center_longitude": "233.766",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "234.927",
+    "pdsode:Maximum_latitude": "22.815",
+    "pdsode:Minimum_latitude": "10.763",
+    "pdsode:Westernmost_longitude": "232.653",
+    "pdsode:Footprint_geometry": "POLYGON ((232.653 10.791, 234.331 22.815, 234.927 22.785, 233.2 10.763, 232.653 10.791))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-127.347 10.791, -125.669 22.815, -125.073 22.785, -126.8 10.763, -127.347 10.791))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((232.653 10.791, 234.331 22.815, 234.927 22.785, 233.2 10.763, 232.653 10.791))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "Gordii Sulci",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/I02401005",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=I02401005SNU&product_idGeo=23542980",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=I02401005SNU&product_idGeo=23542980",
+    "pdsode:LabelURL": "http://static.mars.asu.edu/pds/ODTGEO_v2/data/odtig1_0003/i024xxgeo/I02401005SNU.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -127.347,
+          10.791
+        ],
+        [
+          -125.669,
+          22.815
+        ],
+        [
+          -125.073,
+          22.785
+        ],
+        [
+          -126.8,
+          10.763
+        ],
+        [
+          -127.347,
+          10.791
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Geometric Projection V1"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Geometric Projection V1"
+    }
+  ],
+  "assets": {
+    "I02401005.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtbws1_0003/i024xxbws2/I02401005.png",
+      "type": "image/png",
+      "title": "I02401005.PNG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "I02401005_SMALL.JPG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtbws1_0003/i024xxbws2/I02401005_small.jpg",
+      "type": "image/jpeg",
+      "title": "I02401005_SMALL.JPG",
+      "description": "THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "I02401005D642.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtdcs1_0003/i024xxdcs/I02401005D642.png",
+      "type": "image/png",
+      "title": "I02401005D642.PNG",
+      "description": "DERIVED GEOMETRIC DATA PRODUCTS: IR DCS",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02401005D875.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtdcs1_0003/i024xxdcs/I02401005D875.png",
+      "type": "image/png",
+      "title": "I02401005D875.PNG",
+      "description": "DERIVED GEOMETRIC DATA PRODUCTS: IR DCS",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02401005D964.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtdcs1_0003/i024xxdcs/I02401005D964.png",
+      "type": "image/png",
+      "title": "I02401005D964.PNG",
+      "description": "DERIVED GEOMETRIC DATA PRODUCTS: IR DCS",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02401005DCS.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtdcs1_0003/i024xxdcs/I02401005DCS.png",
+      "type": "image/png",
+      "title": "I02401005DCS.PNG",
+      "description": "DERIVED GEOMETRIC DATA PRODUCTS: IR DCS",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02401005SNU.CUB.GZ": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtig1_0003/i024xxgeo/I02401005SNU.CUB.gz",
+      "type": "",
+      "title": "I02401005SNU.CUB.GZ",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02401005SNU.LBL": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtig1_0003/i024xxgeo/I02401005SNU.LBL",
+      "type": "text/plain",
+      "title": "I02401005SNU.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02401005SNU_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-5-irgeo-v1/odtgeo_v2/data/odtig1_0003/i024xxgeo/i02401005snu_lbl.kml",
+      "type": "",
+      "title": "I02401005SNU_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I02401005SNU_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irgeo-v1/odtgeo_v2/data/odtig1_0003/i024xxgeo/i02401005snu_lbl.tar.gz",
+      "type": "",
+      "title": "I02401005SNU_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I02401005SNU_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irgeo-v1/odtgeo_v2/data/odtig1_0003/i024xxgeo/i02401005snu_lbl.zip",
+      "type": "",
+      "title": "I02401005SNU_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ODY_ORIENT_POINT.TXT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/document/ody_orient_point.txt",
+      "type": "",
+      "title": "ODY_ORIENT_POINT.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    -127.347,
+    10.763,
+    -125.073,
+    22.815
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_IRGEO1"
+}

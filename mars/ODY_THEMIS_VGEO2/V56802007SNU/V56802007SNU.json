@@ -1,0 +1,218 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "V56802007SNU",
+  "properties": {
+    "datetime": "2014-10-03T19:40:00.224000Z",
+    "created": "2015-06-24T14:44:34.000",
+    "start_datetime": "2014-10-03T19:40:00.224",
+    "end_datetime": "2014-10-03T19:41:05.822",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": 72.0,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 207.593,
+    "ssys:incidence_angle": 78.107,
+    "ssys:emission_angle": 0.835,
+    "ssys:phase_angle": 77.961,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:automn",
+        "title": "Automn",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "24619014",
+    "pdsode:pdsid": "V56802007SNU",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "VGEO2",
+    "pdsode:Data_Set_Id": "ODY-M-THM-5-VISGEO-V2.0",
+    "pdsode:PDSVolume_Id": "ODTGEO_2XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtvg2_0052\\v568xxgeo\\",
+    "pdsode:LabelFileName": "v56802007snu.lbl",
+    "pdsode:Product_creation_time": "2015-06-24T14:44:34.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "2.0",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2014-10-03T19:40:33.023",
+    "pdsode:SpaceCraft_clock_start_count": "1096832949.051",
+    "pdsode:SpaceCraft_clock_stop_count": "1096833014.204",
+    "pdsode:Stop_orbit_number": "56802",
+    "pdsode:UTC_start_time": "2014-10-03T19:40:00.224",
+    "pdsode:UTC_stop_time": "2014-10-03T19:41:05.822",
+    "pdsode:Emission_angle": 0.835,
+    "pdsode:Phase_angle": 77.961,
+    "pdsode:Incidence_angle": 78.107,
+    "pdsode:Map_resolution": 823.26,
+    "pdsode:Map_scale": 72.0,
+    "pdsode:Solar_longitude": 207.593,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-34.204",
+    "pdsode:Center_longitude": "179.274",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "179.718",
+    "pdsode:Maximum_latitude": "-32.59",
+    "pdsode:Minimum_latitude": "-35.85",
+    "pdsode:Westernmost_longitude": "178.841",
+    "pdsode:Footprint_geometry": "POLYGON ((179.193 -32.59, 179.718 -35.811, 179.349 -35.85, 178.841 -32.594, 179.193 -32.59))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((179.193 -32.59, 179.718 -35.811, 179.349 -35.85, 178.841 -32.594, 179.193 -32.59))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((179.193 -32.59, 179.718 -35.811, 179.349 -35.85, 178.841 -32.594, 179.193 -32.59))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "No Description Given",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/V56802007",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=V56802007SNU&product_idGeo=24619014",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=V56802007SNU&product_idGeo=24619014",
+    "pdsode:LabelURL": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtvg2_0052/v568xxgeo/V56802007SNU.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          179.193,
+          -32.59
+        ],
+        [
+          179.718,
+          -35.811
+        ],
+        [
+          179.349,
+          -35.85
+        ],
+        [
+          178.841,
+          -32.594
+        ],
+        [
+          179.193,
+          -32.59
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Visible Geometric Projection V2"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Visible Geometric Projection V2"
+    }
+  ],
+  "assets": {
+    "DSMAP_SNU.CAT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/catalog/dsmap_snu.cat",
+      "type": "",
+      "title": "DSMAP_SNU.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "ODY_ORIENT_POINT.TXT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/document/ody_orient_point.txt",
+      "type": "",
+      "title": "ODY_ORIENT_POINT.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "V56802007RGB.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtrgb2_0052/v568xxrgb/V56802007RGB.png",
+      "type": "image/png",
+      "title": "V56802007RGB.PNG",
+      "description": "DERIVED GEOMETRIC DATA PRODUCTS: VIS RGB",
+      "roles": [
+        "data"
+      ]
+    },
+    "V56802007SNU.CUB": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtvg2_0052/v568xxgeo/V56802007SNU.CUB",
+      "type": "",
+      "title": "V56802007SNU.CUB",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "V56802007SNU.LBL": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtvg2_0052/v568xxgeo/V56802007SNU.LBL",
+      "type": "text/plain",
+      "title": "V56802007SNU.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "V56802007SNU.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtbws2_0052/v568xxbws2/V56802007SNU.png",
+      "type": "image/png",
+      "title": "V56802007SNU.PNG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "V56802007SNU_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-5-visgeo-v2/odtgeo_v2/data/odtvg2_0052/v568xxgeo/v56802007snu_lbl.kml",
+      "type": "",
+      "title": "V56802007SNU_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "V56802007SNU_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-visgeo-v2/odtgeo_v2/data/odtvg2_0052/v568xxgeo/v56802007snu_lbl.tar.gz",
+      "type": "",
+      "title": "V56802007SNU_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "V56802007SNU_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-visgeo-v2/odtgeo_v2/data/odtvg2_0052/v568xxgeo/v56802007snu_lbl.zip",
+      "type": "",
+      "title": "V56802007SNU_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    178.841,
+    -35.85,
+    179.718,
+    -32.59
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_VGEO2"
+}

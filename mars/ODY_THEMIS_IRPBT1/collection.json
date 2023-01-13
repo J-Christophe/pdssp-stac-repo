@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "ODY_THEMIS_IRPBT1",
+  "stac_version": "1.0.0",
+  "description": "Collection of ODY/THEMIS/IRPBT1 (Infrared Projected Brightness Temperature ImageV1)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./I02400002PBT/I02400002PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02401002PBT/I02401002PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02401005PBT/I02401005PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02402002PBT/I02402002PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02402005PBT/I02402005PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02403002PBT/I02403002PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02404002PBT/I02404002PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02404005PBT/I02404005PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02405002PBT/I02405002PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02406002PBT/I02406002PBT.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "ODY/THEMIS Infrared Projected Brightness Temperature ImageV1",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -164.651,
+          -45.992,
+          150.22,
+          57.403
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-06-30T03:39:42.244000Z",
+          "2002-06-30T15:35:24.533000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

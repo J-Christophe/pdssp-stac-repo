@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "ODY_THEMIS_IRGEO2",
+  "stac_version": "1.0.0",
+  "description": "Collection of ODY/THEMIS/IRGEO2 (Infrared Geometric Projection V2)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./I56800002POL/I56800002POL.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I56800006EQR/I56800006EQR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I56800006SNU/I56800006SNU.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I56800010EQR/I56800010EQR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I56800010SNU/I56800010SNU.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I56801002POL/I56801002POL.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I56801006EQR/I56801006EQR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I56801006SNU/I56801006SNU.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I56802002POL/I56802002POL.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I56802006EQR/I56802006EQR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "ODY/THEMIS Infrared Geometric Projection V2",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -80.332,
+          179.999,
+          45.152
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-10-03T15:28:18.339000Z",
+          "2014-10-03T19:42:27.197000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

@@ -1,0 +1,189 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "I09108001BTR",
+  "properties": {
+    "datetime": "2004-01-03T07:02:20.906000Z",
+    "created": "2004-10-14T23:47:07.000",
+    "start_datetime": "2004-01-03T07:02:20.906",
+    "end_datetime": "2004-01-03T07:02:29.973",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 327.167,
+    "ssys:incidence_angle": 60.721,
+    "ssys:emission_angle": 2.03067,
+    "ssys:phase_angle": 60.277,
+    "processing:level": "3",
+    "_keywords": [
+      {
+        "id": "season:winter",
+        "title": "Winter",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "21943016",
+    "pdsode:pdsid": "I09108001BTR",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "IRBTR",
+    "pdsode:Data_Set_Id": "ODY-M-THM-3-IRBTR-V1.0",
+    "pdsode:PDSVolume_Id": "ODTSDP_1XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtib1_0009\\i091xxbtr\\",
+    "pdsode:LabelFileName": "i09108001btr.img",
+    "pdsode:Product_creation_time": "2004-10-14T23:47:07.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.1",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2004-01-03T07:02:25.439",
+    "pdsode:SpaceCraft_clock_start_count": "757580687.153",
+    "pdsode:SpaceCraft_clock_stop_count": "757580696.170",
+    "pdsode:Stop_orbit_number": "9108",
+    "pdsode:UTC_start_time": "2004-01-03T07:02:20.906",
+    "pdsode:UTC_stop_time": "2004-01-03T07:02:29.973",
+    "pdsode:Emission_angle": 2.03067,
+    "pdsode:Phase_angle": 60.277,
+    "pdsode:Incidence_angle": 60.721,
+    "pdsode:Solar_longitude": 327.167,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-5.742",
+    "pdsode:Center_longitude": "154.811",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "155.112",
+    "pdsode:Maximum_latitude": "-5.501",
+    "pdsode:Minimum_latitude": "-5.985",
+    "pdsode:Westernmost_longitude": "154.512",
+    "pdsode:Footprint_geometry": "POLYGON ((154.512 -5.956, 154.572 -5.501, 155.112 -5.529, 155.052 -5.985, 154.512 -5.956))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((154.512 -5.956, 154.572 -5.501, 155.112 -5.529, 155.052 -5.985, 154.512 -5.956))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((154.512 -5.956, 154.572 -5.501, 155.112 -5.529, 155.052 -5.985, 154.512 -5.956))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "No Description Given",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/I09108001",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=I09108001BTR&product_idGeo=21943016",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=I09108001BTR&product_idGeo=21943016",
+    "pdsode:LabelURL": "https://static.mars.asu.edu/pds/ODTSDP_v1/data/odtib1_0009/i091xxbtr/I09108001BTR.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          154.512,
+          -5.956
+        ],
+        [
+          154.572,
+          -5.501
+        ],
+        [
+          155.112,
+          -5.529
+        ],
+        [
+          155.052,
+          -5.985
+        ],
+        [
+          154.512,
+          -5.956
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Brightness Temperature Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Brightness Temperature Record"
+    }
+  ],
+  "assets": {
+    "I09108001.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/browse/odtbws1_0009/i091xx/I09108001.png",
+      "type": "image/png",
+      "title": "I09108001.PNG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "I09108001_SMALL.JPG": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/browse/odtbws1_0009/i091xx/I09108001_small.jpg",
+      "type": "image/jpeg",
+      "title": "I09108001_SMALL.JPG",
+      "description": "THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "I09108001BTR.IMG": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/data/odtib1_0009/i091xxbtr/I09108001BTR.IMG",
+      "type": "",
+      "title": "I09108001BTR.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "I09108001BTR_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-3-irbtr-v1/odtsdp_v1/data/odtib1_0009/i091xxbtr/i09108001btr_img.kml",
+      "type": "",
+      "title": "I09108001BTR_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I09108001BTR_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-3-irbtr-v1/odtsdp_v1/data/odtib1_0009/i091xxbtr/i09108001btr_img.tar.gz",
+      "type": "",
+      "title": "I09108001BTR_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I09108001BTR_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-3-irbtr-v1/odtsdp_v1/data/odtib1_0009/i091xxbtr/i09108001btr_img.zip",
+      "type": "",
+      "title": "I09108001BTR_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    154.512,
+    -5.985,
+    155.112,
+    -5.501
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_IRBTR"
+}

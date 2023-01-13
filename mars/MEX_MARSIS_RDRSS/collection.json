@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MEX_MARSIS_RDRSS",
+  "stac_version": "1.0.0",
+  "description": "Collection of MEX/MARSIS/RDRSS (Reduced Data Record - Subsurface Sounding)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./R_01885_SS3_TRK_CMP_M/R_01885_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./R_01886_SS3_TRK_CMP_M/R_01886_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./R_01887_SS3_TRK_CMP_M/R_01887_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./R_01889_SS3_TRK_CMP_M/R_01889_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./R_01890_SS3_TRK_CMP_M/R_01890_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./R_01892_SS3_TRK_CMP_M/R_01892_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./R_01893_SS3_TRK_CMP_M/R_01893_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./R_01894_SS3_TRK_CMP_M/R_01894_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./R_01895_SS3_TRK_CMP_M/R_01895_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./R_01896_SS3_TRK_CMP_M/R_01896_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MEX/MARSIS Reduced Data Record - Subsurface Sounding",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -19.952,
+          180.0,
+          74.254
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-07-04T13:26:19.694000Z",
+          "2005-07-07T15:47:06.340000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

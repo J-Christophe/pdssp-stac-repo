@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "ODY_THEMIS_VISALB",
+  "stac_version": "1.0.0",
+  "description": "Collection of ODY/THEMIS/VISALB (Projected Visible Albedo Product)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./V56769010ALB/V56769010ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V65600004ALB/V65600004ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V65600008ALB/V65600008ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V65601003ALB/V65601003ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V65602006ALB/V65602006ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V65603006ALB/V65603006ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V65603010ALB/V65603010ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V65604003ALB/V65604003ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V65605003ALB/V65605003ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V65605007ALB/V65605007ALB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "ODY/THEMIS Projected Visible Albedo Product",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          1.917,
+          -83.208,
+          162.146,
+          4.015
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-10-01T02:30:44.994000Z",
+          "2016-09-27T18:20:28.199000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

@@ -1,0 +1,69 @@
+{
+  "type": "Collection",
+  "id": "MRO_RSS_RSDMAP",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/RSS/RSDMAP (RSS  Digital Map)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./JGMRO_095A_ANOMERR_085.IMG/JGMRO_095A_ANOMERR_085.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./JGMRO_095A_ANOM_085.IMG/JGMRO_095A_ANOM_085.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./JGMRO_095A_GEOIDERR_085.IMG/JGMRO_095A_GEOIDERR_085.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./JGMRO_095A_GEOID_085.IMG/JGMRO_095A_GEOID_085.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MRO/RSS RSS  Digital Map",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2006-08-30T18:00:00Z",
+          "2007-09-03T16:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

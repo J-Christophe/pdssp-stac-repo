@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MRO_SHARAD_USRDRV2",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/SHARAD/USRDRV2 (Reduced Data Record V2 of Radar Backscatter Power)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./S_05500001_RGRAM/S_05500001_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05500401_RGRAM/S_05500401_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05500901_RGRAM/S_05500901_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05500902_RGRAM/S_05500902_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05501101_RGRAM/S_05501101_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05501201_RGRAM/S_05501201_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05501301_RGRAM/S_05501301_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05501501_RGRAM/S_05501501_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05502201_RGRAM/S_05502201_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05502301_RGRAM/S_05502301_RGRAM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MRO/SHARAD Reduced Data Record V2 of Radar Backscatter Power",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -162.1707,
+          -66.9775,
+          150.1799,
+          87.397
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-04-21T03:20:03.488000Z",
+          "2018-04-22T22:45:06.752000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

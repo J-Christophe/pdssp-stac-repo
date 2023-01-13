@@ -1,0 +1,189 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "V02401006RDR",
+  "properties": {
+    "datetime": "2002-06-30T06:34:02.925000Z",
+    "created": "2005-09-24T01:17:28.000",
+    "start_datetime": "2002-06-30T06:34:02.925",
+    "end_datetime": "2002-06-30T06:34:21.925",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 34.419,
+    "ssys:incidence_angle": 56.644,
+    "ssys:emission_angle": 0.701,
+    "ssys:phase_angle": 56.61,
+    "processing:level": "3",
+    "_keywords": [
+      {
+        "id": "season:spring",
+        "title": "Spring",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "22081943",
+    "pdsode:pdsid": "V02401006RDR",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "VISRDR",
+    "pdsode:Data_Set_Id": "ODY-M-THM-3-VISRDR-V1.0",
+    "pdsode:PDSVolume_Id": "ODTSDP_1XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtvr1_0003\\v024xxrdr\\",
+    "pdsode:LabelFileName": "v02401006rdr.qub",
+    "pdsode:Product_creation_time": "2005-09-24T01:17:28.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.7",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2002-06-30T06:34:12.425",
+    "pdsode:SpaceCraft_clock_start_count": "709886111.204",
+    "pdsode:SpaceCraft_clock_stop_count": "709886130.204",
+    "pdsode:Stop_orbit_number": "2401",
+    "pdsode:UTC_start_time": "2002-06-30T06:34:02.925",
+    "pdsode:UTC_stop_time": "2002-06-30T06:34:21.925",
+    "pdsode:Emission_angle": 0.701,
+    "pdsode:Phase_angle": 56.61,
+    "pdsode:Incidence_angle": 56.644,
+    "pdsode:Solar_longitude": 34.419,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "18.241",
+    "pdsode:Center_longitude": "233.97",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "234.188",
+    "pdsode:Maximum_latitude": "18.629",
+    "pdsode:Minimum_latitude": "17.852",
+    "pdsode:Westernmost_longitude": "233.753",
+    "pdsode:Footprint_geometry": "POLYGON ((233.753 17.867, 233.855 18.629, 234.188 18.614, 234.084 17.852, 233.753 17.867))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-126.247 17.867, -126.145 18.629, -125.812 18.614, -125.916 17.852, -126.247 17.867))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((233.753 17.867, 233.855 18.629, 234.188 18.614, 234.084 17.852, 233.753 17.867))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "Gordii Sulci",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/V02401006",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=V02401006RDR&product_idGeo=22081943",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=V02401006RDR&product_idGeo=22081943",
+    "pdsode:LabelURL": "https://static.mars.asu.edu/pds/ODTSDP_v1/data/odtvr1_0003/v024xxrdr/V02401006RDR.QUB"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -126.247,
+          17.867
+        ],
+        [
+          -126.145,
+          18.629
+        ],
+        [
+          -125.812,
+          18.614
+        ],
+        [
+          -125.916,
+          17.852
+        ],
+        [
+          -126.247,
+          17.867
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Calibrated Visible Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Calibrated Visible Record"
+    }
+  ],
+  "assets": {
+    "V02401006.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/browse/odtbws1_0003/v024xx/V02401006.png",
+      "type": "image/png",
+      "title": "V02401006.PNG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "V02401006_SMALL.JPG": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/browse/odtbws1_0003/v024xx/V02401006_small.jpg",
+      "type": "image/jpeg",
+      "title": "V02401006_SMALL.JPG",
+      "description": "THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "V02401006RDR.QUB": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/data/odtvr1_0003/v024xxrdr/V02401006RDR.QUB",
+      "type": "",
+      "title": "V02401006RDR.QUB",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "V02401006RDR_QUB.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-3-visrdr-v1/odtsdp_v1/data/odtvr1_0003/v024xxrdr/v02401006rdr_qub.kml",
+      "type": "",
+      "title": "V02401006RDR_QUB.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "V02401006RDR_QUB.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-3-visrdr-v1/odtsdp_v1/data/odtvr1_0003/v024xxrdr/v02401006rdr_qub.tar.gz",
+      "type": "",
+      "title": "V02401006RDR_QUB.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "V02401006RDR_QUB.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-3-visrdr-v1/odtsdp_v1/data/odtvr1_0003/v024xxrdr/v02401006rdr_qub.zip",
+      "type": "",
+      "title": "V02401006RDR_QUB.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    -126.247,
+    17.852,
+    -125.812,
+    18.629
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_VISRDR"
+}

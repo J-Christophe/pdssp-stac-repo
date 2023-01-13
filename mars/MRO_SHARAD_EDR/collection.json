@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MRO_SHARAD_EDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/SHARAD/EDR (Experiment Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./E_2599401_001_SS19_700_A/E_2599401_001_SS19_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_2599501_001_SS11_700_A/E_2599501_001_SS11_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_2599502_001_SS04_700_A/E_2599502_001_SS04_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_2599701_001_SS19_700_A/E_2599701_001_SS19_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_2599702_001_SS19_700_A/E_2599702_001_SS19_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_2599801_001_SS04_700_A/E_2599801_001_SS04_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_2599901_001_SS19_700_A/E_2599901_001_SS19_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_2599902_001_SS11_700_A/E_2599902_001_SS11_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_2599903_001_SS11_700_A/E_2599903_001_SS11_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_2600101_001_SS19_700_A/E_2600101_001_SS19_700_A.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MRO/SHARAD Experiment Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -87.3736,
+          180.0,
+          87.381
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2012-02-12T00:06:17.435000Z",
+          "2012-02-12T11:43:24.527000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

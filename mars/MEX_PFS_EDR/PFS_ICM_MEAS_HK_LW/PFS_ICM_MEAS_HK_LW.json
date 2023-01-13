@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "PFS_ICM_MEAS_HK_LW",
+  "properties": {
+    "datetime": "2004-01-05T01:23:55.379000Z",
+    "created": "2010-07-28T15:16:49.910",
+    "start_datetime": "2004-01-05T01:23:55.379",
+    "end_datetime": "2004-01-10T12:55:38.719",
+    "platform": "MEX",
+    "instruments": [
+      "PFS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 328.145204484767,
+    "processing:level": "2",
+    "_keywords": [
+      {
+        "id": "season:winter",
+        "title": "Winter",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "24392931",
+    "pdsode:pdsid": "PFS_ICM_MEAS_HK_LW",
+    "pdsode:ihid": "MEX",
+    "pdsode:iid": "PFS",
+    "pdsode:pt": "EDR",
+    "pdsode:Data_Set_Id": "MEX-M-PFS-2-EDR-NOMINAL-V1.0",
+    "pdsode:PDSVolume_Id": "MEXPFS_1001",
+    "pdsode:RelativePathtoVol": "data\\ic\\lwc\\",
+    "pdsode:LabelFileName": "pfs_icm_meas_hk_lw.lbl",
+    "pdsode:Product_creation_time": "2010-07-28T15:16:49.910",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Producer_id": "PFS_TEAM",
+    "pdsode:Observation_time": "2004-01-07T19:09:47.049",
+    "pdsode:SpaceCraft_clock_start_count": "21353035.37979",
+    "pdsode:SpaceCraft_clock_stop_count": "21826538.71960",
+    "pdsode:UTC_start_time": "2004-01-05T01:23:55.379",
+    "pdsode:UTC_stop_time": "2004-01-10T12:55:38.719",
+    "pdsode:Description": "RAW DATA",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=PFS_ICM_MEAS_HK_LW&product_idGeo=24392931",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=PFS_ICM_MEAS_HK_LW&product_idGeo=24392931",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=PFS_ICM_MEAS_HK_LW&product_idGeo=24392931",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mex/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/data/ic/lwc/pfs_icm_meas_hk_lw.lbl"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/PFS Experiment Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/PFS Experiment Data Record"
+    }
+  ],
+  "assets": {
+    "MEX_ORIENTATION_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/document/mex_orientation_desc.txt",
+      "type": "",
+      "title": "MEX_ORIENTATION_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "PFS_HK.FMT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/label/pfs_hk.fmt",
+      "type": "",
+      "title": "PFS_HK.FMT",
+      "description": "LABEL FORMAT FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "PFS_ICM_MEAS_HK_LW.DAT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/data/ic/lwc/pfs_icm_meas_hk_lw.dat",
+      "type": "",
+      "title": "PFS_ICM_MEAS_HK_LW.DAT",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "PFS_ICM_MEAS_HK_LW.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/data/ic/lwc/pfs_icm_meas_hk_lw.lbl",
+      "type": "text/plain",
+      "title": "PFS_ICM_MEAS_HK_LW.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MEX_PFS_EDR"
+}

@@ -1,0 +1,230 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "S_05500001_GEOM",
+  "properties": {
+    "datetime": "2018-04-21T03:20:03.488000Z",
+    "created": "2021-09-08T15:35:04.688",
+    "start_datetime": "2018-04-21T03:20:03.488",
+    "end_datetime": "2018-04-21T03:23:55.430",
+    "platform": "MRO",
+    "instruments": [
+      "SHARAD"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 162.7319792452655,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "32162304",
+    "pdsode:pdsid": "S_05500001_GEOM",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "SHARAD",
+    "pdsode:pt": "USGEOMV2",
+    "pdsode:Data_Set_Id": "MRO-M-SHARAD-5-RADARGRAM-V2.0",
+    "pdsode:PDSVolume_Id": "MROSH_2101",
+    "pdsode:RelativePathtoVol": "data\\geom\\s_0550xx\\",
+    "pdsode:LabelFileName": "s_05500001_geom.lbl",
+    "pdsode:Product_creation_time": "2021-09-08T15:35:04.688",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1",
+    "pdsode:Observation_time": "2018-04-21T03:21:59.459",
+    "pdsode:SpaceCraft_clock_start_count": "UNK",
+    "pdsode:SpaceCraft_clock_stop_count": "UNK",
+    "pdsode:Stop_orbit_number": "55000",
+    "pdsode:UTC_start_time": "2018-04-21T03:20:03.488",
+    "pdsode:UTC_stop_time": "2018-04-21T03:23:55.430",
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "21.1831",
+    "pdsode:Center_longitude": "74.6704",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "75.4271",
+    "pdsode:Maximum_latitude": "27.6468",
+    "pdsode:Minimum_latitude": "15.3243",
+    "pdsode:Westernmost_longitude": "73.8044",
+    "pdsode:Footprint_geometry": "LINESTRING (75.4271 15.3243, 75.3281 16.0995, 75.2288 16.8752, 75.1292 17.6506, 74.979 18.814, 74.8785 19.589, 74.7775 20.3644, 74.676 21.1403, 74.5741 21.9159, 74.523 22.3037, 74.4717 22.6914, 74.3689 23.4666, 74.3173 23.8542, 74.2654 24.2423, 74.1614 25.0178, 74.1093 25.4052, 74.0044 26.1811, 73.8989 26.9567, 73.8459 27.3445, 73.8044 27.6468)",
+    "pdsode:Footprint_C0_geometry": "LINESTRING (75.4271 15.3243, 75.3281 16.0995, 75.2288 16.8752, 75.1292 17.6506, 74.979 18.814, 74.8785 19.589, 74.7775 20.3644, 74.676 21.1403, 74.5741 21.9159, 74.523 22.3037, 74.4717 22.6914, 74.3689 23.4666, 74.3173 23.8542, 74.2654 24.2423, 74.1614 25.0178, 74.1093 25.4052, 74.0044 26.1811, 73.8989 26.9567, 73.8459 27.3445, 73.8044 27.6468)",
+    "pdsode:Footprint_GL_geometry": "LINESTRING (75.4271 15.3243, 75.3776 15.7123, 75.3281 16.0995, 75.2785 16.4874, 75.2288 16.8752, 75.179 17.2629, 75.1292 17.6506, 75.0792 18.0383, 75.0292 18.4259, 74.979 18.814, 74.9288 19.2016, 74.8785 19.589, 74.828 19.9771, 74.7775 20.3644, 74.7268 20.7524, 74.676 21.1403, 74.6251 21.5281, 74.5741 21.9159, 74.523 22.3037, 74.4717 22.6914, 74.4204 23.079, 74.3689 23.4666, 74.3173 23.8542, 74.2654 24.2423, 74.2135 24.6298, 74.1614 25.0178, 74.1093 25.4052, 74.0569 25.7932, 74.0044 26.1811, 73.9517 26.5689, 73.8989 26.9567, 73.8459 27.3445, 73.8044 27.6468)",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Lat/Lon points from Geom Product",
+    "pdsode:Description": "Geographic, geometric, and ionospheric properties at each radargram column.",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=S_05500001_GEOM&product_idGeo=32162304",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=S_05500001_GEOM&product_idGeo=32162304",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=S_05500001_GEOM&product_idGeo=32162304",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500001_geom.lbl"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        75.4271,
+        15.3243
+      ],
+      [
+        75.3281,
+        16.0995
+      ],
+      [
+        75.2288,
+        16.8752
+      ],
+      [
+        75.1292,
+        17.6506
+      ],
+      [
+        74.979,
+        18.814
+      ],
+      [
+        74.8785,
+        19.589
+      ],
+      [
+        74.7775,
+        20.3644
+      ],
+      [
+        74.676,
+        21.1403
+      ],
+      [
+        74.5741,
+        21.9159
+      ],
+      [
+        74.523,
+        22.3037
+      ],
+      [
+        74.4717,
+        22.6914
+      ],
+      [
+        74.3689,
+        23.4666
+      ],
+      [
+        74.3173,
+        23.8542
+      ],
+      [
+        74.2654,
+        24.2423
+      ],
+      [
+        74.1614,
+        25.0178
+      ],
+      [
+        74.1093,
+        25.4052
+      ],
+      [
+        74.0044,
+        26.1811
+      ],
+      [
+        73.8989,
+        26.9567
+      ],
+      [
+        73.8459,
+        27.3445
+      ],
+      [
+        73.8044,
+        27.6468
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Geographic, Geometric, and Ionospheric Properties V2"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Geographic, Geometric, and Ionospheric Properties V2"
+    }
+  ],
+  "assets": {
+    "S_05500001_GEOM.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500001_geom.lbl",
+      "type": "text/plain",
+      "title": "S_05500001_GEOM.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_05500001_GEOM.TAB": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500001_geom.tab",
+      "type": "",
+      "title": "S_05500001_GEOM.TAB",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_05500001_GEOM_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500001_geom_lbl.kml",
+      "type": "",
+      "title": "S_05500001_GEOM_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "S_05500001_GEOM_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500001_geom_lbl.tar.gz",
+      "type": "",
+      "title": "S_05500001_GEOM_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "S_05500001_GEOM_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500001_geom_lbl.zip",
+      "type": "",
+      "title": "S_05500001_GEOM_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    73.8044,
+    15.3243,
+    75.4271,
+    27.6468
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_SHARAD_USGEOMV2"
+}

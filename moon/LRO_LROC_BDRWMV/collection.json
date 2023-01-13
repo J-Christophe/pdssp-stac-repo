@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "LRO_LROC_BDRWMV",
+  "stac_version": "1.0.0",
+  "description": "Collection of LRO/LROC/BDRWMV (Binned Data Record Movie)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090923T0926/WAC_MOVIE_N20090923T0926.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090923T1119/WAC_MOVIE_N20090923T1119.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090923T1312/WAC_MOVIE_N20090923T1312.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090923T1505/WAC_MOVIE_N20090923T1505.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090923T1658/WAC_MOVIE_N20090923T1658.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090923T1852/WAC_MOVIE_N20090923T1852.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090923T2045/WAC_MOVIE_N20090923T2045.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090923T2238/WAC_MOVIE_N20090923T2238.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090924T0031/WAC_MOVIE_N20090924T0031.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_MOVIE_N20090924T0224/WAC_MOVIE_N20090924T0224.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "LRO/LROC Binned Data Record Movie",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          80.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-09-23T09:26:23Z",
+          "2009-09-24T02:30:48Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

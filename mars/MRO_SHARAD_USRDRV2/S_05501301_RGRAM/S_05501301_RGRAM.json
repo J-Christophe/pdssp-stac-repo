@@ -1,0 +1,238 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "S_05501301_RGRAM",
+  "properties": {
+    "datetime": "2018-04-22T03:38:35.484000Z",
+    "created": "2021-09-08T17:11:35.066",
+    "start_datetime": "2018-04-22T03:38:35.484",
+    "end_datetime": "2018-04-22T03:42:30.339",
+    "platform": "MRO",
+    "instruments": [
+      "SHARAD"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 163.27309064424256,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "32169257",
+    "pdsode:pdsid": "S_05501301_RGRAM",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "SHARAD",
+    "pdsode:pt": "USRDRV2",
+    "pdsode:Data_Set_Id": "MRO-M-SHARAD-5-RADARGRAM-V2.0",
+    "pdsode:PDSVolume_Id": "MROSH_2101",
+    "pdsode:RelativePathtoVol": "data\\rgram\\s_0550xx\\",
+    "pdsode:LabelFileName": "s_05501301_rgram.lbl",
+    "pdsode:Product_creation_time": "2021-09-08T17:11:35.066",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1",
+    "pdsode:Observation_time": "2018-04-22T03:40:32.911",
+    "pdsode:SpaceCraft_clock_start_count": "UNK",
+    "pdsode:SpaceCraft_clock_stop_count": "UNK",
+    "pdsode:Stop_orbit_number": "55013",
+    "pdsode:UTC_start_time": "2018-04-22T03:38:35.484",
+    "pdsode:UTC_stop_time": "2018-04-22T03:42:30.339",
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "21.7584",
+    "pdsode:Center_longitude": "79.7173",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "80.5631",
+    "pdsode:Maximum_latitude": "27.6791",
+    "pdsode:Minimum_latitude": "15.2011",
+    "pdsode:Westernmost_longitude": "78.9245",
+    "pdsode:Footprint_geometry": "LINESTRING (80.5631 15.2011, 80.4149 16.3649, 80.3655 16.7515, 80.2164 17.9147, 80.1665 18.3024, 80.0162 19.4663, 79.9659 19.8537, 79.8144 21.017, 79.7128 21.7927, 79.6619 22.1799, 79.5595 22.9565, 79.5082 23.3436, 79.4052 24.1187, 79.3015 24.8949, 79.2495 25.2829, 79.0926 26.4455, 78.9871 27.2211, 78.9245 27.6791)",
+    "pdsode:Footprint_C0_geometry": "LINESTRING (80.5631 15.2011, 80.4149 16.3649, 80.3655 16.7515, 80.2164 17.9147, 80.1665 18.3024, 80.0162 19.4663, 79.9659 19.8537, 79.8144 21.017, 79.7128 21.7927, 79.6619 22.1799, 79.5595 22.9565, 79.5082 23.3436, 79.4052 24.1187, 79.3015 24.8949, 79.2495 25.2829, 79.0926 26.4455, 78.9871 27.2211, 78.9245 27.6791)",
+    "pdsode:Footprint_GL_geometry": "LINESTRING (80.5631 15.2011, 80.5137 15.5891, 80.4643 15.977, 80.4149 16.3649, 80.3655 16.7515, 80.3158 17.1393, 80.2661 17.5271, 80.2164 17.9147, 80.1665 18.3024, 80.1163 18.6912, 80.0663 19.0788, 80.0162 19.4663, 79.9659 19.8537, 79.9155 20.2411, 79.8649 20.6297, 79.8144 21.017, 79.7635 21.4055, 79.7128 21.7927, 79.6619 22.1799, 79.6107 22.5683, 79.5595 22.9565, 79.5082 23.3436, 79.4567 23.7318, 79.4052 24.1187, 79.3534 24.5068, 79.3015 24.8949, 79.2495 25.2829, 79.1972 25.6709, 79.145 26.0576, 79.0926 26.4455, 79.0399 26.8333, 78.9871 27.2211, 78.9341 27.6088, 78.9245 27.6791)",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=S_05501301_RGRAM&product_idGeo=32169257",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=S_05501301_RGRAM&product_idGeo=32169257",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=S_05501301_RGRAM&product_idGeo=32169257",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/data/rgram/s_0550xx/s_05501301_rgram.lbl"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        80.5631,
+        15.2011
+      ],
+      [
+        80.4149,
+        16.3649
+      ],
+      [
+        80.3655,
+        16.7515
+      ],
+      [
+        80.2164,
+        17.9147
+      ],
+      [
+        80.1665,
+        18.3024
+      ],
+      [
+        80.0162,
+        19.4663
+      ],
+      [
+        79.9659,
+        19.8537
+      ],
+      [
+        79.8144,
+        21.017
+      ],
+      [
+        79.7128,
+        21.7927
+      ],
+      [
+        79.6619,
+        22.1799
+      ],
+      [
+        79.5595,
+        22.9565
+      ],
+      [
+        79.5082,
+        23.3436
+      ],
+      [
+        79.4052,
+        24.1187
+      ],
+      [
+        79.3015,
+        24.8949
+      ],
+      [
+        79.2495,
+        25.2829
+      ],
+      [
+        79.0926,
+        26.4455
+      ],
+      [
+        78.9871,
+        27.2211
+      ],
+      [
+        78.9245,
+        27.6791
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Reduced Data Record V2 of Radar Backscatter Power"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Reduced Data Record V2 of Radar Backscatter Power"
+    }
+  ],
+  "assets": {
+    "S_05501301_RGRAM.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/data/rgram/s_0550xx/s_05501301_rgram.img",
+      "type": "",
+      "title": "S_05501301_RGRAM.IMG",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_05501301_RGRAM.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/data/rgram/s_0550xx/s_05501301_rgram.lbl",
+      "type": "text/plain",
+      "title": "S_05501301_RGRAM.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_05501301_RGRAM_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-sharad-5-radargram-v2/mrosh_2101/data/rgram/s_0550xx/s_05501301_rgram_lbl.kml",
+      "type": "",
+      "title": "S_05501301_RGRAM_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "S_05501301_RGRAM_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-5-radargram-v2/mrosh_2101/data/rgram/s_0550xx/s_05501301_rgram_lbl.tar.gz",
+      "type": "",
+      "title": "S_05501301_RGRAM_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "S_05501301_RGRAM_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-5-radargram-v2/mrosh_2101/data/rgram/s_0550xx/s_05501301_rgram_lbl.zip",
+      "type": "",
+      "title": "S_05501301_RGRAM_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "S_05501301_TIFF.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/browse/tiff/s_0550xx/s_05501301_tiff.lbl",
+      "type": "text/plain",
+      "title": "S_05501301_TIFF.LBL",
+      "description": "BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "S_05501301_TIFF.TIF": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/browse/tiff/s_0550xx/s_05501301_tiff.tif",
+      "type": "",
+      "title": "S_05501301_TIFF.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    78.9245,
+    15.2011,
+    80.5631,
+    27.6791
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_SHARAD_USRDRV2"
+}

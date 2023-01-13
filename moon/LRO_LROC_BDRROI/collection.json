@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "LRO_LROC_BDRROI",
+  "stac_version": "1.0.0",
+  "description": "Collection of LRO/LROC/BDRROI (Binned Data Record Region of Interest)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_AITKNCTRHIA_E168S1734/NAC_ROI_AITKNCTRHIA_E168S1734.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_APOLBASNHIA_E370S2061/NAC_ROI_APOLBASNHIA_E370S2061.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_APOLBASNLOA_E370S2063/NAC_ROI_APOLBASNLOA_E370S2063.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_APOLLO11LOA_E004N0235/NAC_ROI_APOLLO11LOA_E004N0235.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_APOLLO14LOA_E038S3426/NAC_ROI_APOLLO14LOA_E038S3426.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_APOLLO15HIA_E259N0036/NAC_ROI_APOLLO15HIA_E259N0036.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_APOLLO16HIA_E091S0152/NAC_ROI_APOLLO16HIA_E091S0152.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_ARISPLT2LOA_E279N3075/NAC_ROI_ARISPLT2LOA_E279N3075.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_ARISTARCHIA_E244N3115/NAC_ROI_ARISTARCHIA_E244N3115.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_ROI_COMPBELKLO1_E564N1049/NAC_ROI_COMPBELKLO1_E564N1049.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "LRO/LROC Binned Data Record Region of Interest",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -154.6553,
+          -37.7119,
+          174.15,
+          57.7482
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-07-12T01:08:02Z",
+          "2016-04-27T20:15:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

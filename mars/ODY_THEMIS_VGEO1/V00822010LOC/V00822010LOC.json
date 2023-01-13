@@ -1,0 +1,198 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "V00822010LOC",
+  "properties": {
+    "datetime": "2002-02-20T06:50:40.449000Z",
+    "created": "2005-11-09T15:51:38.000",
+    "start_datetime": "2002-02-20T06:50:40.449",
+    "end_datetime": "2002-02-20T06:50:47.449",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 329.905,
+    "ssys:incidence_angle": 69.445,
+    "ssys:emission_angle": 1.353,
+    "ssys:phase_angle": 70.365,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:winter",
+        "title": "Winter",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "23567687",
+    "pdsode:pdsid": "V00822010LOC",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "VGEO1",
+    "pdsode:Data_Set_Id": "ODY-M-THM-5-VISGEO-V1.0",
+    "pdsode:PDSVolume_Id": "ODTGEO_2XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtvg1_0002\\v008xxgeo\\",
+    "pdsode:LabelFileName": "v00822010loc.lbl",
+    "pdsode:Product_creation_time": "2005-11-09T15:51:38.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.1",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2002-02-20T06:50:43.949",
+    "pdsode:SpaceCraft_clock_start_count": "698655090.025",
+    "pdsode:SpaceCraft_clock_stop_count": "698655097.025",
+    "pdsode:Stop_orbit_number": "822",
+    "pdsode:UTC_start_time": "2002-02-20T06:50:40.449",
+    "pdsode:UTC_stop_time": "2002-02-20T06:50:47.449",
+    "pdsode:Emission_angle": 1.353,
+    "pdsode:Phase_angle": 70.365,
+    "pdsode:Incidence_angle": 69.445,
+    "pdsode:Solar_longitude": 329.905,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "40.582",
+    "pdsode:Center_longitude": "56.082",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "56.309",
+    "pdsode:Maximum_latitude": "40.672",
+    "pdsode:Minimum_latitude": "40.491",
+    "pdsode:Westernmost_longitude": "55.854",
+    "pdsode:Footprint_geometry": "POLYGON ((55.854 40.511, 55.877 40.672, 56.309 40.651, 56.286 40.491, 55.854 40.511))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((55.854 40.511, 55.877 40.672, 56.309 40.651, 56.286 40.491, 55.854 40.511))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((55.854 40.511, 55.877 40.672, 56.309 40.651, 56.286 40.491, 55.854 40.511))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "No Description Given",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/V00822010",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=V00822010LOC&product_idGeo=23567687",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=V00822010LOC&product_idGeo=23567687",
+    "pdsode:LabelURL": "http://static.mars.asu.edu/pds/ODTGEO_v2/data/odtvg1_0002/v008xxgeo/V00822010LOC.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          55.854,
+          40.511
+        ],
+        [
+          55.877,
+          40.672
+        ],
+        [
+          56.309,
+          40.651
+        ],
+        [
+          56.286,
+          40.491
+        ],
+        [
+          55.854,
+          40.511
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Visible Geometric Projection V1"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Visible Geometric Projection V1"
+    }
+  ],
+  "assets": {
+    "V00822010.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtbws1_0002/v008xxbws2/V00822010.png",
+      "type": "image/png",
+      "title": "V00822010.PNG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "V00822010_SMALL.JPG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtbws1_0002/v008xxbws2/V00822010_small.jpg",
+      "type": "image/jpeg",
+      "title": "V00822010_SMALL.JPG",
+      "description": "THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "V00822010LOC.CUB": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtvg1_0002/v008xxgeo/V00822010LOC.CUB",
+      "type": "",
+      "title": "V00822010LOC.CUB",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "V00822010LOC.LBL": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtvg1_0002/v008xxgeo/V00822010LOC.LBL",
+      "type": "text/plain",
+      "title": "V00822010LOC.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "V00822010LOC_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-5-visgeo-v1/odtgeo_v2/data/odtvg1_0002/v008xxgeo/v00822010loc_lbl.kml",
+      "type": "",
+      "title": "V00822010LOC_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "V00822010LOC_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-visgeo-v1/odtgeo_v2/data/odtvg1_0002/v008xxgeo/v00822010loc_lbl.tar.gz",
+      "type": "",
+      "title": "V00822010LOC_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "V00822010LOC_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-visgeo-v1/odtgeo_v2/data/odtvg1_0002/v008xxgeo/v00822010loc_lbl.zip",
+      "type": "",
+      "title": "V00822010LOC_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    55.854,
+    40.491,
+    56.309,
+    40.672
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_VGEO1"
+}

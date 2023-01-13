@@ -1,0 +1,345 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "NAC_DTM_ALPHONSUS",
+  "properties": {
+    "datetime": "2009-08-10T07:03:23Z",
+    "created": "2020-10-13T08:10:11.000",
+    "start_datetime": "2009-08-10T07:03:23.000",
+    "end_datetime": "2012-05-02T14:35:21.000",
+    "platform": "LRO",
+    "instruments": [
+      "LROC"
+    ],
+    "gsd": 4.9999999999999,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 318.76044073958406,
+    "processing:level": "5",
+    "pdsode:ode_id": "23803672",
+    "pdsode:pdsid": "NAC_DTM_ALPHONSUS",
+    "pdsode:ihid": "LRO",
+    "pdsode:iid": "LROC",
+    "pdsode:pt": "SDNDTM",
+    "pdsode:Data_Set_Id": "LRO-L-LROC-5-RDR-V1.0",
+    "pdsode:PDSVolume_Id": "LROLRC_2001",
+    "pdsode:RelativePathtoVol": "data\\sdp\\nac_dtm\\alphonsus\\",
+    "pdsode:LabelFileName": "nac_dtm_alphonsus.lbl",
+    "pdsode:Product_creation_time": "2020-10-13T08:10:11.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Product_version_id": "v1.9",
+    "pdsode:Producer_id": "LRO_LROC_TEAM",
+    "pdsode:Observation_time": "2010-12-21T10:49:22.000",
+    "pdsode:SpaceCraft_clock_start_count": "N/A",
+    "pdsode:SpaceCraft_clock_stop_count": "N/A",
+    "pdsode:UTC_start_time": "2009-08-10T07:03:23.000",
+    "pdsode:UTC_stop_time": "2012-05-02T14:35:21.000",
+    "pdsode:Map_resolution": 6064.67008483,
+    "pdsode:Map_scale": 4.9999999999999,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-13.3402",
+    "pdsode:Center_longitude": "358.148",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "358.3191",
+    "pdsode:Maximum_latitude": "-11.9606",
+    "pdsode:Minimum_latitude": "-14.7198",
+    "pdsode:Westernmost_longitude": "357.9769",
+    "pdsode:Footprint_geometry": "POLYGON ((357.9769 -14.7198, 357.9769 -13.7198, 357.9769 -12.7198, 357.9769 -11.9606, 358.3191 -11.9606, 358.3191 -12.9606, 358.3191 -13.9606, 358.3191 -14.7198, 357.9769 -14.7198))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-2.0231 -14.7198, -2.0231 -13.7198, -2.0231 -12.7198, -2.0231 -11.9606, -1.6809 -11.9606, -1.6809 -12.9606, -1.6809 -13.9606, -1.6809 -14.7198, -2.0231 -14.7198))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((357.9769 -14.7198, 357.9769 -13.7198, 357.9769 -12.7198, 357.9769 -11.9606, 358.3191 -11.9606, 358.3191 -12.9606, 358.3191 -13.9606, 358.3191 -14.7198, 357.9769 -14.7198))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Label Map Projection Bounding Box",
+    "pdsode:Description": "\"Alphonsus high-resolution NAC digital terrain model in GeoTIFF format. DEM is IEEE floating point GeoTIFF, 32 bits/sample, 1 samples/pixel in single image plane configuration. The NoDATA value is -3.40282266e+038. For more info, see [HENRIKSENETAL2017].\"",
+    "pdsode:External_url": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS.LBL",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=NAC_DTM_ALPHONSUS&product_idGeo=23803672",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=NAC_DTM_ALPHONSUS&product_idGeo=23803672",
+    "pdsode:LabelURL": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -2.0231,
+          -14.7198
+        ],
+        [
+          -2.0231,
+          -13.7198
+        ],
+        [
+          -2.0231,
+          -12.7198
+        ],
+        [
+          -2.0231,
+          -11.9606
+        ],
+        [
+          -1.6809,
+          -11.9606
+        ],
+        [
+          -1.6809,
+          -12.9606
+        ],
+        [
+          -1.6809,
+          -13.9606
+        ],
+        [
+          -1.6809,
+          -14.7198
+        ],
+        [
+          -2.0231,
+          -14.7198
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - NAC Digital Terrain Map"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - NAC Digital Terrain Map"
+    }
+  ],
+  "assets": {
+    "DSMAP.CAT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/CATALOG/DSMAP.CAT",
+      "type": "",
+      "title": "DSMAP.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_ALPHONSUS.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS.TIF",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_CONF.BROWSE.PNG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_CONF.BROWSE.PNG",
+      "type": "image/png",
+      "title": "NAC_DTM_ALPHONSUS_CONF.BROWSE.PNG",
+      "description": "CONFIDENCE MAP BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_CONF.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_CONF.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_CONF.IMG",
+      "description": "CONFIDENCE MAP",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_CONF.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_CONF.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_CONF.PYR.TIF",
+      "description": "CONFIDENCE MAP BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_E133S3581.BROWSE.PNG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_E133S3581.BROWSE.PNG",
+      "type": "image/png",
+      "title": "NAC_DTM_ALPHONSUS_E133S3581.BROWSE.PNG",
+      "description": "DTM BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_E133S3581.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_E133S3581.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_E133S3581.IMG",
+      "description": "DTM IN PDS FORMAT",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_E133S3581.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_E133S3581.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_E133S3581.PYR.TIF",
+      "description": "DTM BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_dtm/alphonsus/nac_dtm_alphonsus_lbl.kml",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_dtm/alphonsus/nac_dtm_alphonsus_lbl.tar.gz",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_dtm/alphonsus/nac_dtm_alphonsus_lbl.zip",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_MOSAIC_100CM.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_MOSAIC_100CM.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_MOSAIC_100CM.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_MOSAIC_100CM.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_MOSAIC_100CM.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_MOSAIC_100CM.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_MOSAIC_5M.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_MOSAIC_5M.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_MOSAIC_5M.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_MOSAIC_5M.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_MOSAIC_5M.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_MOSAIC_5M.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_README.TXT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_README.TXT",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_README.TXT",
+      "description": "DEM DESCRIPTION",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_SHADE.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_SHADE.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_ALPHONSUS_SHADE.LBL",
+      "description": "SHADED RELIEF LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_SHADE.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_SHADE.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_SHADE.TIF",
+      "description": "SHADED RELIEF",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_SLOPE.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_SLOPE.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_ALPHONSUS_SLOPE.LBL",
+      "description": "SLOPE MAP LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_SLOPE.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_SLOPE.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_SLOPE.TIF",
+      "description": "SLOPE MAP",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_SLOPE_LEGEND.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_SLOPE_LEGEND.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_ALPHONSUS_SLOPE_LEGEND.LBL",
+      "description": "SLOPE MAP LEGEND LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALPHONSUS_SLOPE_LEGEND.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALPHONSUS/NAC_DTM_ALPHONSUS_SLOPE_LEGEND.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALPHONSUS_SLOPE_LEGEND.TIF",
+      "description": "SLOPE MAP LEGEND",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -2.0231,
+    -14.7198,
+    -1.6809,
+    -11.9606
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "LRO_LROC_SDNDTM"
+}

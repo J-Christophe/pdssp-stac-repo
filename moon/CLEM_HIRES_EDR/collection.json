@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "CLEM_HIRES_EDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of CLEM/HIRES/EDR (Experiment Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0001A.032/LHD0001A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0009A.032/LHD0009A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0016A.032/LHD0016A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0022A.032/LHD0022A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0023A.032/LHD0023A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0025A.032/LHD0025A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0026A.032/LHD0026A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0028A.032/LHD0028A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0029A.032/LHD0029A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LHD0031A.032/LHD0031A.032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "CLEM/HIRES Experiment Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -175.09,
+          -89.87,
+          -127.03,
+          -85.82
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1994-02-26T21:07:11.349000Z",
+          "1994-02-26T21:07:37.170000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

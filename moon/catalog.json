@@ -15,6 +15,108 @@
       "href": "./LRO_LOLA_RDR/collection.json",
       "type": "application/json",
       "title": "LRO/LOLA Reduced Data  Record (See Tools: LOLA RDR Query Tool)"
+    },
+    {
+      "rel": "child",
+      "href": "./CLEM_HIRES_EDR/collection.json",
+      "type": "application/json",
+      "title": "CLEM/HIRES Experiment Data Record"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_BDRROI/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Binned Data Record Region of Interest"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_BDRWGL/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Binned Data Record Wide Angle Camera Global"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_BDRWMV/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Binned Data Record Movie"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_CDRNAC/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Calibrated Data Record Narrow Angle Camera"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_CDRWAC/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Calibrated Data Record Wide Angle Camera - Color"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_CDRWAM/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Calibrated Data Record Wide Angle Camera - Mono"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_CDRWAU/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Calibrated Data Record Wide Angle Camera - UV"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_CDRWAV/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Calibrated Data Record Wide Angle Camera - Vis"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_EDRNAC/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Experiment Data Record Narrow Angle Camera"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_EDRWAC/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Experiment Data Record Wide Angle Camera - Color"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_EDRWAM/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Experiment Data Record Wide Angle Camera - Mono"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_EDRWAU/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Experiment Data Record Wide Angle Camera - UV"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_EDRWAV/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Experiment Data Record Wide Angle Camera - Vis"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_SDNDTM/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - NAC Digital Terrain Map"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_SDPWMG/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products -  WAC Monthly Global Mosaic"
+    },
+    {
+      "rel": "child",
+      "href": "./LRO_LROC_SDRPHO/collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - Map projected NAC photometric product"
     }
   ],
   "stac_extensions": [

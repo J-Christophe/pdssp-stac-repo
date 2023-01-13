@@ -1,0 +1,182 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "I02406002PBT",
+  "properties": {
+    "datetime": "2002-06-30T15:31:25.073000Z",
+    "created": "2009-11-10T18:40:37.000",
+    "start_datetime": "2002-06-30T15:31:25.073",
+    "end_datetime": "2002-06-30T15:35:24.533",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": 100.0,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 34.589,
+    "ssys:incidence_angle": 120.676,
+    "ssys:emission_angle": 0.475,
+    "ssys:phase_angle": 120.841,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:spring",
+        "title": "Spring",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "23543723",
+    "pdsode:pdsid": "I02406002PBT",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "IRPBT1",
+    "pdsode:Data_Set_Id": "ODY-M-THM-5-IRPBT-V1.0",
+    "pdsode:PDSVolume_Id": "ODTGEO_2XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtip1_0003\\i024xxpbt\\",
+    "pdsode:LabelFileName": "i02406002pbt.img",
+    "pdsode:Product_creation_time": "2009-11-10T18:40:37.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.1",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2002-06-30T15:33:24.803",
+    "pdsode:SpaceCraft_clock_start_count": "709918354.000",
+    "pdsode:SpaceCraft_clock_stop_count": "709918593.118",
+    "pdsode:Stop_orbit_number": "2406",
+    "pdsode:UTC_start_time": "2002-06-30T15:31:25.073",
+    "pdsode:UTC_stop_time": "2002-06-30T15:35:24.533",
+    "pdsode:Emission_angle": 0.475,
+    "pdsode:Phase_angle": 120.841,
+    "pdsode:Incidence_angle": 120.676,
+    "pdsode:Map_resolution": 592.747,
+    "pdsode:Map_scale": 100.0,
+    "pdsode:Solar_longitude": 34.589,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "1.17",
+    "pdsode:Center_longitude": "281.639",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "282.723",
+    "pdsode:Maximum_latitude": "7.217",
+    "pdsode:Minimum_latitude": "-4.886",
+    "pdsode:Westernmost_longitude": "280.546",
+    "pdsode:Footprint_geometry": "POLYGON ((281.087 7.217, 282.723 -4.854, 282.194 -4.886, 280.546 7.184, 281.087 7.217))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-78.913 7.217, -77.277 -4.854, -77.806 -4.886, -79.454 7.184, -78.913 7.217))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((281.087 7.217, 282.723 -4.854, 282.194 -4.886, 280.546 7.184, 281.087 7.217))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "Kasei Vallis",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/I02406002",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=I02406002PBT&product_idGeo=23543723",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=I02406002PBT&product_idGeo=23543723",
+    "pdsode:LabelURL": "http://static.mars.asu.edu/pds/ODTGEO_v2/data/odtip1_0003/i024xxpbt/I02406002PBT.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.913,
+          7.217
+        ],
+        [
+          -77.277,
+          -4.854
+        ],
+        [
+          -77.806,
+          -4.886
+        ],
+        [
+          -79.454,
+          7.184
+        ],
+        [
+          -78.913,
+          7.217
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Projected Brightness Temperature ImageV1"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Projected Brightness Temperature ImageV1"
+    }
+  ],
+  "assets": {
+    "I02406002PBT.IMG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtip1_0003/i024xxpbt/I02406002PBT.IMG",
+      "type": "",
+      "title": "I02406002PBT.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02406002PBT_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-5-irpbt-v1/odtgeo_v2/data/odtip1_0003/i024xxpbt/i02406002pbt_img.kml",
+      "type": "",
+      "title": "I02406002PBT_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I02406002PBT_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irpbt-v1/odtgeo_v2/data/odtip1_0003/i024xxpbt/i02406002pbt_img.tar.gz",
+      "type": "",
+      "title": "I02406002PBT_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I02406002PBT_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irpbt-v1/odtgeo_v2/data/odtip1_0003/i024xxpbt/i02406002pbt_img.zip",
+      "type": "",
+      "title": "I02406002PBT_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ODY_ORIENT_POINT.TXT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/document/ody_orient_point.txt",
+      "type": "",
+      "title": "ODY_ORIENT_POINT.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    -79.454,
+    -4.886,
+    -77.277,
+    7.217
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_IRPBT1"
+}

@@ -1,0 +1,198 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "I02404002RDR",
+  "properties": {
+    "datetime": "2002-06-30T11:35:02.597000Z",
+    "created": "2009-08-06T20:13:41.000",
+    "start_datetime": "2002-06-30T11:35:02.597",
+    "end_datetime": "2002-06-30T11:39:02.058",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 34.515,
+    "ssys:incidence_angle": 120.132,
+    "ssys:emission_angle": 0.4,
+    "ssys:phase_angle": 120.31,
+    "processing:level": "3",
+    "_keywords": [
+      {
+        "id": "season:spring",
+        "title": "Spring",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "22110005",
+    "pdsode:pdsid": "I02404002RDR",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "IRRDR",
+    "pdsode:Data_Set_Id": "ODY-M-THM-3-IRRDR-V1.0",
+    "pdsode:PDSVolume_Id": "ODTSDP_1XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtir1_0003\\i024xxrdr\\",
+    "pdsode:LabelFileName": "i02404002rdr.qub",
+    "pdsode:Product_creation_time": "2009-08-06T20:13:41.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.6",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2002-06-30T11:37:02.327",
+    "pdsode:SpaceCraft_clock_start_count": "709904171.128",
+    "pdsode:SpaceCraft_clock_stop_count": "709904410.246",
+    "pdsode:Stop_orbit_number": "2404",
+    "pdsode:UTC_start_time": "2002-06-30T11:35:02.597",
+    "pdsode:UTC_stop_time": "2002-06-30T11:39:02.058",
+    "pdsode:Emission_angle": 0.4,
+    "pdsode:Phase_angle": 120.31,
+    "pdsode:Incidence_angle": 120.132,
+    "pdsode:Solar_longitude": 34.515,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "3.323",
+    "pdsode:Center_longitude": "339.057",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "340.133",
+    "pdsode:Maximum_latitude": "9.362",
+    "pdsode:Minimum_latitude": "-2.724",
+    "pdsode:Westernmost_longitude": "337.968",
+    "pdsode:Footprint_geometry": "POLYGON ((338.515 9.362, 340.133 -2.693, 339.602 -2.724, 337.968 9.33, 338.515 9.362))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-21.485 9.362, -19.867 -2.693, -20.398 -2.724, -22.032 9.33, -21.485 9.362))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((338.515 9.362, 340.133 -2.693, 339.602 -2.724, 337.968 9.33, 338.515 9.362))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "Aram Chaos - Ares Vallis",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/I02404002",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=I02404002RDR&product_idGeo=22110005",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=I02404002RDR&product_idGeo=22110005",
+    "pdsode:LabelURL": "https://static.mars.asu.edu/pds/ODTSDP_v1/data/odtir1_0003/i024xxrdr/I02404002RDR.QUB"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -21.485,
+          9.362
+        ],
+        [
+          -19.867,
+          -2.693
+        ],
+        [
+          -20.398,
+          -2.724
+        ],
+        [
+          -22.032,
+          9.33
+        ],
+        [
+          -21.485,
+          9.362
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Calibrated Infrared Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Calibrated Infrared Record"
+    }
+  ],
+  "assets": {
+    "I02404002.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/browse/odtbws1_0003/i024xx/I02404002.png",
+      "type": "image/png",
+      "title": "I02404002.PNG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "I02404002_SMALL.JPG": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/browse/odtbws1_0003/i024xx/I02404002_small.jpg",
+      "type": "image/jpeg",
+      "title": "I02404002_SMALL.JPG",
+      "description": "THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "I02404002RDR.QUB": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/data/odtir1_0003/i024xxrdr/I02404002RDR.QUB",
+      "type": "",
+      "title": "I02404002RDR.QUB",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02404002RDR_QUB.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-3-irrdr-v1/odtsdp_v1/data/odtir1_0003/i024xxrdr/i02404002rdr_qub.kml",
+      "type": "",
+      "title": "I02404002RDR_QUB.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I02404002RDR_QUB.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-3-irrdr-v1/odtsdp_v1/data/odtir1_0003/i024xxrdr/i02404002rdr_qub.tar.gz",
+      "type": "",
+      "title": "I02404002RDR_QUB.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I02404002RDR_QUB.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-3-irrdr-v1/odtsdp_v1/data/odtir1_0003/i024xxrdr/i02404002rdr_qub.zip",
+      "type": "",
+      "title": "I02404002RDR_QUB.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ODY_ORIENT_POINT.TXT": {
+      "href": "https://static.mars.asu.edu/pds/ODTSDP_v1/document/ody_orient_point.txt",
+      "type": "",
+      "title": "ODY_ORIENT_POINT.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    -22.032,
+    -2.724,
+    -19.867,
+    9.362
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_IRRDR"
+}

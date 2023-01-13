@@ -1,0 +1,176 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "M141653853CE",
+  "properties": {
+    "datetime": "2010-10-14T00:03:05.990000Z",
+    "created": "2013-10-01T20:06:38.000",
+    "start_datetime": "2010-10-14T00:03:05.990",
+    "end_datetime": "2010-10-14T00:06:20.428",
+    "platform": "LRO",
+    "instruments": [
+      "LROC"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 278.84,
+    "ssys:solar_distance": 149168869.1,
+    "ssys:incidence_angle": 65.62,
+    "ssys:emission_angle": 1.14,
+    "ssys:phase_angle": 66.76,
+    "processing:level": "2",
+    "pdsode:ode_id": "16203731",
+    "pdsode:pdsid": "M141653853CE",
+    "pdsode:ihid": "LRO",
+    "pdsode:iid": "LROC",
+    "pdsode:pt": "EDRWAC",
+    "pdsode:Data_Set_Id": "LRO-L-LROC-2-EDR-V1.0",
+    "pdsode:PDSVolume_Id": "LROLRC_0005",
+    "pdsode:RelativePathtoVol": "data\\sci\\2010287\\wac\\",
+    "pdsode:LabelFileName": "m141653853ce.img",
+    "pdsode:Product_creation_time": "2013-10-01T20:06:38.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Product_version_id": "v1.8",
+    "pdsode:Producer_id": "LRO_LROC_TEAM",
+    "pdsode:Observation_time": "2010-10-14T00:04:43.209",
+    "pdsode:SpaceCraft_clock_start_count": "1/308707385:63478",
+    "pdsode:SpaceCraft_clock_stop_count": "1/308707580:26614",
+    "pdsode:Stop_orbit_number": "6009",
+    "pdsode:UTC_start_time": "2010-10-14T00:03:05.990",
+    "pdsode:UTC_stop_time": "2010-10-14T00:06:20.428",
+    "pdsode:Emission_angle": 1.14,
+    "pdsode:Phase_angle": 66.76,
+    "pdsode:Incidence_angle": 65.62,
+    "pdsode:Map_resolution": 66.57,
+    "pdsode:Solar_distance": 149168869.1,
+    "pdsode:Solar_longitude": 278.84,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "62.9837",
+    "pdsode:Center_longitude": "90.8811",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "93.05",
+    "pdsode:Maximum_latitude": "68.16",
+    "pdsode:Minimum_latitude": "57.78",
+    "pdsode:Westernmost_longitude": "87.79",
+    "pdsode:Footprint_geometry": "POLYGON ((87.79 68.07, 89.4 57.78, 93.05 57.85, 92.72 68.16, 87.79 68.07))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((87.79 68.07, 89.4 57.78, 93.05 57.85, 92.72 68.16, 87.79 68.07))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((87.79 68.07, 89.4 57.78, 93.05 57.85, 92.72 68.16, 87.79 68.07))",
+    "pdsode:Footprint_NP_geometry": "POLYGON ((672729.3762044576 -25961.243289956725, 704211.2565336047 -24533.761900398349, 735805.095566602 -23091.469471677712, 767514.14468405093 -21634.341720110551, 799347.89689443028 -20163.835350015383, 831306.3432440639 -18677.718023996626, 863398.94406532159 -17176.58068550477, 895628.81267836259 -15658.277383970319, 928005.45417586283 -14124.657132182883, 930964.78040793 -13983.580293455612, 930967.39797890966 -13812.192680280141, 930979.09690325346 -12999.765207930412, 930990.08684651623 -12187.327835693972, 931000.36780032888 -11374.881182277224, 931009.93975686177 -10562.425866393634, 931018.80270882568 -9749.9625067628567, 931026.95664947084 -8937.4917221123214, 931034.4015725879 -8125.0141311722236, 931041.137472507 -7312.53035268083, 931047.16434409854 -6500.0410053794694, 931052.482182773 -5687.5467080141243, 931057.09098448022 -4875.0480793345459, 931060.99074571079 -4062.5457380937855, 931064.18146349455 -3250.0403030473062, 931066.6631354019 -2437.5323929545825, 931068.43575954274 -1625.0226265740798, 931069.49933456723 -812.51162266856977, 931069.85385966534 -1.1401940588890184E-10, 931069.49933456723 812.51162266834172, 931068.43575954274 1625.0226265742651, 931066.6631354019 2437.5323929539413, 931064.18146349455 3250.0403030470779, 931060.99074571079 4062.5457380935568, 931057.09098448022 4875.0480793343186, 931052.482182773 5687.546708013896, 931047.16434409854 6500.0410053788282, 931041.137472507 7312.530352680601, 931034.4015725879 8125.0141311719944, 931026.95664947084 8937.4917221120941, 931018.80270882568 9749.96250676304, 931009.93975686189 10562.425866392994, 931000.36780032888 11374.881182276582, 930990.08684651623 12187.327835693744, 930979.09690325346 12999.765207930184, 930967.39797890966 13812.192680280326, 930954.990082394 14624.609634043658, 930941.873223156 15437.015450531804, 930928.04741118441 16249.409511060745, 930913.51265700837 17061.791196957889, 930898.2689716965 17874.159889558414, 930882.31636685773 18686.514970209053, 930865.65485464071 19498.855820264413, 930848.28444773378 20311.181821094087, 930830.2051593652 21123.492354074831, 930811.4170033033 21935.786800597663, 930791.91999385587 22748.064542064203, 930771.714145871 23560.324959889615, 930750.79947473609 24372.567435503079, 930729.17599637876 25184.791350346622, 930706.843727266 25996.996085875573, 930683.802684405 26809.181023561516, 930660.05288534239 27621.345544889056, 930635.59434816486 28433.489031360812, 930610.42709149851 29245.610864493789, 930584.55113450927 30057.710425822279, 930557.96649690287 30869.787096896333, 930530.67319892463 31681.840259284221, 930502.67126135959 32493.869294573386, 930473.96070553246 33305.873584367146, 930444.54155330756 34117.852510289333, 930414.413827089 34929.80545398307, 930383.57754982007 35741.731797109649, 930352.03274498414 36553.630921353077, 930319.77943660389 37365.502208416838, 930286.81764924165 38177.345040024811, 930253.14740799926 38989.158797923788, 930218.76873851812 39800.94286388185, 930183.68166697887 40612.696619691364, 930147.88622010208 41424.419447165288, 930111.38242514734 42236.1107281422, 930074.170309914 43047.769844483068, 930036.24990274082 43859.396178074159, 929997.62123250554 44670.989110827541, 929958.28432862589 45482.548024679883, 929918.23922105832 46294.072301592954, 929877.48594029911 47105.561323556532, 929836.02451738378 47917.014472584779, 929795.03358056571 48705.752860112167, 902289.63409022661 46914.332220569086, 870057.18542358745 44816.652674279379, 837965.17504808155 42729.548407239912, 806007.79458832194 40652.890201888149, 774179.30090221576 38586.983391346257, 742474.07646951766 36531.269154885566, 710886.60843781452 34484.597700136059, 679411.41160115507 32446.684670191251, 669643.71740166214 31813.869535174759, 671364.512972192 407.76978903064918, 672729.3762044576 -25961.243289956725))",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Comment": "GLOBAL COVERAGE",
+    "pdsode:External_url": "http://wms.lroc.asu.edu/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M141653853CE",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=M141653853CE&product_idGeo=16203731",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=M141653853CE&product_idGeo=16203731",
+    "pdsode:LabelURL": "https://pds.lroc.asu.edu/data/LRO-L-LROC-2-EDR-V1.0/LROLRC_0005/DATA/SCI/2010287/WAC/M141653853CE.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          87.79,
+          68.07
+        ],
+        [
+          89.4,
+          57.78
+        ],
+        [
+          93.05,
+          57.85
+        ],
+        [
+          92.72,
+          68.16
+        ],
+        [
+          87.79,
+          68.07
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Experiment Data Record Wide Angle Camera - Color"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Experiment Data Record Wide Angle Camera - Color"
+    }
+  ],
+  "assets": {
+    "M141653853CE.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-2-EDR-V1.0/LROLRC_0005/DATA/SCI/2010287/WAC/M141653853CE.IMG",
+      "type": "",
+      "title": "M141653853CE.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "M141653853CE_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/lro-l-lroc-2-edr-v1/lrolrc_0005/data/sci/2010287/wac/m141653853ce_img.kml",
+      "type": "",
+      "title": "M141653853CE_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M141653853CE_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-2-edr-v1/lrolrc_0005/data/sci/2010287/wac/m141653853ce_img.tar.gz",
+      "type": "",
+      "title": "M141653853CE_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M141653853CE_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-2-edr-v1/lrolrc_0005/data/sci/2010287/wac/m141653853ce_img.zip",
+      "type": "",
+      "title": "M141653853CE_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M141653853CE_PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-2-EDR-V1.0/LROLRC_0005/EXTRAS/BROWSE/2010287/M141653853CE_pyr.tif",
+      "type": "",
+      "title": "M141653853CE_PYR.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    87.79,
+    57.78,
+    93.05,
+    68.16
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "LRO_LROC_EDRWAC"
+}

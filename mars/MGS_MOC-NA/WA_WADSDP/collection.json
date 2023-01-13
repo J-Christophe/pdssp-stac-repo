@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MGS_MOC-NA/WA_WADSDP",
+  "stac_version": "1.0.0",
+  "description": "Collection of MGS/MOC-NA/WA/WADSDP (Wide Angle Decompressed Standard Data Product)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-003/01/AB-1-003/01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-003/02/AB-1-003/02.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-003/03/AB-1-003/03.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-003/04/AB-1-003/04.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-004/01/AB-1-004/01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-004/02/AB-1-004/02.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-005/01/AB-1-005/01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-005/02/AB-1-005/02.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-005/05/AB-1-005/05.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AB-1-005/06/AB-1-005/06.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MGS/MOC-NA/WA Wide Angle Decompressed Standard Data Product",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -148.997,
+          -38.652,
+          139.198,
+          18.146
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1997-09-15T19:18:01.060000Z",
+          "1997-09-19T13:30:51.670000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

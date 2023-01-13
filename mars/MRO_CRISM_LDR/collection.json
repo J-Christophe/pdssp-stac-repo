@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MRO_CRISM_LDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/CRISM/LDR (Limb Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_01_DE228L_LDR0/LMB00002B5C_01_DE228L_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_01_DE228S_LDR0/LMB00002B5C_01_DE228S_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_03_DE227L_LDR0/LMB00002B5C_03_DE227L_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_03_DE227S_LDR0/LMB00002B5C_03_DE227S_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_05_DE228L_LDR0/LMB00002B5C_05_DE228L_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_05_DE228S_LDR0/LMB00002B5C_05_DE228S_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_07_DE227L_LDR0/LMB00002B5C_07_DE227L_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_07_DE227S_LDR0/LMB00002B5C_07_DE227S_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_09_DE228L_LDR0/LMB00002B5C_09_DE228L_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./LMB00002B5C_09_DE228S_LDR0/LMB00002B5C_09_DE228S_LDR0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MRO/CRISM Limb Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          67.7822,
+          -80.3161,
+          85.5548,
+          -46.1154
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-07-10T19:53:43.440000Z",
+          "2009-07-10T20:06:27.173000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "LRO_LROC_SDPWMG",
+  "stac_version": "1.0.0",
+  "description": "Collection of LRO/LROC/SDPWMG (Special Data Products -  WAC Monthly Global Mosaic)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_02404_02833/WAC_ORBITS_02404_02833.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_02752_03181/WAC_ORBITS_02752_03181.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_03100_03529/WAC_ORBITS_03100_03529.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_03447_03876/WAC_ORBITS_03447_03876.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_03795_04224/WAC_ORBITS_03795_04224.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_04142_04572/WAC_ORBITS_04142_04572.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_04490_04745/WAC_ORBITS_04490_04745.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_04664_05093/WAC_ORBITS_04664_05093.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_05012_05440/WAC_ORBITS_05012_05440.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_ORBITS_05360_05788/WAC_ORBITS_05360_05788.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "LRO/LROC Special Data Products -  WAC Monthly Global Mosaic",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-01-03T20:19:09Z",
+          "2010-09-26T16:21:25Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "LRO_LROC_SDNDTM",
+  "stac_version": "1.0.0",
+  "description": "Collection of LRO/LROC/SDNDTM (Special Data Products - NAC Digital Terrain Map)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_A12LMAS/NAC_DTM_A12LMAS.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_A13SIVB/NAC_DTM_A13SIVB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_A15SIVB/NAC_DTM_A15SIVB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_A17SIVB/NAC_DTM_A17SIVB.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_AESTUUM1/NAC_DTM_AESTUUM1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_AESTUUM2/NAC_DTM_AESTUUM2.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_ALDROVANDI/NAC_DTM_ALDROVANDI.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_ALDROVANDI2/NAC_DTM_ALDROVANDI2.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_ALPHONSUS/NAC_DTM_ALPHONSUS.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_DTM_ALPHONSUS1/NAC_DTM_ALPHONSUS1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "LRO/LROC Special Data Products - NAC Digital Terrain Map",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -27.9731,
+          -14.7198,
+          29.4018,
+          26.5507
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-08-10T07:03:23Z",
+          "2017-06-10T02:47:18Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

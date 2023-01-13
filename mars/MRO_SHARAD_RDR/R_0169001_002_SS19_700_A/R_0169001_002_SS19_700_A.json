@@ -1,0 +1,437 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "R_0169001_002_SS19_700_A",
+  "properties": {
+    "datetime": "2006-12-06T02:53:01.339000Z",
+    "created": "2007-06-19T20:31:24.000",
+    "start_datetime": "2006-12-06T02:53:01.339",
+    "end_datetime": "2006-12-06T02:54:01.335",
+    "platform": "MRO",
+    "instruments": [
+      "SHARAD"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 146.0166325112304,
+    "processing:level": "4",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "12022493",
+    "pdsode:pdsid": "R_0169001_002_SS19_700_A",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "SHARAD",
+    "pdsode:pt": "RDR",
+    "pdsode:Data_Set_Id": "MRO-M-SHARAD-4-RDR-V1.0",
+    "pdsode:PDSVolume_Id": "MROSH_1001",
+    "pdsode:RelativePathtoVol": "data\\rdr01xxx\\rdr0169001\\",
+    "pdsode:LabelFileName": "r_0169001_002_ss19_700_a.lbl",
+    "pdsode:Product_creation_time": "2007-06-19T20:31:24.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "A",
+    "pdsode:Observation_time": "2006-12-06T02:53:31.337",
+    "pdsode:SpaceCraft_clock_start_count": "2/849840781.22261",
+    "pdsode:SpaceCraft_clock_stop_count": "2/849840841.21959",
+    "pdsode:Stop_orbit_number": "1690",
+    "pdsode:UTC_start_time": "2006-12-06T02:53:01.339",
+    "pdsode:UTC_stop_time": "2006-12-06T02:54:01.335",
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-79.6413",
+    "pdsode:Center_longitude": "199.519",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "201.6869",
+    "pdsode:Maximum_latitude": "-78.0397",
+    "pdsode:Minimum_latitude": "-81.1692",
+    "pdsode:Westernmost_longitude": "196.7382",
+    "pdsode:Footprint_geometry": "LINESTRING (201.6869 -78.0397, 201.615 -78.1004, 201.5423 -78.1611, 201.469 -78.2218, 201.395 -78.2825, 201.3577 -78.3128, 201.2826 -78.3734, 201.2067 -78.434, 201.1302 -78.4946, 201.0916 -78.5249, 201.0139 -78.5855, 200.9354 -78.646, 200.8959 -78.6763, 200.8562 -78.7065, 200.7761 -78.767, 200.6953 -78.8275, 200.6136 -78.888, 200.5311 -78.9485, 200.4477 -79.0089, 200.3635 -79.0693, 200.3211 -79.0995, 200.2356 -79.1599, 200.1925 -79.1901, 200.1056 -79.2504, 200.0618 -79.2806, 199.9735 -79.3409, 199.9291 -79.371, 199.8394 -79.4313, 199.7942 -79.4615, 199.7031 -79.5217, 199.6571 -79.5518, 199.5645 -79.612, 199.4709 -79.6722, 199.3762 -79.7324, 199.3285 -79.7625, 199.2322 -79.8226, 199.1349 -79.8827, 199.0365 -79.9428, 198.9869 -79.9728, 198.8868 -80.0328, 198.7855 -80.0928, 198.7344 -80.1228, 198.6831 -80.1528, 198.5795 -80.2128, 198.4747 -80.2727, 198.4218 -80.3026, 198.3152 -80.3625, 198.2614 -80.3924, 198.1528 -80.4523, 198.098 -80.4822, 197.9875 -80.542, 197.9317 -80.5719, 197.8192 -80.6316, 197.7624 -80.6614, 197.7053 -80.6913, 197.59 -80.751, 197.4733 -80.8106, 197.4144 -80.8404, 197.3551 -80.8702, 197.2354 -80.9298, 197.1143 -80.9893, 197.0531 -81.0191, 196.9915 -81.0488, 196.8673 -81.1083, 196.7382 -81.1692)",
+    "pdsode:Footprint_C0_geometry": "LINESTRING (-158.3131 -78.0397, -158.385 -78.1004, -158.4577 -78.1611, -158.531 -78.2218, -158.605 -78.2825, -158.6423 -78.3128, -158.7174 -78.3734, -158.7933 -78.434, -158.8698 -78.4946, -158.9084 -78.5249, -158.9861 -78.5855, -159.0646 -78.646, -159.1041 -78.6763, -159.1438 -78.7065, -159.2239 -78.767, -159.3047 -78.8275, -159.3864 -78.888, -159.4689 -78.9485, -159.5523 -79.0089, -159.6365 -79.0693, -159.6789 -79.0995, -159.7644 -79.1599, -159.8075 -79.1901, -159.8944 -79.2504, -159.9382 -79.2806, -160.0265 -79.3409, -160.0709 -79.371, -160.1606 -79.4313, -160.2058 -79.4615, -160.2969 -79.5217, -160.3429 -79.5518, -160.4355 -79.612, -160.5291 -79.6722, -160.6238 -79.7324, -160.6715 -79.7625, -160.7678 -79.8226, -160.8651 -79.8827, -160.9635 -79.9428, -161.0131 -79.9728, -161.1132 -80.0328, -161.2145 -80.0928, -161.2656 -80.1228, -161.3169 -80.1528, -161.4205 -80.2128, -161.5253 -80.2727, -161.5782 -80.3026, -161.6848 -80.3625, -161.7386 -80.3924, -161.8472 -80.4523, -161.902 -80.4822, -162.0125 -80.542, -162.0683 -80.5719, -162.1808 -80.6316, -162.2376 -80.6614, -162.2947 -80.6913, -162.41 -80.751, -162.5267 -80.8106, -162.5856 -80.8404, -162.6449 -80.8702, -162.7646 -80.9298, -162.8857 -80.9893, -162.9469 -81.0191, -163.0085 -81.0488, -163.1327 -81.1083, -163.2618 -81.1692)",
+    "pdsode:Footprint_GL_geometry": "LINESTRING (201.6869 -78.0397, 201.651 -78.0701, 201.615 -78.1004, 201.5787 -78.1308, 201.5423 -78.1611, 201.5057 -78.1915, 201.469 -78.2218, 201.4321 -78.2521, 201.395 -78.2825, 201.3577 -78.3128, 201.3202 -78.3431, 201.2826 -78.3734, 201.2447 -78.4037, 201.2067 -78.434, 201.1685 -78.4643, 201.1302 -78.4946, 201.0916 -78.5249, 201.0528 -78.5552, 201.0139 -78.5855, 200.9748 -78.6157, 200.9354 -78.646, 200.8959 -78.6763, 200.8562 -78.7065, 200.8162 -78.7368, 200.7761 -78.767, 200.7358 -78.7973, 200.6953 -78.8275, 200.6545 -78.8578, 200.6136 -78.888, 200.5724 -78.9182, 200.5311 -78.9485, 200.4895 -78.9787, 200.4477 -79.0089, 200.4057 -79.0391, 200.3635 -79.0693, 200.3211 -79.0995, 200.2784 -79.1297, 200.2356 -79.1599, 200.1925 -79.1901, 200.1491 -79.2202, 200.1056 -79.2504, 200.0618 -79.2806, 200.0178 -79.3107, 199.9735 -79.3409, 199.9291 -79.371, 199.8843 -79.4012, 199.8394 -79.4313, 199.7942 -79.4615, 199.7487 -79.4916, 199.7031 -79.5217, 199.6571 -79.5518, 199.6109 -79.5819, 199.5645 -79.612, 199.5178 -79.6421, 199.4709 -79.6722, 199.4237 -79.7023, 199.3762 -79.7324, 199.3285 -79.7625, 199.2805 -79.7925, 199.2322 -79.8226, 199.1837 -79.8526, 199.1349 -79.8827, 199.0858 -79.9127, 199.0365 -79.9428, 198.9869 -79.9728, 198.9369 -80.0028, 198.8868 -80.0328, 198.8363 -80.0628, 198.7855 -80.0928, 198.7344 -80.1228, 198.6831 -80.1528, 198.6314 -80.1828, 198.5795 -80.2128, 198.5272 -80.2427, 198.4747 -80.2727, 198.4218 -80.3026, 198.3686 -80.3326, 198.3152 -80.3625, 198.2614 -80.3924, 198.2072 -80.4224, 198.1528 -80.4523, 198.098 -80.4822, 198.0429 -80.5121, 197.9875 -80.542, 197.9317 -80.5719, 197.8756 -80.6017, 197.8192 -80.6316, 197.7624 -80.6614, 197.7053 -80.6913, 197.6478 -80.7211, 197.59 -80.751, 197.5318 -80.7808, 197.4733 -80.8106, 197.4144 -80.8404, 197.3551 -80.8702, 197.2954 -80.9, 197.2354 -80.9298, 197.175 -80.9595, 197.1143 -80.9893, 197.0531 -81.0191, 196.9915 -81.0488, 196.9296 -81.0785, 196.8673 -81.1083, 196.8045 -81.138, 196.7414 -81.1677, 196.7382 -81.1692)",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "LINESTRING (-150161.26035645141 -499303.83918073529, -166123.89935736638 -522176.99538042303, -177817.16477340227 -538886.98222330073, -191663.10760727269 -558627.88593976758, -206611.83671865764 -579884.3328438201, -219454.63315745711 -598099.31087677518, -235547.24900496038 -620862.54091773846, -261387.05191255562 -657274.05102599354)",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Lat/Lon points from Geom Product",
+    "pdsode:Description": "Binary table containing SHARAD processed scientific data, that is the result of the Doppler filtering and range compressing of a variable number of raw echoes, and is expressed as a time series of complex voltages. Each record contains also a number of parameters describing the operation of the instrument during data acquisition, together with engineering and spacecraft information. Specifically, each record is subdivided into five parts, each of which contains a different type of information: ancillary data, scientific data, processing parameters, geometric parameters and instrument engineering parameters.",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=R_0169001_002_SS19_700_A&product_idGeo=12022493",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=R_0169001_002_SS19_700_A&product_idGeo=12022493",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=R_0169001_002_SS19_700_A&product_idGeo=12022493",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-4-rdr-v1/MROSH_1001/data/rdr01xxx/rdr0169001/r_0169001_002_ss19_700_a.lbl"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -158.3131,
+        -78.0397
+      ],
+      [
+        -158.385,
+        -78.1004
+      ],
+      [
+        -158.4577,
+        -78.1611
+      ],
+      [
+        -158.531,
+        -78.2218
+      ],
+      [
+        -158.605,
+        -78.2825
+      ],
+      [
+        -158.6423,
+        -78.3128
+      ],
+      [
+        -158.7174,
+        -78.3734
+      ],
+      [
+        -158.7933,
+        -78.434
+      ],
+      [
+        -158.8698,
+        -78.4946
+      ],
+      [
+        -158.9084,
+        -78.5249
+      ],
+      [
+        -158.9861,
+        -78.5855
+      ],
+      [
+        -159.0646,
+        -78.646
+      ],
+      [
+        -159.1041,
+        -78.6763
+      ],
+      [
+        -159.1438,
+        -78.7065
+      ],
+      [
+        -159.2239,
+        -78.767
+      ],
+      [
+        -159.3047,
+        -78.8275
+      ],
+      [
+        -159.3864,
+        -78.888
+      ],
+      [
+        -159.4689,
+        -78.9485
+      ],
+      [
+        -159.5523,
+        -79.0089
+      ],
+      [
+        -159.6365,
+        -79.0693
+      ],
+      [
+        -159.6789,
+        -79.0995
+      ],
+      [
+        -159.7644,
+        -79.1599
+      ],
+      [
+        -159.8075,
+        -79.1901
+      ],
+      [
+        -159.8944,
+        -79.2504
+      ],
+      [
+        -159.9382,
+        -79.2806
+      ],
+      [
+        -160.0265,
+        -79.3409
+      ],
+      [
+        -160.0709,
+        -79.371
+      ],
+      [
+        -160.1606,
+        -79.4313
+      ],
+      [
+        -160.2058,
+        -79.4615
+      ],
+      [
+        -160.2969,
+        -79.5217
+      ],
+      [
+        -160.3429,
+        -79.5518
+      ],
+      [
+        -160.4355,
+        -79.612
+      ],
+      [
+        -160.5291,
+        -79.6722
+      ],
+      [
+        -160.6238,
+        -79.7324
+      ],
+      [
+        -160.6715,
+        -79.7625
+      ],
+      [
+        -160.7678,
+        -79.8226
+      ],
+      [
+        -160.8651,
+        -79.8827
+      ],
+      [
+        -160.9635,
+        -79.9428
+      ],
+      [
+        -161.0131,
+        -79.9728
+      ],
+      [
+        -161.1132,
+        -80.0328
+      ],
+      [
+        -161.2145,
+        -80.0928
+      ],
+      [
+        -161.2656,
+        -80.1228
+      ],
+      [
+        -161.3169,
+        -80.1528
+      ],
+      [
+        -161.4205,
+        -80.2128
+      ],
+      [
+        -161.5253,
+        -80.2727
+      ],
+      [
+        -161.5782,
+        -80.3026
+      ],
+      [
+        -161.6848,
+        -80.3625
+      ],
+      [
+        -161.7386,
+        -80.3924
+      ],
+      [
+        -161.8472,
+        -80.4523
+      ],
+      [
+        -161.902,
+        -80.4822
+      ],
+      [
+        -162.0125,
+        -80.542
+      ],
+      [
+        -162.0683,
+        -80.5719
+      ],
+      [
+        -162.1808,
+        -80.6316
+      ],
+      [
+        -162.2376,
+        -80.6614
+      ],
+      [
+        -162.2947,
+        -80.6913
+      ],
+      [
+        -162.41,
+        -80.751
+      ],
+      [
+        -162.5267,
+        -80.8106
+      ],
+      [
+        -162.5856,
+        -80.8404
+      ],
+      [
+        -162.6449,
+        -80.8702
+      ],
+      [
+        -162.7646,
+        -80.9298
+      ],
+      [
+        -162.8857,
+        -80.9893
+      ],
+      [
+        -162.9469,
+        -81.0191
+      ],
+      [
+        -163.0085,
+        -81.0488
+      ],
+      [
+        -163.1327,
+        -81.1083
+      ],
+      [
+        -163.2618,
+        -81.1692
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Reduced Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Reduced Data Record"
+    }
+  ],
+  "assets": {
+    "R_0169001_002_SS19_700_A.DAT": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-4-rdr-v1/MROSH_1001/data/rdr01xxx/rdr0169001/r_0169001_002_ss19_700_a.dat",
+      "type": "",
+      "title": "R_0169001_002_SS19_700_A.DAT",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "R_0169001_002_SS19_700_A.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-4-rdr-v1/MROSH_1001/data/rdr01xxx/rdr0169001/r_0169001_002_ss19_700_a.lbl",
+      "type": "text/plain",
+      "title": "R_0169001_002_SS19_700_A.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "R_0169001_002_SS19_700_A_B.JPG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-4-rdr-v1/MROSH_1001/browse/rdr01xxx/rdr0169001/r_0169001_002_ss19_700_a_b.jpg",
+      "type": "image/jpeg",
+      "title": "R_0169001_002_SS19_700_A_B.JPG",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "R_0169001_002_SS19_700_A_B.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-4-rdr-v1/MROSH_1001/browse/rdr01xxx/rdr0169001/r_0169001_002_ss19_700_a_b.lbl",
+      "type": "text/plain",
+      "title": "R_0169001_002_SS19_700_A_B.LBL",
+      "description": "BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "R_0169001_002_SS19_700_A_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-sharad-4-rdr-v1/mrosh_1001/data/rdr01xxx/rdr0169001/r_0169001_002_ss19_700_a_lbl.kml",
+      "type": "",
+      "title": "R_0169001_002_SS19_700_A_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "R_0169001_002_SS19_700_A_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-4-rdr-v1/mrosh_1001/data/rdr01xxx/rdr0169001/r_0169001_002_ss19_700_a_lbl.tar.gz",
+      "type": "",
+      "title": "R_0169001_002_SS19_700_A_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "R_0169001_002_SS19_700_A_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-4-rdr-v1/mrosh_1001/data/rdr01xxx/rdr0169001/r_0169001_002_ss19_700_a_lbl.zip",
+      "type": "",
+      "title": "R_0169001_002_SS19_700_A_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "RDR.FMT": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-4-rdr-v1/MROSH_1001/label/rdr.fmt",
+      "type": "",
+      "title": "RDR.FMT",
+      "description": "LABEL FORMAT FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    -163.2618,
+    -81.1692,
+    -158.3131,
+    -78.0397
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_SHARAD_RDR"
+}

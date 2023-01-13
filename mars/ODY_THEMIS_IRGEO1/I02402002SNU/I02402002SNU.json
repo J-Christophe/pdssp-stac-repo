@@ -1,0 +1,207 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "I02402002SNU",
+  "properties": {
+    "datetime": "2002-06-30T07:53:22.620000Z",
+    "created": "2009-08-12T15:56:44.000",
+    "start_datetime": "2002-06-30T07:53:22.620",
+    "end_datetime": "2002-06-30T07:57:22.081",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 34.445,
+    "ssys:incidence_angle": 100.458,
+    "ssys:emission_angle": 0.168,
+    "ssys:phase_angle": 100.596,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:spring",
+        "title": "Spring",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "23542981",
+    "pdsode:pdsid": "I02402002SNU",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "IRGEO1",
+    "pdsode:Data_Set_Id": "ODY-M-THM-5-IRGEO-V1.0",
+    "pdsode:PDSVolume_Id": "ODTGEO_2XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtig1_0003\\i024xxgeo\\",
+    "pdsode:LabelFileName": "i02402002snu.lbl",
+    "pdsode:Product_creation_time": "2009-08-12T15:56:44.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.1",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2002-06-30T07:55:22.350",
+    "pdsode:SpaceCraft_clock_start_count": "709890871.128",
+    "pdsode:SpaceCraft_clock_stop_count": "709891110.246",
+    "pdsode:Stop_orbit_number": "2402",
+    "pdsode:UTC_start_time": "2002-06-30T07:53:22.620",
+    "pdsode:UTC_stop_time": "2002-06-30T07:57:22.081",
+    "pdsode:Emission_angle": 0.168,
+    "pdsode:Phase_angle": 100.596,
+    "pdsode:Incidence_angle": 100.458,
+    "pdsode:Solar_longitude": 34.445,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "49.872",
+    "pdsode:Center_longitude": "29.42",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "31.006",
+    "pdsode:Maximum_latitude": "55.843",
+    "pdsode:Minimum_latitude": "43.897",
+    "pdsode:Westernmost_longitude": "27.513",
+    "pdsode:Footprint_geometry": "POLYGON ((28.553 55.843, 31.006 43.943, 30.208 43.897, 27.513 55.783, 28.553 55.843))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((28.553 55.843, 31.006 43.943, 30.208 43.897, 27.513 55.783, 28.553 55.843))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((28.553 55.843, 31.006 43.943, 30.208 43.897, 27.513 55.783, 28.553 55.843))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "Lyot Crater",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/I02402002",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=I02402002SNU&product_idGeo=23542981",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=I02402002SNU&product_idGeo=23542981",
+    "pdsode:LabelURL": "http://static.mars.asu.edu/pds/ODTGEO_v2/data/odtig1_0003/i024xxgeo/I02402002SNU.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.553,
+          55.843
+        ],
+        [
+          31.006,
+          43.943
+        ],
+        [
+          30.208,
+          43.897
+        ],
+        [
+          27.513,
+          55.783
+        ],
+        [
+          28.553,
+          55.843
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Geometric Projection V1"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Geometric Projection V1"
+    }
+  ],
+  "assets": {
+    "I02402002.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtbws1_0003/i024xxbws2/I02402002.png",
+      "type": "image/png",
+      "title": "I02402002.PNG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "I02402002_SMALL.JPG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtbws1_0003/i024xxbws2/I02402002_small.jpg",
+      "type": "image/jpeg",
+      "title": "I02402002_SMALL.JPG",
+      "description": "THUMBNAIL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "I02402002SNU.CUB.GZ": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtig1_0003/i024xxgeo/I02402002SNU.CUB.gz",
+      "type": "",
+      "title": "I02402002SNU.CUB.GZ",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02402002SNU.LBL": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtig1_0003/i024xxgeo/I02402002SNU.LBL",
+      "type": "text/plain",
+      "title": "I02402002SNU.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "I02402002SNU_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-5-irgeo-v1/odtgeo_v2/data/odtig1_0003/i024xxgeo/i02402002snu_lbl.kml",
+      "type": "",
+      "title": "I02402002SNU_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I02402002SNU_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irgeo-v1/odtgeo_v2/data/odtig1_0003/i024xxgeo/i02402002snu_lbl.tar.gz",
+      "type": "",
+      "title": "I02402002SNU_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I02402002SNU_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irgeo-v1/odtgeo_v2/data/odtig1_0003/i024xxgeo/i02402002snu_lbl.zip",
+      "type": "",
+      "title": "I02402002SNU_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ODY_ORIENT_POINT.TXT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/document/ody_orient_point.txt",
+      "type": "",
+      "title": "ODY_ORIENT_POINT.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    27.513,
+    43.897,
+    31.006,
+    55.843
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_IRGEO1"
+}

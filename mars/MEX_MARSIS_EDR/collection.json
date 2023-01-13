@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MEX_MARSIS_EDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MEX/MARSIS/EDR (Experiment Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./E_01885_AIS_M/E_01885_AIS_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_01885_SS2_TRK_CMP_M/E_01885_SS2_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_01885_SS3_TRK_CMP_M/E_01885_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_01886_AIS_M/E_01886_AIS_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_01886_SS2_TRK_CMP_M/E_01886_SS2_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_01886_SS3_TRK_CMP_M/E_01886_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_01887_AIS_M/E_01887_AIS_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_01887_SS2_TRK_CMP_M/E_01887_SS2_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_01887_SS3_TRK_CMP_M/E_01887_SS3_TRK_CMP_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./E_01888_AIS_M/E_01888_AIS_M.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MEX/MARSIS Experiment Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -152.495,
+          -34.238,
+          164.541,
+          86.261
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-07-04T13:20:49.922000Z",
+          "2005-07-05T10:06:18.117000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

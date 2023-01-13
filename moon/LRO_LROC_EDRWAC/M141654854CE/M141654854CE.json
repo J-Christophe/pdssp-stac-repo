@@ -1,0 +1,176 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "M141654854CE",
+  "properties": {
+    "datetime": "2010-10-14T00:19:46.769000Z",
+    "created": "2013-10-01T20:44:54.000",
+    "start_datetime": "2010-10-14T00:19:46.769",
+    "end_datetime": "2010-10-14T00:23:04.769",
+    "platform": "LRO",
+    "instruments": [
+      "LROC"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 278.86,
+    "ssys:solar_distance": 149169255.3,
+    "ssys:incidence_angle": 18.13,
+    "ssys:emission_angle": 1.14,
+    "ssys:phase_angle": 19.03,
+    "processing:level": "2",
+    "pdsode:ode_id": "16203736",
+    "pdsode:pdsid": "M141654854CE",
+    "pdsode:ihid": "LRO",
+    "pdsode:iid": "LROC",
+    "pdsode:pt": "EDRWAC",
+    "pdsode:Data_Set_Id": "LRO-L-LROC-2-EDR-V1.0",
+    "pdsode:PDSVolume_Id": "LROLRC_0005",
+    "pdsode:RelativePathtoVol": "data\\sci\\2010287\\wac\\",
+    "pdsode:LabelFileName": "m141654854ce.img",
+    "pdsode:Product_creation_time": "2013-10-01T20:44:54.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Product_version_id": "v1.8",
+    "pdsode:Producer_id": "LRO_LROC_TEAM",
+    "pdsode:Observation_time": "2010-10-14T00:21:25.769",
+    "pdsode:SpaceCraft_clock_start_count": "1/308708386:49009",
+    "pdsode:SpaceCraft_clock_stop_count": "1/308708584:49009",
+    "pdsode:Stop_orbit_number": "6009",
+    "pdsode:UTC_start_time": "2010-10-14T00:19:46.769",
+    "pdsode:UTC_stop_time": "2010-10-14T00:23:04.769",
+    "pdsode:Emission_angle": 1.14,
+    "pdsode:Phase_angle": 19.03,
+    "pdsode:Incidence_angle": 18.13,
+    "pdsode:Map_resolution": 84.483,
+    "pdsode:Solar_distance": 149169255.3,
+    "pdsode:Solar_longitude": 278.86,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "10.0321",
+    "pdsode:Center_longitude": "92.691",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "93.96",
+    "pdsode:Maximum_latitude": "15.22",
+    "pdsode:Minimum_latitude": "4.84",
+    "pdsode:Westernmost_longitude": "91.45",
+    "pdsode:Footprint_geometry": "POLYGON ((91.45 15.18, 91.53 4.84, 93.96 4.88, 93.89 15.22, 91.45 15.18))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((91.45 15.18, 91.53 4.84, 93.96 4.88, 93.89 15.22, 91.45 15.18))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((91.45 15.18, 91.53 4.84, 93.96 4.88, 93.89 15.22, 91.45 15.18))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Comment": "GLOBAL COVERAGE",
+    "pdsode:External_url": "http://wms.lroc.asu.edu/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M141654854CE",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=M141654854CE&product_idGeo=16203736",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=M141654854CE&product_idGeo=16203736",
+    "pdsode:LabelURL": "https://pds.lroc.asu.edu/data/LRO-L-LROC-2-EDR-V1.0/LROLRC_0005/DATA/SCI/2010287/WAC/M141654854CE.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          91.45,
+          15.18
+        ],
+        [
+          91.53,
+          4.84
+        ],
+        [
+          93.96,
+          4.88
+        ],
+        [
+          93.89,
+          15.22
+        ],
+        [
+          91.45,
+          15.18
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Experiment Data Record Wide Angle Camera - Color"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Experiment Data Record Wide Angle Camera - Color"
+    }
+  ],
+  "assets": {
+    "M141654854CE.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-2-EDR-V1.0/LROLRC_0005/DATA/SCI/2010287/WAC/M141654854CE.IMG",
+      "type": "",
+      "title": "M141654854CE.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "M141654854CE_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/lro-l-lroc-2-edr-v1/lrolrc_0005/data/sci/2010287/wac/m141654854ce_img.kml",
+      "type": "",
+      "title": "M141654854CE_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M141654854CE_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-2-edr-v1/lrolrc_0005/data/sci/2010287/wac/m141654854ce_img.tar.gz",
+      "type": "",
+      "title": "M141654854CE_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M141654854CE_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-2-edr-v1/lrolrc_0005/data/sci/2010287/wac/m141654854ce_img.zip",
+      "type": "",
+      "title": "M141654854CE_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M141654854CE_PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-2-EDR-V1.0/LROLRC_0005/EXTRAS/BROWSE/2010287/M141654854CE_pyr.tif",
+      "type": "",
+      "title": "M141654854CE_PYR.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    91.45,
+    4.84,
+    93.96,
+    15.22
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "LRO_LROC_EDRWAC"
+}

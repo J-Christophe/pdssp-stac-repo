@@ -1,0 +1,229 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "NAC_PHO_E041N1229_M1113368103R",
+  "properties": {
+    "datetime": "2013-01-21T00:40:36Z",
+    "created": "2018-02-27T02:10:29.000",
+    "start_datetime": "2013-01-21T00:40:36.000",
+    "end_datetime": "2013-01-21T00:41:16.000",
+    "platform": "LRO",
+    "instruments": [
+      "LROC"
+    ],
+    "gsd": 1.1,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 248.9064271436939,
+    "processing:level": "5",
+    "pdsode:ode_id": "23065752",
+    "pdsode:pdsid": "NAC_PHO_E041N1229_M1113368103R",
+    "pdsode:ihid": "LRO",
+    "pdsode:iid": "LROC",
+    "pdsode:pt": "SDRPHO",
+    "pdsode:Data_Set_Id": "LRO-L-LROC-5-RDR-V1.0",
+    "pdsode:PDSVolume_Id": "LROLRC_2001",
+    "pdsode:RelativePathtoVol": "data\\sdp\\nac_pho\\e041n1229\\",
+    "pdsode:LabelFileName": "nac_pho_e041n1229_m1113368103r.img",
+    "pdsode:Product_creation_time": "2018-02-27T02:10:29.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Product_version_id": "v1.0",
+    "pdsode:Producer_id": "LRO_LROC_TEAM",
+    "pdsode:Observation_time": "2013-01-21T00:40:56.000",
+    "pdsode:SpaceCraft_clock_start_count": "N/A",
+    "pdsode:SpaceCraft_clock_stop_count": "N/A",
+    "pdsode:UTC_start_time": "2013-01-21T00:40:36.000",
+    "pdsode:UTC_stop_time": "2013-01-21T00:41:16.000",
+    "pdsode:Map_resolution": 27566.682203772,
+    "pdsode:Map_scale": 1.1,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "4.0615",
+    "pdsode:Center_longitude": "123.0182",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "123.116",
+    "pdsode:Maximum_latitude": "4.8827",
+    "pdsode:Minimum_latitude": "3.2403",
+    "pdsode:Westernmost_longitude": "122.9203",
+    "pdsode:Footprint_geometry": "POLYGON ((122.9203 3.2403, 122.9203 4.2403, 122.9203 4.8827, 123.116 4.8827, 123.116 3.8827, 123.116 3.2403, 122.9203 3.2403))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((122.9203 3.2403, 122.9203 4.2403, 122.9203 4.8827, 123.116 4.8827, 123.116 3.8827, 123.116 3.2403, 122.9203 3.2403))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((122.9203 3.2403, 122.9203 4.2403, 122.9203 4.8827, 123.116 4.8827, 123.116 3.8827, 123.116 3.2403, 122.9203 3.2403))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Label Map Projection Bounding Box",
+    "pdsode:Description": "\"King Crater Ejecta four band map-projected NAC photometric product from M1113368103R. Band 1 is I/F, Bands 2-4 are backplanes for Phase, Emission, and Incidence, respectively. For more info see [MARTINETAL2018]\"",
+    "pdsode:External_url": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_PHO/E041N1229/NAC_PHO_E041N1229_M1113368103R.IMG",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=NAC_PHO_E041N1229_M1113368103R&product_idGeo=23065752",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=NAC_PHO_E041N1229_M1113368103R&product_idGeo=23065752",
+    "pdsode:LabelURL": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_PHO/E041N1229/NAC_PHO_E041N1229_M1113368103R.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          122.9203,
+          3.2403
+        ],
+        [
+          122.9203,
+          4.2403
+        ],
+        [
+          122.9203,
+          4.8827
+        ],
+        [
+          123.116,
+          4.8827
+        ],
+        [
+          123.116,
+          3.8827
+        ],
+        [
+          123.116,
+          3.2403
+        ],
+        [
+          122.9203,
+          3.2403
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - Map projected NAC photometric product"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - Map projected NAC photometric product"
+    }
+  ],
+  "assets": {
+    "DSMAP.CAT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/CATALOG/DSMAP.CAT",
+      "type": "",
+      "title": "DSMAP.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "NAC_PHO_E041N1229_IMAGES.TXT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_PHO/E041N1229/NAC_PHO_E041N1229_IMAGES.TXT",
+      "type": "",
+      "title": "NAC_PHO_E041N1229_IMAGES.TXT",
+      "description": "IMAGE LIST",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "NAC_PHO_E041N1229_M1113368103R.BROWSE.PNG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_PHO/E041N1229/NAC_PHO_E041N1229_M1113368103R.BROWSE.PNG",
+      "type": "image/png",
+      "title": "NAC_PHO_E041N1229_M1113368103R.BROWSE.PNG",
+      "description": "BROWSE PNG IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_PHO_E041N1229_M1113368103R.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_PHO/E041N1229/NAC_PHO_E041N1229_M1113368103R.IMG",
+      "type": "",
+      "title": "NAC_PHO_E041N1229_M1113368103R.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_PHO_E041N1229_M1113368103R.MASK.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_PHO/E041N1229/NAC_PHO_E041N1229_M1113368103R.MASK.TIF",
+      "type": "",
+      "title": "NAC_PHO_E041N1229_M1113368103R.MASK.TIF",
+      "description": "MASK IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_PHO_E041N1229_M1113368103R.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_PHO/E041N1229/NAC_PHO_E041N1229_M1113368103R.PYR.TIF",
+      "type": "",
+      "title": "NAC_PHO_E041N1229_M1113368103R.PYR.TIF",
+      "description": "BROWSE TIF IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_PHO_E041N1229_M1113368103R.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_PHO/E041N1229/NAC_PHO_E041N1229_M1113368103R.TIF",
+      "type": "",
+      "title": "NAC_PHO_E041N1229_M1113368103R.TIF",
+      "description": "FULL BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_PHO_E041N1229_M1113368103R_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_pho/e041n1229/nac_pho_e041n1229_m1113368103r_img.kml",
+      "type": "",
+      "title": "NAC_PHO_E041N1229_M1113368103R_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_PHO_E041N1229_M1113368103R_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_pho/e041n1229/nac_pho_e041n1229_m1113368103r_img.tar.gz",
+      "type": "",
+      "title": "NAC_PHO_E041N1229_M1113368103R_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_PHO_E041N1229_M1113368103R_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_pho/e041n1229/nac_pho_e041n1229_m1113368103r_img.zip",
+      "type": "",
+      "title": "NAC_PHO_E041N1229_M1113368103R_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_PHO_E041N1229_README.TXT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_PHO/E041N1229/NAC_PHO_E041N1229_README.TXT",
+      "type": "",
+      "title": "NAC_PHO_E041N1229_README.TXT",
+      "description": "README INFORMATION",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    122.9203,
+    3.2403,
+    123.116,
+    4.8827
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "LRO_LROC_SDRPHO"
+}

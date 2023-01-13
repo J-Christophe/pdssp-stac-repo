@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "MEX_HRSC_DTMRDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MEX/HRSC/DTMRDR (Digital Terrain Map Reduced Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0009_BL4.IMG/H0010_0009_BL4.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0009_GR4.IMG/H0010_0009_GR4.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0009_IR4.IMG/H0010_0009_IR4.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0009_ND4.IMG/H0010_0009_ND4.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0010_0009_RE4.IMG/H0010_0009_RE4.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./H0016_0008_BL4.IMG/H0016_0008_BL4.IMG.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MEX/HRSC Digital Terrain Map Reduced Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -104.03,
+          -4.3579,
+          90.9532,
+          15.7365
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2004-01-10T14:02:18.107000Z",
+          "2004-01-13T04:38:03.258000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

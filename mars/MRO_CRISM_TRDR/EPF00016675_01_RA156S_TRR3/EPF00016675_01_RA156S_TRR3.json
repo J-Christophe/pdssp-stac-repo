@@ -1,0 +1,255 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "EPF00016675_01_RA156S_TRR3",
+  "properties": {
+    "datetime": "2010-02-09T10:12:05.799000Z",
+    "created": "2010-11-02T16:18:32.000",
+    "start_datetime": "2010-02-09T10:12:05.799",
+    "end_datetime": "2010-02-09T10:12:09.533",
+    "platform": "MRO",
+    "instruments": [
+      "CRISM"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 49.334265,
+    "ssys:solar_distance": 247412288.218847,
+    "ssys:incidence_angle": 76.7600250244141,
+    "ssys:emission_angle": 68.4620590209961,
+    "ssys:phase_angle": 128.148773193359,
+    "processing:level": "3",
+    "_keywords": [
+      {
+        "id": "season:spring",
+        "title": "Spring",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "14729932",
+    "pdsode:pdsid": "EPF00016675_01_RA156S_TRR3",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "CRISM",
+    "pdsode:pt": "TRDR",
+    "pdsode:Data_Set_Id": "MRO-M-CRISM-3-RDR-TARGETED-V1.0",
+    "pdsode:PDSVolume_Id": "MROCR_2104",
+    "pdsode:RelativePathtoVol": "trdr\\2010\\2010_040\\epf00016675\\",
+    "pdsode:LabelFileName": "epf00016675_01_ra156s_trr3.lbl",
+    "pdsode:Product_creation_time": "2010-11-02T16:18:32.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "3",
+    "pdsode:Observation_id": "16#00016675#",
+    "pdsode:Observation_number": "16#01#",
+    "pdsode:Observation_type": "EPF",
+    "pdsode:Activity_id": "RA156",
+    "pdsode:Observation_time": "2010-02-09T10:12:07.666",
+    "pdsode:SpaceCraft_clock_start_count": "9/0950177556.38118",
+    "pdsode:SpaceCraft_clock_stop_count": "9/0950177560.20710",
+    "pdsode:UTC_start_time": "2010-02-09T10:12:05.799",
+    "pdsode:UTC_stop_time": "2010-02-09T10:12:09.533",
+    "pdsode:Emission_angle": 68.4620590209961,
+    "pdsode:Phase_angle": 128.148773193359,
+    "pdsode:Incidence_angle": 76.7600250244141,
+    "pdsode:Solar_distance": 247412288.218847,
+    "pdsode:Solar_longitude": 49.334265,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-44.9007",
+    "pdsode:Center_longitude": "312.5503",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "312.8145",
+    "pdsode:Maximum_latitude": "-44.8088",
+    "pdsode:Minimum_latitude": "-44.9909",
+    "pdsode:Westernmost_longitude": "312.2682",
+    "pdsode:Footprint_geometry": "MULTIPOLYGON (((312.8042 -44.8103, 312.8073 -44.81, 312.8041 -44.8088, 312.8042 -44.8103)), ((312.2925 -44.9909, 312.4248 -44.9766, 312.5579 -44.9677, 312.6907 -44.9562, 312.8145 -44.9397, 312.8089 -44.8716, 312.8042 -44.8103, 312.6708 -44.8219, 312.5343 -44.8328, 312.4003 -44.8603, 312.2734 -44.8757, 312.2682 -44.8445, 312.2925 -44.9909)))",
+    "pdsode:Footprint_C0_geometry": "MULTIPOLYGON (((-47.1958 -44.8103, -47.1927 -44.81, -47.1959 -44.8088, -47.1958 -44.8103)), ((-47.7075 -44.9909, -47.5752 -44.9766, -47.4421 -44.9677, -47.3093 -44.9562, -47.1855 -44.9397, -47.1911 -44.8716, -47.1958 -44.8103, -47.3292 -44.8219, -47.4657 -44.8328, -47.5997 -44.8603, -47.7266 -44.8757, -47.7318 -44.8445, -47.7075 -44.9909)))",
+    "pdsode:Footprint_GL_geometry": "MULTIPOLYGON (((312.80421233478688 -44.810269191306823, 312.80730009078979 -44.810000002384186, 312.80410003662109 -44.808799982070923, 312.80421233478688 -44.810269191306823)), ((312.29250001907349 -44.990899980068207, 312.42479991912842 -44.976599991321564, 312.55789995193481 -44.967700004577637, 312.6907000541687 -44.956200003623962, 312.81450009346008 -44.93970000743866, 312.80890011787415 -44.871599972248077, 312.80421233478688 -44.810269191306823, 312.67079997062683 -44.821900010108948, 312.53430008888245 -44.832799971103668, 312.40030002593994 -44.860300004482269, 312.27340006828308 -44.875699996948242, 312.2681999206543 -44.844500005245209, 312.27699995040894 -44.898100018501282, 312.28430008888245 -44.942099988460541, 312.29250001907349 -44.990899980068207)))",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Corresponding DDR Footprint",
+    "pdsode:Description": "A CRISM Targeted Reduced Data Record (TRDR) is a radiometrically calibrated EDR. This TRDR VNIR product is a version 3 emission phase function observation in units of spectral radiance.",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=EPF00016675_01_RA156S_TRR3&product_idGeo=14729932",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=EPF00016675_01_RA156S_TRR3&product_idGeo=14729932",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2104/trdr/2010/2010_040/epf00016675/epf00016675_01_ra156s_trr3.lbl"
+  },
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -47.1958,
+            -44.8103
+          ],
+          [
+            -47.1927,
+            -44.81
+          ],
+          [
+            -47.1959,
+            -44.8088
+          ],
+          [
+            -47.1958,
+            -44.8103
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            -47.7075,
+            -44.9909
+          ],
+          [
+            -47.5752,
+            -44.9766
+          ],
+          [
+            -47.4421,
+            -44.9677
+          ],
+          [
+            -47.3093,
+            -44.9562
+          ],
+          [
+            -47.1855,
+            -44.9397
+          ],
+          [
+            -47.1911,
+            -44.8716
+          ],
+          [
+            -47.1958,
+            -44.8103
+          ],
+          [
+            -47.3292,
+            -44.8219
+          ],
+          [
+            -47.4657,
+            -44.8328
+          ],
+          [
+            -47.5997,
+            -44.8603
+          ],
+          [
+            -47.7266,
+            -44.8757
+          ],
+          [
+            -47.7318,
+            -44.8445
+          ],
+          [
+            -47.7075,
+            -44.9909
+          ]
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CRISM Targeted Reduced Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CRISM Targeted Reduced Data Record"
+    }
+  ],
+  "assets": {
+    "EPF00016675_01_RA156S_HKP3.TAB": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2104/trdr/2010/2010_040/epf00016675/epf00016675_01_ra156s_hkp3.tab",
+      "type": "",
+      "title": "EPF00016675_01_RA156S_HKP3.TAB",
+      "description": "TRDR HOUSEKEEPING TABLE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "EPF00016675_01_RA156S_TRR3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2104/trdr/2010/2010_040/epf00016675/epf00016675_01_ra156s_trr3.img",
+      "type": "",
+      "title": "EPF00016675_01_RA156S_TRR3.IMG",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "EPF00016675_01_RA156S_TRR3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2104/trdr/2010/2010_040/epf00016675/epf00016675_01_ra156s_trr3.lbl",
+      "type": "text/plain",
+      "title": "EPF00016675_01_RA156S_TRR3.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "EPF00016675_01_RA156S_TRR3_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-crism-3-rdr-targeted-v1/mrocr_2104/trdr/2010/2010_040/epf00016675/epf00016675_01_ra156s_trr3_lbl.kml",
+      "type": "",
+      "title": "EPF00016675_01_RA156S_TRR3_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "EPF00016675_01_RA156S_TRR3_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-crism-3-rdr-targeted-v1/mrocr_2104/trdr/2010/2010_040/epf00016675/epf00016675_01_ra156s_trr3_lbl.tar.gz",
+      "type": "",
+      "title": "EPF00016675_01_RA156S_TRR3_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "EPF00016675_01_RA156S_TRR3_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-crism-3-rdr-targeted-v1/mrocr_2104/trdr/2010/2010_040/epf00016675/epf00016675_01_ra156s_trr3_lbl.zip",
+      "type": "",
+      "title": "EPF00016675_01_RA156S_TRR3_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "TRDRHK.FMT": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2104/label/trdrhk.fmt",
+      "type": "",
+      "title": "TRDRHK.FMT",
+      "description": "LABEL FORMAT FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    -47.7318,
+    -44.9909,
+    -47.1855,
+    -44.8088
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_CRISM_TRDR"
+}

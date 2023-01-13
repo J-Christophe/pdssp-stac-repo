@@ -1,0 +1,1390 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "FRT00003050_07_IF164J_TER3",
+  "properties": {
+    "datetime": "2006-11-16T19:55:04.290000Z",
+    "created": "2015-06-10T16:32:28.000",
+    "start_datetime": "2006-11-16T19:55:04.290",
+    "end_datetime": "2006-11-16T19:56:56.024",
+    "platform": "MRO",
+    "instruments": [
+      "CRISM"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 136.415942,
+    "ssys:incidence_angle": 60.606273651123,
+    "ssys:emission_angle": 8.10359668731689,
+    "ssys:phase_angle": 64.5953140258789,
+    "processing:level": "4",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "25112200",
+    "pdsode:pdsid": "FRT00003050_07_IF164J_TER3",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "CRISM",
+    "pdsode:pt": "TER",
+    "pdsode:Data_Set_Id": "MRO-M-CRISM-4-RDR-TARGETED-V1.0",
+    "pdsode:PDSVolume_Id": "MROCR_6001",
+    "pdsode:RelativePathtoVol": "ter\\2006\\2006_320\\frt00003050\\",
+    "pdsode:LabelFileName": "frt00003050_07_if164j_ter3.lbl",
+    "pdsode:Product_creation_time": "2015-06-10T16:32:28.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "3",
+    "pdsode:Observation_id": "16#00003050#",
+    "pdsode:Observation_number": "16#07#",
+    "pdsode:Observation_type": "FRT",
+    "pdsode:Activity_id": "IF164",
+    "pdsode:Observation_time": "2006-11-16T19:56:00.157",
+    "pdsode:SpaceCraft_clock_start_count": "2/0848174123.08396",
+    "pdsode:SpaceCraft_clock_stop_count": "2/0848174234.56516",
+    "pdsode:Stop_orbit_number": "1442",
+    "pdsode:UTC_start_time": "2006-11-16T19:55:04.290",
+    "pdsode:UTC_stop_time": "2006-11-16T19:56:56.024",
+    "pdsode:Emission_angle": 8.10359668731689,
+    "pdsode:Phase_angle": 64.5953140258789,
+    "pdsode:Incidence_angle": 60.606273651123,
+    "pdsode:Solar_distance_text": 235109072.303756,
+    "pdsode:Solar_longitude": 136.415942,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-12.6482",
+    "pdsode:Center_longitude": "313.3364",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "313.4409",
+    "pdsode:Maximum_latitude": "-12.5918",
+    "pdsode:Minimum_latitude": "-12.6648",
+    "pdsode:Westernmost_longitude": "313.2318",
+    "pdsode:Footprint_geometry": "POLYGON ((313.4409 -12.6316, 313.3884 -12.6381, 313.3358 -12.6461, 313.2318 -12.6648, 313.2402 -12.6385, 313.2454 -12.626, 313.2449 -12.619, 313.2384 -12.6078, 313.2863 -12.6043, 313.3344 -12.5996, 313.3822 -12.597, 313.4298 -12.5918, 313.422 -12.6002, 313.4212 -12.6032, 313.4275 -12.6106, 313.4409 -12.6316))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-46.5591 -12.6316, -46.6116 -12.6381, -46.6642 -12.6461, -46.7682 -12.6648, -46.7598 -12.6385, -46.7546 -12.626, -46.7551 -12.619, -46.7616 -12.6078, -46.7137 -12.6043, -46.6656 -12.5996, -46.6178 -12.597, -46.5702 -12.5918, -46.578 -12.6002, -46.5788 -12.6032, -46.5725 -12.6106, -46.5591 -12.6316))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((313.4409 -12.6316, 313.3884 -12.6381, 313.3358 -12.6461, 313.284 -12.6555, 313.2318 -12.6648, 313.2402 -12.6385, 313.2454 -12.626, 313.2449 -12.619, 313.2384 -12.6078, 313.2863 -12.6043, 313.3344 -12.5996, 313.3822 -12.597, 313.4298 -12.5918, 313.422 -12.6002, 313.4212 -12.6032, 313.4275 -12.6106, 313.4409 -12.6316))",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Corresponding DDR Footprint",
+    "pdsode:Comment": "COORD Target - 'Capri Chasma hematite site 07'",
+    "pdsode:Description": "The Targeted Empirical Record (TER) spectral product is a spatially reconciled (VNIR and IR; S- and L- detector), full spectral range I/F targeted observation central scan image cube in the IR (L-detector) sensor space that has been corrected for geometric, photometric, atmospheric, and instrumental effects. The TER product set includes a hyperspectral image cube in units of corrected I/F (IF), spectral summary parameters (SU) derived from the corrected spectral reflectance data, residual noise remediated refined spectral summary parameters (SR), browse products (BR) derived from the refined spectral summary parameters, data processing information maps (IN), and a text table that lists wavelength information (WV) for the spectral image cube. All of the image cubes are 32-bit real, with the exception of the browse products which have been byte-scaled (8-bit).",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=FRT00003050_07_IF164J_TER3&product_idGeo=25112200",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=FRT00003050_07_IF164J_TER3&product_idGeo=25112200",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=FRT00003050_07_IF164J_TER3&product_idGeo=25112200",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_if164j_ter3.lbl"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -46.5591,
+          -12.6316
+        ],
+        [
+          -46.6116,
+          -12.6381
+        ],
+        [
+          -46.6642,
+          -12.6461
+        ],
+        [
+          -46.7682,
+          -12.6648
+        ],
+        [
+          -46.7598,
+          -12.6385
+        ],
+        [
+          -46.7546,
+          -12.626
+        ],
+        [
+          -46.7551,
+          -12.619
+        ],
+        [
+          -46.7616,
+          -12.6078
+        ],
+        [
+          -46.7137,
+          -12.6043
+        ],
+        [
+          -46.6656,
+          -12.5996
+        ],
+        [
+          -46.6178,
+          -12.597
+        ],
+        [
+          -46.5702,
+          -12.5918
+        ],
+        [
+          -46.578,
+          -12.6002
+        ],
+        [
+          -46.5788,
+          -12.6032
+        ],
+        [
+          -46.5725,
+          -12.6106
+        ],
+        [
+          -46.5591,
+          -12.6316
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CRISM Targeted Empirical Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CRISM Targeted Empirical Record"
+    }
+  ],
+  "assets": {
+    "CRISM_TER_MTRDR_REVIEW_INFO.XLS": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/crism_ter_mtrdr_review_info.xls",
+      "type": "",
+      "title": "CRISM_TER_MTRDR_REVIEW_INFO.XLS",
+      "description": "INFORMATION GENERATED BY THE RELEASE REVIEW PROCESS",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCARJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brcarj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRCARJ_TER3.HDR",
+      "description": "CARBONATES BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCARJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brcarj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRCARJ_TER3.IMG",
+      "description": "CARBONATES BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCARJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brcarj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRCARJ_TER3.LBL",
+      "description": "CARBONATES BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCARJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brcarj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRCARJ_TER3.PNG",
+      "description": "CARBONATES BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCHLJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brchlj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRCHLJ_TER3.HDR",
+      "description": "INFERRED CHLORIDE DEPOSITS BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCHLJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brchlj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRCHLJ_TER3.IMG",
+      "description": "INFERRED CHLORIDE DEPOSITS BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCHLJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brchlj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRCHLJ_TER3.LBL",
+      "description": "INFERRED CHLORIDE DEPOSITS BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCHLJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brchlj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRCHLJ_TER3.PNG",
+      "description": "INFERRED CHLORIDE DEPOSITS BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCR2J_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brcr2j_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRCR2J_TER3.HDR",
+      "description": "VERSION 2 CARBONATES BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCR2J_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brcr2j_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRCR2J_TER3.IMG",
+      "description": "VERSION 2 CARBONATES BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCR2J_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brcr2j_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRCR2J_TER3.LBL",
+      "description": "VERSION 2 CARBONATES BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRCR2J_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brcr2j_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRCR2J_TER3.PNG",
+      "description": "VERSION 2 CARBONATES BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFALJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfalj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRFALJ_TER3.HDR",
+      "description": "INFRARED FALSE COLOR BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFALJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfalj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRFALJ_TER3.IMG",
+      "description": "INFRARED FALSE COLOR BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFALJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfalj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRFALJ_TER3.LBL",
+      "description": "INFRARED FALSE COLOR BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFALJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfalj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRFALJ_TER3.PNG",
+      "description": "INFRARED FALSE COLOR BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFEMJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfemj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRFEMJ_TER3.HDR",
+      "description": "FE MINERALOGY BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFEMJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfemj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRFEMJ_TER3.IMG",
+      "description": "FE MINERALOGY BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFEMJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfemj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRFEMJ_TER3.LBL",
+      "description": "FE MINERALOGY BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFEMJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfemj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRFEMJ_TER3.PNG",
+      "description": "FE MINERALOGY BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFM2J_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfm2j_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRFM2J_TER3.HDR",
+      "description": "VERSION 2 FE MINERALOGY BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFM2J_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfm2j_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRFM2J_TER3.IMG",
+      "description": "VERSION 2 FE MINERALOGY BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFM2J_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfm2j_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRFM2J_TER3.LBL",
+      "description": "VERSION 2 FE MINERALOGY BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRFM2J_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brfm2j_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRFM2J_TER3.PNG",
+      "description": "VERSION 2 FE MINERALOGY BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRHYDJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brhydj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRHYDJ_TER3.HDR",
+      "description": "HYDRATED MINERALOGY BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRHYDJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brhydj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRHYDJ_TER3.IMG",
+      "description": "HYDRATED MINERALOGY BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRHYDJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brhydj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRHYDJ_TER3.LBL",
+      "description": "HYDRATED MINERALOGY BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRHYDJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brhydj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRHYDJ_TER3.PNG",
+      "description": "HYDRATED MINERALOGY BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRHYSJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brhysj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRHYSJ_TER3.HDR",
+      "description": "HYDRATED SILICA BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRHYSJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brhysj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRHYSJ_TER3.IMG",
+      "description": "HYDRATED SILICA BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRHYSJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brhysj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRHYSJ_TER3.LBL",
+      "description": "HYDRATED SILICA BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRHYSJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brhysj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRHYSJ_TER3.PNG",
+      "description": "HYDRATED SILICA BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRIC2J_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_bric2j_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRIC2J_TER3.HDR",
+      "description": "VERSION 2 ICES BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRIC2J_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_bric2j_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRIC2J_TER3.IMG",
+      "description": "VERSION 2 ICES BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRIC2J_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_bric2j_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRIC2J_TER3.LBL",
+      "description": "VERSION 2 ICES BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRIC2J_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_bric2j_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRIC2J_TER3.PNG",
+      "description": "VERSION 2 ICES BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRICEJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_bricej_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRICEJ_TER3.HDR",
+      "description": "ICES BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRICEJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_bricej_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRICEJ_TER3.IMG",
+      "description": "ICES BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRICEJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_bricej_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRICEJ_TER3.LBL",
+      "description": "ICES BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRICEJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_bricej_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRICEJ_TER3.PNG",
+      "description": "ICES BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRIRAJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_briraj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRIRAJ_TER3.HDR",
+      "description": "IR ALBEDO BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRIRAJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_briraj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRIRAJ_TER3.IMG",
+      "description": "IR ALBEDO BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRIRAJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_briraj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRIRAJ_TER3.LBL",
+      "description": "IR ALBEDO BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRIRAJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_briraj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRIRAJ_TER3.PNG",
+      "description": "IR ALBEDO BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRMAFJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brmafj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRMAFJ_TER3.HDR",
+      "description": "MAFIC MINERALOGY BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRMAFJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brmafj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRMAFJ_TER3.IMG",
+      "description": "MAFIC MINERALOGY BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRMAFJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brmafj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRMAFJ_TER3.LBL",
+      "description": "MAFIC MINERALOGY BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRMAFJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brmafj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRMAFJ_TER3.PNG",
+      "description": "MAFIC MINERALOGY BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPALJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brpalj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRPALJ_TER3.HDR",
+      "description": "PHYLLOSILICATE WITH AL BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPALJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brpalj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRPALJ_TER3.IMG",
+      "description": "PHYLLOSILICATE WITH AL BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPALJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brpalj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRPALJ_TER3.LBL",
+      "description": "PHYLLOSILICATE WITH AL BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPALJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brpalj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRPALJ_TER3.PNG",
+      "description": "PHYLLOSILICATE WITH AL BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPFMJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brpfmj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRPFMJ_TER3.HDR",
+      "description": "PHYLLOSILICATE WITH FE AND MG BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPFMJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brpfmj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRPFMJ_TER3.IMG",
+      "description": "PHYLLOSILICATE WITH FE AND MG BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPFMJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brpfmj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRPFMJ_TER3.LBL",
+      "description": "PHYLLOSILICATE WITH FE AND MG BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPFMJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brpfmj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRPFMJ_TER3.PNG",
+      "description": "PHYLLOSILICATE WITH FE AND MG BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPHYJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brphyj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRPHYJ_TER3.HDR",
+      "description": "PHYLLOSILICATES BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPHYJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brphyj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRPHYJ_TER3.IMG",
+      "description": "PHYLLOSILICATES BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPHYJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brphyj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRPHYJ_TER3.LBL",
+      "description": "PHYLLOSILICATES BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRPHYJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brphyj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRPHYJ_TER3.PNG",
+      "description": "PHYLLOSILICATES BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRTANJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brtanj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRTANJ_TER3.HDR",
+      "description": "TANDEM BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRTANJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brtanj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRTANJ_TER3.IMG",
+      "description": "TANDEM BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRTANJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brtanj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRTANJ_TER3.LBL",
+      "description": "TANDEM BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRTANJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brtanj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRTANJ_TER3.PNG",
+      "description": "TANDEM BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRTRUJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brtruj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRTRUJ_TER3.HDR",
+      "description": "TRUE COLOR BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRTRUJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brtruj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRTRUJ_TER3.IMG",
+      "description": "TRUE COLOR BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRTRUJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brtruj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRTRUJ_TER3.LBL",
+      "description": "TRUE COLOR BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRTRUJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brtruj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRTRUJ_TER3.PNG",
+      "description": "TRUE COLOR BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRVNAJ_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brvnaj_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_BRVNAJ_TER3.HDR",
+      "description": "VNIR ALBEDO BROWSE ENVI HEADER",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRVNAJ_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brvnaj_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_BRVNAJ_TER3.IMG",
+      "description": "VNIR ALBEDO BROWSE PDS IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRVNAJ_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brvnaj_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_BRVNAJ_TER3.LBL",
+      "description": "VNIR ALBEDO BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_BRVNAJ_TER3.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/browse/2006/2006_320/frt00003050/frt00003050_07_brvnaj_ter3.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_BRVNAJ_TER3.PNG",
+      "description": "VNIR ALBEDO BROWSE QUICKLOOK",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_IF164J_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_if164j_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_IF164J_TER3.HDR",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_IF164J_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_if164j_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_IF164J_TER3.IMG",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_IF164J_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_if164j_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_IF164J_TER3.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_IF164J_TER3_COMPOSITE.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_07_if164j_ter3_composite.png",
+      "type": "image/png",
+      "title": "FRT00003050_07_IF164J_TER3_COMPOSITE.PNG",
+      "description": "EXTRAS - RGB DISPLAY FOR TER SPECTRAL PRODUCT",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_07_IF164J_TER3_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_if164j_ter3_lbl.kml",
+      "type": "",
+      "title": "FRT00003050_07_IF164J_TER3_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "FRT00003050_07_IF164J_TER3_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_if164j_ter3_lbl.tar.gz",
+      "type": "",
+      "title": "FRT00003050_07_IF164J_TER3_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "FRT00003050_07_IF164J_TER3_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_if164j_ter3_lbl.zip",
+      "type": "",
+      "title": "FRT00003050_07_IF164J_TER3_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "FRT00003050_07_IN164J_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_in164j_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_IN164J_TER3.HDR",
+      "description": "DATA PROCESSING INFO ENVI HEADER",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_IN164J_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_in164j_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_IN164J_TER3.IMG",
+      "description": "DATA PROCESSING INFO FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_IN164J_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_in164j_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_IN164J_TER3.LBL",
+      "description": "DATA PROCESSING INFO LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_SR164J_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_sr164j_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_SR164J_TER3.HDR",
+      "description": "SPECTRAL PARAMETERS ENVI HEADER",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_SR164J_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_sr164j_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_SR164J_TER3.IMG",
+      "description": "SPECTRAL PARAMETERS FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_SR164J_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_sr164j_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_SR164J_TER3.LBL",
+      "description": "SPECTRAL PARAMETERS LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_SU164J_TER3.HDR": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_su164j_ter3.hdr",
+      "type": "",
+      "title": "FRT00003050_07_SU164J_TER3.HDR",
+      "description": "SPECTRAL SUMMARY PARAMETERS ENVI HEADER",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_SU164J_TER3.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_su164j_ter3.img",
+      "type": "",
+      "title": "FRT00003050_07_SU164J_TER3.IMG",
+      "description": "SPECTRAL SUMMARY PARAMETERS FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_SU164J_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_su164j_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_SU164J_TER3.LBL",
+      "description": "SPECTRAL SUMMARY PARAMETERS LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_WV164J_TER3.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_wv164j_ter3.lbl",
+      "type": "text/plain",
+      "title": "FRT00003050_07_WV164J_TER3.LBL",
+      "description": "WAVELENGTH INFORMATION LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_07_WV164J_TER3.TAB": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/ter/2006/2006_320/frt00003050/frt00003050_07_wv164j_ter3.tab",
+      "type": "",
+      "title": "FRT00003050_07_WV164J_TER3.TAB",
+      "description": "WAVELENGTH INFORMATION TABLE",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT00003050_L_COMPOSITE_01.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_composite_01.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_COMPOSITE_01.PNG",
+      "description": "EXTRAS -IR RGB COMPOSITE (CRISM TRR3 I/F)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_COMPOSITE_02.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_composite_02.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_COMPOSITE_02.PNG",
+      "description": "EXTRAS -IR RGB COMPOSITE (LAMBERTIAN PHOTOMETRIC CORRECTION)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_COMPOSITE_03.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_composite_03.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_COMPOSITE_03.PNG",
+      "description": "EXTRAS -IR RGB COMPOSITE (VOLCANO SCAN ATMOSPHERIC CORRECTION)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_COMPOSITE_04.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_composite_04.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_COMPOSITE_04.PNG",
+      "description": "EXTRAS -IR RGB COMPOSITE (RATIO SHIFT CORRECTION)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_COMPOSITE_05.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_composite_05.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_COMPOSITE_05.PNG",
+      "description": "EXTRAS -IR RGB COMPOSITE (EMPIRICAL GEOMETRIC NORMALIZATION)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_COMPOSITE_06.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_composite_06.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_COMPOSITE_06.PNG",
+      "description": "EXTRAS -IR RGB COMPOSITE (EMPIRICAL SMILE CORRECTION)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_ESC_DST.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_esc_dst.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_ESC_DST.PNG",
+      "description": "EXTRAS -IR DATA DISTRIBUTIONS COMPARISON BEFORE AND AFTER THE EMPIRICAL PROCESSING",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_ESC_GRD.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_esc_grd.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_ESC_GRD.PNG",
+      "description": "EXTRAS -IR SPATIAL LOCATIONS DETAILED IN THE EMPIRICAL PROCESSING I:O COMPARISON SPECTRAL PLOTS (IOS AND IOR)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_ESC_IOR.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_esc_ior.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_ESC_IOR.PNG",
+      "description": "EXTRAS -IR EGN AND ESC AGGREGATE INPUT TO OUTPUT SPECTRAL RATIOS",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_ESC_IOS.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_esc_ios.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_ESC_IOS.PNG",
+      "description": "EXTRAS -IR EGN AND ESC AGGREGATE INPUT (GRAY) AND OUTPUT (BLACK) SPECTRA",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_FIT_00.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_fit_00.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_FIT_00.PNG",
+      "description": "EXTRAS -I/F VS. COS(E) FOR IR RED (BAND 205)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_FIT_01.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_fit_01.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_FIT_01.PNG",
+      "description": "EXTRAS -I/F VS. G FOR IR RED (BAND 205)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_FIT_02.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_fit_02.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_FIT_02.PNG",
+      "description": "EXTRAS -I/F VS. COS(E) FOR IR GREEN (BAND 360)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_FIT_03.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_fit_03.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_FIT_03.PNG",
+      "description": "EXTRAS -I/F VS. G FOR IR GREEN (BAND 360)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_FIT_04.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_fit_04.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_FIT_04.PNG",
+      "description": "EXTRAS -I/F VS. COS(E) FOR IR BLUE (BAND 425)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_FIT_05.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_fit_05.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_FIT_05.PNG",
+      "description": "EXTRAS -I/F VS. G FOR IR BLUE (BAND 425)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_EGN_PRO.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_egn_pro.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_EGN_PRO.PNG",
+      "description": "EXTRAS -IR ALONG-TRACK SLICE THROUGH THE CROSS-TRACK CENTER OF THE EGN I:O RATIO CUBE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_ESC_FIT_00.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_esc_fit_00.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_ESC_FIT_00.PNG",
+      "description": "EXTRAS -NORMALIZED I/F VS. CENTER WAVELENGTH FOR IR RED (BAND 205)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_ESC_FIT_01.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_esc_fit_01.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_ESC_FIT_01.PNG",
+      "description": "EXTRAS -NORMALIZED I/F VS. CENTER WAVELENGTH FOR IR GREEN (BAND 360)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_ESC_FIT_02.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_esc_fit_02.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_ESC_FIT_02.PNG",
+      "description": "EXTRAS -NORMALIZED I/F VS. CENTER WAVELENGTH FOR IR BLUE (BAND 425)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_L_ESC_PRO.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_l_esc_pro.png",
+      "type": "image/png",
+      "title": "FRT00003050_L_ESC_PRO.PNG",
+      "description": "EXTRAS -IR CROSS-TRACK SLICE THROUGH THE ALONG-TRACK CENTER OF THE ESC I:O RATIO CUBE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_COMPOSITE_01.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_composite_01.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_COMPOSITE_01.PNG",
+      "description": "EXTRAS -VNIR RGB COMPOSITE (CRISM TRR3 I/F)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_COMPOSITE_02.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_composite_02.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_COMPOSITE_02.PNG",
+      "description": "EXTRAS -VNIR RGB COMPOSITE (LAMBERTIAN PHOTOMETRIC CORRECTION)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_COMPOSITE_05.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_composite_05.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_COMPOSITE_05.PNG",
+      "description": "EXTRAS -VNIR RGB COMPOSITE (EMPIRICAL GEOMETRIC NORMALIZATION)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_COMPOSITE_06.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_composite_06.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_COMPOSITE_06.PNG",
+      "description": "EXTRAS -VNIR RGB COMPOSITE (EMPIRICAL SMILE CORRECTION)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_ESC_DST.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_esc_dst.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_ESC_DST.PNG",
+      "description": "EXTRAS -VNIR DATA DISTRIBUTIONS COMPARISON BEFORE AND AFTER THE EMPIRICAL PROCESSING",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_ESC_GRD.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_esc_grd.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_ESC_GRD.PNG",
+      "description": "EXTRAS -VNIR SPATIAL LOCATIONS DETAILED IN THE EMPIRICAL PROCESSING I:O COMPARISON SPECTRAL PLOTS (IOS AND IOR)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_ESC_IOR.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_esc_ior.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_ESC_IOR.PNG",
+      "description": "EXTRAS -VNIR EGN AND ESC AGGREGATE INPUT TO OUTPUT SPECTRAL RATIOS",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_ESC_IOS.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_esc_ios.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_ESC_IOS.PNG",
+      "description": "EXTRAS -VNIR EGN AND ESC AGGREGATE INPUT (GRAY) AND OUTPUT (BLACK) SPECTRA",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_FIT_00.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_fit_00.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_FIT_00.PNG",
+      "description": "EXTRAS -I/F VS. COS(E) FOR VNIR BLUE (BAND 12)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_FIT_01.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_fit_01.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_FIT_01.PNG",
+      "description": "EXTRAS -I/F VS. G FOR VNIR BLUE (BAND 12)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_FIT_02.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_fit_02.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_FIT_02.PNG",
+      "description": "EXTRAS -I/F VS. COS(E) FOR VNIR GREEN (BAND 25)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_FIT_03.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_fit_03.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_FIT_03.PNG",
+      "description": "EXTRAS -I/F VS. G FOR VNIR GREEN (BAND 25)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_FIT_04.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_fit_04.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_FIT_04.PNG",
+      "description": "EXTRAS -I/F VS. COS(E) FOR VNIR RED (BAND 36)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_FIT_05.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_fit_05.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_FIT_05.PNG",
+      "description": "EXTRAS -I/F VS. G FOR VNIR RED (BAND 36)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EGN_PRO.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_egn_pro.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EGN_PRO.PNG",
+      "description": "EXTRAS -VNIR ALONG-TRACK SLICE THROUGH THE CROSS-TRACK CENTER OF THE EGN I:O RATIO CUBE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_EMI_AZI.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_emi_azi.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_EMI_AZI.PNG",
+      "description": "EXTRAS -VNIR OBSERVATION GEOMETRY POLAR PLOT (EMISSION ANGLE VS. AZIMUTH ANGLE)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_ESC_FIT_00.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_esc_fit_00.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_ESC_FIT_00.PNG",
+      "description": "EXTRAS -NORMALIZED I/F VS. CENTER WAVELENGTH FOR VNIR BLUE (BAND 12)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_ESC_FIT_01.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_esc_fit_01.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_ESC_FIT_01.PNG",
+      "description": "EXTRAS -NORMALIZED I/F VS. CENTER WAVELENGTH FOR VNIR GREEN (BAND 25)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_ESC_FIT_02.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_esc_fit_02.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_ESC_FIT_02.PNG",
+      "description": "EXTRAS -NORMALIZED I/F VS. CENTER WAVELENGTH FOR VNIR RED (BAND 36)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_ESC_PRO.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_esc_pro.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_ESC_PRO.PNG",
+      "description": "EXTRAS -VNIR CROSS-TRACK SLICE THROUGH THE ALONG-TRACK CENTER OF THE ESC I:O RATIO CUBE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_PHA_EMI.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_pha_emi.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_PHA_EMI.PNG",
+      "description": "EXTRAS -VNIR OBSERVATION GEOMETRY CARTESIAN PLOT (PHASE ANGLE VS. EMISSION ANGLE)",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "FRT00003050_S_REF_EMD.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-rdr-targeted-v1/mrocr_6001/extras/2006/2006_320/frt00003050/frt00003050_s_ref_emd.png",
+      "type": "image/png",
+      "title": "FRT00003050_S_REF_EMD.PNG",
+      "description": "EXTRAS -VNIR OBSERVATION GEOMETRY CARTESIAN PLOT (I/F FOR A REFERENCE VNIR WAVELENGTH VS. SIGNED EMISSION ANGLE)",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    -46.7682,
+    -12.6648,
+    -46.5591,
+    -12.5918
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_CRISM_TER"
+}

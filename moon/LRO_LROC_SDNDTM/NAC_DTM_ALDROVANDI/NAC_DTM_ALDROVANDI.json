@@ -1,0 +1,373 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "NAC_DTM_ALDROVANDI",
+  "properties": {
+    "datetime": "2015-09-22T13:50:18Z",
+    "created": "2020-10-10T17:23:33.000",
+    "start_datetime": "2015-09-22T13:50:18.000",
+    "end_datetime": "2015-09-22T17:45:23.000",
+    "platform": "LRO",
+    "instruments": [
+      "LROC"
+    ],
+    "gsd": 4.9999999999999,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 45.00207129975429,
+    "processing:level": "5",
+    "pdsode:ode_id": "23803670",
+    "pdsode:pdsid": "NAC_DTM_ALDROVANDI",
+    "pdsode:ihid": "LRO",
+    "pdsode:iid": "LROC",
+    "pdsode:pt": "SDNDTM",
+    "pdsode:Data_Set_Id": "LRO-L-LROC-5-RDR-V1.0",
+    "pdsode:PDSVolume_Id": "LROLRC_2001",
+    "pdsode:RelativePathtoVol": "data\\sdp\\nac_dtm\\aldrovandi\\",
+    "pdsode:LabelFileName": "nac_dtm_aldrovandi.lbl",
+    "pdsode:Product_creation_time": "2020-10-10T17:23:33.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Product_version_id": "v1.9",
+    "pdsode:Producer_id": "LRO_LROC_TEAM",
+    "pdsode:Observation_time": "2015-09-22T15:47:50.500",
+    "pdsode:SpaceCraft_clock_start_count": "N/A",
+    "pdsode:SpaceCraft_clock_stop_count": "N/A",
+    "pdsode:UTC_start_time": "2015-09-22T13:50:18.000",
+    "pdsode:UTC_stop_time": "2015-09-22T17:45:23.000",
+    "pdsode:Map_resolution": 6064.67008483,
+    "pdsode:Map_scale": 4.9999999999999,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "25.5644",
+    "pdsode:Center_longitude": "29.1062",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "29.4018",
+    "pdsode:Maximum_latitude": "26.5507",
+    "pdsode:Minimum_latitude": "24.5781",
+    "pdsode:Westernmost_longitude": "28.8107",
+    "pdsode:Footprint_geometry": "POLYGON ((28.8107 24.5781, 28.8107 25.5781, 28.8107 26.5507, 29.4018 26.5507, 29.4018 25.5507, 29.4018 24.5781, 28.8107 24.5781))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((28.8107 24.5781, 28.8107 25.5781, 28.8107 26.5507, 29.4018 26.5507, 29.4018 25.5507, 29.4018 24.5781, 28.8107 24.5781))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((28.8107 24.5781, 28.8107 25.5781, 28.8107 26.5507, 29.4018 26.5507, 29.4018 25.5507, 29.4018 24.5781, 28.8107 24.5781))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Label Map Projection Bounding Box",
+    "pdsode:Description": "\"Aldrovandi high-resolution NAC digital terrain model in GeoTIFF format. DEM is IEEE floating point GeoTIFF, 32 bits/sample, 1 samples/pixel in single image plane configuration. The NoDATA value is -3.40282266e+038. For more info, see [HENRIKSENETAL2017].\"",
+    "pdsode:External_url": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI.LBL",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=NAC_DTM_ALDROVANDI&product_idGeo=23803670",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=NAC_DTM_ALDROVANDI&product_idGeo=23803670",
+    "pdsode:LabelURL": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.8107,
+          24.5781
+        ],
+        [
+          28.8107,
+          25.5781
+        ],
+        [
+          28.8107,
+          26.5507
+        ],
+        [
+          29.4018,
+          26.5507
+        ],
+        [
+          29.4018,
+          25.5507
+        ],
+        [
+          29.4018,
+          24.5781
+        ],
+        [
+          28.8107,
+          24.5781
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - NAC Digital Terrain Map"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - NAC Digital Terrain Map"
+    }
+  ],
+  "assets": {
+    "DSMAP.CAT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/CATALOG/DSMAP.CAT",
+      "type": "",
+      "title": "DSMAP.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_ALDROVANDI.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI.TIF",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_CONF.BROWSE.PNG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_CONF.BROWSE.PNG",
+      "type": "image/png",
+      "title": "NAC_DTM_ALDROVANDI_CONF.BROWSE.PNG",
+      "description": "CONFIDENCE MAP BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_CONF.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_CONF.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_CONF.IMG",
+      "description": "CONFIDENCE MAP",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_CONF.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_CONF.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_CONF.PYR.TIF",
+      "description": "CONFIDENCE MAP BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_E256N0291.BROWSE.PNG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_E256N0291.BROWSE.PNG",
+      "type": "image/png",
+      "title": "NAC_DTM_ALDROVANDI_E256N0291.BROWSE.PNG",
+      "description": "DTM BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_E256N0291.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_E256N0291.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_E256N0291.IMG",
+      "description": "DTM IN PDS FORMAT",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_E256N0291.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_E256N0291.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_E256N0291.PYR.TIF",
+      "description": "DTM BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_dtm/aldrovandi/nac_dtm_aldrovandi_lbl.kml",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_dtm/aldrovandi/nac_dtm_aldrovandi_lbl.tar.gz",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_dtm/aldrovandi/nac_dtm_aldrovandi_lbl.zip",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_M1197569085_120CM.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_M1197569085_120CM.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_M1197569085_120CM.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_M1197569085_120CM.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_M1197569085_120CM.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_M1197569085_120CM.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_M1197569085_5M.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_M1197569085_5M.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_M1197569085_5M.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_M1197569085_5M.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_M1197569085_5M.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_M1197569085_5M.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_M1197583152_120CM.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_M1197583152_120CM.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_M1197583152_120CM.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_M1197583152_120CM.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_M1197583152_120CM.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_M1197583152_120CM.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_M1197583152_5M.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_M1197583152_5M.IMG",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_M1197583152_5M.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_M1197583152_5M.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_M1197583152_5M.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_M1197583152_5M.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_README.TXT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_README.TXT",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_README.TXT",
+      "description": "DEM DESCRIPTION",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_SHADE.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_SHADE.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_ALDROVANDI_SHADE.LBL",
+      "description": "SHADED RELIEF LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_SHADE.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_SHADE.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_SHADE.TIF",
+      "description": "SHADED RELIEF",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_SLOPE.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_SLOPE.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_ALDROVANDI_SLOPE.LBL",
+      "description": "SLOPE MAP LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_SLOPE.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_SLOPE.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_SLOPE.TIF",
+      "description": "SLOPE MAP",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_SLOPE_LEGEND.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_SLOPE_LEGEND.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_ALDROVANDI_SLOPE_LEGEND.LBL",
+      "description": "SLOPE MAP LEGEND LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_ALDROVANDI_SLOPE_LEGEND.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/ALDROVANDI/NAC_DTM_ALDROVANDI_SLOPE_LEGEND.TIF",
+      "type": "",
+      "title": "NAC_DTM_ALDROVANDI_SLOPE_LEGEND.TIF",
+      "description": "SLOPE MAP LEGEND",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    28.8107,
+    24.5781,
+    29.4018,
+    26.5507
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "LRO_LROC_SDNDTM"
+}

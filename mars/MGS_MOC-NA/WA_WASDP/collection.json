@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MGS_MOC-NA/WA_WASDP",
+  "stac_version": "1.0.0",
+  "description": "Collection of MGS/MOC-NA/WA/WASDP (Wide Angle Standard Data Product)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00435/FHA/00435.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00436/FHA/00436.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00438/FHA/00438.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00440/FHA/00440.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00441/FHA/00441.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00442/FHA/00442.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00444/FHA/00444.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00446/FHA/00446.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00448/FHA/00448.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FHA/00449/FHA/00449.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MGS/MOC-NA/WA Wide Angle Standard Data Product",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -60.49,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1999-03-09T02:51:38.680000Z",
+          "1999-03-09T07:44:53.040000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

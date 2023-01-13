@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "LRO_LROC_BDRWGL",
+  "stac_version": "1.0.0",
+  "description": "Collection of LRO/LROC/BDRWGL (Binned Data Record Wide Angle Camera Global)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E000N0000_004P/WAC_GLOBAL_E000N0000_004P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E000N0000_008P/WAC_GLOBAL_E000N0000_008P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E000N0000_064P/WAC_GLOBAL_E000N0000_064P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E000N1800_004P/WAC_GLOBAL_E000N1800_004P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E000N1800_008P/WAC_GLOBAL_E000N1800_008P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E000N1800_016P/WAC_GLOBAL_E000N1800_016P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E000N1800_032P/WAC_GLOBAL_E000N1800_032P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E000N1800_064P/WAC_GLOBAL_E000N1800_064P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E300N0450_256P/WAC_GLOBAL_E300N0450_256P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./WAC_GLOBAL_E300N1350_256P/WAC_GLOBAL_E300N1350_256P.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "LRO/LROC Binned Data Record Wide Angle Camera Global",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-11-07T03:02:36Z",
+          "2011-01-31T18:06:02Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

@@ -1,0 +1,216 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "I56800002POL",
+  "properties": {
+    "datetime": "2014-10-03T15:28:18.339000Z",
+    "created": "2015-06-25T14:09:30.000",
+    "start_datetime": "2014-10-03T15:28:18.339",
+    "end_datetime": "2014-10-03T15:32:17.804",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": 100.0,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 207.488,
+    "ssys:incidence_angle": 74.695,
+    "ssys:emission_angle": 1.634,
+    "ssys:phase_angle": 74.795,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:automn",
+        "title": "Automn",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "24618962",
+    "pdsode:pdsid": "I56800002POL",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "IRGEO2",
+    "pdsode:Data_Set_Id": "ODY-M-THM-5-IRGEO-V2.0",
+    "pdsode:PDSVolume_Id": "ODTGEO_2XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtig2_0052\\i568xxgeo\\",
+    "pdsode:LabelFileName": "i56800002pol.lbl",
+    "pdsode:Product_creation_time": "2015-06-25T14:09:30",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "2.1",
+    "pdsode:Observation_time": "2014-10-03T15:30:18.071",
+    "pdsode:SpaceCraft_clock_start_count": "1096817847.076",
+    "pdsode:SpaceCraft_clock_stop_count": "1096818086.195",
+    "pdsode:UTC_start_time": "2014-10-03T15:28:18.339",
+    "pdsode:UTC_stop_time": "2014-10-03T15:32:17.804",
+    "pdsode:Emission_angle": 1.634,
+    "pdsode:Phase_angle": 74.795,
+    "pdsode:Incidence_angle": 74.695,
+    "pdsode:Map_resolution": 589.258062,
+    "pdsode:Map_scale": 100.0,
+    "pdsode:Solar_longitude": 207.488,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-74.237",
+    "pdsode:Center_longitude": "249.733",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "259.234",
+    "pdsode:Maximum_latitude": "-68.14",
+    "pdsode:Minimum_latitude": "-80.256",
+    "pdsode:Westernmost_longitude": "245.074",
+    "pdsode:Footprint_geometry": "POLYGON ((246.434 -68.14, 259.234 -80.085, 256.415 -80.256, 245.074 -68.218, 246.434 -68.14))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-113.566 -68.14, -100.766 -80.085, -103.585 -80.256, -114.926 -68.218, -113.566 -68.14))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((246.434 -68.14, 259.234 -80.085, 256.415 -80.256, 245.074 -68.218, 246.434 -68.14))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "POLYGON ((-1178195.2766421631 -547550.02298077161, -1159417.8553989164 -534950.48680158565, -1108801.9627899826 -501018.42108471494, -1058326.0907499806 -467218.77985198458, -1007982.0947108608 -433544.77060006704, -957759.03055409912 -399989.31891574484, -907653.36532760982 -366549.9268700243, -857653.221663984 -333216.39459194662, -807750.22073093313 -299985.65190826368, -757940.43955927191 -266853.48805296392, -708214.82881148777 -233813.8365112459, -658566.11470738088 -200861.33469268453, -608982.31869740412 -167988.70228141703, -559458.73372567538 -135192.28355854892, -575402.79135959258 -109410.11674769886, -594157.64005892538 -121778.26024835229, -643770.02626625309 -154524.61222449626, -693441.06402058667 -187354.07320498585, -743180.99382400664 -220270.04908323559, -792999.82873373164 -253279.84426355342, -842902.1934705202 -286385.98798780073, -892897.81594191748 -319596.45813905844, -942990.79760172789 -352915.01908952853, -993193.07906188816 -386349.40975198214, -1043510.7050875012 -419903.3265803791, -1093950.3542067534 -453580.99071645463, -1144519.2672336015 -487390.46412452881, -1195228.5521820148 -521338.09208933136, -1178195.2766421631 -547550.02298077161))",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "No Description Given",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/I56800002",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=I56800002POL&product_idGeo=24618962",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=I56800002POL&product_idGeo=24618962",
+    "pdsode:LabelURL": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtig2_0052/i568xxgeo/I56800002POL.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -113.566,
+          -68.14
+        ],
+        [
+          -100.766,
+          -80.085
+        ],
+        [
+          -103.585,
+          -80.256
+        ],
+        [
+          -114.926,
+          -68.218
+        ],
+        [
+          -113.566,
+          -68.14
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Geometric Projection V2"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Infrared Geometric Projection V2"
+    }
+  ],
+  "assets": {
+    "DSMAP_POL.CAT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/catalog/dsmap_pol.cat",
+      "type": "",
+      "title": "DSMAP_POL.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "I56800002POL.CUB.GZ": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtig2_0052/i568xxgeo/I56800002POL.CUB.gz",
+      "type": "",
+      "title": "I56800002POL.CUB.GZ",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "I56800002POL.LBL": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtig2_0052/i568xxgeo/I56800002POL.LBL",
+      "type": "text/plain",
+      "title": "I56800002POL.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "I56800002POL.PNG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/browse/odtbws2_0052/i568xxbws2/I56800002POL.png",
+      "type": "image/png",
+      "title": "I56800002POL.PNG",
+      "description": "BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "I56800002POL_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-5-irgeo-v2/odtgeo_v2/data/odtig2_0052/i568xxgeo/i56800002pol_lbl.kml",
+      "type": "",
+      "title": "I56800002POL_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I56800002POL_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irgeo-v2/odtgeo_v2/data/odtig2_0052/i568xxgeo/i56800002pol_lbl.tar.gz",
+      "type": "",
+      "title": "I56800002POL_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "I56800002POL_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-irgeo-v2/odtgeo_v2/data/odtig2_0052/i568xxgeo/i56800002pol_lbl.zip",
+      "type": "",
+      "title": "I56800002POL_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "ODY_ORIENT_POINT.TXT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/document/ody_orient_point.txt",
+      "type": "",
+      "title": "ODY_ORIENT_POINT.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "ZIPINFO.TXT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/document/zipinfo.txt",
+      "type": "",
+      "title": "ZIPINFO.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    -114.926,
+    -80.256,
+    -100.766,
+    -68.14
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_IRGEO2"
+}

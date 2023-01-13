@@ -1,0 +1,230 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "H0010_0009_ND4.IMG",
+  "properties": {
+    "datetime": "2004-01-10T14:02:37.354000Z",
+    "created": "2008-06-10T10:54:41.000",
+    "start_datetime": "2004-01-10T14:02:37.354",
+    "end_datetime": "2004-01-10T14:05:52.359",
+    "platform": "MEX",
+    "instruments": [
+      "HRSC"
+    ],
+    "gsd": 12.5,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 331.18896202624205,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:winter",
+        "title": "Winter",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "18466752",
+    "pdsode:pdsid": "H0010_0009_ND4.IMG",
+    "pdsode:ihid": "MEX",
+    "pdsode:iid": "HRSC",
+    "pdsode:pt": "DTMRDR",
+    "pdsode:Data_Set_Id": "MEX-M-HRSC-5-REFDR-DTM-V1.0",
+    "pdsode:PDSVolume_Id": "MEXHRS_2001",
+    "pdsode:RelativePathtoVol": "data\\0010\\",
+    "pdsode:LabelFileName": "h0010_0009_nd4.img",
+    "pdsode:Product_creation_time": "2008-06-10T10:54:41.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Observation_time": "2004-01-10T14:04:14.856",
+    "pdsode:SpaceCraft_clock_start_count": "1/0021823325.32303",
+    "pdsode:SpaceCraft_clock_stop_count": "1/0021823574.56834",
+    "pdsode:Stop_orbit_number": "10",
+    "pdsode:UTC_start_time": "2004-01-10T14:02:37.354",
+    "pdsode:UTC_stop_time": "2004-01-10T14:05:52.359",
+    "pdsode:Map_resolution": 4741.71043093333,
+    "pdsode:Map_scale": 12.5,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-2.6492",
+    "pdsode:Center_longitude": "90.4875",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "90.9529",
+    "pdsode:Maximum_latitude": "-0.94",
+    "pdsode:Minimum_latitude": "-4.3579",
+    "pdsode:Westernmost_longitude": "90.0205",
+    "pdsode:Footprint_geometry": "POLYGON ((90.0235 -4.3579, 90.0219 -4.3571, 90.0205 -0.94, 90.9503 -0.9404, 90.9529 -4.3558, 90.0235 -4.3579))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((90.0235 -4.3579, 90.0219 -4.3571, 90.0205 -0.94, 90.9503 -0.9404, 90.9529 -4.3558, 90.0235 -4.3579))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((90.0235 -4.3579, 90.0219 -4.3571, 90.0205 -0.94, 90.9503 -0.9404, 90.9503 -0.9405, 90.9503 -0.9406, 90.9503 -0.9407, 90.9503 -0.9408, 90.9503 -0.9409, 90.9503 -0.941, 90.9503 -0.9411, 90.9503 -0.9412, 90.9503 -0.9413, 90.9503 -0.9414, 90.9503 -0.9415, 90.9503 -0.9416, 90.9503 -0.9417, 90.9503 -0.9418, 90.9529 -4.3558, 90.0235 -4.3579))",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Footprint from FOOTPRINT keyword set in PDS Label",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=H0010_0009_ND4.IMG&product_idGeo=18466752",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=H0010_0009_ND4.IMG&product_idGeo=18466752",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=H0010_0009_ND4.IMG&product_idGeo=18466752",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/data/0010/h0010_0009_nd4.img"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          90.0235,
+          -4.3579
+        ],
+        [
+          90.0219,
+          -4.3571
+        ],
+        [
+          90.0205,
+          -0.94
+        ],
+        [
+          90.9503,
+          -0.9404
+        ],
+        [
+          90.9529,
+          -4.3558
+        ],
+        [
+          90.0235,
+          -4.3579
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/HRSC Digital Terrain Map Reduced Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/HRSC Digital Terrain Map Reduced Data Record"
+    }
+  ],
+  "assets": {
+    "DSMAP.CAT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/catalog/dsmap.cat",
+      "type": "",
+      "title": "DSMAP.CAT",
+      "description": "CATALOG FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "H0010_0009.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/extras/h0xxx/h0010_0009.png",
+      "type": "image/png",
+      "title": "H0010_0009.PNG",
+      "description": "PRODUCT BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "H0010_0009_ND4.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/data/0010/h0010_0009_nd4.img",
+      "type": "",
+      "title": "H0010_0009_ND4.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "H0010_0009_ND4.JPG": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/browse/0010/h0010_0009_nd4.jpg",
+      "type": "image/jpeg",
+      "title": "H0010_0009_ND4.JPG",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "H0010_0009_ND4.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/browse/0010/h0010_0009_nd4.lbl",
+      "type": "text/plain",
+      "title": "H0010_0009_ND4.LBL",
+      "description": "BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "H0010_0009_ND4_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/data/0010/h0010_0009_nd4_img.kml",
+      "type": "",
+      "title": "H0010_0009_ND4_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "H0010_0009_ND4_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/data/0010/h0010_0009_nd4_img.tar.gz",
+      "type": "",
+      "title": "H0010_0009_ND4_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "H0010_0009_ND4_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/data/0010/h0010_0009_nd4_img.zip",
+      "type": "",
+      "title": "H0010_0009_ND4_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "MEX_ORIENTATION_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/document/mex_orientation_desc.txt",
+      "type": "",
+      "title": "MEX_ORIENTATION_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "MEX_POINTING_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/document/mex_pointing_desc.txt",
+      "type": "",
+      "title": "MEX_POINTING_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "VICAR2.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-hrsc-5-refdr-dtm-v1/mexhrs_2001/document/vicar2.txt",
+      "type": "",
+      "title": "VICAR2.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    90.0205,
+    -4.3579,
+    90.9529,
+    -0.94
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MEX_HRSC_DTMRDR"
+}

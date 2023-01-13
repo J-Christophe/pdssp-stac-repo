@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "ODY_THEMIS_VISABR",
+  "stac_version": "1.0.0",
+  "description": "Collection of ODY/THEMIS/VISABR (Visible Apparent Brightness Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./V11300001ABR/V11300001ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V11301001ABR/V11301001ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V11302001ABR/V11302001ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V22300001ABR/V22300001ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V11303001ABR/V11303001ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V33420001ABR/V33420001ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V22300002ABR/V22300002ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V11304001ABR/V11304001ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V44500003ABR/V44500003ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./V33421003ABR/V33421003ABR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "ODY/THEMIS Visible Apparent Brightness Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -41.721,
+          165.491,
+          80.925
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2004-07-01T19:56:09.297000Z",
+          "2011-12-26T09:56:06.562000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

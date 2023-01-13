@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MRO_SHARAD_USGEOMV2",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/SHARAD/USGEOMV2 (Geographic, Geometric, and Ionospheric Properties V2)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./S_05500001_GEOM/S_05500001_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05500401_GEOM/S_05500401_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05500901_GEOM/S_05500901_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05500902_GEOM/S_05500902_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05501101_GEOM/S_05501101_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05501201_GEOM/S_05501201_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05501301_GEOM/S_05501301_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05501501_GEOM/S_05501501_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05502201_GEOM/S_05502201_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./S_05502301_GEOM/S_05502301_GEOM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MRO/SHARAD Geographic, Geometric, and Ionospheric Properties V2",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -162.1707,
+          -66.9775,
+          150.1799,
+          87.3969
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-04-21T03:20:03.488000Z",
+          "2018-04-22T22:45:06.752000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

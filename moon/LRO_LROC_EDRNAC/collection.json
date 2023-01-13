@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "LRO_LROC_EDRNAC",
+  "stac_version": "1.0.0",
+  "description": "Collection of LRO/LROC/EDRNAC (Experiment Data Record Narrow Angle Camera)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./M141679105RE/M141679105RE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M141679118LE/M141679118LE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M141679118RE/M141679118RE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M141680634LE/M141680634LE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M141680634RE/M141680634RE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M141680731LE/M141680731LE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M141680731RE/M141680731RE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M141680855LE/M141680855LE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M141680855RE/M141680855RE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M141680979LE/M141680979LE.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "LRO/LROC Experiment Data Record Narrow Angle Camera",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -90.71,
+          9.95,
+          86.37,
+          87.51
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-10-14T07:03:58.160000Z",
+          "2010-10-14T07:35:30.082000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

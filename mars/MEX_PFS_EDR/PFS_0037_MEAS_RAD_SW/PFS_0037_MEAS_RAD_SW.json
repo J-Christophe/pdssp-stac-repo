@@ -1,0 +1,181 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "PFS_0037_MEAS_RAD_SW",
+  "properties": {
+    "datetime": "2005-12-31T17:26:10.489000Z",
+    "created": "2010-07-28T16:42:22.892",
+    "start_datetime": "2005-12-31T17:26:10.489",
+    "end_datetime": "2005-12-31T20:45:10.309",
+    "platform": "MEX",
+    "instruments": [
+      "PFS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 349.3562316687963,
+    "processing:level": "2",
+    "_keywords": [
+      {
+        "id": "season:winter",
+        "title": "Winter",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "24392919",
+    "pdsode:pdsid": "PFS_0037_MEAS_RAD_SW",
+    "pdsode:ihid": "MEX",
+    "pdsode:iid": "PFS",
+    "pdsode:pt": "EDR",
+    "pdsode:Data_Set_Id": "MEX-M-PFS-2-EDR-NOMINAL-V1.0",
+    "pdsode:PDSVolume_Id": "MEXPFS_1001",
+    "pdsode:RelativePathtoVol": "data\\calib_samples\\swc\\laser_on\\",
+    "pdsode:LabelFileName": "pfs_0037_meas_rad_sw.lbl",
+    "pdsode:Product_creation_time": "2010-07-28T16:42:22.892",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Producer_id": "PFS_TEAM",
+    "pdsode:Observation_time": "2005-12-31T19:05:40.399",
+    "pdsode:SpaceCraft_clock_start_count": "84137170.48973",
+    "pdsode:SpaceCraft_clock_stop_count": "84149110.30982",
+    "pdsode:Stop_orbit_number": "37",
+    "pdsode:UTC_start_time": "2005-12-31T17:26:10.489",
+    "pdsode:UTC_stop_time": "2005-12-31T20:45:10.309",
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-8.4094",
+    "pdsode:Center_longitude": "228.48",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "229.5139",
+    "pdsode:Maximum_latitude": "52.3977",
+    "pdsode:Minimum_latitude": "-69.2093",
+    "pdsode:Westernmost_longitude": "226.7026",
+    "pdsode:Footprint_geometry": "POLYGON ((226.7026 -69.2036, 226.7026 52.3894, 229.5139 52.3894, 229.5139 -69.2036, 226.7026 -69.2036))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-133.2974 -69.2036, -133.2974 52.3894, -130.4861 52.3894, -130.4861 -69.2036, -133.2974 -69.2036))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((226.7026 -69.2036, 226.7026 52.3894, 229.5139 52.3894, 229.5139 -69.2036, 226.7026 -69.2036))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "POLYGON ((-1316826.2521575158 -1240801.4696236968, -1307471.9408349209 -1231987.2139666292, -1261654.2694578439 -1188814.7499562444, -1216041.4832786568 -1145835.3424362116, -1170625.3100475755 -1103041.1967413863, -1125397.6081490591 -1060424.6412989153, -1080350.36041219 -1017978.1217959649, -1035475.6681012785 -975694.19551726722, -990765.74507672293 -933565.52584309387, -946212.9121165364 -891584.87689861993, -901809.591389389 -849745.10834605573, -942401.4894538048 -804491.59160005965, -951836.64760088222 -812546.02007845684, -998269.80691992375 -852184.20684028475, -1044860.8122353574 -891957.14060568437, -1091617.6035803009 -931871.59947289876, -1138548.2281058414 -971934.45298262651, -1185660.8458882496 -1012152.6670754137, -1232963.735896443 -1052533.3091858479, -1280465.3021293569 -1093083.5534817912, -1328174.079933315 -1133810.686257276, -1376098.6373263411 -1174722.021695182, -1375813.7135333661 -1175055.9195246154, -1374787.7600579849 -1176256.0959038893, -1373760.759621918 -1177455.3765129792, -1372732.7130072732 -1178653.7604385787, -1371703.6209969511 -1179851.2467680674, -1370673.4843746519 -1181047.8345895063, -1369642.3039248686 -1182243.5229916417, -1368610.0804328898 -1183438.3110639059, -1367576.8146847978 -1184632.1978964158, -1366542.5074674708 -1185825.1825799739, -1365507.1595685778 -1187017.2642060709, -1364470.7717765828 -1188208.4418668838, -1363433.3448807383 -1189398.71465528, -1362394.8796710907 -1190588.0816648153, -1361355.3769384762 -1191776.5419897346, -1360314.8374745224 -1192964.0947249732, -1359273.2620716447 -1194150.7389661577, -1358230.6515230471 -1195336.4738096087, -1357187.0066227245 -1196521.298352336, -1356142.3281654564 -1197705.211692045, -1355096.6169468123 -1198888.2129271331, -1354049.8737631468 -1200070.3011566936, -1353002.0994115989 -1201251.475480516, -1351953.2946900949 -1202431.7349990844, -1350903.4603973459 -1203611.0788135789, -1349852.5973328454 -1204789.5060258792, -1348800.7062968726 -1205967.0157385601, -1347747.7880904879 -1207143.6070548971, -1346693.8435155337 -1208319.2790788659, -1345638.8733746342 -1209494.0309151409, -1344582.8784711966 -1210667.8616690964, -1343525.8596094053 -1211840.7704468104, -1342467.8175942288 -1213012.7563550596, -1341408.7532314088 -1214183.818501329, -1340348.6673274708 -1215353.9559938018, -1339287.5606897157 -1216523.1679413682, -1338225.4341262225 -1217691.4534536216, -1337162.288445848 -1218858.8116408617, -1336098.1244582222 -1220025.2416140956, -1335032.9429737518 -1221190.7424850361, -1333966.7448036207 -1222355.3133661023, -1332899.5307597839 -1223518.9533704242, -1331831.3016549728 -1224681.6616118376, -1330762.0583026891 -1225843.4372048909, -1329691.8015172081 -1227004.2792648415, -1328620.5321135763 -1228164.1869076577, -1327548.2509076137 -1229323.1592500184, -1326474.9587159085 -1230481.1954093161, -1325400.656355818 -1231638.2945036571, -1324325.344645472 -1232794.4556518586, -1323249.024403766 -1233949.6779734544, -1322171.696450365 -1235103.9605886925, -1321093.3616057022 -1236257.3026185352, -1320014.0206909745 -1237409.703184664, -1318933.6745281478 -1238561.1614094754, -1317852.3239399532 -1239711.676416083, -1316826.2521575158 -1240801.4696236968))",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Footprint from PDS Label",
+    "pdsode:Description": "CAL_DATA",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=PFS_0037_MEAS_RAD_SW&product_idGeo=24392919",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=PFS_0037_MEAS_RAD_SW&product_idGeo=24392919",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=PFS_0037_MEAS_RAD_SW&product_idGeo=24392919",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mex/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/data/calib_samples/swc/laser_on/pfs_0037_meas_rad_sw.lbl"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -133.2974,
+          -69.2036
+        ],
+        [
+          -133.2974,
+          52.3894
+        ],
+        [
+          -130.4861,
+          52.3894
+        ],
+        [
+          -130.4861,
+          -69.2036
+        ],
+        [
+          -133.2974,
+          -69.2036
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/PFS Experiment Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/PFS Experiment Data Record"
+    }
+  ],
+  "assets": {
+    "MEX_ORIENTATION_DESC.TXT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/document/mex_orientation_desc.txt",
+      "type": "",
+      "title": "MEX_ORIENTATION_DESC.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "PFS_0037_MEAS_RAD_SW.DAT": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/data/calib_samples/swc/laser_on/pfs_0037_meas_rad_sw.dat",
+      "type": "",
+      "title": "PFS_0037_MEAS_RAD_SW.DAT",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "PFS_0037_MEAS_RAD_SW.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/data/calib_samples/swc/laser_on/pfs_0037_meas_rad_sw.lbl",
+      "type": "text/plain",
+      "title": "PFS_0037_MEAS_RAD_SW.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "PFS_0037_MEAS_RAD_SW_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/data/calib_samples/swc/laser_on/pfs_0037_meas_rad_sw_lbl.kml",
+      "type": "",
+      "title": "PFS_0037_MEAS_RAD_SW_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "PFS_0037_MEAS_RAD_SW_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/data/calib_samples/swc/laser_on/pfs_0037_meas_rad_sw_lbl.tar.gz",
+      "type": "",
+      "title": "PFS_0037_MEAS_RAD_SW_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "PFS_0037_MEAS_RAD_SW_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mex-m-pfs-2-edr-nominal-v1/mexpfs_1001/data/calib_samples/swc/laser_on/pfs_0037_meas_rad_sw_lbl.zip",
+      "type": "",
+      "title": "PFS_0037_MEAS_RAD_SW_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    -133.2974,
+    -69.2036,
+    -130.4861,
+    52.3894
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MEX_PFS_EDR"
+}

@@ -1,0 +1,162 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "LHD0031A.032",
+  "properties": {
+    "datetime": "1994-02-26T21:07:37.170000Z",
+    "created": "1994-10-11T19:15:08.000",
+    "start_datetime": "1994-02-26T21:07:37.170",
+    "end_datetime": "1994-02-26T21:07:37.170",
+    "platform": "CLEM",
+    "instruments": [
+      "HIRES"
+    ],
+    "gsd": 14.0,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 227.8034460493408,
+    "ssys:solar_distance": 148498376.0,
+    "ssys:incidence_angle": 91.74,
+    "ssys:emission_angle": 1.84,
+    "ssys:phase_angle": 93.39,
+    "processing:level": "2",
+    "pdsode:ode_id": "9511595",
+    "pdsode:pdsid": "LHD0031A.032",
+    "pdsode:ihid": "CLEM",
+    "pdsode:iid": "HIRES",
+    "pdsode:pt": "EDR",
+    "pdsode:Data_Set_Id": "CLEM1-L/E/Y-A/B/U/H/L/N-2-EDR-V1.0",
+    "pdsode:PDSVolume_Id": "CL_0001",
+    "pdsode:RelativePathtoVol": "lun032\\lhxxxxxx\\lhxxxxxa\\",
+    "pdsode:LabelFileName": "lhd0031a.032",
+    "pdsode:Product_creation_time": "1994-10-11T19:15:08.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Observation_time": "1994-02-26T21:07:37.170",
+    "pdsode:SpaceCraft_clock_start_count": "N/A",
+    "pdsode:SpaceCraft_clock_stop_count": "N/A",
+    "pdsode:UTC_start_time": "1994-02-26T21:07:37.170",
+    "pdsode:UTC_stop_time": "1994-02-26T21:07:37.170",
+    "pdsode:Emission_angle": 1.84,
+    "pdsode:Phase_angle": 93.39,
+    "pdsode:Incidence_angle": 91.74,
+    "pdsode:Map_scale": 14.0,
+    "pdsode:Solar_distance": 148498376.0,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-89.74",
+    "pdsode:Center_longitude": "202.87",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "226.55",
+    "pdsode:Maximum_latitude": "-89.63",
+    "pdsode:Minimum_latitude": "-89.8304",
+    "pdsode:Westernmost_longitude": "186.42",
+    "pdsode:Footprint_geometry": "POLYGON ((186.42 -89.83, 189.08 -89.65, 210.39 -89.63, 226.55 -89.79, 186.42 -89.83))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-173.58 -89.83, -170.92 -89.65, -149.61 -89.63, -133.45 -89.79, -173.58 -89.83))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((186.42 -89.83, 189.08 -89.65, 210.39 -89.63, 226.55 -89.79, 186.42 -89.83))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "POLYGON ((-1674.9059115647819 -10480.2110852921, -576.40755126157569 -5122.6462511340706, -4622.9426933229934 -4379.3478696609636, -5675.8471545316361 -9678.1169670452928, -1674.9059115647819 -10480.2110852921))",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Footprint from Reticle Points in PDS Label",
+    "pdsode:External_url": "ftp://pdsimage2.wr.usgs.gov/cdroms/Clementine/cl_0001/lun032/lhxxxxxx/lhxxxxxa/lhd0031a.032",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=LHD0031A.032&product_idGeo=9511595",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=LHD0031A.032&product_idGeo=9511595",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/geocopy/imaging/clem1-ley-abuhln-2-edr-v1.0/cl_0001/lun032/lhxxxxxx/lhxxxxxa/lhd0031a.032"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -173.58,
+          -89.83
+        ],
+        [
+          -170.92,
+          -89.65
+        ],
+        [
+          -149.61,
+          -89.63
+        ],
+        [
+          -133.45,
+          -89.79
+        ],
+        [
+          -173.58,
+          -89.83
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "CLEM/HIRES Experiment Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "CLEM/HIRES Experiment Data Record"
+    }
+  ],
+  "assets": {
+    "LHD0031A.032": {
+      "href": "https://pds-geosciences.wustl.edu/geocopy/imaging/clem1-ley-abuhln-2-edr-v1.0/cl_0001/lun032/lhxxxxxx/lhxxxxxa/lhd0031a.032",
+      "type": "",
+      "title": "LHD0031A.032",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "LHD0031A_032.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/clem1-l_e_y-a_b_u_h_l_n-2-edr-v1/cl_0001/lun032/lhxxxxxx/lhxxxxxa/lhd0031a_032.kml",
+      "type": "",
+      "title": "LHD0031A_032.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "LHD0031A_032.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/clem1-l_e_y-a_b_u_h_l_n-2-edr-v1/cl_0001/lun032/lhxxxxxx/lhxxxxxa/lhd0031a_032.tar.gz",
+      "type": "",
+      "title": "LHD0031A_032.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "LHD0031A_032.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/clem1-l_e_y-a_b_u_h_l_n-2-edr-v1/cl_0001/lun032/lhxxxxxx/lhxxxxxa/lhd0031a_032.zip",
+      "type": "",
+      "title": "LHD0031A_032.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    -173.58,
+    -89.83,
+    -133.45,
+    -89.63
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "CLEM_HIRES_EDR"
+}

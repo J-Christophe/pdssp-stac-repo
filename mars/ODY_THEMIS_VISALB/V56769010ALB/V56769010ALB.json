@@ -1,0 +1,183 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "V56769010ALB",
+  "properties": {
+    "datetime": "2014-10-01T02:30:44.994000Z",
+    "created": "2014-10-10T22:33:28.000",
+    "start_datetime": "2014-10-01T02:30:44.994",
+    "end_datetime": "2014-10-01T02:31:50.599",
+    "platform": "ODY",
+    "instruments": [
+      "THEMIS"
+    ],
+    "gsd": 72.0,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 205.952,
+    "ssys:incidence_angle": 80.086,
+    "ssys:emission_angle": 0.771,
+    "ssys:phase_angle": 80.058,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:automn",
+        "title": "Automn",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "24328736",
+    "pdsode:pdsid": "V56769010ALB",
+    "pdsode:ihid": "ODY",
+    "pdsode:iid": "THEMIS",
+    "pdsode:pt": "VISALB",
+    "pdsode:Data_Set_Id": "ODY-M-THM-5-VISALB-V2.0",
+    "pdsode:PDSVolume_Id": "ODTGEO_2XXXX",
+    "pdsode:RelativePathtoVol": "data\\odtva2_0051\\v567xxalb\\",
+    "pdsode:LabelFileName": "v56769010alb.img",
+    "pdsode:Product_creation_time": "2014-10-10T22:33:28.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "2.0",
+    "pdsode:Producer_id": "ODY_THM_TEAM",
+    "pdsode:Observation_time": "2014-10-01T02:31:17.796",
+    "pdsode:SpaceCraft_clock_start_count": "1096598393.179",
+    "pdsode:SpaceCraft_clock_stop_count": "1096598459.078",
+    "pdsode:Stop_orbit_number": "56769",
+    "pdsode:UTC_start_time": "2014-10-01T02:30:44.994",
+    "pdsode:UTC_stop_time": "2014-10-01T02:31:50.599",
+    "pdsode:Emission_angle": 0.771,
+    "pdsode:Phase_angle": 80.058,
+    "pdsode:Incidence_angle": 80.086,
+    "pdsode:Map_resolution": 822.688,
+    "pdsode:Map_scale": 72.0,
+    "pdsode:Solar_distance_text": 1.417,
+    "pdsode:Solar_longitude": 205.952,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-24.443",
+    "pdsode:Center_longitude": "49.667",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "50.073",
+    "pdsode:Maximum_latitude": "-22.799",
+    "pdsode:Minimum_latitude": "-26.068",
+    "pdsode:Westernmost_longitude": "49.271",
+    "pdsode:Footprint_geometry": "POLYGON ((49.594 -22.799, 50.073 -26.03, 49.74 -26.068, 49.271 -22.819, 49.594 -22.799))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((49.594 -22.799, 50.073 -26.03, 49.74 -26.068, 49.271 -22.819, 49.594 -22.799))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((49.594 -22.799, 50.073 -26.03, 49.74 -26.068, 49.271 -22.819, 49.594 -22.799))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Description": "No Description Given",
+    "pdsode:External_url": "https://viewer.mars.asu.edu/planetview/inst/themis/V56769010",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=V56769010ALB&product_idGeo=24328736",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=V56769010ALB&product_idGeo=24328736",
+    "pdsode:LabelURL": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtva2_0051/v567xxalb/V56769010ALB.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          49.594,
+          -22.799
+        ],
+        [
+          50.073,
+          -26.03
+        ],
+        [
+          49.74,
+          -26.068
+        ],
+        [
+          49.271,
+          -22.819
+        ],
+        [
+          49.594,
+          -22.799
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Projected Visible Albedo Product"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ODY/THEMIS Projected Visible Albedo Product"
+    }
+  ],
+  "assets": {
+    "ODY_ORIENT_POINT.TXT": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/document/ody_orient_point.txt",
+      "type": "",
+      "title": "ODY_ORIENT_POINT.TXT",
+      "description": "DESCRIPTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "V56769010ALB.IMG": {
+      "href": "https://static.mars.asu.edu/pds/ODTGEO_v2/data/odtva2_0051/v567xxalb/V56769010ALB.IMG",
+      "type": "",
+      "title": "V56769010ALB.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "V56769010ALB_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/ody-m-thm-5-visalb-v2/odtgeo_v2/data/odtva2_0051/v567xxalb/v56769010alb_img.kml",
+      "type": "",
+      "title": "V56769010ALB_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "V56769010ALB_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-visalb-v2/odtgeo_v2/data/odtva2_0051/v567xxalb/v56769010alb_img.tar.gz",
+      "type": "",
+      "title": "V56769010ALB_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "V56769010ALB_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/ody-m-thm-5-visalb-v2/odtgeo_v2/data/odtva2_0051/v567xxalb/v56769010alb_img.zip",
+      "type": "",
+      "title": "V56769010ALB_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    49.271,
+    -26.068,
+    50.073,
+    -22.799
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "ODY_THEMIS_VISALB"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "LRO_LROC_CDRWAM",
+  "stac_version": "1.0.0",
+  "description": "Collection of LRO/LROC/CDRWAM (Calibrated Data Record Wide Angle Camera - Mono)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./M101020920MC/M101020920MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M101021287MC/M101021287MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M101021656MC/M101021656MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M101022030MC/M101022030MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M101022412MC/M101022412MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M101022804MC/M101022804MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M101023207MC/M101023207MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M101023620MC/M101023620MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M101024042MC/M101024042MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./M101024471MC/M101024471MC.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "LRO/LROC Calibrated Data Record Wide Angle Camera - Mono",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -89.07,
+          178.27,
+          83.86
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-06-30T17:07:33.054000Z",
+          "2009-06-30T18:10:16.765000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

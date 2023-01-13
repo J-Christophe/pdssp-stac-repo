@@ -1,0 +1,254 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "s_00169001_sim",
+  "properties": {
+    "datetime": "2006-12-06T02:51:42.478000Z",
+    "created": "2022-07-08T07:46:33.882",
+    "start_datetime": "2006-12-06T02:51:42.478",
+    "end_datetime": "2006-12-06T02:54:57.280",
+    "platform": "MRO",
+    "instruments": [
+      "SHARAD"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 146.0161710678629,
+    "processing:level": "",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "35663602",
+    "pdsode:pdsid": "s_00169001_sim",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "SHARAD",
+    "pdsode:pt": "SHSIMU",
+    "pdsode:Data_Set_Id": "mro_sharad_simulations-data",
+    "pdsode:PDSVolume_Id": "mrosh_simu",
+    "pdsode:RelativePathtoVol": "data\\s_0016xx\\s_00169001\\",
+    "pdsode:LabelFileName": "s_00169001_sim.xml",
+    "pdsode:Product_creation_time": "2022-07-08T07:46:33.882Z",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1.0",
+    "pdsode:Observation_time": "2006-12-06T02:53:19.879Z",
+    "pdsode:UTC_start_time": "2006-12-06T02:51:42.478Z",
+    "pdsode:UTC_stop_time": "2006-12-06T02:54:57.280Z",
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-78.8354",
+    "pdsode:Center_longitude": "204.7308",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "204.7308",
+    "pdsode:Maximum_latitude": "-74.8272",
+    "pdsode:Minimum_latitude": "-84.8108",
+    "pdsode:Westernmost_longitude": "204.7308",
+    "pdsode:Footprint_geometry": "LINESTRING (204.7308 -74.8272, 204.7308 -84.8108)",
+    "pdsode:Footprint_C0_geometry": "LINESTRING (-155.2692 -74.8272, -155.2692 -84.8108)",
+    "pdsode:Footprint_GL_geometry": "LINESTRING (204.7308 -74.8272, 204.7308 -75.8272, 204.7308 -76.8272, 204.7308 -77.8272, 204.7308 -78.8272, 204.7308 -79.8272, 204.7308 -80.8272, 204.7308 -81.8272, 204.7308 -82.8272, 204.7308 -83.8272, 204.7308 -84.8108)",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "LINESTRING (-128011.3396916713 -277922.97928190115, -376240.95247010916 -816849.559501612)",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Label MRO Start and Stop Subspacecraft Points",
+    "pdsode:Description": "SHARAD surface clutter simulation left side, right side, and combined products",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=s_00169001_sim&product_idGeo=35663602",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=s_00169001_sim&product_idGeo=35663602",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=s_00169001_sim&product_idGeo=35663602",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/data/s_0016xx/s_00169001/s_00169001_sim.xml"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -155.2692,
+        -74.8272
+      ],
+      [
+        -155.2692,
+        -84.8108
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD SHARAD Surface Clutter Simulations"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD SHARAD Surface Clutter Simulations"
+    }
+  ],
+  "assets": {
+    "S_00169001_BROWSE_COMBINED.TIF": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/browse/s_0016xx/s_00169001/s_00169001_browse_combined.tif",
+      "type": "",
+      "title": "S_00169001_BROWSE_COMBINED.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "S_00169001_BROWSE_EMAP.TIF": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/browse/s_0016xx/s_00169001/s_00169001_browse_emap.tif",
+      "type": "",
+      "title": "S_00169001_BROWSE_EMAP.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "S_00169001_BROWSE_HILLSHADE.TIF": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/browse/s_0016xx/s_00169001/s_00169001_browse_hillshade.tif",
+      "type": "",
+      "title": "S_00169001_BROWSE_HILLSHADE.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "S_00169001_BROWSE_LEFT.TIF": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/browse/s_0016xx/s_00169001/s_00169001_browse_left.tif",
+      "type": "",
+      "title": "S_00169001_BROWSE_LEFT.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "S_00169001_BROWSE_MAP.XML": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/browse/s_0016xx/s_00169001/s_00169001_browse_map.xml",
+      "type": "",
+      "title": "S_00169001_BROWSE_MAP.XML",
+      "description": "BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "S_00169001_BROWSE_RIGHT.TIF": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/browse/s_0016xx/s_00169001/s_00169001_browse_right.tif",
+      "type": "",
+      "title": "S_00169001_BROWSE_RIGHT.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "S_00169001_BROWSE_SIM.XML": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/browse/s_0016xx/s_00169001/s_00169001_browse_sim.xml",
+      "type": "",
+      "title": "S_00169001_BROWSE_SIM.XML",
+      "description": "BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "S_00169001_EMAP.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/data/s_0016xx/s_00169001/s_00169001_emap.img",
+      "type": "",
+      "title": "S_00169001_EMAP.IMG",
+      "description": "SHARAD SURFACE CLUTTER SIMULATION ECHO POWER MAP PRODUCT",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_00169001_EMAP.XML": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/data/s_0016xx/s_00169001/s_00169001_emap.xml",
+      "type": "",
+      "title": "S_00169001_EMAP.XML",
+      "description": "PDS4 PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_00169001_RTRN.CSV": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/data/s_0016xx/s_00169001/s_00169001_rtrn.csv",
+      "type": "",
+      "title": "S_00169001_RTRN.CSV",
+      "description": "SHARAD SURFACE CLUTTER SIMULATION NADIR AND FIRST RETURN INFORMATION",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_00169001_RTRN.XML": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/data/s_0016xx/s_00169001/s_00169001_rtrn.xml",
+      "type": "",
+      "title": "S_00169001_RTRN.XML",
+      "description": "PDS4 PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_00169001_SIM.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/data/s_0016xx/s_00169001/s_00169001_sim.img",
+      "type": "",
+      "title": "S_00169001_SIM.IMG",
+      "description": "SHARAD SURFACE CLUTTER SIMULATION LEFT SIDE, RIGHT SIDE, AND COMBINED PRODUCTS",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_00169001_SIM.XML": {
+      "href": "https://pds-geosciences.wustl.edu/mro/urn-nasa-pds-mro_sharad_simulations/data/s_0016xx/s_00169001/s_00169001_sim.xml",
+      "type": "",
+      "title": "S_00169001_SIM.XML",
+      "description": "PDS4 PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_00169001_SIM_XML.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro_sharad_simulations-data/mrosh_simu/data/s_0016xx/s_00169001/s_00169001_sim_xml.kml",
+      "type": "",
+      "title": "S_00169001_SIM_XML.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "S_00169001_SIM_XML.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro_sharad_simulations-data/mrosh_simu/data/s_0016xx/s_00169001/s_00169001_sim_xml.tar.gz",
+      "type": "",
+      "title": "S_00169001_SIM_XML.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "S_00169001_SIM_XML.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro_sharad_simulations-data/mrosh_simu/data/s_0016xx/s_00169001/s_00169001_sim_xml.zip",
+      "type": "",
+      "title": "S_00169001_SIM_XML.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    -155.2692,
+    -84.8108,
+    -155.2692,
+    -74.8272
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_SHARAD_SHSIMU"
+}

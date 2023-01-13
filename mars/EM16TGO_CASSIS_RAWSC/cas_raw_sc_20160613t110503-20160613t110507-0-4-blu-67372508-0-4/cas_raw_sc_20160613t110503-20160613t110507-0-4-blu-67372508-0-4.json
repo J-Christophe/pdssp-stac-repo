@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "cas_raw_sc_20160613t110503-20160613t110507-0-4-blu-67372508-0-4",
+  "properties": {
+    "datetime": "2016-06-13T11:05:03.445000Z",
+    "created": "2019-11-04T10:33:40.517",
+    "start_datetime": "2016-06-13T11:05:03.445",
+    "end_datetime": "2016-06-13T11:05:07.445",
+    "platform": "EM16TGO",
+    "instruments": [
+      "CASSIS"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 168.26678058286186,
+    "processing:level": "",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "28831443",
+    "pdsode:pdsid": "cas_raw_sc_20160613t110503-20160613t110507-0-4-blu-67372508-0-4",
+    "pdsode:ihid": "EM16TGO",
+    "pdsode:iid": "CASSIS",
+    "pdsode:pt": "RAWSC",
+    "pdsode:Data_Set_Id": "em16_tgo_cas-data_raw",
+    "pdsode:PDSVolume_Id": "em16_tgo_cas",
+    "pdsode:RelativePathtoVol": "data_raw\\cruise\\science\\blu\\67372508\\",
+    "pdsode:LabelFileName": "cas_raw_sc_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.xml",
+    "pdsode:Product_creation_time": "2019-11-04T10:33:40.517Z",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "2.0",
+    "pdsode:Observation_time": "2016-06-13T11:05:05.445Z",
+    "pdsode:Stop_orbit_number": "0",
+    "pdsode:UTC_start_time": "2016-06-13T11:05:03.445Z",
+    "pdsode:UTC_stop_time": "2016-06-13T11:05:07.445Z",
+    "pdsode:Description": "Data File",
+    "pdsode:External_url": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/data_raw/Cruise/Science/BLU/67372508/cas_raw_sc_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.xml",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=cas_raw_sc_20160613t110503-20160613t110507-0-4-blu-67372508-0-4&product_idGeo=28831443",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=cas_raw_sc_20160613t110503-20160613t110507-0-4-blu-67372508-0-4&product_idGeo=28831443",
+    "pdsode:LabelURL": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/data_raw/Cruise/Science/BLU/67372508/cas_raw_sc_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.xml"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "EM16TGO/CASSIS Raw Science Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "EM16TGO/CASSIS Raw Science Data"
+    }
+  ],
+  "assets": {
+    "CAS_RAW_SC_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.DAT": {
+      "href": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/data_raw/Cruise/Science/BLU/67372508/cas_raw_sc_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.dat",
+      "type": "",
+      "title": "CAS_RAW_SC_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.DAT",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "CAS_RAW_SC_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.TAB": {
+      "href": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/data_raw/Cruise/Science/BLU/67372508/cas_raw_sc_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.tab",
+      "type": "",
+      "title": "CAS_RAW_SC_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.TAB",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "CAS_RAW_SC_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.XML": {
+      "href": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/data_raw/Cruise/Science/BLU/67372508/cas_raw_sc_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.xml",
+      "type": "",
+      "title": "CAS_RAW_SC_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.XML",
+      "description": "PDS4 PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "CAS_RAW_SC_BROWSE_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.PNG": {
+      "href": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/browse/Cruise/Science/BLU/67372508/cas_raw_sc_browse_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.png",
+      "type": "image/png",
+      "title": "CAS_RAW_SC_BROWSE_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.PNG",
+      "description": "BROWSE PNG",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "CAS_RAW_SC_BROWSE_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.XML": {
+      "href": "https://archives.esac.esa.int/psa/ftp/ExoMars2016/em16_tgo_cas/browse/Cruise/Science/BLU/67372508/cas_raw_sc_browse_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.xml",
+      "type": "",
+      "title": "CAS_RAW_SC_BROWSE_20160613T110503-20160613T110507-0-4-BLU-67372508-0-4.XML",
+      "description": "BROWSE LABEL",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "EM16TGO_CASSIS_RAWSC"
+}

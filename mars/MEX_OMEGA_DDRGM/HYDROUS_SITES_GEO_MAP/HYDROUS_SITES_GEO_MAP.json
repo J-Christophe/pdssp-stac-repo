@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "HYDROUS_SITES_GEO_MAP",
+  "properties": {
+    "datetime": "2004-01-15T16:20:24.031000Z",
+    "created": "2014-02-24T15:22:20.000",
+    "start_datetime": "2004-01-15T16:20:24.031",
+    "end_datetime": "2009-04-01T13:58:39.020",
+    "platform": "MEX",
+    "instruments": [
+      "OMEGA"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 333.9695261558426,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:winter",
+        "title": "Winter",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "24395221",
+    "pdsode:pdsid": "HYDROUS_SITES_GEO_MAP",
+    "pdsode:ihid": "MEX",
+    "pdsode:iid": "OMEGA",
+    "pdsode:pt": "DDRGM",
+    "pdsode:Data_Set_Id": "MEX-M-OMEGA-5-DDR-GLOBAL-MAPS-V1.0",
+    "pdsode:PDSVolume_Id": "MEXOMG_2000",
+    "pdsode:RelativePathtoVol": "data\\hydrous\\",
+    "pdsode:LabelFileName": "hydrous_sites_geo_map.lbl",
+    "pdsode:Product_creation_time": "2014-02-24T15:22:20.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Observation_time": "2006-08-24T03:09:31.525",
+    "pdsode:Stop_orbit_number": "6734",
+    "pdsode:UTC_start_time": "2004-01-15T16:20:24.031",
+    "pdsode:UTC_stop_time": "2009-04-01T13:58:39.020",
+    "pdsode:Description": "\"This data product is a global map of hydrated mineral sites at the surface of Mars detected using the reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to September 2010, and from the Mars Reconnaissance Orbiter (MRO) CRISM imaging spectrometer. This data product corresponds to the map that was produced and published by Carter et al. ([CARTER_JGR2013], figure 1). This map is in the form of a spreadsheet where each row represents a detected hydrated mineral site, given by its planetocentric coordinates. The identifier of the OMEGA Experiment Data Records (EDR) used for each detection is also given. For more information on the methodology to identify these sites and how this map can be best interpreted, please refer to the original publication available in the DOCUMENT directory of this data set.\"",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=HYDROUS_SITES_GEO_MAP&product_idGeo=24395221",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=HYDROUS_SITES_GEO_MAP&product_idGeo=24395221",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=HYDROUS_SITES_GEO_MAP&product_idGeo=24395221",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-5-ddr-global-maps-v1/mexomg_2000/data/hydrous/hydrous_sites_geo_map.lbl"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Global Maps"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MEX/OMEGA Global Maps"
+    }
+  ],
+  "assets": {
+    "HYDROUS_SITES_GEO_MAP.CSV": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-5-ddr-global-maps-v1/mexomg_2000/data/hydrous/hydrous_sites_geo_map.csv",
+      "type": "",
+      "title": "HYDROUS_SITES_GEO_MAP.CSV",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "HYDROUS_SITES_GEO_MAP.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-5-ddr-global-maps-v1/mexomg_2000/data/hydrous/hydrous_sites_geo_map.lbl",
+      "type": "text/plain",
+      "title": "HYDROUS_SITES_GEO_MAP.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "HYDROUS_SITES_GEO_MAP.PNG": {
+      "href": "https://pds-geosciences.wustl.edu/mex/mex-m-omega-5-ddr-global-maps-v1/mexomg_2000/browse/hydrous/hydrous_sites_geo_map.png",
+      "type": "image/png",
+      "title": "HYDROUS_SITES_GEO_MAP.PNG",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MEX_OMEGA_DDRGM"
+}

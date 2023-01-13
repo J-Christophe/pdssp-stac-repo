@@ -1,0 +1,176 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "M101021287MC",
+  "properties": {
+    "datetime": "2009-06-30T17:13:39.704000Z",
+    "created": "2013-09-28T08:57:19.000",
+    "start_datetime": "2009-06-30T17:13:39.704",
+    "end_datetime": "2009-06-30T17:16:43.516",
+    "platform": "LRO",
+    "instruments": [
+      "LROC"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 157.38,
+    "ssys:solar_distance": 152188757.8,
+    "ssys:incidence_angle": 89.83,
+    "ssys:emission_angle": 1.13,
+    "ssys:phase_angle": 90.06,
+    "processing:level": "3",
+    "pdsode:ode_id": "16282933",
+    "pdsode:pdsid": "M101021287MC",
+    "pdsode:ihid": "LRO",
+    "pdsode:iid": "LROC",
+    "pdsode:pt": "CDRWAM",
+    "pdsode:Data_Set_Id": "LRO-L-LROC-3-CDR-V1.0",
+    "pdsode:PDSVolume_Id": "LROLRC_1001",
+    "pdsode:RelativePathtoVol": "data\\com\\2009181\\wac\\",
+    "pdsode:LabelFileName": "m101021287mc.img",
+    "pdsode:Product_creation_time": "2013-09-28T08:57:19.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Product_version_id": "v1.9",
+    "pdsode:Producer_id": "LRO_LROC_TEAM",
+    "pdsode:Observation_time": "2009-06-30T17:15:11.610",
+    "pdsode:SpaceCraft_clock_start_count": "1/268074819:44472",
+    "pdsode:SpaceCraft_clock_stop_count": "1/268075003:32184",
+    "pdsode:Stop_orbit_number": "73",
+    "pdsode:UTC_start_time": "2009-06-30T17:13:39.704",
+    "pdsode:UTC_stop_time": "2009-06-30T17:16:43.516",
+    "pdsode:Emission_angle": 1.13,
+    "pdsode:Phase_angle": 90.06,
+    "pdsode:Incidence_angle": 89.83,
+    "pdsode:Map_resolution": 65.495,
+    "pdsode:Solar_distance": 152188757.8,
+    "pdsode:Solar_longitude": 157.38,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-75.1632",
+    "pdsode:Center_longitude": "354.5473",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "358.96",
+    "pdsode:Maximum_latitude": "-70.1",
+    "pdsode:Minimum_latitude": "-80.1352",
+    "pdsode:Westernmost_longitude": "4.39",
+    "pdsode:Footprint_geometry": "GEOMETRYCOLLECTION (POLYGON ((0 -71.9827, 4.39 -79.93, 0 -79.9708, 0 -71.9827)), POLYGON ((347.16 -80.09, 349.49 -70.18, 358.96 -70.1, 360 -71.9827, 347.16 -80.09)))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-12.84 -80.09, -10.51 -70.18, -1.04 -70.1, 4.39 -79.93, -12.84 -80.09))",
+    "pdsode:Footprint_GL_geometry": "MULTIPOLYGON (((349.44679112501592 -70.363739035481629, 358.9599609375 -70.0999984741211, 349.489990234375 -70.180000305175781, 349.44679112501592 -70.363739035481629)), ((347.1600341796875 -80.090000152587891, 349.44679112501592 -70.363739035481629, 4.3900146484375 -79.930000305175781, 347.1600341796875 -80.090000152587891)))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "POLYGON ((-66947.844581093232 293722.7374763001, -37185.853790173591 297563.474277387, -6881.4097695193532 301427.78866261285, 23433.8413188287 305246.41496415494, 20303.092939682865 333183.69855185173, 16883.421650271554 363622.68598024704, 13448.716935851498 394113.71254716249, 9998.0924332936156 424662.779892274, 6531.3549585203709 455278.507066434, 3048.333647710534 485960.93995830562, -451.8231907968522 516717.67107796232, -3970.8304992330682 547551.9627679718, -7507.9510996223735 578469.282341566, -11064.044280413134 609474.44197597308, -17732.976789784057 608663.35385900282, -48747.573686108626 604832.1339023636, -79747.203454954288 600909.27213453769, -110734.74484450862 596889.80235910858, -106619.16116741003 568288.09223653155, -102183.81055349225 537485.55923355452, -97757.46119430488 506770.78330157168, -93338.901535648285 476135.03627607535, -88926.656422726955 445572.70157366281, -84520.819957365864 415080.81252262683, -80120.688021383787 384656.26385366422, -75726.049751499391 354292.28634711204, -71335.172673144116 323981.80883923493, -66947.844581093232 293722.7374763001))",
+    "pdsode:Footprints_cross_meridian": "True",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Comment": "GLOBAL COVERAGE",
+    "pdsode:External_url": "http://wms.lroc.asu.edu/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M101021287MC",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=M101021287MC&product_idGeo=16282933",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=M101021287MC&product_idGeo=16282933",
+    "pdsode:LabelURL": "https://pds.lroc.asu.edu/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1001/DATA/COM/2009181/WAC/M101021287MC.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -12.84,
+          -80.09
+        ],
+        [
+          -10.51,
+          -70.18
+        ],
+        [
+          -1.04,
+          -70.1
+        ],
+        [
+          4.39,
+          -79.93
+        ],
+        [
+          -12.84,
+          -80.09
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Calibrated Data Record Wide Angle Camera - Mono"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Calibrated Data Record Wide Angle Camera - Mono"
+    }
+  ],
+  "assets": {
+    "M101021287MC.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1001/DATA/COM/2009181/WAC/M101021287MC.IMG",
+      "type": "",
+      "title": "M101021287MC.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "M101021287MC_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/lro-l-lroc-3-cdr-v1/lrolrc_1001/data/com/2009181/wac/m101021287mc_img.kml",
+      "type": "",
+      "title": "M101021287MC_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M101021287MC_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-3-cdr-v1/lrolrc_1001/data/com/2009181/wac/m101021287mc_img.tar.gz",
+      "type": "",
+      "title": "M101021287MC_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M101021287MC_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-3-cdr-v1/lrolrc_1001/data/com/2009181/wac/m101021287mc_img.zip",
+      "type": "",
+      "title": "M101021287MC_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M101021287MC_PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1001/EXTRAS/BROWSE/2009181/M101021287MC_pyr.tif",
+      "type": "",
+      "title": "M101021287MC_PYR.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    -12.84,
+    -80.09,
+    4.39,
+    -70.1
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "LRO_LROC_CDRWAM"
+}

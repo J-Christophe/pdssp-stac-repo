@@ -1,0 +1,229 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "NAC_ROI_ARISPLT2LOA_E279N3075",
+  "properties": {
+    "datetime": "2009-07-17T20:09:32Z",
+    "created": "2011-03-03T20:35:36.000",
+    "start_datetime": "2009-07-17T20:09:32.000",
+    "end_datetime": "2010-11-21T09:48:03.000",
+    "platform": "LRO",
+    "instruments": [
+      "LROC"
+    ],
+    "gsd": 0.55,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 305.15517535072274,
+    "processing:level": "5",
+    "pdsode:ode_id": "15962281",
+    "pdsode:pdsid": "NAC_ROI_ARISPLT2LOA_E279N3075",
+    "pdsode:ihid": "LRO",
+    "pdsode:iid": "LROC",
+    "pdsode:pt": "BDRROI",
+    "pdsode:Data_Set_Id": "LRO-L-LROC-5-RDR-V1.0",
+    "pdsode:PDSVolume_Id": "LROLRC_2001",
+    "pdsode:RelativePathtoVol": "data\\bdr\\nac_roi\\arisplt2loa\\",
+    "pdsode:LabelFileName": "nac_roi_arisplt2loa_e279n3075.img",
+    "pdsode:Product_creation_time": "2011-03-03T20:35:36.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Product_version_id": "v1.2",
+    "pdsode:Producer_id": "LRO_LROC_TEAM",
+    "pdsode:Observation_time": "2010-03-20T14:58:47.500",
+    "pdsode:SpaceCraft_clock_start_count": "N/A",
+    "pdsode:SpaceCraft_clock_stop_count": "N/A",
+    "pdsode:UTC_start_time": "2009-07-17T20:09:32.000",
+    "pdsode:UTC_stop_time": "2010-11-21T09:48:03.000",
+    "pdsode:Map_resolution": 55133.364407544,
+    "pdsode:Map_scale": 0.55,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "27.9494",
+    "pdsode:Center_longitude": "307.479",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "307.904",
+    "pdsode:Maximum_latitude": "28.5389",
+    "pdsode:Minimum_latitude": "27.36",
+    "pdsode:Westernmost_longitude": "307.054",
+    "pdsode:Footprint_geometry": "POLYGON ((307.054 27.36, 307.054 28.36, 307.054 28.5389, 307.904 28.5389, 307.904 27.5389, 307.904 27.36, 307.054 27.36))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-52.946 27.36, -52.946 28.36, -52.946 28.5389, -52.096 28.5389, -52.096 27.5389, -52.096 27.36, -52.946 27.36))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((307.054 27.36, 307.054 28.36, 307.054 28.5389, 307.904 28.5389, 307.904 27.5389, 307.904 27.36, 307.054 27.36))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Label Map Projection Bounding Box",
+    "pdsode:Description": "\"Aristarchus Plateau Low Sun semi-controlled mosaic in Equirectangular projection centered at 27.9N, 307.5E. For more info, see [ROBINSONETAL2012].\"",
+    "pdsode:External_url": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/BDR/NAC_ROI/ARISPLT2LOA/NAC_ROI_ARISPLT2LOA_E279N3075.IMG",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=NAC_ROI_ARISPLT2LOA_E279N3075&product_idGeo=15962281",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=NAC_ROI_ARISPLT2LOA_E279N3075&product_idGeo=15962281",
+    "pdsode:LabelURL": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/BDR/NAC_ROI/ARISPLT2LOA/NAC_ROI_ARISPLT2LOA_E279N3075.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -52.946,
+          27.36
+        ],
+        [
+          -52.946,
+          28.36
+        ],
+        [
+          -52.946,
+          28.5389
+        ],
+        [
+          -52.096,
+          28.5389
+        ],
+        [
+          -52.096,
+          27.5389
+        ],
+        [
+          -52.096,
+          27.36
+        ],
+        [
+          -52.946,
+          27.36
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Binned Data Record Region of Interest"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Binned Data Record Region of Interest"
+    }
+  ],
+  "assets": {
+    "DSMAP.CAT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/CATALOG/DSMAP.CAT",
+      "type": "",
+      "title": "DSMAP.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075.BROWSE.PNG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_ROI/ARISPLT2LOA/NAC_ROI_ARISPLT2LOA_E279N3075.BROWSE.PNG",
+      "type": "image/png",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075.BROWSE.PNG",
+      "description": "BROWSE PNG FILE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/BDR/NAC_ROI/ARISPLT2LOA/NAC_ROI_ARISPLT2LOA_E279N3075.IMG",
+      "type": "",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075.MASK.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_ROI/ARISPLT2LOA/NAC_ROI_ARISPLT2LOA_E279N3075.MASK.TIF",
+      "type": "",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075.MASK.TIF",
+      "description": "MASK IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_ROI/ARISPLT2LOA/NAC_ROI_ARISPLT2LOA_E279N3075.PYR.TIF",
+      "type": "",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075.PYR.TIF",
+      "description": "BROWSE TIF FILE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_ROI/ARISPLT2LOA/NAC_ROI_ARISPLT2LOA_E279N3075.TIF",
+      "type": "",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075.TIF",
+      "description": "FULL BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075_IMAGES.TXT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/BDR/NAC_ROI/ARISPLT2LOA/NAC_ROI_ARISPLT2LOA_E279N3075_IMAGES.TXT",
+      "type": "",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075_IMAGES.TXT",
+      "description": "IMAGE LIST",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/bdr/nac_roi/arisplt2loa/nac_roi_arisplt2loa_e279n3075_img.kml",
+      "type": "",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/bdr/nac_roi/arisplt2loa/nac_roi_arisplt2loa_e279n3075_img.tar.gz",
+      "type": "",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/bdr/nac_roi/arisplt2loa/nac_roi_arisplt2loa_e279n3075_img.zip",
+      "type": "",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_ROI_ARISPLT2LOA_E279N3075_README.TXT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/BDR/NAC_ROI/ARISPLT2LOA/NAC_ROI_ARISPLT2LOA_E279N3075_README.TXT",
+      "type": "",
+      "title": "NAC_ROI_ARISPLT2LOA_E279N3075_README.TXT",
+      "description": "README INFORMATION",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    -52.946,
+    27.36,
+    -52.096,
+    28.5389
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "LRO_LROC_BDRROI"
+}

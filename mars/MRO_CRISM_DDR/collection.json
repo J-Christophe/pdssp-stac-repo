@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MRO_CRISM_DDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MRO/CRISM/DDR (Derived Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./FFC000027B1_01_DE254L_DDR1/FFC000027B1_01_DE254L_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FFC000027B1_01_DE254S_DDR1/FFC000027B1_01_DE254S_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT000027B2_01_DE156L_DDR1/FRT000027B2_01_DE156L_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT000027B2_01_DE156S_DDR1/FRT000027B2_01_DE156S_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT000027B2_02_DE155L_DDR1/FRT000027B2_02_DE155L_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT000027B2_02_DE155S_DDR1/FRT000027B2_02_DE155S_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT000027B2_03_DE156L_DDR1/FRT000027B2_03_DE156L_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT000027B2_03_DE156S_DDR1/FRT000027B2_03_DE156S_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT000027B2_04_DE155L_DDR1/FRT000027B2_04_DE155L_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./FRT000027B2_04_DE155S_DDR1/FRT000027B2_04_DE155S_DDR1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MRO/CRISM Derived Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -117.9652,
+          -22.1211,
+          55.2563,
+          54.809
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2006-09-27T16:29:07.540000Z",
+          "2006-09-27T17:13:43.270000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

@@ -1,0 +1,373 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "NAC_DTM_A15SIVB",
+  "properties": {
+    "datetime": "2013-01-31T03:19:33Z",
+    "created": "2020-10-10T09:39:43.000",
+    "start_datetime": "2013-01-31T03:19:33.000",
+    "end_datetime": "2013-01-31T07:16:57.000",
+    "platform": "LRO",
+    "instruments": [
+      "LROC"
+    ],
+    "gsd": 4.9999999999999,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 255.32282453682177,
+    "processing:level": "5",
+    "pdsode:ode_id": "23803666",
+    "pdsode:pdsid": "NAC_DTM_A15SIVB",
+    "pdsode:ihid": "LRO",
+    "pdsode:iid": "LROC",
+    "pdsode:pt": "SDNDTM",
+    "pdsode:Data_Set_Id": "LRO-L-LROC-5-RDR-V1.0",
+    "pdsode:PDSVolume_Id": "LROLRC_2001",
+    "pdsode:RelativePathtoVol": "data\\sdp\\nac_dtm\\a15sivb\\",
+    "pdsode:LabelFileName": "nac_dtm_a15sivb.lbl",
+    "pdsode:Product_creation_time": "2020-10-10T09:39:43.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Product_version_id": "v1.9",
+    "pdsode:Producer_id": "LRO_LROC_TEAM",
+    "pdsode:Observation_time": "2013-01-31T05:18:15.000",
+    "pdsode:SpaceCraft_clock_start_count": "N/A",
+    "pdsode:SpaceCraft_clock_stop_count": "N/A",
+    "pdsode:UTC_start_time": "2013-01-31T03:19:33.000",
+    "pdsode:UTC_stop_time": "2013-01-31T07:16:57.000",
+    "pdsode:Map_resolution": 6064.67008483,
+    "pdsode:Map_scale": 4.9999999999999,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-0.9243",
+    "pdsode:Center_longitude": "348.1101",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "348.2956",
+    "pdsode:Maximum_latitude": "-0.0722",
+    "pdsode:Minimum_latitude": "-1.7764",
+    "pdsode:Westernmost_longitude": "347.9246",
+    "pdsode:Footprint_geometry": "POLYGON ((347.9246 -1.7764, 347.9246 -0.7764, 347.9246 -0.0722, 348.2956 -0.0722, 348.2956 -1.0722, 348.2956 -1.7764, 347.9246 -1.7764))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((-12.0754 -1.7764, -12.0754 -0.7764, -12.0754 -0.0722, -11.7044 -0.0722, -11.7044 -1.0722, -11.7044 -1.7764, -12.0754 -1.7764))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((347.9246 -1.7764, 347.9246 -0.7764, 347.9246 -0.0722, 348.2956 -0.0722, 348.2956 -1.0722, 348.2956 -1.7764, 347.9246 -1.7764))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Label Map Projection Bounding Box",
+    "pdsode:Description": "\"Apollo 15 SIVB Impact high-resolution NAC digital terrain model in GeoTIFF format. DEM is IEEE floating point GeoTIFF, 32 bits/sample, 1 samples/pixel in single image plane configuration. The NoDATA value is -3.40282266e+038. For more info, see [HENRIKSENETAL2017].\"",
+    "pdsode:External_url": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB.LBL",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=NAC_DTM_A15SIVB&product_idGeo=23803666",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=NAC_DTM_A15SIVB&product_idGeo=23803666",
+    "pdsode:LabelURL": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB.LBL"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -12.0754,
+          -1.7764
+        ],
+        [
+          -12.0754,
+          -0.7764
+        ],
+        [
+          -12.0754,
+          -0.0722
+        ],
+        [
+          -11.7044,
+          -0.0722
+        ],
+        [
+          -11.7044,
+          -1.0722
+        ],
+        [
+          -11.7044,
+          -1.7764
+        ],
+        [
+          -12.0754,
+          -1.7764
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - NAC Digital Terrain Map"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Special Data Products - NAC Digital Terrain Map"
+    }
+  ],
+  "assets": {
+    "DSMAP.CAT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/CATALOG/DSMAP.CAT",
+      "type": "",
+      "title": "DSMAP.CAT",
+      "description": "MAP PROJECTION FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "NAC_DTM_A15SIVB.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_A15SIVB.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB.TIF",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_CONF.BROWSE.PNG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_CONF.BROWSE.PNG",
+      "type": "image/png",
+      "title": "NAC_DTM_A15SIVB_CONF.BROWSE.PNG",
+      "description": "CONFIDENCE MAP BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_A15SIVB_CONF.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_CONF.IMG",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_CONF.IMG",
+      "description": "CONFIDENCE MAP",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_CONF.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_CONF.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_CONF.PYR.TIF",
+      "description": "CONFIDENCE MAP BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_A15SIVB_E009S3481.BROWSE.PNG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_E009S3481.BROWSE.PNG",
+      "type": "image/png",
+      "title": "NAC_DTM_A15SIVB_E009S3481.BROWSE.PNG",
+      "description": "DTM BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_A15SIVB_E009S3481.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_E009S3481.IMG",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_E009S3481.IMG",
+      "description": "DTM IN PDS FORMAT",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_E009S3481.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_E009S3481.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_E009S3481.PYR.TIF",
+      "description": "DTM BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_A15SIVB_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_dtm/a15sivb/nac_dtm_a15sivb_lbl.kml",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_DTM_A15SIVB_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_dtm/a15sivb/nac_dtm_a15sivb_lbl.tar.gz",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_DTM_A15SIVB_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-5-rdr-v1/lrolrc_2001/data/sdp/nac_dtm/a15sivb/nac_dtm_a15sivb_lbl.zip",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "NAC_DTM_A15SIVB_M1114241640_110CM.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_M1114241640_110CM.IMG",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_M1114241640_110CM.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_M1114241640_110CM.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_M1114241640_110CM.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_M1114241640_110CM.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_A15SIVB_M1114241640_5M.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_M1114241640_5M.IMG",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_M1114241640_5M.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_M1114241640_5M.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_M1114241640_5M.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_M1114241640_5M.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_A15SIVB_M1114255849_110CM.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_M1114255849_110CM.IMG",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_M1114255849_110CM.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_M1114255849_110CM.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_M1114255849_110CM.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_M1114255849_110CM.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_A15SIVB_M1114255849_5M.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_M1114255849_5M.IMG",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_M1114255849_5M.IMG",
+      "description": "ORTHO-RECTIFIED IMAGE",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_M1114255849_5M.PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/BROWSE/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_M1114255849_5M.PYR.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_M1114255849_5M.PYR.TIF",
+      "description": "ORTHO-RECTIFIED IMAGE BROWSE",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "NAC_DTM_A15SIVB_README.TXT": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_README.TXT",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_README.TXT",
+      "description": "DEM DESCRIPTION",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_SHADE.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_SHADE.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_A15SIVB_SHADE.LBL",
+      "description": "SHADED RELIEF LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_SHADE.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_SHADE.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_SHADE.TIF",
+      "description": "SHADED RELIEF",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_SLOPE.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_SLOPE.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_A15SIVB_SLOPE.LBL",
+      "description": "SLOPE MAP LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_SLOPE.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_SLOPE.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_SLOPE.TIF",
+      "description": "SLOPE MAP",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_SLOPE_LEGEND.LBL": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_SLOPE_LEGEND.LBL",
+      "type": "text/plain",
+      "title": "NAC_DTM_A15SIVB_SLOPE_LEGEND.LBL",
+      "description": "SLOPE MAP LEGEND LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "NAC_DTM_A15SIVB_SLOPE_LEGEND.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/DATA/SDP/NAC_DTM/A15SIVB/NAC_DTM_A15SIVB_SLOPE_LEGEND.TIF",
+      "type": "",
+      "title": "NAC_DTM_A15SIVB_SLOPE_LEGEND.TIF",
+      "description": "SLOPE MAP LEGEND",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -12.0754,
+    -1.7764,
+    -11.7044,
+    -0.0722
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "LRO_LROC_SDNDTM"
+}

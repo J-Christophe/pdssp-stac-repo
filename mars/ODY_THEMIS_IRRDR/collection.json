@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "ODY_THEMIS_IRRDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of ODY/THEMIS/IRRDR (Calibrated Infrared Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./I02400002RDR/I02400002RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02400005RDR/I02400005RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02401002RDR/I02401002RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02401005RDR/I02401005RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02402002RDR/I02402002RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02402005RDR/I02402005RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02403002RDR/I02403002RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02403006RDR/I02403006RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02404002RDR/I02404002RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./I02404005RDR/I02404005RDR.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "ODY/THEMIS Calibrated Infrared Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -171.77,
+          -45.992,
+          150.22,
+          83.549
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-06-30T03:39:42.244000Z",
+          "2002-06-30T12:28:17.053000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

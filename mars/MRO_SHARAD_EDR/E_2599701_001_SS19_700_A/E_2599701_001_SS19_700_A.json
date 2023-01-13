@@ -1,0 +1,286 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "E_2599701_001_SS19_700_A",
+  "properties": {
+    "datetime": "2012-02-12T05:22:58.436000Z",
+    "created": "2012-02-23T14:06:45.000",
+    "start_datetime": "2012-02-12T05:22:58.436",
+    "end_datetime": "2012-02-12T05:23:52.428",
+    "platform": "MRO",
+    "instruments": [
+      "SHARAD"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 69.43519900517401,
+    "processing:level": "3",
+    "_keywords": [
+      {
+        "id": "season:spring",
+        "title": "Spring",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "26423590",
+    "pdsode:pdsid": "E_2599701_001_SS19_700_A",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "SHARAD",
+    "pdsode:pt": "EDR",
+    "pdsode:Data_Set_Id": "MRO-M-SHARAD-3-EDR-V1.0",
+    "pdsode:PDSVolume_Id": "MROSH_0003",
+    "pdsode:RelativePathtoVol": "data\\edr25xxx\\edr2599701\\",
+    "pdsode:LabelFileName": "e_2599701_001_ss19_700_a.lbl",
+    "pdsode:Product_creation_time": "2012-02-23T14:06:45.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "A",
+    "pdsode:Observation_time": "2012-02-12T05:23:25.432",
+    "pdsode:SpaceCraft_clock_start_count": "2/1013491378.28632",
+    "pdsode:SpaceCraft_clock_stop_count": "2/1013491432.28098",
+    "pdsode:Stop_orbit_number": "25997",
+    "pdsode:UTC_start_time": "2012-02-12T05:22:58.436",
+    "pdsode:UTC_stop_time": "2012-02-12T05:23:52.428",
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "67.6667",
+    "pdsode:Center_longitude": "232.985",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "233.5389",
+    "pdsode:Maximum_latitude": "69.0619",
+    "pdsode:Minimum_latitude": "66.241",
+    "pdsode:Westernmost_longitude": "232.3871",
+    "pdsode:Footprint_geometry": "LINESTRING (233.5389 66.241, 233.4945 66.3605, 233.4609 66.4501, 233.3932 66.6293, 233.3247 66.8085, 233.2786 66.928, 233.2554 66.9877, 233.2204 67.0773, 233.1735 67.1967, 233.1143 67.346, 233.0425 67.5251, 232.9698 67.7041, 232.9085 67.8534, 232.8466 68.0026, 232.7966 68.1219, 232.7714 68.1816, 232.7335 68.2711, 232.6953 68.3606, 232.6569 68.45, 232.6182 68.5395, 232.5923 68.5992, 232.5401 68.7185, 232.4742 68.8676, 232.4343 68.957, 232.3871 69.0619)",
+    "pdsode:Footprint_C0_geometry": "LINESTRING (-126.4611 66.241, -126.5055 66.3605, -126.5391 66.4501, -126.6068 66.6293, -126.67529999999999 66.8085, -126.7214 66.928, -126.7446 66.9877, -126.7796 67.0773, -126.8265 67.1967, -126.8857 67.346, -126.9575 67.5251, -127.0302 67.7041, -127.0915 67.8534, -127.1534 68.0026, -127.2034 68.1219, -127.2286 68.1816, -127.2665 68.2711, -127.3047 68.3606, -127.3431 68.45, -127.3818 68.5395, -127.4077 68.5992, -127.4599 68.7185, -127.5258 68.8676, -127.5657 68.957, -127.6129 69.0619)",
+    "pdsode:Footprint_GL_geometry": "LINESTRING (233.5389 66.241, 233.5278 66.2708, 233.5167 66.3007, 233.5056 66.3306, 233.4945 66.3605, 233.4833 66.3903, 233.4721 66.4202, 233.4609 66.4501, 233.4496 66.48, 233.4384 66.5098, 233.4271 66.5397, 233.4158 66.5696, 233.4045 66.5994, 233.3932 66.6293, 233.3818 66.6592, 233.3704 66.689, 233.359 66.7189, 233.3476 66.7488, 233.3361 66.7786, 233.3247 66.8085, 233.3132 66.8384, 233.3017 66.8682, 233.2901 66.8981, 233.2786 66.928, 233.267 66.9578, 233.2554 66.9877, 233.2437 67.0175, 233.2321 67.0474, 233.2204 67.0773, 233.2087 67.1071, 233.197 67.137, 233.1852 67.1668, 233.1735 67.1967, 233.1617 67.2265, 233.1499 67.2564, 233.138 67.2863, 233.1262 67.3161, 233.1143 67.346, 233.1024 67.3758, 233.0904 67.4057, 233.0785 67.4355, 233.0665 67.4654, 233.0545 67.4952, 233.0425 67.5251, 233.0304 67.5549, 233.0183 67.5848, 233.0062 67.6146, 232.9941 67.6445, 232.9819 67.6743, 232.9698 67.7041, 232.9575 67.734, 232.9453 67.7638, 232.9331 67.7937, 232.9208 67.8235, 232.9085 67.8534, 232.8961 67.8832, 232.8838 67.913, 232.8714 67.9429, 232.859 67.9727, 232.8466 68.0026, 232.8341 68.0324, 232.8216 68.0622, 232.8091 68.0921, 232.7966 68.1219, 232.784 68.1517, 232.7714 68.1816, 232.7588 68.2114, 232.7461 68.2412, 232.7335 68.2711, 232.7208 68.3009, 232.708 68.3307, 232.6953 68.3606, 232.6825 68.3904, 232.6697 68.4202, 232.6569 68.45, 232.644 68.4799, 232.6311 68.5097, 232.6182 68.5395, 232.6052 68.5694, 232.5923 68.5992, 232.5792 68.629, 232.5662 68.6588, 232.5531 68.6886, 232.5401 68.7185, 232.5269 68.7483, 232.5138 68.7781, 232.5006 68.8079, 232.4874 68.8377, 232.4742 68.8676, 232.4609 68.8974, 232.4476 68.9272, 232.4343 68.957, 232.4209 68.9868, 232.4075 69.0166, 232.3941 69.0464, 232.3871 69.0619)",
+    "pdsode:Footprint_NP_geometry": "LINESTRING (-1142402.5515157424 844133.72574800462, -1099810.3355731068 821455.7088404164, -1063903.1524532612 802235.59449519461, -1028121.7512070063 782992.05101887335, -988381.2432084356 761510.59256621182)",
+    "pdsode:Footprint_SP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Lat/Lon points from Geom Product",
+    "pdsode:Description": "Binary table containing raw science telemetry packets generated by SHARAD, called blocks, collected continuously using the same operation mode, instrument status and on-board processing scheme. Each data block is a sequence of time samples of a received signal, preceded by a header containing information on the collection and on-board processing of the data. In the table, each line contains data from a single data block, and each column contains the value of a single parameter or time sample across different data blocks.",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=E_2599701_001_SS19_700_A&product_idGeo=26423590",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=E_2599701_001_SS19_700_A&product_idGeo=26423590",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=E_2599701_001_SS19_700_A&product_idGeo=26423590",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-3-edr-v1/MROSH_0003/data/edr25xxx/edr2599701/e_2599701_001_ss19_700_a.lbl"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -126.4611,
+        66.241
+      ],
+      [
+        -126.5055,
+        66.3605
+      ],
+      [
+        -126.5391,
+        66.4501
+      ],
+      [
+        -126.6068,
+        66.6293
+      ],
+      [
+        -126.6753,
+        66.8085
+      ],
+      [
+        -126.7214,
+        66.928
+      ],
+      [
+        -126.7446,
+        66.9877
+      ],
+      [
+        -126.7796,
+        67.0773
+      ],
+      [
+        -126.8265,
+        67.1967
+      ],
+      [
+        -126.8857,
+        67.346
+      ],
+      [
+        -126.9575,
+        67.5251
+      ],
+      [
+        -127.0302,
+        67.7041
+      ],
+      [
+        -127.0915,
+        67.8534
+      ],
+      [
+        -127.1534,
+        68.0026
+      ],
+      [
+        -127.2034,
+        68.1219
+      ],
+      [
+        -127.2286,
+        68.1816
+      ],
+      [
+        -127.2665,
+        68.2711
+      ],
+      [
+        -127.3047,
+        68.3606
+      ],
+      [
+        -127.3431,
+        68.45
+      ],
+      [
+        -127.3818,
+        68.5395
+      ],
+      [
+        -127.4077,
+        68.5992
+      ],
+      [
+        -127.4599,
+        68.7185
+      ],
+      [
+        -127.5258,
+        68.8676
+      ],
+      [
+        -127.5657,
+        68.957
+      ],
+      [
+        -127.6129,
+        69.0619
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Experiment Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Experiment Data Record"
+    }
+  ],
+  "assets": {
+    "AUXILIARY.FMT": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-3-edr-v1/MROSH_0003/label/auxiliary.fmt",
+      "type": "",
+      "title": "AUXILIARY.FMT",
+      "description": "LABEL FORMAT FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "E_2599701_001_SS19_700_A.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-3-edr-v1/MROSH_0003/data/edr25xxx/edr2599701/e_2599701_001_ss19_700_a.lbl",
+      "type": "text/plain",
+      "title": "E_2599701_001_SS19_700_A.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "E_2599701_001_SS19_700_A_A.DAT": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-3-edr-v1/MROSH_0003/data/edr25xxx/edr2599701/e_2599701_001_ss19_700_a_a.dat",
+      "type": "",
+      "title": "E_2599701_001_SS19_700_A_A.DAT",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "E_2599701_001_SS19_700_A_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-sharad-3-edr-v1/mrosh_0003/data/edr25xxx/edr2599701/e_2599701_001_ss19_700_a_lbl.kml",
+      "type": "",
+      "title": "E_2599701_001_SS19_700_A_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "E_2599701_001_SS19_700_A_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-3-edr-v1/mrosh_0003/data/edr25xxx/edr2599701/e_2599701_001_ss19_700_a_lbl.tar.gz",
+      "type": "",
+      "title": "E_2599701_001_SS19_700_A_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "E_2599701_001_SS19_700_A_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-3-edr-v1/mrosh_0003/data/edr25xxx/edr2599701/e_2599701_001_ss19_700_a_lbl.zip",
+      "type": "",
+      "title": "E_2599701_001_SS19_700_A_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "E_2599701_001_SS19_700_A_S.DAT": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-3-edr-v1/MROSH_0003/data/edr25xxx/edr2599701/e_2599701_001_ss19_700_a_s.dat",
+      "type": "",
+      "title": "E_2599701_001_SS19_700_A_S.DAT",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "SCIENCE_ANCILLARY.FMT": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-3-edr-v1/MROSH_0003/label/science_ancillary.fmt",
+      "type": "",
+      "title": "SCIENCE_ANCILLARY.FMT",
+      "description": "LABEL FORMAT FILE",
+      "roles": [
+        "Referenced"
+      ]
+    },
+    "SCIENCE8BIT.FMT": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-3-edr-v1/MROSH_0003/label/science8bit.fmt",
+      "type": "",
+      "title": "SCIENCE8BIT.FMT",
+      "description": "LABEL FORMAT FILE",
+      "roles": [
+        "Referenced"
+      ]
+    }
+  },
+  "bbox": [
+    -127.6129,
+    66.241,
+    -126.4611,
+    69.0619
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_SHARAD_EDR"
+}

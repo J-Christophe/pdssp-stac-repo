@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "LRO_LROC_SDRPHO",
+  "stac_version": "1.0.0",
+  "description": "Collection of LRO/LROC/SDRPHO (Special Data Products - Map projected NAC photometric product)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1113368103L/NAC_PHO_E041N1229_M1113368103L.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1113368103R/NAC_PHO_E041N1229_M1113368103R.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1122794110R/NAC_PHO_E041N1229_M1122794110R.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1153417741L/NAC_PHO_E041N1229_M1153417741L.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1153417741R/NAC_PHO_E041N1229_M1153417741R.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1155773998L/NAC_PHO_E041N1229_M1155773998L.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1156944941L/NAC_PHO_E041N1229_M1156944941L.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1156944941R/NAC_PHO_E041N1229_M1156944941R.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1189872676L/NAC_PHO_E041N1229_M1189872676L.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NAC_PHO_E041N1229_M1189872676R/NAC_PHO_E041N1229_M1189872676R.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "moon"
+  ],
+  "title": "LRO/LROC Special Data Products - Map projected NAC photometric product",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          122.7,
+          3.2342,
+          123.116,
+          5.0444
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-01-21T00:40:36Z",
+          "2015-06-25T11:57:24Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

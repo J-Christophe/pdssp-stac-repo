@@ -1,0 +1,434 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "S_05500901_GEOM",
+  "properties": {
+    "datetime": "2018-04-21T19:18:51.059000Z",
+    "created": "2021-09-08T16:26:58.734",
+    "start_datetime": "2018-04-21T19:18:51.059",
+    "end_datetime": "2018-04-21T19:27:53.859",
+    "platform": "MRO",
+    "instruments": [
+      "SHARAD"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 163.0875814287068,
+    "processing:level": "5",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "32162306",
+    "pdsode:pdsid": "S_05500901_GEOM",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "SHARAD",
+    "pdsode:pt": "USGEOMV2",
+    "pdsode:Data_Set_Id": "MRO-M-SHARAD-5-RADARGRAM-V2.0",
+    "pdsode:PDSVolume_Id": "MROSH_2101",
+    "pdsode:RelativePathtoVol": "data\\geom\\s_0550xx\\",
+    "pdsode:LabelFileName": "s_05500901_geom.lbl",
+    "pdsode:Product_creation_time": "2021-09-08T16:26:58.734",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1",
+    "pdsode:Observation_time": "2018-04-21T19:23:22.459",
+    "pdsode:SpaceCraft_clock_start_count": "UNK",
+    "pdsode:SpaceCraft_clock_stop_count": "UNK",
+    "pdsode:Stop_orbit_number": "55009",
+    "pdsode:UTC_start_time": "2018-04-21T19:18:51.059",
+    "pdsode:UTC_stop_time": "2018-04-21T19:27:53.859",
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-44.5499",
+    "pdsode:Center_longitude": "19.2122",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "21.3589",
+    "pdsode:Maximum_latitude": "-30.1127",
+    "pdsode:Minimum_latitude": "-59.4209",
+    "pdsode:Westernmost_longitude": "16.2371",
+    "pdsode:Footprint_geometry": "LINESTRING (21.3589 -30.1127, 21.2527 -30.8881, 21.1457 -31.6638, 21.0378 -32.4395, 20.9836 -32.8274, 20.9292 -33.2148, 20.8196 -33.9907, 20.7645 -34.3788, 20.6535 -35.1543, 20.5976 -35.5425, 20.4851 -36.3182, 20.4284 -36.7064, 20.3715 -37.0941, 20.3142 -37.4823, 20.2567 -37.87, 20.1989 -38.2577, 20.1407 -38.6461, 20.0823 -39.0339, 20.0235 -39.4223, 19.9644 -39.8101, 19.905 -40.1979, 19.8452 -40.5858, 19.7851 -40.9737, 19.7245 -41.3622, 19.6636 -41.7501, 19.6024 -42.1381, 19.5408 -42.5261, 19.4786 -42.9141, 19.4161 -43.3021, 19.3532 -43.6902, 19.2899 -44.0783, 19.226 -44.4663, 19.1619 -44.8538, 19.0972 -45.242, 19.0319 -45.6301, 18.9661 -46.0183, 18.8999 -46.4059, 18.8332 -46.7941, 18.7657 -47.1823, 18.6979 -47.5699, 18.6295 -47.9581, 18.5604 -48.3458, 18.4907 -48.7341, 18.4205 -49.1218, 18.3495 -49.5101, 18.2779 -49.8978, 18.2055 -50.2861, 18.1326 -50.6738, 18.0589 -51.0616, 17.9842 -51.4499, 17.909 -51.8377, 17.8331 -52.2254, 17.7561 -52.6132, 17.6783 -53.001, 17.5998 -53.3888, 17.5201 -53.7772, 17.4396 -54.165, 17.3582 -54.5527, 17.2759 -54.9405, 17.1922 -55.3283, 17.1077 -55.7155, 17.0221 -56.1033, 16.9353 -56.4911, 16.8471 -56.8789, 16.7579 -57.2667, 16.6677 -57.6538, 16.5756 -58.0416, 16.4822 -58.4293, 16.3878 -58.8165, 16.2917 -59.2042, 16.2371 -59.4209)",
+    "pdsode:Footprint_C0_geometry": "LINESTRING (21.3589 -30.1127, 21.2527 -30.8881, 21.1457 -31.6638, 21.0378 -32.4395, 20.9836 -32.8274, 20.9292 -33.2148, 20.8196 -33.9907, 20.7645 -34.3788, 20.6535 -35.1543, 20.5976 -35.5425, 20.4851 -36.3182, 20.4284 -36.7064, 20.3715 -37.0941, 20.3142 -37.4823, 20.2567 -37.87, 20.1989 -38.2577, 20.1407 -38.6461, 20.0823 -39.0339, 20.0235 -39.4223, 19.9644 -39.8101, 19.905 -40.1979, 19.8452 -40.5858, 19.7851 -40.9737, 19.7245 -41.3622, 19.6636 -41.7501, 19.6024 -42.1381, 19.5408 -42.5261, 19.4786 -42.9141, 19.4161 -43.3021, 19.3532 -43.6902, 19.2899 -44.0783, 19.226 -44.4663, 19.1619 -44.8538, 19.0972 -45.242, 19.0319 -45.6301, 18.9661 -46.0183, 18.8999 -46.4059, 18.8332 -46.7941, 18.7657 -47.1823, 18.6979 -47.5699, 18.6295 -47.9581, 18.5604 -48.3458, 18.4907 -48.7341, 18.4205 -49.1218, 18.3495 -49.5101, 18.2779 -49.8978, 18.2055 -50.2861, 18.1326 -50.6738, 18.0589 -51.0616, 17.9842 -51.4499, 17.909 -51.8377, 17.8331 -52.2254, 17.7561 -52.6132, 17.6783 -53.001, 17.5998 -53.3888, 17.5201 -53.7772, 17.4396 -54.165, 17.3582 -54.5527, 17.2759 -54.9405, 17.1922 -55.3283, 17.1077 -55.7155, 17.0221 -56.1033, 16.9353 -56.4911, 16.8471 -56.8789, 16.7579 -57.2667, 16.6677 -57.6538, 16.5756 -58.0416, 16.4822 -58.4293, 16.3878 -58.8165, 16.2917 -59.2042, 16.2371 -59.4209)",
+    "pdsode:Footprint_GL_geometry": "LINESTRING (21.3589 -30.1127, 21.3059 -30.5004, 21.2527 -30.8881, 21.1993 -31.2759, 21.1457 -31.6638, 21.0918 -32.0516, 21.0378 -32.4395, 20.9836 -32.8274, 20.9292 -33.2148, 20.8745 -33.6027, 20.8196 -33.9907, 20.7645 -34.3788, 20.709 -34.7669, 20.6535 -35.1543, 20.5976 -35.5425, 20.5415 -35.93, 20.4851 -36.3182, 20.4284 -36.7064, 20.3715 -37.0941, 20.3142 -37.4823, 20.2567 -37.87, 20.1989 -38.2577, 20.1407 -38.6461, 20.0823 -39.0339, 20.0235 -39.4223, 19.9644 -39.8101, 19.905 -40.1979, 19.8452 -40.5858, 19.7851 -40.9737, 19.7245 -41.3622, 19.6636 -41.7501, 19.6024 -42.1381, 19.5408 -42.5261, 19.4786 -42.9141, 19.4161 -43.3021, 19.3532 -43.6902, 19.2899 -44.0783, 19.226 -44.4663, 19.1619 -44.8538, 19.0972 -45.242, 19.0319 -45.6301, 18.9661 -46.0183, 18.8999 -46.4059, 18.8332 -46.7941, 18.7657 -47.1823, 18.6979 -47.5699, 18.6295 -47.9581, 18.5604 -48.3458, 18.4907 -48.7341, 18.4205 -49.1218, 18.3495 -49.5101, 18.2779 -49.8978, 18.2055 -50.2861, 18.1326 -50.6738, 18.0589 -51.0616, 17.9842 -51.4499, 17.909 -51.8377, 17.8331 -52.2254, 17.7561 -52.6132, 17.6783 -53.001, 17.5998 -53.3888, 17.5201 -53.7772, 17.4396 -54.165, 17.3582 -54.5527, 17.2759 -54.9405, 17.1922 -55.3283, 17.1077 -55.7155, 17.0221 -56.1033, 16.9353 -56.4911, 16.8471 -56.8789, 16.7579 -57.2667, 16.6677 -57.6538, 16.5756 -58.0416, 16.4822 -58.4293, 16.3878 -58.8165, 16.2917 -59.2042, 16.2371 -59.4209)",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "Lat/Lon points from Geom Product",
+    "pdsode:Description": "Geographic, geometric, and ionospheric properties at each radargram column.",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=S_05500901_GEOM&product_idGeo=32162306",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=S_05500901_GEOM&product_idGeo=32162306",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=S_05500901_GEOM&product_idGeo=32162306",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500901_geom.lbl"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        21.3589,
+        -30.1127
+      ],
+      [
+        21.2527,
+        -30.8881
+      ],
+      [
+        21.1457,
+        -31.6638
+      ],
+      [
+        21.0378,
+        -32.4395
+      ],
+      [
+        20.9836,
+        -32.8274
+      ],
+      [
+        20.9292,
+        -33.2148
+      ],
+      [
+        20.8196,
+        -33.9907
+      ],
+      [
+        20.7645,
+        -34.3788
+      ],
+      [
+        20.6535,
+        -35.1543
+      ],
+      [
+        20.5976,
+        -35.5425
+      ],
+      [
+        20.4851,
+        -36.3182
+      ],
+      [
+        20.4284,
+        -36.7064
+      ],
+      [
+        20.3715,
+        -37.0941
+      ],
+      [
+        20.3142,
+        -37.4823
+      ],
+      [
+        20.2567,
+        -37.87
+      ],
+      [
+        20.1989,
+        -38.2577
+      ],
+      [
+        20.1407,
+        -38.6461
+      ],
+      [
+        20.0823,
+        -39.0339
+      ],
+      [
+        20.0235,
+        -39.4223
+      ],
+      [
+        19.9644,
+        -39.8101
+      ],
+      [
+        19.905,
+        -40.1979
+      ],
+      [
+        19.8452,
+        -40.5858
+      ],
+      [
+        19.7851,
+        -40.9737
+      ],
+      [
+        19.7245,
+        -41.3622
+      ],
+      [
+        19.6636,
+        -41.7501
+      ],
+      [
+        19.6024,
+        -42.1381
+      ],
+      [
+        19.5408,
+        -42.5261
+      ],
+      [
+        19.4786,
+        -42.9141
+      ],
+      [
+        19.4161,
+        -43.3021
+      ],
+      [
+        19.3532,
+        -43.6902
+      ],
+      [
+        19.2899,
+        -44.0783
+      ],
+      [
+        19.226,
+        -44.4663
+      ],
+      [
+        19.1619,
+        -44.8538
+      ],
+      [
+        19.0972,
+        -45.242
+      ],
+      [
+        19.0319,
+        -45.6301
+      ],
+      [
+        18.9661,
+        -46.0183
+      ],
+      [
+        18.8999,
+        -46.4059
+      ],
+      [
+        18.8332,
+        -46.7941
+      ],
+      [
+        18.7657,
+        -47.1823
+      ],
+      [
+        18.6979,
+        -47.5699
+      ],
+      [
+        18.6295,
+        -47.9581
+      ],
+      [
+        18.5604,
+        -48.3458
+      ],
+      [
+        18.4907,
+        -48.7341
+      ],
+      [
+        18.4205,
+        -49.1218
+      ],
+      [
+        18.3495,
+        -49.5101
+      ],
+      [
+        18.2779,
+        -49.8978
+      ],
+      [
+        18.2055,
+        -50.2861
+      ],
+      [
+        18.1326,
+        -50.6738
+      ],
+      [
+        18.0589,
+        -51.0616
+      ],
+      [
+        17.9842,
+        -51.4499
+      ],
+      [
+        17.909,
+        -51.8377
+      ],
+      [
+        17.8331,
+        -52.2254
+      ],
+      [
+        17.7561,
+        -52.6132
+      ],
+      [
+        17.6783,
+        -53.001
+      ],
+      [
+        17.5998,
+        -53.3888
+      ],
+      [
+        17.5201,
+        -53.7772
+      ],
+      [
+        17.4396,
+        -54.165
+      ],
+      [
+        17.3582,
+        -54.5527
+      ],
+      [
+        17.2759,
+        -54.9405
+      ],
+      [
+        17.1922,
+        -55.3283
+      ],
+      [
+        17.1077,
+        -55.7155
+      ],
+      [
+        17.0221,
+        -56.1033
+      ],
+      [
+        16.9353,
+        -56.4911
+      ],
+      [
+        16.8471,
+        -56.8789
+      ],
+      [
+        16.7579,
+        -57.2667
+      ],
+      [
+        16.6677,
+        -57.6538
+      ],
+      [
+        16.5756,
+        -58.0416
+      ],
+      [
+        16.4822,
+        -58.4293
+      ],
+      [
+        16.3878,
+        -58.8165
+      ],
+      [
+        16.2917,
+        -59.2042
+      ],
+      [
+        16.2371,
+        -59.4209
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Geographic, Geometric, and Ionospheric Properties V2"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/SHARAD Geographic, Geometric, and Ionospheric Properties V2"
+    }
+  ],
+  "assets": {
+    "S_05500901_GEOM.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500901_geom.lbl",
+      "type": "text/plain",
+      "title": "S_05500901_GEOM.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_05500901_GEOM.TAB": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500901_geom.tab",
+      "type": "",
+      "title": "S_05500901_GEOM.TAB",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "S_05500901_GEOM_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500901_geom_lbl.kml",
+      "type": "",
+      "title": "S_05500901_GEOM_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "S_05500901_GEOM_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500901_geom_lbl.tar.gz",
+      "type": "",
+      "title": "S_05500901_GEOM_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "S_05500901_GEOM_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-sharad-5-radargram-v2/mrosh_2101/data/geom/s_0550xx/s_05500901_geom_lbl.zip",
+      "type": "",
+      "title": "S_05500901_GEOM_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    16.2371,
+    -59.4209,
+    21.3589,
+    -30.1127
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_SHARAD_USGEOMV2"
+}

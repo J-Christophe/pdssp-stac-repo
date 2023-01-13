@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "MEX_PFS_EDR",
+  "stac_version": "1.0.0",
+  "description": "Collection of MEX/PFS/EDR (Experiment Data Record)  PDS data products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_0037_MEAS_RAD_LW/PFS_0037_MEAS_RAD_LW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_1401_MEAS_RAD_SW/PFS_1401_MEAS_RAD_SW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_0037_MEAS_RAD_SW/PFS_0037_MEAS_RAD_SW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_ICM_MEAS_HK_LW/PFS_ICM_MEAS_HK_LW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_ICM_MEAS_RAW_LW/PFS_ICM_MEAS_RAW_LW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_ICM_MEAS_HK_SW/PFS_ICM_MEAS_HK_SW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_ICM_MEAS_RAW_SW/PFS_ICM_MEAS_RAW_SW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_0020_MEAS_HK_LW/PFS_0020_MEAS_HK_LW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_0020_MEAS_RAW_LW/PFS_0020_MEAS_RAW_LW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./PFS_2604_MEAS_RAD_LW/PFS_2604_MEAS_RAD_LW.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "ssys:targets": [
+    "mars"
+  ],
+  "title": "MEX/PFS Experiment Data Record",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -133.2975,
+          -69.2036,
+          165.3139,
+          74.3397
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2004-01-05T01:23:55.379000Z",
+          "2009-12-31T20:45:05.169000Z"
+        ]
+      ]
+    }
+  },
+  "license": "Default CC-BY-SA-4.0 license for PDS ODE collections [TO BE DEFINED]"
+}

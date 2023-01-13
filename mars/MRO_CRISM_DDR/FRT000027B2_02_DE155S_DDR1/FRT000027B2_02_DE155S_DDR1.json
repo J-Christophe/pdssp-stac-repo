@@ -1,0 +1,238 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "FRT000027B2_02_DE155S_DDR1",
+  "properties": {
+    "datetime": "2006-09-27T17:12:46.465000Z",
+    "created": "2007-03-23T21:21:14.000",
+    "start_datetime": "2006-09-27T17:12:46.465",
+    "end_datetime": "2006-09-27T17:12:50.200",
+    "platform": "MRO",
+    "instruments": [
+      "CRISM"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 112.669155,
+    "ssys:solar_distance": 242918232.794872,
+    "ssys:incidence_angle": 89.0070190429688,
+    "ssys:emission_angle": 64.6784133911133,
+    "ssys:phase_angle": 47.9518241882324,
+    "processing:level": "6",
+    "_keywords": [
+      {
+        "id": "season:summer",
+        "title": "Summer",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "9027067",
+    "pdsode:pdsid": "FRT000027B2_02_DE155S_DDR1",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "CRISM",
+    "pdsode:pt": "DDR",
+    "pdsode:Data_Set_Id": "MRO-M-CRISM-6-DDR-V1.0",
+    "pdsode:PDSVolume_Id": "MROCR_1001",
+    "pdsode:RelativePathtoVol": "ddr\\2006\\2006_270\\frt000027b2\\",
+    "pdsode:LabelFileName": "frt000027b2_02_de155s_ddr1.lbl",
+    "pdsode:Product_creation_time": "2007-03-23T21:21:14.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "1",
+    "pdsode:Observation_id": "16#000027B2#",
+    "pdsode:Observation_number": "16#02#",
+    "pdsode:Observation_type": "FRT",
+    "pdsode:Activity_id": "DE155",
+    "pdsode:Observation_time": "2006-09-27T17:12:48.332",
+    "pdsode:SpaceCraft_clock_start_count": "2/843844385:17716",
+    "pdsode:SpaceCraft_clock_stop_count": "2/843844389:308",
+    "pdsode:Stop_orbit_number": "0",
+    "pdsode:UTC_start_time": "2006-09-27T17:12:46.465",
+    "pdsode:UTC_stop_time": "2006-09-27T17:12:50.200",
+    "pdsode:Emission_angle": 64.6784133911133,
+    "pdsode:Phase_angle": 47.9518241882324,
+    "pdsode:Incidence_angle": 89.0070190429688,
+    "pdsode:Solar_distance": 242918232.794872,
+    "pdsode:Solar_longitude": 112.669155,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "54.5688",
+    "pdsode:Center_longitude": "54.769",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "55.1308",
+    "pdsode:Maximum_latitude": "54.6498",
+    "pdsode:Minimum_latitude": "54.4878",
+    "pdsode:Westernmost_longitude": "54.4079",
+    "pdsode:Footprint_geometry": "MULTIPOLYGON (((55.1308 54.6087, 55.1285 54.6124, 55.1277 54.6089, 55.1308 54.6087)), ((55.1002 54.4878, 55.1194 54.574, 55.1277 54.6089, 54.9652 54.6203, 54.7882 54.6308, 54.6111 54.6407, 54.4336 54.6498, 54.4321 54.6441, 54.4079 54.5278, 54.573 54.519, 54.7489 54.5093, 54.9246 54.4987, 55.1002 54.4878)))",
+    "pdsode:Footprint_C0_geometry": "MULTIPOLYGON (((55.1308 54.6087, 55.1285 54.6124, 55.1277 54.6089, 55.1308 54.6087)), ((55.1002 54.4878, 55.1194 54.574, 55.1277 54.6089, 54.9652 54.6203, 54.7882 54.6308, 54.6111 54.6407, 54.4336 54.6498, 54.4321 54.6441, 54.4079 54.5278, 54.573 54.519, 54.7489 54.5093, 54.9246 54.4987, 55.1002 54.4878)))",
+    "pdsode:Footprint_GL_geometry": "MULTIPOLYGON (((55.130800008773804 54.608699977397919, 55.128499984741211 54.612399995326996, 55.127675035633274 54.608918876732595, 55.130800008773804 54.608699977397919)), ((55.100199937820435 54.487800002098083, 55.109800100326538 54.530900001525879, 55.119400024414063 54.574000000953674, 55.127675035633274 54.608918876732595, 54.965199947357178 54.620299994945526, 54.788199901580811 54.630800008773804, 54.6110999584198 54.640699982643127, 54.433599948883057 54.649800002574921, 54.432100057601929 54.64410001039505, 54.419899940490723 54.585900008678436, 54.407900094985962 54.527800023555756, 54.572999954223633 54.518999993801117, 54.748899936676025 54.509299993515015, 54.924599885940552 54.498700022697449, 55.100199937820435 54.487800002098083)))",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "DDR",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=FRT000027B2_02_DE155S_DDR1&product_idGeo=9027067",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=FRT000027B2_02_DE155S_DDR1&product_idGeo=9027067",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=FRT000027B2_02_DE155S_DDR1&product_idGeo=9027067",
+    "pdsode:LabelURL": "http://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2006/2006_270/frt000027b2/frt000027b2_02_de155s_ddr1.lbl"
+  },
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            55.1308,
+            54.6087
+          ],
+          [
+            55.1285,
+            54.6124
+          ],
+          [
+            55.1277,
+            54.6089
+          ],
+          [
+            55.1308,
+            54.6087
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            55.1002,
+            54.4878
+          ],
+          [
+            55.1194,
+            54.574
+          ],
+          [
+            55.1277,
+            54.6089
+          ],
+          [
+            54.9652,
+            54.6203
+          ],
+          [
+            54.7882,
+            54.6308
+          ],
+          [
+            54.6111,
+            54.6407
+          ],
+          [
+            54.4336,
+            54.6498
+          ],
+          [
+            54.4321,
+            54.6441
+          ],
+          [
+            54.4079,
+            54.5278
+          ],
+          [
+            54.573,
+            54.519
+          ],
+          [
+            54.7489,
+            54.5093
+          ],
+          [
+            54.9246,
+            54.4987
+          ],
+          [
+            55.1002,
+            54.4878
+          ]
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CRISM Derived Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CRISM Derived Data Record"
+    }
+  ],
+  "assets": {
+    "FRT000027B2_02_DE155S_DDR1.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2006/2006_270/frt000027b2/frt000027b2_02_de155s_ddr1.img",
+      "type": "",
+      "title": "FRT000027B2_02_DE155S_DDR1.IMG",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT000027B2_02_DE155S_DDR1.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2006/2006_270/frt000027b2/frt000027b2_02_de155s_ddr1.lbl",
+      "type": "text/plain",
+      "title": "FRT000027B2_02_DE155S_DDR1.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "FRT000027B2_02_DE155S_DDR1_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2006/2006_270/frt000027b2/frt000027b2_02_de155s_ddr1_lbl.kml",
+      "type": "",
+      "title": "FRT000027B2_02_DE155S_DDR1_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "FRT000027B2_02_DE155S_DDR1_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2006/2006_270/frt000027b2/frt000027b2_02_de155s_ddr1_lbl.tar.gz",
+      "type": "",
+      "title": "FRT000027B2_02_DE155S_DDR1_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "FRT000027B2_02_DE155S_DDR1_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2006/2006_270/frt000027b2/frt000027b2_02_de155s_ddr1_lbl.zip",
+      "type": "",
+      "title": "FRT000027B2_02_DE155S_DDR1_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    54.4079,
+    54.4878,
+    55.1308,
+    54.6498
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_CRISM_DDR"
+}

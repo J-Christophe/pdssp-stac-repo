@@ -1,0 +1,176 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "M116943294LC",
+  "properties": {
+    "datetime": "2010-01-01T00:00:27.951000Z",
+    "created": "2013-09-11T03:35:20.000",
+    "start_datetime": "2010-01-01T00:00:27.951",
+    "end_datetime": "2010-01-01T00:01:01.776",
+    "platform": "LRO",
+    "instruments": [
+      "LROC"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "moon"
+    ],
+    "ssys:solar_longitude": 349.37,
+    "ssys:solar_distance": 147458931.5,
+    "ssys:incidence_angle": 88.84,
+    "ssys:emission_angle": 1.69,
+    "ssys:phase_angle": 90.53,
+    "processing:level": "3",
+    "pdsode:ode_id": "16281194",
+    "pdsode:pdsid": "M116943294LC",
+    "pdsode:ihid": "LRO",
+    "pdsode:iid": "LROC",
+    "pdsode:pt": "CDRNAC",
+    "pdsode:Data_Set_Id": "LRO-L-LROC-3-CDR-V1.0",
+    "pdsode:PDSVolume_Id": "LROLRC_1002",
+    "pdsode:RelativePathtoVol": "data\\map\\2010001\\nac\\",
+    "pdsode:LabelFileName": "m116943294lc.img",
+    "pdsode:Product_creation_time": "2013-09-11T03:35:20.000",
+    "pdsode:Target_name": "MOON",
+    "pdsode:Product_version_id": "v1.9",
+    "pdsode:Producer_id": "LRO_LROC_TEAM",
+    "pdsode:Observation_time": "2010-01-01T00:00:44.863",
+    "pdsode:SpaceCraft_clock_start_count": "1/283996827:60505",
+    "pdsode:SpaceCraft_clock_stop_count": "1/283996861:49073",
+    "pdsode:Stop_orbit_number": "2367",
+    "pdsode:UTC_start_time": "2010-01-01T00:00:27.951",
+    "pdsode:UTC_stop_time": "2010-01-01T00:01:01.776",
+    "pdsode:Emission_angle": 1.69,
+    "pdsode:Phase_angle": 90.53,
+    "pdsode:Incidence_angle": 88.84,
+    "pdsode:Map_resolution": 1.003,
+    "pdsode:Solar_distance": 147458931.5,
+    "pdsode:Solar_longitude": 349.37,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-81.1602",
+    "pdsode:Center_longitude": "80.0734",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "80.46",
+    "pdsode:Maximum_latitude": "-80.26",
+    "pdsode:Minimum_latitude": "-82.06",
+    "pdsode:Westernmost_longitude": "79.02",
+    "pdsode:Footprint_geometry": "POLYGON ((79.6 -82.06, 80.46 -80.26, 79.99 -80.26, 79.02 -82.05, 79.6 -82.06))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((79.6 -82.06, 80.46 -80.26, 79.99 -80.26, 79.02 -82.05, 79.6 -82.06))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((79.6 -82.06, 80.46 -80.26, 79.99 -80.26, 79.02 -82.05, 79.6 -82.06))",
+    "pdsode:Footprint_NP_geometry": "MULTIPOLYGON EMPTY",
+    "pdsode:Footprint_SP_geometry": "POLYGON ((237191.65887290705 43532.815652827572, 267525.47207432817 46599.257470825076, 291968.24565597263 49068.2928292536, 291555.91741925158 51461.644458978146, 261186.46246159941 48414.650745713232, 237037.95285201003 45989.648226769008, 237191.65887290705 43532.815652827572))",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "PDS Archive Index Table",
+    "pdsode:Comment": "TARGET OF OPPORTUNITY",
+    "pdsode:External_url": "http://wms.lroc.asu.edu/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M116943294LC",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/moon/productfiles.aspx?product_id=M116943294LC&product_idGeo=16281194",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/moon/indexproductpage.aspx?product_id=M116943294LC&product_idGeo=16281194",
+    "pdsode:LabelURL": "https://pds.lroc.asu.edu/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1002/DATA/MAP/2010001/NAC/M116943294LC.IMG"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          79.6,
+          -82.06
+        ],
+        [
+          80.46,
+          -80.26
+        ],
+        [
+          79.99,
+          -80.26
+        ],
+        [
+          79.02,
+          -82.05
+        ],
+        [
+          79.6,
+          -82.06
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Moon STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Calibrated Data Record Narrow Angle Camera"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LRO/LROC Calibrated Data Record Narrow Angle Camera"
+    }
+  ],
+  "assets": {
+    "M116943294LC.IMG": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1002/DATA/MAP/2010001/NAC/M116943294LC.IMG",
+      "type": "",
+      "title": "M116943294LC.IMG",
+      "description": "PRODUCT DATA FILE WITH LABEL",
+      "roles": [
+        "data"
+      ]
+    },
+    "M116943294LC_IMG.KML": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/kmlfiles/lro-l-lroc-3-cdr-v1/lrolrc_1002/data/map/2010001/nac/m116943294lc_img.kml",
+      "type": "",
+      "title": "M116943294LC_IMG.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M116943294LC_IMG.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-3-cdr-v1/lrolrc_1002/data/map/2010001/nac/m116943294lc_img.tar.gz",
+      "type": "",
+      "title": "M116943294LC_IMG.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M116943294LC_IMG.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/moon/datafile/shapefiles/lro-l-lroc-3-cdr-v1/lrolrc_1002/data/map/2010001/nac/m116943294lc_img.zip",
+      "type": "",
+      "title": "M116943294LC_IMG.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "M116943294LC_PYR.TIF": {
+      "href": "https://pds.lroc.asu.edu/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1002/EXTRAS/BROWSE/2010001/M116943294LC_pyr.tif",
+      "type": "",
+      "title": "M116943294LC_PYR.TIF",
+      "description": "BROWSE IMAGE",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    79.02,
+    -82.06,
+    80.46,
+    -80.26
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "LRO_LROC_CDRNAC"
+}

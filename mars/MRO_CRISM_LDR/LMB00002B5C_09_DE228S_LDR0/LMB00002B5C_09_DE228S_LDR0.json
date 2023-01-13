@@ -1,0 +1,196 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "LMB00002B5C_09_DE228S_LDR0",
+  "properties": {
+    "datetime": "2009-07-10T20:04:03.439000Z",
+    "created": "2009-09-03T19:39:48.000",
+    "start_datetime": "2009-07-10T20:04:03.439",
+    "end_datetime": "2009-07-10T20:06:27.173",
+    "platform": "MRO",
+    "instruments": [
+      "CRISM"
+    ],
+    "gsd": null,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:solar_longitude": 301.004729,
+    "ssys:solar_distance": 213147554.83405,
+    "ssys:incidence_angle": 76.0546112060547,
+    "ssys:emission_angle": 90.0,
+    "ssys:phase_angle": 141.839553833008,
+    "processing:level": "6",
+    "_keywords": [
+      {
+        "id": "season:winter",
+        "title": "Winter",
+        "type": "season"
+      }
+    ],
+    "pdsode:ode_id": "14335103",
+    "pdsode:pdsid": "LMB00002B5C_09_DE228S_LDR0",
+    "pdsode:ihid": "MRO",
+    "pdsode:iid": "CRISM",
+    "pdsode:pt": "LDR",
+    "pdsode:Data_Set_Id": "MRO-M-CRISM-6-LDR-V1.0",
+    "pdsode:PDSVolume_Id": "MROCR_5001",
+    "pdsode:RelativePathtoVol": "ldr\\2009\\2009_191\\lmb00002b5c\\",
+    "pdsode:LabelFileName": "lmb00002b5c_09_de228s_ldr0.lbl",
+    "pdsode:Product_creation_time": "2009-09-03T19:39:48.000",
+    "pdsode:Target_name": "MARS",
+    "pdsode:Product_version_id": "0",
+    "pdsode:Observation_id": "16#00002B5C#",
+    "pdsode:Observation_number": "16#09#",
+    "pdsode:Observation_type": "LMB",
+    "pdsode:Activity_id": "DE228",
+    "pdsode:Observation_time": "2009-07-10T20:05:15.306",
+    "pdsode:SpaceCraft_clock_start_count": "6/931723465:55675",
+    "pdsode:SpaceCraft_clock_stop_count": "6/931723609:38244",
+    "pdsode:Stop_orbit_number": "0",
+    "pdsode:UTC_start_time": "2009-07-10T20:04:03.439",
+    "pdsode:UTC_stop_time": "2009-07-10T20:06:27.173",
+    "pdsode:Emission_angle": 90.0,
+    "pdsode:Phase_angle": 141.839553833008,
+    "pdsode:Incidence_angle": 76.0546112060547,
+    "pdsode:Solar_distance": 213147554.83405,
+    "pdsode:Solar_longitude": 301.004729,
+    "pdsode:Center_georeferenced": "True",
+    "pdsode:Center_latitude": "-79.3783",
+    "pdsode:Center_longitude": "70.7998",
+    "pdsode:BB_georeferenced": "True",
+    "pdsode:Easternmost_longitude": "73.3652",
+    "pdsode:Maximum_latitude": "-78.4416",
+    "pdsode:Minimum_latitude": "-80.3159",
+    "pdsode:Westernmost_longitude": "67.8114",
+    "pdsode:Footprint_geometry": "POLYGON ((71.6276 -80.3159, 73.3652 -78.5474, 72.7474 -78.4998, 72.0936 -78.4864, 71.4512 -78.4628, 70.8473 -78.4416, 67.8114 -80.185, 71.6276 -80.3159))",
+    "pdsode:Footprint_C0_geometry": "POLYGON ((71.6276 -80.3159, 73.3652 -78.5474, 72.7474 -78.4998, 72.0936 -78.4864, 71.4512 -78.4628, 70.8473 -78.4416, 67.8114 -80.185, 71.6276 -80.3159))",
+    "pdsode:Footprint_GL_geometry": "POLYGON ((71.6276 -80.3159, 73.3652 -78.5474, 72.7474 -78.4998, 72.0936 -78.4864, 71.4512 -78.4628, 70.8473 -78.4416, 67.8114 -80.185, 71.6276 -80.3159))",
+    "pdsode:Footprint_NP_geometry": "GEOMETRYCOLLECTION EMPTY",
+    "pdsode:Footprint_SP_geometry": "POLYGON ((542850.00303978531 180291.77353551509, 648772.71546661155 193836.69190281845, 649350.69566814287 201661.05848519833, 647766.31117759214 209302.72525554089, 646710.78648642707 216999.0600977804, 645579.87707484688 224217.28751712045, 536840.98496095347 218956.15532921458, 542850.00303978531 180291.77353551509))",
+    "pdsode:Footprints_cross_meridian": "False",
+    "pdsode:Pole_state": "none",
+    "pdsode:Footprint_souce": "LDR",
+    "pdsode:External_url": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=LMB00002B5C_09_DE228S_LDR0&product_idGeo=14335103",
+    "pdsode:FilesURL": "https://ode.rsl.wustl.edu/mars/productfiles.aspx?product_id=LMB00002B5C_09_DE228S_LDR0&product_idGeo=14335103",
+    "pdsode:ProductURL": "https://ode.rsl.wustl.edu/mars/indexproductpage.aspx?product_id=LMB00002B5C_09_DE228S_LDR0&product_idGeo=14335103",
+    "pdsode:LabelURL": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ldr-v1/mrocr_5001/ldr/2009/2009_191/lmb00002b5c/lmb00002b5c_09_de228s_ldr0.lbl"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          71.6276,
+          -80.3159
+        ],
+        [
+          73.3652,
+          -78.5474
+        ],
+        [
+          72.7474,
+          -78.4998
+        ],
+        [
+          72.0936,
+          -78.4864
+        ],
+        [
+          71.4512,
+          -78.4628
+        ],
+        [
+          70.8473,
+          -78.4416
+        ],
+        [
+          67.8114,
+          -80.185
+        ],
+        [
+          71.6276,
+          -80.3159
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Mars STAC Catalog holding one or several PDSSP-compliant data products collections."
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CRISM Limb Data Record"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MRO/CRISM Limb Data Record"
+    }
+  ],
+  "assets": {
+    "LMB00002B5C_09_DE228S_LDR0.IMG": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ldr-v1/mrocr_5001/ldr/2009/2009_191/lmb00002b5c/lmb00002b5c_09_de228s_ldr0.img",
+      "type": "",
+      "title": "LMB00002B5C_09_DE228S_LDR0.IMG",
+      "description": "PRODUCT DATA FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "LMB00002B5C_09_DE228S_LDR0.LBL": {
+      "href": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ldr-v1/mrocr_5001/ldr/2009/2009_191/lmb00002b5c/lmb00002b5c_09_de228s_ldr0.lbl",
+      "type": "text/plain",
+      "title": "LMB00002B5C_09_DE228S_LDR0.LBL",
+      "description": "PRODUCT LABEL FILE",
+      "roles": [
+        "data"
+      ]
+    },
+    "LMB00002B5C_09_DE228S_LDR0_LBL.KML": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/kmlfiles/mro-m-crism-6-ldr-v1/mrocr_5001/ldr/2009/2009_191/lmb00002b5c/lmb00002b5c_09_de228s_ldr0_lbl.kml",
+      "type": "",
+      "title": "LMB00002B5C_09_DE228S_LDR0_LBL.KML",
+      "description": "PRODUCT KML FILE <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "LMB00002B5C_09_DE228S_LDR0_LBL.TAR.GZ": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-crism-6-ldr-v1/mrocr_5001/ldr/2009/2009_191/lmb00002b5c/lmb00002b5c_09_de228s_ldr0_lbl.tar.gz",
+      "type": "",
+      "title": "LMB00002B5C_09_DE228S_LDR0_LBL.TAR.GZ",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (TAR.GZ) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    },
+    "LMB00002B5C_09_DE228S_LDR0_LBL.ZIP": {
+      "href": "https://ode.rsl.wustl.edu/mars/datafile/shapefiles/mro-m-crism-6-ldr-v1/mrocr_5001/ldr/2009/2009_191/lmb00002b5c/lmb00002b5c_09_de228s_ldr0_lbl.zip",
+      "type": "",
+      "title": "LMB00002B5C_09_DE228S_LDR0_LBL.ZIP",
+      "description": "PRODUCT FOOTPRINT SHAPEFILES (ZIP) <A HREF=\"PAGEHELP/CONTENT/FREQUENTLY_ASKED_QUESTIONS/PRODUCT_FOOTPRINTS.HTM\" TARGET=\"_BLANK\">HELP</A>",
+      "roles": [
+        "Derived"
+      ]
+    }
+  },
+  "bbox": [
+    67.8114,
+    -80.3159,
+    73.3652,
+    -78.4416
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing"
+  ],
+  "collection": "MRO_CRISM_LDR"
+}
