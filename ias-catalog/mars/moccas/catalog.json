@@ -1,0 +1,29 @@
+{
+  "type": "Catalog",
+  "id": "moccas",
+  "stac_version": "1.0.0",
+  "description": "Global repository of secondary minerals formed through interaction with water on Mars. This work is based on the\nanalysis of orbital imaging spectroscopy data from the OMEGA/Mars Express and CRISM/MRO near-infrared instruments.\nA database and a set of high-resolution global maps (200 m/pix) are produced which provide a large collection of\nthese \"aqueous\" secondary mineral deposits, most of which were not previously reported.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "IAS Mars Data Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "ssys",
+    "processing",
+    "sci"
+  ],
+  "ssys:targets": [
+    "Mars"
+  ],
+  "title": "Mars Orbital Catalog of Aqueous Alteration Signatures"
+}

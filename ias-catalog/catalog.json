@@ -1,0 +1,25 @@
+{
+  "type": "Catalog",
+  "id": "ias",
+  "stac_version": "1.0.0",
+  "description": "IAS Planetary Surface Data STAC Catalogs.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./mars/catalog.json",
+      "type": "application/json",
+      "title": "IAS Mars Data Catalog"
+    }
+  ],
+  "stac_extensions": [],
+  "ssys:targets": [
+    "Mars"
+  ],
+  "title": "IAS Planetary Surface Data STAC Catalog"
+}
