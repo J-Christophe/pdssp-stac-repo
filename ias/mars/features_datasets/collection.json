@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "mex_omega_c_proj_ddr",
+  "id": "features_datasets",
   "stac_version": "1.0.0",
-  "description": "OMEGA C-channel map-projected observations data cubes",
+  "description": "Mars surface features catalogs",
   "links": [
     {
       "rel": "root",
@@ -12,52 +12,37 @@
     },
     {
       "rel": "item",
-      "href": "./0018_0/0018_0.json",
+      "href": "./hyd_global_290615/hyd_global_290615.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./0018_1/0018_1.json",
+      "href": "./detections_crateres_benjamin_bultel_icarus/detections_crateres_benjamin_bultel_icarus.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./0022_0/0022_0.json",
+      "href": "./lcp_flahaut_et_al/lcp_flahaut_et_al.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./0022_1/0022_1.json",
+      "href": "./lcp_vmwalls/lcp_vmwalls.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./0024_0/0024_0.json",
+      "href": "./crocus_ls150-310/crocus_ls150-310.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./0024_1/0024_1.json",
+      "href": "./scalloped_depression/scalloped_depression.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./0030_0/0030_0.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./0030_1/0030_1.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./0032_1/0032_1.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./0032_3/0032_3.json",
+      "href": "./costard_craters/costard_craters.json",
       "type": "application/json"
     },
     {
@@ -77,7 +62,7 @@
       "Mars"
     ]
   ],
-  "processing:level": "L3",
+  "processing:level": "",
   "sci:publications": [
     {
       "doi": "",
@@ -96,23 +81,23 @@
       "citation": "Bibring et al (2004), OMEGA: Observatoire pour la Mineralogie, l'Eau, les Glaces et l'Activit\u00e9, In: Mars Express: the scientific payload. ESA SP-1240, Noordwijk, Netherlands:ESA Publications Division, ISBN 92-9092-556-6, p. 37-49."
     }
   ],
-  "title": "OMEGA C-channel map-projected observations data cubes",
+  "title": "Mars surface features catalogs",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -84.798,
-          -60.0,
-          175.426,
-          39.125
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2004-01-14T00:19:12.032000Z",
-          "2004-01-19T15:32:27.025000Z"
+          "2023-04-01T15:39:06.927891Z",
+          "2023-04-01T15:39:06.932357Z"
         ]
       ]
     }

@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "mex_omega_global_maps_ddr",
+  "stac_version": "1.0.0",
+  "description": "OMEGA Mars global mineral maps",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./albedo_r1080_equ_map/albedo_r1080_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ferric_bd530_equ_map/ferric_bd530_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ferric_nnphs_equ_map/ferric_nnphs_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./olivine_osp1_equ_map/olivine_osp1_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./olivine_osp2_equ_map/olivine_osp2_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./olivine_osp3_equ_map/olivine_osp3_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./pyroxene_bd2000_equ_map/pyroxene_bd2000_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./albedo_filled/albedo_filled.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./albedo_unfilled/albedo_unfilled.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./emissivite_5.03mic_OMEGA0/emissivite_5.03mic_OMEGA0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "IAS Mars Data Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "ssys:targets": [
+    [
+      "Mars"
+    ]
+  ],
+  "processing:level": "",
+  "sci:publications": [
+    {
+      "doi": "doi:10.1029/2012JE004117",
+      "citation": "A. Ody, F. Poulet, Y. Langevin, J.\u2010P. Bibring, G. Bellucci, F. Altieri, B. Gondet, M. Vincendon, J.Carter and N. Manaud (2012), Global maps of anhydrous minerals at the surface of Mars from OMEGA/MEx, J. Geophys. Res., 117, E00J14.\n"
+    }
+  ],
+  "title": "OMEGA Mars global mineral maps",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-04-01T15:39:06.934027Z",
+          "2023-04-01T15:39:06.939525Z"
+        ]
+      ]
+    }
+  },
+  "license": "Undefined"
+}
