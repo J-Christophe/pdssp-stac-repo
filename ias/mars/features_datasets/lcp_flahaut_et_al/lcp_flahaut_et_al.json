@@ -3,9 +3,10 @@
   "stac_version": "1.0.0",
   "id": "lcp_flahaut_et_al",
   "properties": {
+    "title": "Central peaks mineralogy south Valles Marineris",
     "created": null,
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.929351Z",
+    "datetime": "2023-04-01T15:48:22.211911Z",
     "ssys:targets": [
       "Mars"
     ]

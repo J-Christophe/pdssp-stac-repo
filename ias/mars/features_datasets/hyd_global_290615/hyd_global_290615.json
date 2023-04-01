@@ -3,9 +3,10 @@
   "stac_version": "1.0.0",
   "id": "hyd_global_290615",
   "properties": {
+    "title": "Hydrated mineral sites",
     "created": null,
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.927891Z",
+    "datetime": "2023-04-01T15:48:22.210488Z",
     "ssys:targets": [
       "Mars"
     ]

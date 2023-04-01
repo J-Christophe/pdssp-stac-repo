@@ -3,15 +3,15 @@
   "stac_version": "1.0.0",
   "id": "emissivite_5.03mic_OMEGA0",
   "properties": {
-    "title": "\"OMEGA0 Emissivity at 5.03 mic\"",
-    "description": "\"40 ppd global maps of surface emissivity at 5.03 mic. Holes are set to NaN.\"",
+    "title": "OMEGA0 Emissivity at 5.03 mic",
+    "description": "40 ppd global maps of surface emissivity at 5.03 mic. Holes are set to NaN.",
     "created": null,
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.939525Z",
+    "datetime": "2023-04-01T15:48:22.221212Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -74,10 +74,10 @@
       ]
     },
     "fits_preview_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/emissivite_5.03mic_OMEGA0.fits",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/emissivite_5.03mic_OMEGA0_reduce.png",
       "type": "image/png",
       "title": "emissivite_5.03mic_OMEGA0",
-      "description": "Data preview image file",
+      "description": "Preview image file",
       "roles": [
         "preview"
       ]

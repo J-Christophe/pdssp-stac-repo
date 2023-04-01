@@ -3,9 +3,10 @@
   "stac_version": "1.0.0",
   "id": "costard_craters",
   "properties": {
+    "title": "Lobate impact craters",
     "created": null,
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.932357Z",
+    "datetime": "2023-04-01T15:48:22.214542Z",
     "ssys:targets": [
       "Mars"
     ]

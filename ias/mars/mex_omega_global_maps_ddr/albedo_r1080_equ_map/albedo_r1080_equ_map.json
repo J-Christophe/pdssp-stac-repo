@@ -3,15 +3,15 @@
   "stac_version": "1.0.0",
   "id": "albedo_r1080_equ_map",
   "properties": {
-    "title": "\"OMEGA NIR albedo\"",
-    "description": "\"This data product is a global NIR 1-micrometer albedo map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010\"",
+    "title": "OMEGA NIR albedo",
+    "description": "This data product is a global NIR 1-micrometer albedo map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010",
     "created": null,
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.934027Z",
+    "datetime": "2023-04-01T15:48:22.215983Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -74,10 +74,10 @@
       ]
     },
     "fits_preview_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/albedo_r1080_equ_map.fits",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/albedo_r1080_equ_map_reduce.png",
       "type": "image/png",
       "title": "albedo_r1080_equ_map",
-      "description": "Data preview image file",
+      "description": "Preview image file",
       "roles": [
         "preview"
       ]

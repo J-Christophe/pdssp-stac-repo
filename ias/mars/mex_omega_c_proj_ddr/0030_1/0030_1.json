@@ -16,13 +16,13 @@
     "pdssp_solar_longitude": 335.696,
     "pdssp_incidence_angle": 10.570672035217285,
     "orbit_number": "30",
-    "mean_tau": null,
-    "mean_icecloudindex": null,
     "mean_watericelin": null,
+    "mean_icecloudindex": null,
     "data_quality_id": "3",
     "ssys:targets": [
       "Mars"
     ],
+    "mean_tau": null,
     "cube_number": "1"
   },
   "geometry": {

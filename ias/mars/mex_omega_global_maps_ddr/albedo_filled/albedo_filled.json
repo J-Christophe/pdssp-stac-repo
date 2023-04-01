@@ -3,15 +3,15 @@
   "stac_version": "1.0.0",
   "id": "albedo_filled",
   "properties": {
-    "title": "\"OMEGA Albedo Filled\"",
-    "description": "\"60 ppd global map of Solar Albedo from OMEGA data fileld with TES 20 ppd solar albedo global maps (Putzig and Mellon, 2007b) (21600x10800 pixels). This map is 100% filled. Variable name is \"albedo\". \"latitude\" and \"longitude\" indicate the coordinates of the centers of the pixels. Reference : Vincendon et al., Icarus, 2015\"",
+    "title": "OMEGA Albedo Filled",
+    "description": "60 ppd global map of Solar Albedo from OMEGA data fileld with TES 20 ppd solar albedo global maps (Putzig and Mellon, 2007b) (21600x10800 pixels). This map is 100% filled. Variable name is \"albedo\". \"latitude\" and \"longitude\" indicate the coordinates of the centers of the pixels. Reference : Vincendon et al., Icarus, 2015",
     "created": null,
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.938267Z",
+    "datetime": "2023-04-01T15:48:22.220063Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -74,10 +74,10 @@
       ]
     },
     "fits_preview_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/albedo_filled.fits",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/albedo_filled_reduce.png",
       "type": "image/png",
       "title": "albedo_filled",
-      "description": "Data preview image file",
+      "description": "Preview image file",
       "roles": [
         "preview"
       ]

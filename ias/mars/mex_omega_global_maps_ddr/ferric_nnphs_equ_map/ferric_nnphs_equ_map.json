@@ -3,15 +3,15 @@
   "stac_version": "1.0.0",
   "id": "ferric_nnphs_equ_map",
   "properties": {
-    "title": "\"OMEGA Ferric Nanophase\"",
-    "description": "\"This data product is a global nanophase ferric oxide (dust) spectral parameter map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010. This nanophase ferric oxide spectral parameter (NNPHS) is based on the absorption feature centered at 0.86 micrometer.\"",
+    "title": "OMEGA Ferric Nanophase",
+    "description": "This data product is a global nanophase ferric oxide (dust) spectral parameter map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010. This nanophase ferric oxide spectral parameter (NNPHS) is based on the absorption feature centered at 0.86 micrometer.",
     "created": null,
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.935283Z",
+    "datetime": "2023-04-01T15:48:22.217135Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -74,10 +74,10 @@
       ]
     },
     "fits_preview_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/ferric_nnphs_equ_map.fits",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/ferric_nnphs_equ_map_reduce.png",
       "type": "image/png",
       "title": "ferric_nnphs_equ_map",
-      "description": "Data preview image file",
+      "description": "Preview image file",
       "roles": [
         "preview"
       ]

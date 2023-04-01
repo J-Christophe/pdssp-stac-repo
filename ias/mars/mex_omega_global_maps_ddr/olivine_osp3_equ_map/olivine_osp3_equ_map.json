@@ -3,15 +3,15 @@
   "stac_version": "1.0.0",
   "id": "olivine_osp3_equ_map",
   "properties": {
-    "title": "\"OMEGA Olivine SP3\"",
-    "description": "\"This data product is a global olivine spectral parameter map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010. This olivine spectral parameter (OSP3) determines the full band depth at 1.36 micrometer relative to a continuum. It preferentially detects olivine with a large Fe content and/or with large grain size and/or with high abundance.\"",
+    "title": "OMEGA Olivine SP3",
+    "description": "This data product is a global olivine spectral parameter map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010. This olivine spectral parameter (OSP3) determines the full band depth at 1.36 micrometer relative to a continuum. It preferentially detects olivine with a large Fe content and/or with large grain size and/or with high abundance.",
     "created": null,
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.937122Z",
+    "datetime": "2023-04-01T15:48:22.218910Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -74,10 +74,10 @@
       ]
     },
     "fits_preview_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/olivine_osp3_equ_map.fits",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/olivine_osp3_equ_map_reduce.png",
       "type": "image/png",
       "title": "olivine_osp3_equ_map",
-      "description": "Data preview image file",
+      "description": "Preview image file",
       "roles": [
         "preview"
       ]

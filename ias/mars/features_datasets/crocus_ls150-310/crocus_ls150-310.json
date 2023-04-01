@@ -3,9 +3,10 @@
   "stac_version": "1.0.0",
   "id": "crocus_ls150-310",
   "properties": {
+    "title": "Seasonal South polar cap limits",
     "created": null,
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.930839Z",
+    "datetime": "2023-04-01T15:48:22.213245Z",
     "ssys:targets": [
       "Mars"
     ]

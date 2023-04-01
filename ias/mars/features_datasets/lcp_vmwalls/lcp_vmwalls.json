@@ -3,9 +3,10 @@
   "stac_version": "1.0.0",
   "id": "lcp_vmwalls",
   "properties": {
+    "title": "Valles Marineris low Calcium-Pyroxene",
     "created": null,
     "gsd": null,
-    "datetime": "2023-04-01T15:39:06.930056Z",
+    "datetime": "2023-04-01T15:48:22.212599Z",
     "ssys:targets": [
       "Mars"
     ]
