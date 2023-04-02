@@ -4,7 +4,7 @@
   "id": "lcp_vmwalls",
   "properties": {
     "title": "Locations of \"Valles Marineris Low Calcium-Pyroxene\"",
-    "datetime": "2023-04-02T17:10:48.913975Z",
+    "datetime": "2023-04-02T17:33:15.810240Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -47,13 +47,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Mars Surface Features Datasets"
+      "title": "Mars Surface Features Location Datasets"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Mars Surface Features Datasets"
+      "title": "Mars Surface Features Location Datasets"
     }
   ],
   "assets": {

@@ -4,7 +4,7 @@
   "id": "crocus_ls150-310",
   "properties": {
     "title": "Locations of \"Seasonal South Polar Cap Limits\"",
-    "datetime": "2023-04-02T17:10:48.914885Z",
+    "datetime": "2023-04-02T17:33:15.811224Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -47,13 +47,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Mars Surface Features Datasets"
+      "title": "Mars Surface Features Location Datasets"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Mars Surface Features Datasets"
+      "title": "Mars Surface Features Location Datasets"
     }
   ],
   "assets": {

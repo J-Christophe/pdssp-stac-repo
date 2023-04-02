@@ -4,7 +4,7 @@
   "id": "detections_crateres_benjamin_bultel_icarus",
   "properties": {
     "title": "Locations of \"Central Peaks Hydrated Phases Between Isidis And Hellas\"",
-    "datetime": "2023-04-02T17:10:48.912165Z",
+    "datetime": "2023-04-02T17:33:15.808158Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -47,13 +47,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Mars Surface Features Datasets"
+      "title": "Mars Surface Features Location Datasets"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Mars Surface Features Datasets"
+      "title": "Mars Surface Features Location Datasets"
     }
   ],
   "assets": {

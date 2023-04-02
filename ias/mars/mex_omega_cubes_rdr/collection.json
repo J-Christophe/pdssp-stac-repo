@@ -12,52 +12,52 @@
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_0_CUBE/OMEGA_L2_0006_0_CUBE.json",
+      "href": "./OMEGA_L2_0006_0/OMEGA_L2_0006_0.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_1_CUBE/OMEGA_L2_0006_1_CUBE.json",
+      "href": "./OMEGA_L2_0006_1/OMEGA_L2_0006_1.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_2_CUBE/OMEGA_L2_0006_2_CUBE.json",
+      "href": "./OMEGA_L2_0006_2/OMEGA_L2_0006_2.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_3_CUBE/OMEGA_L2_0006_3_CUBE.json",
+      "href": "./OMEGA_L2_0006_3/OMEGA_L2_0006_3.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_4_CUBE/OMEGA_L2_0006_4_CUBE.json",
+      "href": "./OMEGA_L2_0006_4/OMEGA_L2_0006_4.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_5_CUBE/OMEGA_L2_0006_5_CUBE.json",
+      "href": "./OMEGA_L2_0006_5/OMEGA_L2_0006_5.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_6_CUBE/OMEGA_L2_0006_6_CUBE.json",
+      "href": "./OMEGA_L2_0006_6/OMEGA_L2_0006_6.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_7_CUBE/OMEGA_L2_0006_7_CUBE.json",
+      "href": "./OMEGA_L2_0006_7/OMEGA_L2_0006_7.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_8_CUBE/OMEGA_L2_0006_8_CUBE.json",
+      "href": "./OMEGA_L2_0006_8/OMEGA_L2_0006_8.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L2_0006_9_CUBE/OMEGA_L2_0006_9_CUBE.json",
+      "href": "./OMEGA_L2_0006_9/OMEGA_L2_0006_9.json",
       "type": "application/json"
     },
     {
@@ -96,7 +96,7 @@
       "citation": "Bibring et al (2004), OMEGA: Observatoire pour la Mineralogie, l'Eau, les Glaces et l'Activit\u00e9, In: Mars Express: the scientific payload. ESA SP-1240, Noordwijk, Netherlands:ESA Publications Division, ISBN 92-9092-556-6, p. 37-49."
     }
   ],
-  "title": "OMEGA Calibrated Data Cubes",
+  "title": "OMEGA Calibrated Observation Data Cubes",
   "extent": {
     "spatial": {
       "bbox": [
@@ -111,8 +111,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T17:10:48.891493Z",
-          "2023-04-02T17:10:48.895881Z"
+          "2023-04-02T17:33:15.788525Z",
+          "2023-04-02T17:33:15.792246Z"
         ]
       ]
     }

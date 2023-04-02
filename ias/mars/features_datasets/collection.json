@@ -63,7 +63,7 @@
     ]
   ],
   "processing:level": "L4",
-  "title": "Mars Surface Features Datasets",
+  "title": "Mars Surface Features Location Datasets",
   "extent": {
     "spatial": {
       "bbox": [
@@ -78,8 +78,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T17:10:48.911170Z",
-          "2023-04-02T17:10:48.916713Z"
+          "2023-04-02T17:33:15.807053Z",
+          "2023-04-02T17:33:15.813059Z"
         ]
       ]
     }

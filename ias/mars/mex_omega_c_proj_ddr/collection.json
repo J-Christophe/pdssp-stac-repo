@@ -12,52 +12,52 @@
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0018_0_CPROJ_CUBE/OMEGA_L3_0018_0_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0018_0_CPROJ/OMEGA_L3_0018_0_CPROJ.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0018_1_CPROJ_CUBE/OMEGA_L3_0018_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0018_1_CPROJ/OMEGA_L3_0018_1_CPROJ.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0022_0_CPROJ_CUBE/OMEGA_L3_0022_0_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0022_0_CPROJ/OMEGA_L3_0022_0_CPROJ.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0022_1_CPROJ_CUBE/OMEGA_L3_0022_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0022_1_CPROJ/OMEGA_L3_0022_1_CPROJ.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0024_0_CPROJ_CUBE/OMEGA_L3_0024_0_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0024_0_CPROJ/OMEGA_L3_0024_0_CPROJ.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0024_1_CPROJ_CUBE/OMEGA_L3_0024_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0024_1_CPROJ/OMEGA_L3_0024_1_CPROJ.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0030_0_CPROJ_CUBE/OMEGA_L3_0030_0_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0030_0_CPROJ/OMEGA_L3_0030_0_CPROJ.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0030_1_CPROJ_CUBE/OMEGA_L3_0030_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0030_1_CPROJ/OMEGA_L3_0030_1_CPROJ.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0032_1_CPROJ_CUBE/OMEGA_L3_0032_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0032_1_CPROJ/OMEGA_L3_0032_1_CPROJ.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0032_3_CPROJ_CUBE/OMEGA_L3_0032_3_CPROJ_CUBE.json",
+      "href": "./OMEGA_L3_0032_3_CPROJ/OMEGA_L3_0032_3_CPROJ.json",
       "type": "application/json"
     },
     {
@@ -96,7 +96,7 @@
       "citation": "Bibring et al (2004), OMEGA: Observatoire pour la Mineralogie, l'Eau, les Glaces et l'Activit\u00e9, In: Mars Express: the scientific payload. ESA SP-1240, Noordwijk, Netherlands:ESA Publications Division, ISBN 92-9092-556-6, p. 37-49."
     }
   ],
-  "title": "OMEGA C-channel map-projected observations data cubes",
+  "title": "OMEGA C-channel Map-Projected Observations Data Cubes",
   "extent": {
     "spatial": {
       "bbox": [
