@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "mex_omega_c_proj_ddr",
+  "id": "mex_omega_cubes_rdr",
   "stac_version": "1.0.0",
-  "description": "These data cubes have been specifically selected and filtered for studies of the *surface mineralogy* between\n1 and 2.5 microns.\n\nThey contain all the OMEGA observations acquired with the C channel after filtering. Filtering processes have been\nimplemented to remove some instrumental artefacts and observational conditions. Each OMEGA record is available as\na netCDF4.nc file and an idl.sav.\n\nBoth files contain the cubes of reflectance of the surface at a given longitude, latitude and wavelength. The\nwith lambda from 0.97 to 2.55 microns (second dimension of the cube with 120 wavelengths).\nThe spectra are corrected for atmospheric and aerosol contributions according to the method described in Vincendon\net al. (Icarus, 251, 2015). It therefore corresponds to albedo for a lambertian surface. The first dimension of\nthe cube refers to the length of scan. It can be 32, 64, or 128 pixels. It gives the first spatial dimension. The '\nthird dimension refers to the rank of the scan. It is the second spatial dimension.\n",
+  "description": "This collection contains all the OMEGA observations acquired with the C, L and VIS channels until April 2016, 11,\nafter filtering. Filtering processes have been implemented to remove some instrumental artefacts and observational\nconditions. Each OMEGA record is available as a netCDF4.nc file and an idl.sav.\n\nBoth files contain the cubes of reflectance of the surface at a given longitude, latitude and wavelength $\\lambda$.\nThe surface reflectance is defined as I/F/cos(i) where:\n\n- channel C=[0.93-2.73 $\\mu$m]; L=[2.55-5.10 $\\mu$m]; Visible=[0.38-1.05 $\\mu$m];\n- atmospheric attenuation is corrected (1-5 $\\mu$m);\n- airborne dust scattering is corrected (0.4-2.5 \u00b5m and for 5 \u00b5m emissivity estimations);\n- thermal contribution is removed (> 3 $\\mu$m); L channel data and VIS channel are co-registered with C channel\n  when available.\n\nPlease note that longitudes range from -180 to 180 degrees east.\n",
   "links": [
     {
       "rel": "root",
@@ -12,52 +12,52 @@
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0018_0_CPROJ_CUBE/OMEGA_L3_0018_0_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_0_CUBE/OMEGA_L2_0006_0_CUBE.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0018_1_CPROJ_CUBE/OMEGA_L3_0018_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_1_CUBE/OMEGA_L2_0006_1_CUBE.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0022_0_CPROJ_CUBE/OMEGA_L3_0022_0_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_2_CUBE/OMEGA_L2_0006_2_CUBE.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0022_1_CPROJ_CUBE/OMEGA_L3_0022_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_3_CUBE/OMEGA_L2_0006_3_CUBE.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0024_0_CPROJ_CUBE/OMEGA_L3_0024_0_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_4_CUBE/OMEGA_L2_0006_4_CUBE.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0024_1_CPROJ_CUBE/OMEGA_L3_0024_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_5_CUBE/OMEGA_L2_0006_5_CUBE.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0030_0_CPROJ_CUBE/OMEGA_L3_0030_0_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_6_CUBE/OMEGA_L2_0006_6_CUBE.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0030_1_CPROJ_CUBE/OMEGA_L3_0030_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_7_CUBE/OMEGA_L2_0006_7_CUBE.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0032_1_CPROJ_CUBE/OMEGA_L3_0032_1_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_8_CUBE/OMEGA_L2_0006_8_CUBE.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./OMEGA_L3_0032_3_CPROJ_CUBE/OMEGA_L3_0032_3_CPROJ_CUBE.json",
+      "href": "./OMEGA_L2_0006_9_CUBE/OMEGA_L2_0006_9_CUBE.json",
       "type": "application/json"
     },
     {
@@ -77,7 +77,7 @@
       "Mars"
     ]
   ],
-  "processing:level": "L3",
+  "processing:level": "L2",
   "sci:publications": [
     {
       "doi": "",
@@ -96,29 +96,27 @@
       "citation": "Bibring et al (2004), OMEGA: Observatoire pour la Mineralogie, l'Eau, les Glaces et l'Activit\u00e9, In: Mars Express: the scientific payload. ESA SP-1240, Noordwijk, Netherlands:ESA Publications Division, ISBN 92-9092-556-6, p. 37-49."
     }
   ],
-  "title": "OMEGA C-channel map-projected observations data cubes",
+  "title": "OMEGA Calibrated Data Cubes",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -84.798,
-          -60.0,
-          175.426,
-          39.125
+          87.21289999999999,
+          -56.0966,
+          134.73519999999996,
+          68.044495
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2004-01-14T00:19:12.032000Z",
-          "2004-01-19T15:32:27.025000Z"
+          "2023-04-02T17:10:48.891493Z",
+          "2023-04-02T17:10:48.895881Z"
         ]
       ]
     }
   },
   "license": "CC-BY-4.0",
-  "keywords": [
-    "map-projected"
-  ]
+  "keywords": []
 }

@@ -3,8 +3,8 @@
   "stac_version": "1.0.0",
   "id": "detections_crateres_benjamin_bultel_icarus",
   "properties": {
-    "title": "Locations of \"central peaks hydrated phases between isidis and hellas",
-    "datetime": "2023-04-02T16:49:48.156301Z",
+    "title": "Locations of \"Central Peaks Hydrated Phases Between Isidis And Hellas\"",
+    "datetime": "2023-04-02T17:10:48.912165Z",
     "ssys:targets": [
       "Mars"
     ]

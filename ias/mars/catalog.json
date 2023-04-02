@@ -24,6 +24,12 @@
     },
     {
       "rel": "child",
+      "href": "./mex_omega_cubes_rdr/collection.json",
+      "type": "application/json",
+      "title": "OMEGA Calibrated Data Cubes"
+    },
+    {
+      "rel": "child",
       "href": "./features_datasets/collection.json",
       "type": "application/json",
       "title": "Mars Surface Features Datasets"

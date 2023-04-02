@@ -9,15 +9,15 @@
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-02T16:49:48.166311Z",
-    "ssys:targets": [
-      "Mars"
-    ],
+    "datetime": "2023-04-02T17:10:48.925964Z",
     "sci:publications": [
       {
         "doi": "doi:10.1016/j.icarus.2014.10.029",
         "citation": "M. Vincendon, J. Audouard, F. Altieri, A. Ody (2015), Mars Express measurements of surface albedo changes over 2004\u20132010, In Icarus, Volume 251, 2015, Pages 145-163, ISSN 0019-1035\n"
       }
+    ],
+    "ssys:targets": [
+      "Mars"
     ]
   },
   "geometry": {

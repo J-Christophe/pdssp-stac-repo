@@ -1,9 +1,9 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "id": "0032_1",
+  "id": "OMEGA_L3_0032_1_CPROJ_CUBE",
   "properties": {
-    "title": "OMEGA 0032_1 Observation Map-Projected Data Cube",
+    "title": "OMEGA Observation Map-Projected Data Cube #OMEGA_L3_0032_1_CPROJ_CUBE",
     "start_datetime": "2004-01-19T15:04:56.030",
     "end_datetime": "2004-01-19T15:14:02.037",
     "platform": "MEX",
@@ -13,15 +13,15 @@
     "datetime": "2004-01-19T15:04:56.030000Z",
     "pdssp_solar_longitude": 336.108,
     "pdssp_incidence_angle": 5.9374799728393555,
-    "orbit_number": "32",
-    "data_quality_id": "3",
-    "mean_watericelin": "nan",
+    "mean_tau": 0.22838979959487915,
+    "cube_number": "1",
     "ssys:targets": [
       "Mars"
     ],
-    "mean_tau": 0.22838979959487915,
+    "mean_watericelin": "nan",
+    "data_quality_id": "3",
     "mean_icecloudindex": "nan",
-    "cube_number": "1"
+    "orbit_number": "32"
   },
   "geometry": {
     "type": "Polygon",
@@ -7598,7 +7598,7 @@
     "nc_data_file": {
       "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L3/0032_1.nc",
       "type": "application/netcdf",
-      "title": "0032_1",
+      "title": "OMEGA_L3_0032_1_CPROJ_CUBE",
       "description": "NetCDF4 data file",
       "roles": [
         "data"
@@ -7607,7 +7607,7 @@
     "sav_data_file": {
       "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L3/0032_1.sav",
       "type": "application/octet-stream",
-      "title": "0032_1",
+      "title": "OMEGA_L3_0032_1_CPROJ_CUBE",
       "description": "IDL SAV data file",
       "roles": [
         "data"
