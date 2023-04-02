@@ -9,15 +9,15 @@
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-02T17:33:15.823394Z",
+    "datetime": "2023-04-02T17:51:46.748347Z",
+    "ssys:targets": [
+      "Mars"
+    ],
     "sci:publications": [
       {
         "doi": "doi:10.1016/j.icarus.2014.10.029",
         "citation": "J. Audouard, F. Poulet, M. Vincendon, J.-P. Bibring, F. Forget, Y. Langevin, B. Gondet (2014), Mars surface thermal inertia and heterogeneities from OMEGA/MEX, In Icarus Volume 233, 2014, Pages 194-213"
       }
-    ],
-    "ssys:targets": [
-      "Mars"
     ]
   },
   "geometry": {
@@ -77,8 +77,7 @@
     "fits_data_file": {
       "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/emissivite_5.03mic_OMEGA0.fits",
       "type": "application/fits",
-      "title": "emissivite_5.03mic_OMEGA0",
-      "description": "FITS data file",
+      "title": "FITS data file",
       "roles": [
         "data"
       ]
@@ -86,8 +85,7 @@
     "fits_preview_file": {
       "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/emissivite_5.03mic_OMEGA0_reduce.png",
       "type": "image/png",
-      "title": "emissivite_5.03mic_OMEGA0",
-      "description": "Preview image file",
+      "title": "Preview PNG image file",
       "roles": [
         "thumbnail"
       ]

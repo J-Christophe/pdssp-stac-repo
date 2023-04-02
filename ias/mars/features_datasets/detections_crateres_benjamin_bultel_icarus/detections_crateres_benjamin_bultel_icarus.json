@@ -4,7 +4,7 @@
   "id": "detections_crateres_benjamin_bultel_icarus",
   "properties": {
     "title": "Locations of \"Central Peaks Hydrated Phases Between Isidis And Hellas\"",
-    "datetime": "2023-04-02T17:33:15.808158Z",
+    "datetime": "2023-04-02T17:51:46.695815Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -59,9 +59,8 @@
   "assets": {
     "json_data_file": {
       "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/geojson/detections_crateres_benjamin_bultel_icarus.json",
-      "type": "application/json",
-      "title": "detections_crateres_benjamin_bultel_icarus",
-      "description": "JSON data file",
+      "type": "application/geo+json",
+      "title": "GeoJSON data file",
       "roles": [
         "data"
       ]

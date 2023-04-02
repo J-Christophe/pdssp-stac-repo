@@ -9,15 +9,15 @@
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-02T17:33:15.822384Z",
+    "datetime": "2023-04-02T17:51:46.747332Z",
+    "ssys:targets": [
+      "Mars"
+    ],
     "sci:publications": [
       {
         "doi": "doi:10.1016/j.icarus.2014.10.029",
         "citation": "M. Vincendon, J. Audouard, F. Altieri, A. Ody (2015), Mars Express measurements of surface albedo changes over 2004\u20132010, In Icarus, Volume 251, 2015, Pages 145-163, ISSN 0019-1035\n"
       }
-    ],
-    "ssys:targets": [
-      "Mars"
     ]
   },
   "geometry": {
@@ -77,8 +77,7 @@
     "fits_data_file": {
       "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/albedo_unfilled.fits",
       "type": "application/fits",
-      "title": "albedo_unfilled",
-      "description": "FITS data file",
+      "title": "FITS data file",
       "roles": [
         "data"
       ]
@@ -86,8 +85,7 @@
     "fits_preview_file": {
       "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/albedo_unfilled_reduce.png",
       "type": "image/png",
-      "title": "albedo_unfilled",
-      "description": "Preview image file",
+      "title": "Preview PNG image file",
       "roles": [
         "thumbnail"
       ]

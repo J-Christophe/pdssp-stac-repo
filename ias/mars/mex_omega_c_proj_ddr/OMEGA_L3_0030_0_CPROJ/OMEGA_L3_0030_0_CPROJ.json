@@ -12,15 +12,15 @@
     "datetime": "2004-01-18T20:27:30.034000Z",
     "pdssp_solar_longitude": 335.691,
     "pdssp_incidence_angle": 40.73780059814453,
-    "mean_tau": 1.2920384407043457,
-    "data_quality_id": "3",
-    "mean_watericelin": "nan",
     "orbit_number": "30",
-    "cube_number": "0",
     "mean_icecloudindex": "nan",
+    "mean_watericelin": "nan",
+    "data_quality_id": "3",
     "ssys:targets": [
       "Mars"
-    ]
+    ],
+    "cube_number": "0",
+    "mean_tau": 1.2920384407043457
   },
   "geometry": {
     "type": "Polygon",
