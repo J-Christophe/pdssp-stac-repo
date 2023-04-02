@@ -3,13 +3,13 @@
   "stac_version": "1.0.0",
   "id": "emissivite_5.03mic_OMEGA0",
   "properties": {
-    "title": "OMEGA0 Emissivity at 5.03 mic",
+    "title": "OMEGA0 Emissivity at 5.03 mic Global Map",
     "description": "40 ppd global maps of surface emissivity at 5.03 mic. Holes are set to NaN.",
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-02T14:57:22.586466Z",
+    "datetime": "2023-04-02T16:49:48.167071Z",
     "ssys:targets": [
       "Mars"
     ],

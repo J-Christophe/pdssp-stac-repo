@@ -78,12 +78,30 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T14:57:22.572904Z",
-          "2023-04-02T14:57:22.577190Z"
+          "2023-04-02T16:49:48.155472Z",
+          "2023-04-02T16:49:48.159534Z"
         ]
       ]
     }
   },
   "license": "CC-BY-4.0",
-  "keywords": []
+  "keywords": [
+    "polar cap",
+    "seasonal",
+    "south",
+    "CO2",
+    "crocus line",
+    "inner crocus line",
+    "outer crocus line",
+    "snowdrop distance",
+    "northern plains",
+    "periglacial",
+    "thermokarst",
+    "ground ice",
+    "global",
+    "craters",
+    "ejecta",
+    "lithosphere",
+    "mineralogy"
+  ]
 }

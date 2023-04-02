@@ -3,7 +3,7 @@
   "stac_version": "1.0.0",
   "id": "0018_0",
   "properties": {
-    "title": "OMEGA observations acquired with the C channels - Orbit # 0018 - Cube # 0",
+    "title": "OMEGA 0018_0 Observation Map-Projected Data Cube",
     "start_datetime": "2004-01-14T00:19:12.032",
     "end_datetime": "2004-01-14T00:23:03.059",
     "platform": "MEX",
@@ -13,15 +13,15 @@
     "datetime": "2004-01-14T00:19:12.032000Z",
     "pdssp_solar_longitude": 333.063,
     "pdssp_incidence_angle": 38.486122131347656,
-    "mean_watericelin": "nan",
     "orbit_number": "18",
-    "mean_tau": 1.606444239616394,
-    "cube_number": "0",
+    "data_quality_id": "3",
+    "mean_watericelin": "nan",
     "ssys:targets": [
       "Mars"
     ],
+    "mean_tau": 1.606444239616394,
     "mean_icecloudindex": "nan",
-    "data_quality_id": "3"
+    "cube_number": "0"
   },
   "geometry": {
     "type": "Polygon",

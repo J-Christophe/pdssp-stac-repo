@@ -3,13 +3,13 @@
   "stac_version": "1.0.0",
   "id": "ferric_bd530_equ_map",
   "properties": {
-    "title": "OMEGA Ferric BD530",
+    "title": "OMEGA Ferric BD530 Global Map",
     "description": "This data product is a global ferric oxide spectral parameter map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010. This ferric oxide spectral parameter (DB530) is based on the strength of the 0.53 micrometer ferric absorption edge.",
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-02T14:57:22.580083Z",
+    "datetime": "2023-04-02T16:49:48.161654Z",
     "ssys:targets": [
       "Mars"
     ],

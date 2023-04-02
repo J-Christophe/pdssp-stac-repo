@@ -3,13 +3,13 @@
   "stac_version": "1.0.0",
   "id": "olivine_osp2_equ_map",
   "properties": {
-    "title": "OMEGA Olivine SP2",
+    "title": "OMEGA Olivine SP2 Global Map",
     "description": "This data product is a global olivine spectral parameter map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010. This olivine spectral parameter (OSP2) is sensitive to olivine with high iron content and/or large grain size and/or high abundance.",
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-02T14:57:22.582411Z",
+    "datetime": "2023-04-02T16:49:48.163661Z",
     "ssys:targets": [
       "Mars"
     ],
