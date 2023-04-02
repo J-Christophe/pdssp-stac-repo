@@ -18,15 +18,21 @@
     },
     {
       "rel": "child",
-      "href": "./mex_omega_global_maps_ddr/collection.json",
+      "href": "./mex_omega_c_proj_ddr/collection.json",
       "type": "application/json",
-      "title": "OMEGA Mars Global Mineral Maps"
+      "title": "OMEGA C-channel map-projected observations data cubes"
     },
     {
       "rel": "child",
       "href": "./features_datasets/collection.json",
       "type": "application/json",
       "title": "Mars Surface Features Datasets"
+    },
+    {
+      "rel": "child",
+      "href": "./mex_omega_global_maps_ddr/collection.json",
+      "type": "application/json",
+      "title": "OMEGA Mars Global Mineral Maps"
     },
     {
       "rel": "parent",

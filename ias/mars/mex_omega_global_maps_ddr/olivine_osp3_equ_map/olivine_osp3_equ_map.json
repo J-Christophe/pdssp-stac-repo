@@ -9,7 +9,7 @@
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-02T13:44:42.571636Z",
+    "datetime": "2023-04-02T14:18:36.699883Z",
     "ssys:targets": [
       "Mars"
     ],
@@ -89,7 +89,7 @@
       "title": "olivine_osp3_equ_map",
       "description": "Preview image file",
       "roles": [
-        "preview"
+        "thumbnail"
       ]
     }
   },

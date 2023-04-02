@@ -9,7 +9,7 @@
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-02T13:44:42.572533Z",
+    "datetime": "2023-04-02T14:18:36.700553Z",
     "ssys:targets": [
       "Mars"
     ],
@@ -89,7 +89,7 @@
       "title": "pyroxene_bd2000_equ_map",
       "description": "Preview image file",
       "roles": [
-        "preview"
+        "thumbnail"
       ]
     }
   },

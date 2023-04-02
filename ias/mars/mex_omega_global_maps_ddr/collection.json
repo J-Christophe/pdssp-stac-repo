@@ -78,7 +78,6 @@
     ]
   ],
   "processing:level": "L4",
-  "sci:publications": [],
   "title": "OMEGA Mars Global Mineral Maps",
   "extent": {
     "spatial": {
@@ -94,11 +93,20 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T13:44:42.567281Z",
-          "2023-04-02T13:44:42.575643Z"
+          "2023-04-02T14:18:36.696527Z",
+          "2023-04-02T14:18:36.702759Z"
         ]
       ]
     }
   },
-  "license": "Undefined"
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "global maps",
+    "albedo",
+    "emissivity",
+    "pyroxene",
+    "olivine",
+    "nanophase ferric oxides",
+    "ferric oxides"
+  ]
 }

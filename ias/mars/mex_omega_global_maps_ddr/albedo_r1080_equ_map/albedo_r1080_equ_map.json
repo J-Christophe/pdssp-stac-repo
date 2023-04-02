@@ -9,7 +9,7 @@
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-02T13:44:42.567281Z",
+    "datetime": "2023-04-02T14:18:36.696527Z",
     "ssys:targets": [
       "Mars"
     ],
@@ -89,7 +89,7 @@
       "title": "albedo_r1080_equ_map",
       "description": "Preview image file",
       "roles": [
-        "preview"
+        "thumbnail"
       ]
     }
   },
