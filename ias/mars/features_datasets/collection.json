@@ -78,8 +78,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T17:51:46.694979Z",
-          "2023-04-02T17:51:46.699788Z"
+          "2023-04-02T18:58:59.655747Z",
+          "2023-04-02T18:58:59.660510Z"
         ]
       ]
     }
@@ -103,5 +103,17 @@
     "ejecta",
     "lithosphere",
     "mineralogy"
+  ],
+  "providers": [
+    {
+      "name": "Institut d'Astrophysique Spatiale (IAS) - IDOC",
+      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the institute is involved.\n",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://idoc.ias.universite-paris-saclay.fr"
+    }
   ]
 }

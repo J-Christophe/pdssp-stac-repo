@@ -93,8 +93,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T17:51:46.720296Z",
-          "2023-04-02T17:51:46.748347Z"
+          "2023-04-02T18:58:59.680463Z",
+          "2023-04-02T18:58:59.708956Z"
         ]
       ]
     }
@@ -108,5 +108,17 @@
     "olivine",
     "nanophase ferric oxides",
     "ferric oxides"
+  ],
+  "providers": [
+    {
+      "name": "Institut d'Astrophysique Spatiale (IAS) - IDOC",
+      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the institute is involved.\n",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://idoc.ias.universite-paris-saclay.fr"
+    }
   ]
 }
