@@ -11,17 +11,17 @@
       "OMEGA"
     ],
     "gsd": null,
-    "datetime": "2023-04-02T13:07:33.556815Z",
-    "exclude_unset": true,
-    "ssys:targets": [
-      "Mars"
-    ],
+    "datetime": "2023-04-02T13:14:27.610570Z",
     "sci:publications": [
       {
         "doi": "doi:10.1029/2012JE004117",
         "citation": "A. Ody, F. Poulet, Y. Langevin, J\u2010P. Bibring, G. Bellucci, F. Altieri, B. Gondet, M. Vincendon, J.Carter and N. Manaud (2012), Global maps of anhydrous minerals at the surface of Mars from OMEGA/MEx, J. Geophys. Res., 117, E00J14\n"
       }
-    ]
+    ],
+    "ssys:targets": [
+      "Mars"
+    ],
+    "exclude_unset": true
   },
   "geometry": {
     "type": "Polygon",

@@ -11,17 +11,17 @@
       "OMEGA"
     ],
     "gsd": null,
-    "datetime": "2023-04-02T13:07:33.562591Z",
-    "exclude_unset": true,
-    "ssys:targets": [
-      "Mars"
-    ],
+    "datetime": "2023-04-02T13:14:27.615411Z",
     "sci:publications": [
       {
         "doi": "doi:10.1016/j.icarus.2014.10.029",
         "citation": "J. Audouard, F. Poulet, M. Vincendon, J.-P. Bibring, F. Forget, Y. Langevin, B. Gondet (2014), Mars surface thermal inertia and heterogeneities from OMEGA/MEX, In Icarus Volume 233, 2014, Pages 194-213"
       }
-    ]
+    ],
+    "ssys:targets": [
+      "Mars"
+    ],
+    "exclude_unset": true
   },
   "geometry": {
     "type": "Polygon",
