@@ -11,9 +11,16 @@
       "OMEGA"
     ],
     "gsd": null,
-    "datetime": "2023-04-01T15:48:22.221212Z",
+    "datetime": "2023-04-02T13:07:33.562591Z",
+    "exclude_unset": true,
     "ssys:targets": [
       "Mars"
+    ],
+    "sci:publications": [
+      {
+        "doi": "doi:10.1016/j.icarus.2014.10.029",
+        "citation": "J. Audouard, F. Poulet, M. Vincendon, J.-P. Bibring, F. Forget, Y. Langevin, B. Gondet (2014), Mars surface thermal inertia and heterogeneities from OMEGA/MEX, In Icarus Volume 233, 2014, Pages 194-213"
+      }
     ]
   },
   "geometry": {
@@ -44,6 +51,12 @@
     ]
   },
   "links": [
+    {
+      "rel": "wms",
+      "href": "http://idoc-wmsmars.ias.u-psud.fr/wmsmap?layers=emissivite_5.03mic_OMEGA0",
+      "type": "application/x-wms",
+      "title": "WMS Layer"
+    },
     {
       "rel": "root",
       "href": "../../../catalog.json",

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "mex_omega_global_maps_ddr",
   "stac_version": "1.0.0",
-  "description": "OMEGA Mars global mineral maps",
+  "description": "OMEGA mineral maps are OMEGA-based NIR albedo, Ferric BD530, Ferric Nanophase, Olivine SP1, SP2, SP3,\nPyroxene and Emissivity at 5.03\u00b5m. OMEGA is the VISNIR imaging spectrometer onboard ESA/Mars-Express spacecraft\noperating around Mars from January 2004.\n",
   "links": [
     {
       "rel": "root",
@@ -78,12 +78,7 @@
     ]
   ],
   "processing:level": "",
-  "sci:publications": [
-    {
-      "doi": "doi:10.1029/2012JE004117",
-      "citation": "A. Ody, F. Poulet, Y. Langevin, J.\u2010P. Bibring, G. Bellucci, F. Altieri, B. Gondet, M. Vincendon, J.Carter and N. Manaud (2012), Global maps of anhydrous minerals at the surface of Mars from OMEGA/MEx, J. Geophys. Res., 117, E00J14.\n"
-    }
-  ],
+  "sci:publications": [],
   "title": "OMEGA Mars global mineral maps",
   "extent": {
     "spatial": {
@@ -99,8 +94,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-01T15:48:22.215983Z",
-          "2023-04-01T15:48:22.221212Z"
+          "2023-04-02T13:07:33.554102Z",
+          "2023-04-02T13:07:33.562591Z"
         ]
       ]
     }
