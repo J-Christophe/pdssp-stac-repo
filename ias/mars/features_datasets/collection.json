@@ -63,7 +63,6 @@
     ]
   ],
   "processing:level": "L4",
-  "sci:publications": [],
   "title": "Mars Surface Features Datasets",
   "extent": {
     "spatial": {
@@ -79,8 +78,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T14:51:52.999557Z",
-          "2023-04-02T14:51:53.003652Z"
+          "2023-04-02T14:57:22.572904Z",
+          "2023-04-02T14:57:22.577190Z"
         ]
       ]
     }
