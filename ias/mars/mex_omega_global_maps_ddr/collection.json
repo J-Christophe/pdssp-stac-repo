@@ -77,9 +77,9 @@
       "Mars"
     ]
   ],
-  "processing:level": "",
+  "processing:level": "L4",
   "sci:publications": [],
-  "title": "OMEGA Mars global mineral maps",
+  "title": "OMEGA Mars Global Mineral Maps",
   "extent": {
     "spatial": {
       "bbox": [
@@ -94,8 +94,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T13:14:27.608158Z",
-          "2023-04-02T13:14:27.615411Z"
+          "2023-04-02T13:44:42.567281Z",
+          "2023-04-02T13:44:42.575643Z"
         ]
       ]
     }

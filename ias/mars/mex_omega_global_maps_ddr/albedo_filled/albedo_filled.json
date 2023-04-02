@@ -5,23 +5,20 @@
   "properties": {
     "title": "OMEGA Albedo Filled",
     "description": "60 ppd global map of Solar Albedo from OMEGA data fileld with TES 20 ppd solar albedo global maps (Putzig and Mellon, 2007b) (21600x10800 pixels). This map is 100% filled. Variable name is \"albedo\". \"latitude\" and \"longitude\" indicate the coordinates of the centers of the pixels. Reference : Vincendon et al., Icarus, 2015",
-    "created": null,
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
-    "gsd": null,
-    "datetime": "2023-04-02T13:14:27.613398Z",
+    "datetime": "2023-04-02T13:44:42.573428Z",
+    "ssys:targets": [
+      "Mars"
+    ],
     "sci:publications": [
       {
         "doi": "doi:10.1016/j.icarus.2014.10.029",
         "citation": "M. Vincendon, J. Audouard, F. Altieri, A. Ody (2015), Mars Express measurements of surface albedo changes over 2004\u20132010, In Icarus, Volume 251, 2015, Pages 145-163, ISSN 0019-1035\n"
       }
-    ],
-    "ssys:targets": [
-      "Mars"
-    ],
-    "exclude_unset": true
+    ]
   },
   "geometry": {
     "type": "Polygon",
@@ -67,13 +64,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "OMEGA Mars global mineral maps"
+      "title": "OMEGA Mars Global Mineral Maps"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "OMEGA Mars global mineral maps"
+      "title": "OMEGA Mars Global Mineral Maps"
     }
   ],
   "assets": {

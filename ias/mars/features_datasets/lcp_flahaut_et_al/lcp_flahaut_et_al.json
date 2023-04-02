@@ -4,9 +4,7 @@
   "id": "lcp_flahaut_et_al",
   "properties": {
     "title": "Central peaks mineralogy south Valles Marineris",
-    "created": null,
-    "gsd": null,
-    "datetime": "2023-04-02T13:14:27.618712Z",
+    "datetime": "2023-04-02T13:44:42.578886Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -49,13 +47,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Mars surface features catalogs"
+      "title": "Mars Surface Features Datasets"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Mars surface features catalogs"
+      "title": "Mars Surface Features Datasets"
     }
   ],
   "assets": {

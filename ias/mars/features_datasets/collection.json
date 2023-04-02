@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "features_datasets",
   "stac_version": "1.0.0",
-  "description": "These catalogs/datasets are Hydrated mineral terrains, Central peaks hydrated phases between Isidis and Hellas,\nCentral peaks mineralogy south Valles Marineris, Valles Marineris low Calcium-Pyroxene, Seasonal South\npolar cap limits, Scalloped depressions and Lobate impact craters. This dataset contains vector catalogs\nand their associated metadatas. All catalogs are provided in GeoJSON file format.\n",
+  "description": "This collections holds locations data for hydrated mineral terrains, Central peaks hydrated phases between Isidis\nand Hellas, Central peaks mineralogy south Valles Marineris, Valles Marineris low Calcium-Pyroxene, Seasonal South\npolar cap limits, Scalloped depressions and Lobate impact craters. This dataset contains vector catalogs\nand their associated metadatas. All catalogs are provided in GeoJSON file format.\n",
   "links": [
     {
       "rel": "root",
@@ -62,9 +62,9 @@
       "Mars"
     ]
   ],
-  "processing:level": "",
+  "processing:level": "L4",
   "sci:publications": [],
-  "title": "Mars surface features catalogs",
+  "title": "Mars Surface Features Datasets",
   "extent": {
     "spatial": {
       "bbox": [
@@ -79,8 +79,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T13:14:27.617294Z",
-          "2023-04-02T13:14:27.621554Z"
+          "2023-04-02T13:44:42.577500Z",
+          "2023-04-02T13:44:42.581575Z"
         ]
       ]
     }

@@ -20,13 +20,13 @@
       "rel": "child",
       "href": "./mex_omega_global_maps_ddr/collection.json",
       "type": "application/json",
-      "title": "OMEGA Mars global mineral maps"
+      "title": "OMEGA Mars Global Mineral Maps"
     },
     {
       "rel": "child",
       "href": "./features_datasets/collection.json",
       "type": "application/json",
-      "title": "Mars surface features catalogs"
+      "title": "Mars Surface Features Datasets"
     },
     {
       "rel": "parent",

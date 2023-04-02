@@ -5,23 +5,20 @@
   "properties": {
     "title": "OMEGA NIR albedo",
     "description": "This data product is a global NIR 1-micrometer albedo map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010",
-    "created": null,
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
-    "gsd": null,
-    "datetime": "2023-04-02T13:14:27.608158Z",
+    "datetime": "2023-04-02T13:44:42.567281Z",
+    "ssys:targets": [
+      "Mars"
+    ],
     "sci:publications": [
       {
         "doi": "doi:10.1029/2012JE004117",
         "citation": "A. Ody, F. Poulet, Y. Langevin, J\u2010P. Bibring, G. Bellucci, F. Altieri, B. Gondet, M. Vincendon, J.Carter and N. Manaud (2012), Global maps of anhydrous minerals at the surface of Mars from OMEGA/MEx, J. Geophys. Res., 117, E00J14\n"
       }
-    ],
-    "ssys:targets": [
-      "Mars"
-    ],
-    "exclude_unset": true
+    ]
   },
   "geometry": {
     "type": "Polygon",
@@ -67,13 +64,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "OMEGA Mars global mineral maps"
+      "title": "OMEGA Mars Global Mineral Maps"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "OMEGA Mars global mineral maps"
+      "title": "OMEGA Mars Global Mineral Maps"
     }
   ],
   "assets": {
