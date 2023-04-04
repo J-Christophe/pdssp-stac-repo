@@ -7,19 +7,19 @@
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-04T19:26:26.137136Z",
+    "datetime": "2023-04-04T19:41:40.424821Z",
     "pdssp_solar_longitude": 330.063,
+    "l_channel_ok": "t",
+    "c_channel_ok": "t",
+    "trimmed_orbit_number": "6",
     "cube_number": "2",
-    "orbit_number": "0006",
-    "data_quality_id": "3",
-    "pointing_mode": "ACROSSTRACK",
     "ssys:targets": [
       "Mars"
     ],
+    "data_quality_id": "3",
     "martian_year": "26",
-    "trimmed_orbit_number": "6",
-    "c_channel_ok": "t",
-    "l_channel_ok": "t"
+    "orbit_number": "0006",
+    "pointing_mode": "ACROSSTRACK"
   },
   "geometry": null,
   "links": [
