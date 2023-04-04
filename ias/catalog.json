@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "ias",
   "stac_version": "1.0.0",
-  "description": "This is a test STAC catalog created, using [PDSSP Labtools](https://github.com/pdssp/pdssp-labtools), for planetary\nsurface datasets produced and/or provided by the Institut d'Astrophysique Spatiale (IAS). It currently holds one\nMars catalog, containing collections currently provided through [PSUP](http://psup.ias.u-psud.fr/sitools/client-user/index.html?project=PLISonMars)\n(Planetary SUrface Portal).\n\n![Mars](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mars_%28white_background%29.jpg/120px-Mars_%28white_background%29.jpg)\n",
+  "description": "This is a test STAC catalog providing access to planetary surface datasets currently hosted and distributed by\n[PSUP](http://psup.ias.u-psud.fr/sitools/client-user/index.html?project=PLISonMars) (Planetary SUrface Portal).\n\n![psup_logo](https://psup.cnrs.fr/images/psup.png)\n",
   "links": [
     {
       "rel": "root",

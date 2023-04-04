@@ -26,41 +26,6 @@
       "type": "application/json"
     },
     {
-      "rel": "item",
-      "href": "./olivine_osp1_equ_map/olivine_osp1_equ_map.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./olivine_osp2_equ_map/olivine_osp2_equ_map.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./olivine_osp3_equ_map/olivine_osp3_equ_map.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./pyroxene_bd2000_equ_map/pyroxene_bd2000_equ_map.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./albedo_filled/albedo_filled.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./albedo_unfilled/albedo_unfilled.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./emissivite_5.03mic_OMEGA0/emissivite_5.03mic_OMEGA0.json",
-      "type": "application/json"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -93,8 +58,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-02T18:58:59.680463Z",
-          "2023-04-02T18:58:59.708956Z"
+          "2023-04-04T19:26:26.155863Z",
+          "2023-04-04T19:26:26.157754Z"
         ]
       ]
     }
@@ -112,13 +77,30 @@
   "providers": [
     {
       "name": "Institut d'Astrophysique Spatiale (IAS) - IDOC",
-      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the institute is involved.\n",
+      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the IAS institute is involved.\n",
       "roles": [
         "producer",
         "processor",
         "host"
       ],
       "url": "https://idoc.ias.universite-paris-saclay.fr"
+    },
+    {
+      "name": "GEOPS",
+      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the institute is involved.\n",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "http://geops.geol.u-psud.fr"
+    },
+    {
+      "name": "Planetary SUrface Portal (PSUP)",
+      "description": "PSUP is a french research service, by Observatoire Paris-Sud and Observatoire de Lyon, to help\nthe distribution of high added-value datasets of planetary surfaces.\n",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://psup.cnrs.fr"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "mars",
   "stac_version": "1.0.0",
-  "description": "This catalog contains Mars data collections and sub-catalogs, generated using [PDSSP Labtools](https://github.com/pdssp/pdssp-labtools)\non IAS [PSUP](http://psup.ias.u-psud.fr/sitools/client-user/index.html?project=PLISonMars) Mars/OMEGA datasets.\n",
+  "description": "This catalog contains Mars data collections and sub-catalogs, generated using [PDSSP Labtools](https://github.com/pdssp/pdssp-labtools)\non IAS [PSUP](http://psup.ias.u-psud.fr/sitools/client-user/index.html?project=PLISonMars) Mars/OMEGA datasets.\n\n![Mars](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mars_%28white_background%29.jpg/120px-Mars_%28white_background%29.jpg)\n",
   "links": [
     {
       "rel": "root",
