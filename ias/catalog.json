@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "ias",
   "stac_version": "1.0.0",
-  "description": "This is a test STAC catalog providing access to planetary surface datasets currently hosted and distributed by\n[PSUP](http://psup.ias.u-psud.fr/sitools/client-user/index.html?project=PLISonMars) (Planetary SUrface Portal).\n\n<img src=\"https://psup.cnrs.fr/images/psup.png\"  width=\"40%\">\n",
+  "description": "This is a test STAC catalog providing access to planetary surface datasets currently hosted and distributed by\n[PSUP](http://psup.ias.u-psud.fr/sitools/client-user/index.html?project=PLISonMars) (Planetary SUrface Portal).\n\n![psup_logo](https://psup.cnrs.fr/images/psup.png)\n",
   "links": [
     {
       "rel": "root",

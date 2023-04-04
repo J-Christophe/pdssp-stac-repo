@@ -74,8 +74,8 @@
     "temporal": {
       "interval": [
         [
-          "2023-04-04T19:41:40.423910Z",
-          "2023-04-04T19:41:40.424821Z"
+          "2023-04-04T20:24:47.695961Z",
+          "2023-04-04T20:24:47.696953Z"
         ]
       ]
     }
@@ -96,8 +96,8 @@
       "url": "https://idoc.ias.universite-paris-saclay.fr"
     },
     {
-      "name": "GEOPS",
-      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the institute is involved.\n",
+      "name": "G\u00e9osciences Paris-Saclay (GEOPS)",
+      "description": "GEOPS is a joint laboratory of the \u201cUniversit\u00e9 de Paris-Sud\u201d (UPSUD) and the \"Centre National\nde la Recherche Scientifique\" (CNRS).\n",
       "roles": [
         "producer",
         "processor"

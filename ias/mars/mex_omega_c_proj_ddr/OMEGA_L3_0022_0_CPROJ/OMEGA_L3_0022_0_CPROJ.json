@@ -9,17 +9,18 @@
     "instruments": [
       "OMEGA"
     ],
+    "mission": "Mars Express",
     "datetime": "2004-01-15T16:06:50.034000Z",
     "pdssp_solar_longitude": 333.965,
     "pdssp_incidence_angle": 39.947113037109375,
+    "mean_tau": 1.37369966506958,
+    "orbit_number": "22",
+    "mean_watericelin": "nan",
     "ssys:targets": [
       "Mars"
     ],
-    "mean_watericelin": "nan",
     "data_quality_id": "3",
-    "mean_tau": 1.37369966506958,
     "mean_icecloudindex": "nan",
-    "orbit_number": "22",
     "cube_number": "0"
   },
   "geometry": {

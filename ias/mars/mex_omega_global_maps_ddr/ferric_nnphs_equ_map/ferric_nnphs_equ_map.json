@@ -9,7 +9,8 @@
     "instruments": [
       "OMEGA"
     ],
-    "datetime": "2023-04-04T19:41:40.441771Z",
+    "mission": "Mars Express",
+    "datetime": "2023-04-04T20:24:47.718516Z",
     "ssys:targets": [
       "Mars"
     ],
