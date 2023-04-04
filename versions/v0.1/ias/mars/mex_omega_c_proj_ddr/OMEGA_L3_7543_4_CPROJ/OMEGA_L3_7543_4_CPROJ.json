@@ -1,0 +1,72 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "OMEGA_L3_7543_4_CPROJ",
+  "properties": {
+    "start_datetime": "2009-11-19T23:55:15.004",
+    "end_datetime": "2009-11-20T00:05:18.032",
+    "platform": "MEX",
+    "instruments": [
+      "OMEGA"
+    ],
+    "datetime": "2009-11-19T23:55:15.004000Z",
+    "pdssp_solar_longitude": 11.936,
+    "ssys:targets": [
+      "Mars"
+    ],
+    "orbit_number": "7543",
+    "data_quality_id": "5",
+    "cube_number": "4"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "OMEGA C-channel Map-Projected Observations Data Cubes"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "OMEGA C-channel Map-Projected Observations Data Cubes"
+    }
+  ],
+  "assets": {
+    "nc_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L3/7543_4.nc",
+      "type": "application/netcdf",
+      "title": "NetCDF4 data file",
+      "roles": [
+        "data"
+      ]
+    },
+    "sav_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L3/7543_4.sav",
+      "type": "application/octet-stream",
+      "title": "IDL SAV data file",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    19.156000000000006,
+    -21.1562,
+    23.00399999999999,
+    -0.5625
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "mex_omega_c_proj_ddr"
+}

@@ -1,0 +1,75 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "OMEGA_L2_5143_0",
+  "properties": {
+    "platform": "MEX",
+    "instruments": [
+      "OMEGA"
+    ],
+    "datetime": "2023-04-02T18:58:18.936526Z",
+    "pdssp_solar_longitude": 12.056,
+    "c_channel_ok": "t",
+    "pointing_mode": "NADIR",
+    "l_channel_ok": "t",
+    "ssys:targets": [
+      "Mars"
+    ],
+    "orbit_number": "5143",
+    "data_quality_id": "5",
+    "trimmed_orbit_number": "5143",
+    "cube_number": "0",
+    "martian_year": "29"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "OMEGA Calibrated Observation Data Cubes"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "OMEGA Calibrated Observation Data Cubes"
+    }
+  ],
+  "assets": {
+    "nc_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/5143_0.nc",
+      "type": "application/netcdf",
+      "title": "NetCDF4 data file",
+      "roles": [
+        "data"
+      ]
+    },
+    "sav_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/5143_0.sav",
+      "type": "application/octet-stream",
+      "title": "IDL SAV data file",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    161.7711,
+    56.2202,
+    174.46360000000004,
+    80.0113
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "mex_omega_cubes_rdr"
+}
