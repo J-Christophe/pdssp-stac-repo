@@ -1,10 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "id": "ferric_bd530_equ_map",
+  "id": "emissivite_5.03mic_OMEGA0",
   "properties": {
-    "title": "OMEGA Ferric BD530 Global Map",
-    "description": "This data product is a global ferric oxide spectral parameter map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010. This ferric oxide spectral parameter (DB530) is based on the strength of the 0.53 micrometer ferric absorption edge.",
+    "title": "OMEGA0 Emissivity at 5.03 mic Global Map",
+    "description": "40 ppd global maps of surface emissivity at 5.03 mic. Holes are set to NaN.",
     "start_datetime": "2004-01-08T12:46:15.000",
     "end_datetime": "2010-08-20T00:46:05.000",
     "platform": "MEX",
@@ -12,14 +12,14 @@
       "OMEGA"
     ],
     "mission": "Mars Express",
-    "datetime": "2023-05-23T19:23:19.237445Z",
+    "datetime": "2023-05-23T19:23:19.244185Z",
     "ssys:targets": [
       "Mars"
     ],
     "sci:publications": [
       {
-        "doi": "doi:10.1029/2012JE004117",
-        "citation": "A. Ody, F. Poulet, Y. Langevin, J\u2010P. Bibring, G. Bellucci, F. Altieri, B. Gondet, M. Vincendon, J.Carter and N. Manaud (2012), Global maps of anhydrous minerals at the surface of Mars from OMEGA/MEx, J. Geophys. Res., 117, E00J14\n"
+        "doi": "doi:10.1016/j.icarus.2014.10.029",
+        "citation": "J. Audouard, F. Poulet, M. Vincendon, J.-P. Bibring, F. Forget, Y. Langevin, B. Gondet (2014), Mars surface thermal inertia and heterogeneities from OMEGA/MEX, In Icarus Volume 233, 2014, Pages 194-213"
       }
     ]
   },
@@ -53,7 +53,7 @@
   "links": [
     {
       "rel": "wms",
-      "href": "http://idoc-wmsmars.ias.u-psud.fr/wmsmap?layers=ferric_bd530_equ_map",
+      "href": "http://idoc-wmsmars.ias.u-psud.fr/wmsmap?layers=emissivite_5.03mic_OMEGA0",
       "type": "application/x-wms",
       "title": "WMS Layer"
     },
@@ -78,7 +78,7 @@
   ],
   "assets": {
     "fits_data_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/ferric_bd530_equ_map.fits",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/emissivite_5.03mic_OMEGA0.fits",
       "type": "application/fits",
       "title": "FITS data file",
       "roles": [
@@ -86,7 +86,7 @@
       ]
     },
     "fits_preview_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/ferric_bd530_equ_map_reduce.png",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/emissivite_5.03mic_OMEGA0_reduce.png",
       "type": "image/png",
       "title": "Preview PNG image file",
       "roles": [

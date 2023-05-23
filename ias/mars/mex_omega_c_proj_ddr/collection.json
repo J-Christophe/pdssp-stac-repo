@@ -26,6 +26,41 @@
       "type": "application/json"
     },
     {
+      "rel": "item",
+      "href": "./OMEGA_L3_0022_1_CPROJ/OMEGA_L3_0022_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0024_0_CPROJ/OMEGA_L3_0024_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0024_1_CPROJ/OMEGA_L3_0024_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0030_0_CPROJ/OMEGA_L3_0030_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0030_1_CPROJ/OMEGA_L3_0030_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0032_1_CPROJ/OMEGA_L3_0032_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0032_3_CPROJ/OMEGA_L3_0032_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -42,7 +77,7 @@
       "Mars"
     ]
   ],
-  "processing:level": "L3",
+  "processing:level": "Calibrated",
   "sci:publications": [
     {
       "citation": "Vincendon M., Audouard J., Altieri F., Ody A., Mars Express measurements of surface albedo changes over 2004\u20132010, In Icarus, Volume 251, 2015, Pages 145-163, ISSN 0019-1035\n"
@@ -64,10 +99,10 @@
     "spatial": {
       "bbox": [
         [
-          -41.86700000000002,
+          -84.798,
           -60.0,
-          100.93099999999998,
-          -21.7188
+          175.426,
+          39.125
         ]
       ]
     },
@@ -75,7 +110,7 @@
       "interval": [
         [
           "2004-01-14T00:19:12.032000Z",
-          "2004-01-15T16:10:41.062000Z"
+          "2004-01-19T15:32:27.025000Z"
         ]
       ]
     }

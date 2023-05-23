@@ -12,12 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./moccas/catalog.json",
-      "type": "application/json",
-      "title": "Mars Orbital Catalog of Aqueous Alteration Signatures"
-    },
-    {
-      "rel": "child",
       "href": "./mex_omega_c_proj_ddr/collection.json",
       "type": "application/json",
       "title": "OMEGA C-channel Map-Projected Observations Data Cubes"

@@ -5,12 +5,14 @@
   "properties": {
     "title": "OMEGA NIR albedo Global Map",
     "description": "This data product is a global NIR 1-micrometer albedo map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010",
+    "start_datetime": "2004-01-08T12:46:15.000",
+    "end_datetime": "2010-08-20T00:46:05.000",
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
     "mission": "Mars Express",
-    "datetime": "2023-04-04T20:24:47.716676Z",
+    "datetime": "2023-05-23T19:23:19.236574Z",
     "ssys:targets": [
       "Mars"
     ],

@@ -1,10 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "id": "detections_crateres_benjamin_bultel_icarus",
+  "id": "scalloped_depression",
   "properties": {
-    "title": "Locations of \"Central Peaks Hydrated Phases Between Isidis And Hellas\"",
-    "datetime": "2023-05-23T19:23:19.230512Z",
+    "title": "Locations of \"Scalloped Depressions\"",
+    "datetime": "2023-05-23T19:23:19.233876Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -14,24 +14,24 @@
     "coordinates": [
       [
         [
-          65.0,
-          -19.0
+          75.0,
+          39.0
         ],
         [
-          135.5,
-          -19.0
+          75.0,
+          52.0
         ],
         [
-          135.5,
-          -2.0
+          109.0,
+          52.0
         ],
         [
-          65.0,
-          -2.0
+          109.0,
+          39.0
         ],
         [
-          65.0,
-          -19.0
+          75.0,
+          39.0
         ]
       ]
     ]
@@ -58,7 +58,7 @@
   ],
   "assets": {
     "json_data_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/geojson/detections_crateres_benjamin_bultel_icarus.json",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/geojson/scalloped_depression.json",
       "type": "application/geo+json",
       "title": "GeoJSON data file",
       "roles": [
@@ -67,10 +67,10 @@
     }
   },
   "bbox": [
-    65.0,
-    -19.0,
-    135.5,
-    -2.0
+    75.0,
+    39.0,
+    109.0,
+    52.0
   ],
   "stac_extensions": [
     "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",

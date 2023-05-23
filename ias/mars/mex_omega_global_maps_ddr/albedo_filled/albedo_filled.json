@@ -1,10 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "id": "ferric_bd530_equ_map",
+  "id": "albedo_filled",
   "properties": {
-    "title": "OMEGA Ferric BD530 Global Map",
-    "description": "This data product is a global ferric oxide spectral parameter map of Mars based on reflectance data acquired by the Mars Express OMEGA hyperspectral camera from January 2004 to August 2010. This ferric oxide spectral parameter (DB530) is based on the strength of the 0.53 micrometer ferric absorption edge.",
+    "title": "OMEGA Albedo Filled Global Map",
+    "description": "60 ppd global map of Solar Albedo from OMEGA data fileld with TES 20 ppd solar albedo global maps (Putzig and Mellon, 2007b) (21600x10800 pixels). This map is 100% filled. Variable name is \"albedo\". \"latitude\" and \"longitude\" indicate the coordinates of the centers of the pixels. Reference : Vincendon et al., Icarus, 2015",
     "start_datetime": "2004-01-08T12:46:15.000",
     "end_datetime": "2010-08-20T00:46:05.000",
     "platform": "MEX",
@@ -12,14 +12,14 @@
       "OMEGA"
     ],
     "mission": "Mars Express",
-    "datetime": "2023-05-23T19:23:19.237445Z",
+    "datetime": "2023-05-23T19:23:19.242305Z",
     "ssys:targets": [
       "Mars"
     ],
     "sci:publications": [
       {
-        "doi": "doi:10.1029/2012JE004117",
-        "citation": "A. Ody, F. Poulet, Y. Langevin, J\u2010P. Bibring, G. Bellucci, F. Altieri, B. Gondet, M. Vincendon, J.Carter and N. Manaud (2012), Global maps of anhydrous minerals at the surface of Mars from OMEGA/MEx, J. Geophys. Res., 117, E00J14\n"
+        "doi": "doi:10.1016/j.icarus.2014.10.029",
+        "citation": "M. Vincendon, J. Audouard, F. Altieri, A. Ody (2015), Mars Express measurements of surface albedo changes over 2004\u20132010, In Icarus, Volume 251, 2015, Pages 145-163, ISSN 0019-1035\n"
       }
     ]
   },
@@ -53,7 +53,7 @@
   "links": [
     {
       "rel": "wms",
-      "href": "http://idoc-wmsmars.ias.u-psud.fr/wmsmap?layers=ferric_bd530_equ_map",
+      "href": "http://idoc-wmsmars.ias.u-psud.fr/wmsmap?layers=albedo_filled",
       "type": "application/x-wms",
       "title": "WMS Layer"
     },
@@ -78,7 +78,7 @@
   ],
   "assets": {
     "fits_data_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/ferric_bd530_equ_map.fits",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/fits/albedo_filled.fits",
       "type": "application/fits",
       "title": "FITS data file",
       "roles": [
@@ -86,7 +86,7 @@
       ]
     },
     "fits_preview_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/ferric_bd530_equ_map_reduce.png",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/omega/png/albedo_filled_reduce.png",
       "type": "image/png",
       "title": "Preview PNG image file",
       "roles": [

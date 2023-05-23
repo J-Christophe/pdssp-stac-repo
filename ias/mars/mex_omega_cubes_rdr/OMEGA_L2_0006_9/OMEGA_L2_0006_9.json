@@ -1,15 +1,15 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "id": "OMEGA_L2_0006_1",
+  "id": "OMEGA_L2_0006_9",
   "properties": {
     "platform": "MEX",
     "instruments": [
       "OMEGA"
     ],
     "mission": "Mars Express",
-    "datetime": "2023-05-23T19:23:19.209834Z",
-    "solar_longitude": 330.06,
+    "datetime": "2023-05-23T19:23:19.213246Z",
+    "solar_longitude": 330.188,
     "ssys:targets": [
       "Mars"
     ],
@@ -17,10 +17,10 @@
     "l_channel_ok": "t",
     "trimmed_orbit_number": "6",
     "orbit_number": "0006",
-    "cube_number": "1",
+    "cube_number": "9",
     "c_channel_ok": "t",
     "data_quality_id": "3",
-    "pointing_mode": "ACROSSTRACK"
+    "pointing_mode": "INERT"
   },
   "geometry": null,
   "links": [
@@ -45,7 +45,7 @@
   ],
   "assets": {
     "nc_data_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0006_1.nc",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0006_9.nc",
       "type": "application/netcdf",
       "title": "NetCDF4 data file",
       "roles": [
@@ -53,7 +53,7 @@
       ]
     },
     "sav_data_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0006_1.sav",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0006_9.sav",
       "type": "application/octet-stream",
       "title": "IDL SAV data file",
       "roles": [
@@ -62,10 +62,10 @@
     }
   },
   "bbox": [
-    89.49139400000001,
-    -41.0952,
-    90.05649599999998,
-    -7.6365
+    127.69479000000001,
+    44.744,
+    128.65160000000003,
+    44.8479
   ],
   "stac_extensions": [
     "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",

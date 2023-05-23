@@ -1,10 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "id": "detections_crateres_benjamin_bultel_icarus",
+  "id": "crocus_ls150-310",
   "properties": {
-    "title": "Locations of \"Central Peaks Hydrated Phases Between Isidis And Hellas\"",
-    "datetime": "2023-05-23T19:23:19.230512Z",
+    "title": "Locations of \"Seasonal South Polar Cap Limits\"",
+    "datetime": "2023-05-23T19:23:19.233045Z",
     "ssys:targets": [
       "Mars"
     ]
@@ -14,24 +14,24 @@
     "coordinates": [
       [
         [
-          65.0,
-          -19.0
+          -180.0,
+          -50.0
         ],
         [
-          135.5,
-          -19.0
+          -90.0,
+          -50.0
         ],
         [
-          135.5,
-          -2.0
+          0.0,
+          -50.0
         ],
         [
-          65.0,
-          -2.0
+          90.0,
+          -50.0
         ],
         [
-          65.0,
-          -19.0
+          -180.0,
+          -50.0
         ]
       ]
     ]
@@ -58,7 +58,7 @@
   ],
   "assets": {
     "json_data_file": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/geojson/detections_crateres_benjamin_bultel_icarus.json",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/geojson/crocus_ls150-310.json",
       "type": "application/geo+json",
       "title": "GeoJSON data file",
       "roles": [
@@ -67,10 +67,10 @@
     }
   },
   "bbox": [
-    65.0,
-    -19.0,
-    135.5,
-    -2.0
+    -180.0,
+    -50.0,
+    90.0,
+    -50.0
   ],
   "stac_extensions": [
     "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
