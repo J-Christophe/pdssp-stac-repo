@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "OMEGA_L3_0248_1_CPROJ",
+  "properties": {
+    "start_datetime": "2004-03-28T12:14:15.033",
+    "end_datetime": "2004-03-28T12:23:47.011",
+    "platform": "MEX",
+    "instruments": [
+      "OMEGA"
+    ],
+    "mission": "Mars Express",
+    "datetime": "2004-03-28T12:14:15.033000Z",
+    "solar_longitude": 11.198,
+    "orbit_number": "248",
+    "data_quality_id": "3",
+    "cube_number": "1",
+    "ssys:targets": [
+      "Mars"
+    ],
+    "_keywords": [
+      {
+        "id": "season:spring",
+        "title": "Spring",
+        "type": "season"
+      }
+    ]
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "OMEGA C-channel Map-Projected Observations Data Cubes"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "OMEGA C-channel Map-Projected Observations Data Cubes"
+    }
+  ],
+  "assets": {
+    "nc_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L3/0248_1.nc",
+      "type": "application/netcdf",
+      "title": "NetCDF4 data file",
+      "roles": [
+        "data"
+      ]
+    },
+    "sav_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L3/0248_1.sav",
+      "type": "application/octet-stream",
+      "title": "IDL SAV data file",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    101.99700000000001,
+    -22.0625,
+    102.74700000000001,
+    10.6875
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "urn:pdssp:ias:collection:mex_omega_c_proj_ddr"
+}

@@ -1,0 +1,76 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "OMEGA_L2_0100_2",
+  "properties": {
+    "platform": "MEX",
+    "instruments": [
+      "OMEGA"
+    ],
+    "mission": "Mars Express",
+    "datetime": "2023-05-24T16:11:31.653346Z",
+    "solar_longitude": 347.825,
+    "orbit_number": "0100",
+    "data_quality_id": "3",
+    "l_channel_ok": "t",
+    "ssys:targets": [
+      "Mars"
+    ],
+    "pointing_mode": "NADIR",
+    "cube_number": "2",
+    "martian_year": "26",
+    "c_channel_ok": "t",
+    "trimmed_orbit_number": "100"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "OMEGA Calibrated Observation Data Cubes"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "OMEGA Calibrated Observation Data Cubes"
+    }
+  ],
+  "assets": {
+    "nc_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0100_2.nc",
+      "type": "application/netcdf",
+      "title": "NetCDF4 data file",
+      "roles": [
+        "data"
+      ]
+    },
+    "sav_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0100_2.sav",
+      "type": "application/octet-stream",
+      "title": "IDL SAV data file",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -53.864594,
+    -30.2529,
+    -53.765502999999995,
+    3.0542
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "urn:pdssp:ias:collection:mex_omega_cubes_rdr"
+}

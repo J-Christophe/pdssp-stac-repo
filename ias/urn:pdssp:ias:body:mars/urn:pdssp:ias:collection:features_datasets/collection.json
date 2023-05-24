@@ -1,0 +1,136 @@
+{
+  "type": "Collection",
+  "id": "urn:pdssp:ias:collection:features_datasets",
+  "stac_version": "1.0.0",
+  "description": "This collections holds locations data for hydrated mineral terrains, Central peaks hydrated phases between Isidis\nand Hellas, Central peaks mineralogy south Valles Marineris, Valles Marineris low Calcium-Pyroxene, Seasonal South\npolar cap limits, Scalloped depressions and Lobate impact craters. This dataset contains vector catalogs\nand their associated metadatas. All catalogs are provided in GeoJSON file format.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./hyd_global_290615/hyd_global_290615.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./detections_crateres_benjamin_bultel_icarus/detections_crateres_benjamin_bultel_icarus.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./lcp_flahaut_et_al/lcp_flahaut_et_al.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./lcp_vmwalls/lcp_vmwalls.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./crocus_ls150-310/crocus_ls150-310.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./scalloped_depression/scalloped_depression.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./costard_craters/costard_craters.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "IAS Mars Data Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "ssys:targets": [
+    [
+      "Mars"
+    ]
+  ],
+  "processing:level": "Derived",
+  "title": "Mars Surface Features Location Datasets",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2004-01-08T12:46:15Z",
+          "2010-08-20T00:46:05Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "polar cap",
+    "seasonal",
+    "south",
+    "CO2",
+    "crocus line",
+    "inner crocus line",
+    "outer crocus line",
+    "snowdrop distance",
+    "northern plains",
+    "periglacial",
+    "thermokarst",
+    "ground ice",
+    "global",
+    "craters",
+    "ejecta",
+    "lithosphere",
+    "mineralogy"
+  ],
+  "providers": [
+    {
+      "name": "Institut d'Astrophysique Spatiale (IAS) - IDOC",
+      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the IAS institute is involved.\n",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://idoc.ias.universite-paris-saclay.fr"
+    },
+    {
+      "name": "G\u00e9osciences Paris-Saclay (GEOPS)",
+      "description": "GEOPS is a joint laboratory of the \u201cUniversit\u00e9 de Paris-Sud\u201d (UPSUD) and the \"Centre National\nde la Recherche Scientifique\" (CNRS).\n",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "http://geops.geol.u-psud.fr"
+    },
+    {
+      "name": "Planetary SUrface Portal (PSUP)",
+      "description": "PSUP is a french research service, by Observatoire Paris-Sud and Observatoire de Lyon, to help\nthe distribution of high added-value datasets of planetary surfaces.\n",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://psup.cnrs.fr"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "type": "Collection",
+  "id": "urn:pdssp:ias:collection:mex_omega_global_maps_ddr",
+  "stac_version": "1.0.0",
+  "description": "OMEGA mineral maps are OMEGA-based NIR albedo, Ferric BD530, Ferric Nanophase, Olivine SP1, SP2, SP3,\nPyroxene and Emissivity at 5.03\u00b5m. OMEGA is the VISNIR imaging spectrometer onboard ESA/Mars-Express spacecraft\noperating around Mars from January 2004.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./albedo_r1080_equ_map/albedo_r1080_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ferric_bd530_equ_map/ferric_bd530_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ferric_nnphs_equ_map/ferric_nnphs_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./olivine_osp1_equ_map/olivine_osp1_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./olivine_osp2_equ_map/olivine_osp2_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./olivine_osp3_equ_map/olivine_osp3_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./pyroxene_bd2000_equ_map/pyroxene_bd2000_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./albedo_filled/albedo_filled.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./albedo_unfilled/albedo_unfilled.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./emissivite_5.03mic_OMEGA0/emissivite_5.03mic_OMEGA0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "IAS Mars Data Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "ssys:targets": [
+    [
+      "Mars"
+    ]
+  ],
+  "processing:level": "Derived",
+  "title": "OMEGA Mars Global Mineral Maps",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2004-01-08T12:46:15Z",
+          "2010-08-20T00:46:05Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "global maps",
+    "albedo",
+    "emissivity",
+    "pyroxene",
+    "olivine",
+    "nanophase ferric oxides",
+    "ferric oxides"
+  ],
+  "providers": [
+    {
+      "name": "Institut d'Astrophysique Spatiale (IAS) - IDOC",
+      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the IAS institute is involved.\n",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://idoc.ias.universite-paris-saclay.fr"
+    },
+    {
+      "name": "G\u00e9osciences Paris-Saclay (GEOPS)",
+      "description": "GEOPS is a joint laboratory of the \u201cUniversit\u00e9 de Paris-Sud\u201d (UPSUD) and the \"Centre National\nde la Recherche Scientifique\" (CNRS).\n",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "http://geops.geol.u-psud.fr"
+    },
+    {
+      "name": "Planetary SUrface Portal (PSUP)",
+      "description": "PSUP is a french research service, by Observatoire Paris-Sud and Observatoire de Lyon, to help\nthe distribution of high added-value datasets of planetary surfaces.\n",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://psup.cnrs.fr"
+    }
+  ]
+}

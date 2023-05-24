@@ -1,0 +1,601 @@
+{
+  "type": "Collection",
+  "id": "urn:pdssp:ias:collection:mex_omega_c_proj_ddr",
+  "stac_version": "1.0.0",
+  "description": "These data cubes have been specifically selected and filtered for studies of the *surface mineralogy* between\n1 and 2.5 microns.\n\nThey contain all the OMEGA observations acquired with the C channel after filtering. Filtering processes have been\nimplemented to remove some instrumental artefacts and observational conditions. Each OMEGA record is available as\na netCDF4.nc file and an idl.sav.\n\nBoth files contain the cubes of reflectance of the surface at a given longitude, latitude and wavelength. The\nwith lambda from 0.97 to 2.55 microns (second dimension of the cube with 120 wavelengths).\nThe spectra are corrected for atmospheric and aerosol contributions according to the method described in Vincendon\net al. (Icarus, 251, 2015). It therefore corresponds to albedo for a lambertian surface. The first dimension of\nthe cube refers to the length of scan. It can be 32, 64, or 128 pixels. It gives the first spatial dimension. The '\nthird dimension refers to the rank of the scan. It is the second spatial dimension.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0018_0_CPROJ/OMEGA_L3_0018_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0018_1_CPROJ/OMEGA_L3_0018_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0022_0_CPROJ/OMEGA_L3_0022_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0022_1_CPROJ/OMEGA_L3_0022_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0024_0_CPROJ/OMEGA_L3_0024_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0024_1_CPROJ/OMEGA_L3_0024_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0030_0_CPROJ/OMEGA_L3_0030_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0030_1_CPROJ/OMEGA_L3_0030_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0032_1_CPROJ/OMEGA_L3_0032_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0032_3_CPROJ/OMEGA_L3_0032_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0037_0_CPROJ/OMEGA_L3_0037_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0037_1_CPROJ/OMEGA_L3_0037_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0037_3_CPROJ/OMEGA_L3_0037_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0041_2_CPROJ/OMEGA_L3_0041_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0041_3_CPROJ/OMEGA_L3_0041_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0044_0_CPROJ/OMEGA_L3_0044_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0047_1_CPROJ/OMEGA_L3_0047_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0047_3_CPROJ/OMEGA_L3_0047_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0049_1_CPROJ/OMEGA_L3_0049_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0061_2_CPROJ/OMEGA_L3_0061_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0061_4_CPROJ/OMEGA_L3_0061_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0068_1_CPROJ/OMEGA_L3_0068_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0068_3_CPROJ/OMEGA_L3_0068_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0068_4_CPROJ/OMEGA_L3_0068_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0071_1_CPROJ/OMEGA_L3_0071_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0071_3_CPROJ/OMEGA_L3_0071_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0071_4_CPROJ/OMEGA_L3_0071_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0097_1_CPROJ/OMEGA_L3_0097_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0097_3_CPROJ/OMEGA_L3_0097_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0097_4_CPROJ/OMEGA_L3_0097_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0100_3_CPROJ/OMEGA_L3_0100_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0103_3_CPROJ/OMEGA_L3_0103_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0103_5_CPROJ/OMEGA_L3_0103_5_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0171_1_CPROJ/OMEGA_L3_0171_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0171_2_CPROJ/OMEGA_L3_0171_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0228_1_CPROJ/OMEGA_L3_0228_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0228_2_CPROJ/OMEGA_L3_0228_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0228_3_CPROJ/OMEGA_L3_0228_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0231_2_CPROJ/OMEGA_L3_0231_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0231_3_CPROJ/OMEGA_L3_0231_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0232_1_CPROJ/OMEGA_L3_0232_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0232_2_CPROJ/OMEGA_L3_0232_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0232_3_CPROJ/OMEGA_L3_0232_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0243_1_CPROJ/OMEGA_L3_0243_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0243_2_CPROJ/OMEGA_L3_0243_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0243_3_CPROJ/OMEGA_L3_0243_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0248_1_CPROJ/OMEGA_L3_0248_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0248_2_CPROJ/OMEGA_L3_0248_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0248_3_CPROJ/OMEGA_L3_0248_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0259_1_CPROJ/OMEGA_L3_0259_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0259_2_CPROJ/OMEGA_L3_0259_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0266_1_CPROJ/OMEGA_L3_0266_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0266_2_CPROJ/OMEGA_L3_0266_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0270_1_CPROJ/OMEGA_L3_0270_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0270_2_CPROJ/OMEGA_L3_0270_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0270_3_CPROJ/OMEGA_L3_0270_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0278_2_CPROJ/OMEGA_L3_0278_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0278_3_CPROJ/OMEGA_L3_0278_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0278_4_CPROJ/OMEGA_L3_0278_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0280_1_CPROJ/OMEGA_L3_0280_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0280_2_CPROJ/OMEGA_L3_0280_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0280_3_CPROJ/OMEGA_L3_0280_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0284_1_CPROJ/OMEGA_L3_0284_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0284_2_CPROJ/OMEGA_L3_0284_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0284_3_CPROJ/OMEGA_L3_0284_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0284_4_CPROJ/OMEGA_L3_0284_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0285_1_CPROJ/OMEGA_L3_0285_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0285_2_CPROJ/OMEGA_L3_0285_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0286_1_CPROJ/OMEGA_L3_0286_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0286_2_CPROJ/OMEGA_L3_0286_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0286_3_CPROJ/OMEGA_L3_0286_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0286_4_CPROJ/OMEGA_L3_0286_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0291_0_CPROJ/OMEGA_L3_0291_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0291_1_CPROJ/OMEGA_L3_0291_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0294_2_CPROJ/OMEGA_L3_0294_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0294_3_CPROJ/OMEGA_L3_0294_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0294_4_CPROJ/OMEGA_L3_0294_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0294_5_CPROJ/OMEGA_L3_0294_5_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_1_CPROJ/OMEGA_L3_0302_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_2_CPROJ/OMEGA_L3_0302_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_3_CPROJ/OMEGA_L3_0302_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_4_CPROJ/OMEGA_L3_0302_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_5_CPROJ/OMEGA_L3_0302_5_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0305_1_CPROJ/OMEGA_L3_0305_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0305_2_CPROJ/OMEGA_L3_0305_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0305_3_CPROJ/OMEGA_L3_0305_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0305_4_CPROJ/OMEGA_L3_0305_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0308_1_CPROJ/OMEGA_L3_0308_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0308_2_CPROJ/OMEGA_L3_0308_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0308_3_CPROJ/OMEGA_L3_0308_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0308_4_CPROJ/OMEGA_L3_0308_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0311_1_CPROJ/OMEGA_L3_0311_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0311_2_CPROJ/OMEGA_L3_0311_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0311_3_CPROJ/OMEGA_L3_0311_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0311_4_CPROJ/OMEGA_L3_0311_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0313_1_CPROJ/OMEGA_L3_0313_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0313_2_CPROJ/OMEGA_L3_0313_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0313_3_CPROJ/OMEGA_L3_0313_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0313_4_CPROJ/OMEGA_L3_0313_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0314_1_CPROJ/OMEGA_L3_0314_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "IAS Mars Data Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "ssys:targets": [
+    [
+      "Mars"
+    ]
+  ],
+  "processing:level": "Calibrated",
+  "sci:publications": [
+    {
+      "citation": "Vincendon M., Audouard J., Altieri F., Ody A., Mars Express measurements of surface albedo changes over 2004\u20132010, In Icarus, Volume 251, 2015, Pages 145-163, ISSN 0019-1035\n"
+    },
+    {
+      "doi": "doi:10.1002/2014JE004649",
+      "citation": "Audouard, J., F. Poulet, M. Vincendon, R. E. Milliken, D. Jouglet, J. Bibring, B. Gondet, and Y. Langevin (2014), Water in the Martian regolith from OMEGA/Mars Express, J. Geophys. Res. Planets,119, 1969\u20131989\n"
+    },
+    {
+      "doi": "doi:10.1029/2006JE002841",
+      "citation": "Langevin, Y., J.-P. Bibring, F. Montmessin, F. Forget, M. Vincendon, S. Dout\u00e9, F. Poulet, and B. Gondet (2007), Observations of the south seasonal cap of Mars during recession in 2004\u20132006 by the OMEGA visible/near-infrared imaging spectrometer on board Mars Express, J. Geophys. Res., 112, E08S12.\n"
+    },
+    {
+      "citation": "Bibring et al (2004), OMEGA: Observatoire pour la Mineralogie, l'Eau, les Glaces et l'Activit\u00e9, In: Mars Express: the scientific payload. ESA SP-1240, Noordwijk, Netherlands:ESA Publications Division, ISBN 92-9092-556-6, p. 37-49."
+    }
+  ],
+  "title": "OMEGA C-channel Map-Projected Observations Data Cubes",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.07100000000003,
+          -60.0,
+          175.426,
+          59.9688
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2004-01-14T00:19:12.032000Z",
+          "2004-04-18T08:38:24.080000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "map-projected"
+  ],
+  "providers": [
+    {
+      "name": "Institut d'Astrophysique Spatiale (IAS) - IDOC",
+      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the IAS institute is involved.\n",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://idoc.ias.universite-paris-saclay.fr"
+    },
+    {
+      "name": "G\u00e9osciences Paris-Saclay (GEOPS)",
+      "description": "GEOPS is a joint laboratory of the \u201cUniversit\u00e9 de Paris-Sud\u201d (UPSUD) and the \"Centre National\nde la Recherche Scientifique\" (CNRS).\n",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "http://geops.geol.u-psud.fr"
+    },
+    {
+      "name": "Planetary SUrface Portal (PSUP)",
+      "description": "PSUP is a french research service, by Observatoire Paris-Sud and Observatoire de Lyon, to help\nthe distribution of high added-value datasets of planetary surfaces.\n",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://psup.cnrs.fr"
+    }
+  ]
+}
