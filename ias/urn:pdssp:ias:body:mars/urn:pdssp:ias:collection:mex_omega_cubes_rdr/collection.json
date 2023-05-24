@@ -1,0 +1,111 @@
+{
+  "type": "Collection",
+  "id": "urn:pdssp:ias:collection:mex_omega_cubes_rdr",
+  "stac_version": "1.0.0",
+  "description": "This collection contains all the OMEGA observations acquired with the C, L and VIS channels until April 2016, 11,\nafter filtering. Filtering processes have been implemented to remove some instrumental artefacts and observational\nconditions. Each OMEGA record is available as a netCDF4.nc file and an idl.sav.\n\nBoth files contain the cubes of reflectance of the surface at a given longitude, latitude and wavelength $\\lambda$.\nThe surface reflectance is defined as I/F/cos(i) where:\n\n- channel C=[0.93-2.73 $\\mu$m]; L=[2.55-5.10 $\\mu$m]; Visible=[0.38-1.05 $\\mu$m];\n- atmospheric attenuation is corrected (1-5 $\\mu$m);\n- airborne dust scattering is corrected (0.4-2.5 \u00b5m and for 5 \u00b5m emissivity estimations);\n- thermal contribution is removed (> 3 $\\mu$m); L channel data and VIS channel are co-registered with C channel\n  when available.\n\nPlease note that longitudes range from -180 to 180 degrees east.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_0/OMEGA_L2_0006_0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_1/OMEGA_L2_0006_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "IAS Mars Data Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "ssys:targets": [
+    [
+      "Mars"
+    ]
+  ],
+  "processing:level": "Calibrated",
+  "sci:publications": [
+    {
+      "citation": "Vincendon M., Audouard J., Altieri F., Ody A., Mars Express measurements of surface albedo changes over 2004\u20132010, In Icarus, Volume 251, 2015, Pages 145-163, ISSN 0019-1035\n"
+    },
+    {
+      "doi": "doi:10.1002/2014JE004649",
+      "citation": "Audouard, J., F. Poulet, M. Vincendon, R. E. Milliken, D. Jouglet, J. Bibring, B. Gondet, and Y. Langevin (2014), Water in the Martian regolith from OMEGA/Mars Express, J. Geophys. Res. Planets,119, 1969\u20131989\n"
+    },
+    {
+      "doi": "doi:10.1029/2006JE002841",
+      "citation": "Langevin, Y., J.-P. Bibring, F. Montmessin, F. Forget, M. Vincendon, S. Dout\u00e9, F. Poulet, and B. Gondet (2007), Observations of the south seasonal cap of Mars during recession in 2004\u20132006 by the OMEGA visible/near-infrared imaging spectrometer on board Mars Express, J. Geophys. Res., 112, E08S12.\n"
+    },
+    {
+      "citation": "Bibring et al (2004), OMEGA: Observatoire pour la Mineralogie, l'Eau, les Glaces et l'Activit\u00e9, In: Mars Express: the scientific payload. ESA SP-1240, Noordwijk, Netherlands:ESA Publications Division, ISBN 92-9092-556-6, p. 37-49."
+    }
+  ],
+  "title": "OMEGA Calibrated Observation Data Cubes",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          87.21289999999999,
+          -56.0966,
+          90.05649599999998,
+          -7.6365
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-24T09:59:58.353085Z",
+          "2023-05-24T09:59:58.353624Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "calibrated"
+  ],
+  "providers": [
+    {
+      "name": "Institut d'Astrophysique Spatiale (IAS) - IDOC",
+      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the IAS institute is involved.\n",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://idoc.ias.universite-paris-saclay.fr"
+    },
+    {
+      "name": "G\u00e9osciences Paris-Saclay (GEOPS)",
+      "description": "GEOPS is a joint laboratory of the \u201cUniversit\u00e9 de Paris-Sud\u201d (UPSUD) and the \"Centre National\nde la Recherche Scientifique\" (CNRS).\n",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "http://geops.geol.u-psud.fr"
+    },
+    {
+      "name": "Planetary SUrface Portal (PSUP)",
+      "description": "PSUP is a french research service, by Observatoire Paris-Sud and Observatoire de Lyon, to help\nthe distribution of high added-value datasets of planetary surfaces.\n",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://psup.cnrs.fr"
+    }
+  ]
+}
