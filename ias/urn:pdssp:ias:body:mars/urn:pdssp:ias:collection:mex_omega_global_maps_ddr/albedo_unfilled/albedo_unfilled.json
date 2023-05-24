@@ -13,14 +13,14 @@
     ],
     "mission": "Mars Express",
     "datetime": "2004-01-08T12:46:15Z",
+    "ssys:targets": [
+      "Mars"
+    ],
     "sci:publications": [
       {
         "doi": "doi:10.1016/j.icarus.2014.10.029",
         "citation": "M. Vincendon, J. Audouard, F. Altieri, A. Ody (2015), Mars Express measurements of surface albedo changes over 2004\u20132010, In Icarus, Volume 251, 2015, Pages 145-163, ISSN 0019-1035\n"
       }
-    ],
-    "ssys:targets": [
-      "Mars"
     ]
   },
   "geometry": {

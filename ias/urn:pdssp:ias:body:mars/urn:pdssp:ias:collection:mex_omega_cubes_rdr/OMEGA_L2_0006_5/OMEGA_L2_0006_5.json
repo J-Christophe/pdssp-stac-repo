@@ -8,19 +8,19 @@
       "OMEGA"
     ],
     "mission": "Mars Express",
-    "datetime": "2023-05-24T10:58:26.473890Z",
+    "datetime": "2023-05-24T15:45:39.907147Z",
     "solar_longitude": 330.183,
+    "cube_number": "5",
+    "data_quality_id": "3",
+    "orbit_number": "0006",
     "l_channel_ok": "t",
+    "c_channel_ok": "t",
+    "martian_year": "26",
     "ssys:targets": [
       "Mars"
     ],
-    "cube_number": "5",
-    "pointing_mode": "INERT",
-    "data_quality_id": "3",
-    "orbit_number": "0006",
-    "martian_year": "26",
     "trimmed_orbit_number": "6",
-    "c_channel_ok": "t"
+    "pointing_mode": "INERT"
   },
   "geometry": null,
   "links": [

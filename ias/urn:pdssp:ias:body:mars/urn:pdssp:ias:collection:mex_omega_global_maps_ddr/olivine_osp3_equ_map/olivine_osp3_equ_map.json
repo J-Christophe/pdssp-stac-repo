@@ -13,14 +13,14 @@
     ],
     "mission": "Mars Express",
     "datetime": "2004-01-08T12:46:15Z",
+    "ssys:targets": [
+      "Mars"
+    ],
     "sci:publications": [
       {
         "doi": "doi:10.1029/2012JE004117",
         "citation": "A. Ody, F. Poulet, Y. Langevin, J\u2010P. Bibring, G. Bellucci, F. Altieri, B. Gondet, M. Vincendon, J.Carter and N. Manaud (2012), Global maps of anhydrous minerals at the surface of Mars from OMEGA/MEx, J. Geophys. Res., 117, E00J14\n"
       }
-    ],
-    "ssys:targets": [
-      "Mars"
     ]
   },
   "geometry": {

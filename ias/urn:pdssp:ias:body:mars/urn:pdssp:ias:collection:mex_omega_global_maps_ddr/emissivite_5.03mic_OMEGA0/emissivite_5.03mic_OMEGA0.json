@@ -13,14 +13,14 @@
     ],
     "mission": "Mars Express",
     "datetime": "2004-01-08T12:46:15Z",
+    "ssys:targets": [
+      "Mars"
+    ],
     "sci:publications": [
       {
         "doi": "doi:10.1016/j.icarus.2014.10.029",
         "citation": "J. Audouard, F. Poulet, M. Vincendon, J.-P. Bibring, F. Forget, Y. Langevin, B. Gondet (2014), Mars surface thermal inertia and heterogeneities from OMEGA/MEX, In Icarus Volume 233, 2014, Pages 194-213"
       }
-    ],
-    "ssys:targets": [
-      "Mars"
     ]
   },
   "geometry": {
