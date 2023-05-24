@@ -21,6 +21,46 @@
       "type": "application/json"
     },
     {
+      "rel": "item",
+      "href": "./ferric_nnphs_equ_map/ferric_nnphs_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./olivine_osp1_equ_map/olivine_osp1_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./olivine_osp2_equ_map/olivine_osp2_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./olivine_osp3_equ_map/olivine_osp3_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./pyroxene_bd2000_equ_map/pyroxene_bd2000_equ_map.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./albedo_filled/albedo_filled.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./albedo_unfilled/albedo_unfilled.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./emissivite_5.03mic_OMEGA0/emissivite_5.03mic_OMEGA0.json",
+      "type": "application/json"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

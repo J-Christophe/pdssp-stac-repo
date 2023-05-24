@@ -21,6 +21,46 @@
       "type": "application/json"
     },
     {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_2/OMEGA_L2_0006_2.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_3/OMEGA_L2_0006_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_4/OMEGA_L2_0006_4.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_5/OMEGA_L2_0006_5.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_6/OMEGA_L2_0006_6.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_7/OMEGA_L2_0006_7.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_8/OMEGA_L2_0006_8.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0006_9/OMEGA_L2_0006_9.json",
+      "type": "application/json"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -61,16 +101,16 @@
         [
           87.21289999999999,
           -56.0966,
-          90.05649599999998,
-          -7.6365
+          134.73519999999996,
+          68.044495
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-05-24T10:34:52.501207Z",
-          "2023-05-24T10:34:52.501779Z"
+          "2023-05-24T10:58:26.471598Z",
+          "2023-05-24T10:58:26.475624Z"
         ]
       ]
     }

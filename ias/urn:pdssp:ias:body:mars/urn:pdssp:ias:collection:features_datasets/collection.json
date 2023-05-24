@@ -21,6 +21,31 @@
       "type": "application/json"
     },
     {
+      "rel": "item",
+      "href": "./lcp_flahaut_et_al/lcp_flahaut_et_al.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./lcp_vmwalls/lcp_vmwalls.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./crocus_ls150-310/crocus_ls150-310.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./scalloped_depression/scalloped_depression.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./costard_craters/costard_craters.json",
+      "type": "application/json"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
