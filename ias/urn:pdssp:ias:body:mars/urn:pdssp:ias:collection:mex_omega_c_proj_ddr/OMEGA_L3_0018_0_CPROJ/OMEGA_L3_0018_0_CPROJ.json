@@ -13,13 +13,13 @@
     "datetime": "2004-01-14T00:19:12.032000Z",
     "solar_longitude": 333.063,
     "incidence_angle": 38.486122131347656,
-    "orbit_number": "18",
-    "cube_number": "0",
-    "mean_tau": 1.606444239616394,
-    "data_quality_id": "3",
     "ssys:targets": [
       "Mars"
-    ]
+    ],
+    "cube_number": "0",
+    "data_quality_id": "3",
+    "mean_tau": 1.606444239616394,
+    "orbit_number": "18"
   },
   "geometry": {
     "type": "Polygon",
