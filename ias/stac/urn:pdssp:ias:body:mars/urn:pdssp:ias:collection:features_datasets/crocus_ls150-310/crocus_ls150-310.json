@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "crocus_ls150-310",
+  "properties": {
+    "title": "Locations of \"Seasonal South Polar Cap Limits\"",
+    "start_datetime": "2004-01-08T12:46:15.000Z",
+    "end_datetime": "2010-08-20T00:46:05.000Z",
+    "datetime": "2004-01-08T12:46:15Z",
+    "ssys:targets": [
+      "Mars"
+    ],
+    "sci:publications": [
+      {
+        "doi": "10.1016/j.pss.2010.03.018",
+        "citation": "F. Schmidt, B. Schmitt, S. Dout\u00e9, F. Forget, J.-J. Jian, P. Martin, Y. Langevin, J.-P. Bibring (2010), Sublimation of the Martian CO2 Seasonal South Polar Cap, In Planetary and Space Science, Volume 58, Issues 10, 2010, Pages 1129-1138\n"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -50.0
+        ],
+        [
+          -90.0,
+          -50.0
+        ],
+        [
+          0.0,
+          -50.0
+        ],
+        [
+          90.0,
+          -50.0
+        ],
+        [
+          -180.0,
+          -50.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Mars Surface Features Location Datasets"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Mars Surface Features Location Datasets"
+    }
+  ],
+  "assets": {
+    "json_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/geojson/crocus_ls150-310.json",
+      "type": "application/geo+json",
+      "title": "GeoJSON data file",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    -180.0,
+    -50.0,
+    90.0,
+    -50.0
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "urn:pdssp:ias:collection:features_datasets"
+}

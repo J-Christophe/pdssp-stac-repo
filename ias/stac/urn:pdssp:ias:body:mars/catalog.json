@@ -1,0 +1,51 @@
+{
+  "type": "Catalog",
+  "id": "urn:pdssp:ias:body:mars",
+  "stac_version": "1.0.0",
+  "description": "This test STAC catalog contains Mars data collections and sub-catalogs currently hosted and distributed by\n[PSUP](http://psup.ias.u-psud.fr/sitools/client-user/index.html?project=PLISonMars) (Planetary SUrface Portal).\n\n![Mars](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mars_%28white_background%29.jpg/120px-Mars_%28white_background%29.jpg)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./urn:pdssp:ias:collection:mex_omega_c_proj_ddr/collection.json",
+      "type": "application/json",
+      "title": "OMEGA C-channel Map-Projected Observations Data Cubes"
+    },
+    {
+      "rel": "child",
+      "href": "./urn:pdssp:ias:collection:mex_omega_cubes_rdr/collection.json",
+      "type": "application/json",
+      "title": "OMEGA Calibrated Observation Data Cubes"
+    },
+    {
+      "rel": "child",
+      "href": "./urn:pdssp:ias:collection:features_datasets/collection.json",
+      "type": "application/json",
+      "title": "Mars Surface Features Location Datasets"
+    },
+    {
+      "rel": "child",
+      "href": "./urn:pdssp:ias:collection:mex_omega_global_maps_ddr/collection.json",
+      "type": "application/json",
+      "title": "OMEGA Mars Global Mineral Maps"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json"
+  ],
+  "ssys:targets": [
+    "Mars"
+  ],
+  "title": "IAS Mars Data Catalog"
+}
