@@ -13,6 +13,10 @@
     "datetime": "2004-01-24T23:21:40.030000Z",
     "solar_longitude": 338.979,
     "incidence_angle": 23.791296005249023,
+    "orbit_number": "47",
+    "data_quality_id": "3",
+    "mean_watericelin": 0.5091893076896667,
+    "mean_tau": 1.2260451316833496,
     "_keywords": [
       {
         "id": "season:winter",
@@ -23,12 +27,8 @@
     "ssys:targets": [
       "Mars"
     ],
-    "orbit_number": "47",
     "cube_number": "3",
-    "data_quality_id": "3",
-    "mean_watericelin": 0.5091893076896667,
-    "mean_icecloudindex": 0.430372029542923,
-    "mean_tau": 1.2260451316833496
+    "mean_icecloudindex": 0.430372029542923
   },
   "geometry": {
     "type": "Polygon",

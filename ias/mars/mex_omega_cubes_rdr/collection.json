@@ -31,6 +31,161 @@
       "type": "application/json"
     },
     {
+      "rel": "item",
+      "href": "./OMEGA_L2_0024_0/OMEGA_L2_0024_0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0024_1/OMEGA_L2_0024_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0030_0/OMEGA_L2_0030_0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0030_1/OMEGA_L2_0030_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0032_1/OMEGA_L2_0032_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0032_3/OMEGA_L2_0032_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0037_0/OMEGA_L2_0037_0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0037_1/OMEGA_L2_0037_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0037_3/OMEGA_L2_0037_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0041_2/OMEGA_L2_0041_2.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0041_3/OMEGA_L2_0041_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0044_0/OMEGA_L2_0044_0.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0047_1/OMEGA_L2_0047_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0047_3/OMEGA_L2_0047_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0049_1/OMEGA_L2_0049_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0061_2/OMEGA_L2_0061_2.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0061_4/OMEGA_L2_0061_4.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0068_1/OMEGA_L2_0068_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0068_3/OMEGA_L2_0068_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0068_4/OMEGA_L2_0068_4.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0071_1/OMEGA_L2_0071_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0071_3/OMEGA_L2_0071_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0071_4/OMEGA_L2_0071_4.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0097_1/OMEGA_L2_0097_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0097_3/OMEGA_L2_0097_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0097_4/OMEGA_L2_0097_4.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0100_3/OMEGA_L2_0100_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0103_3/OMEGA_L2_0103_3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0103_5/OMEGA_L2_0103_5.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0171_1/OMEGA_L2_0171_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L2_0171_2/OMEGA_L2_0171_2.json",
+      "type": "application/json"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -67,10 +222,10 @@
     "spatial": {
       "bbox": [
         [
-          -41.82351700000001,
-          -65.8437,
-          100.43790000000001,
-          -21.746
+          -150.4284,
+          -84.9146,
+          173.2473,
+          60.1721
         ]
       ]
     },
@@ -78,7 +233,7 @@
       "interval": [
         [
           "2004-01-14T00:19:12.032000Z",
-          "2004-01-15T16:11:00.030000Z"
+          "2004-03-04T04:45:51.036000Z"
         ]
       ]
     }

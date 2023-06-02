@@ -111,6 +111,406 @@
       "type": "application/json"
     },
     {
+      "rel": "item",
+      "href": "./OMEGA_L3_0061_4_CPROJ/OMEGA_L3_0061_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0068_1_CPROJ/OMEGA_L3_0068_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0068_3_CPROJ/OMEGA_L3_0068_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0068_4_CPROJ/OMEGA_L3_0068_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0071_1_CPROJ/OMEGA_L3_0071_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0071_3_CPROJ/OMEGA_L3_0071_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0071_4_CPROJ/OMEGA_L3_0071_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0097_1_CPROJ/OMEGA_L3_0097_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0097_3_CPROJ/OMEGA_L3_0097_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0097_4_CPROJ/OMEGA_L3_0097_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0100_3_CPROJ/OMEGA_L3_0100_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0103_3_CPROJ/OMEGA_L3_0103_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0103_5_CPROJ/OMEGA_L3_0103_5_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0171_1_CPROJ/OMEGA_L3_0171_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0171_2_CPROJ/OMEGA_L3_0171_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0228_1_CPROJ/OMEGA_L3_0228_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0228_2_CPROJ/OMEGA_L3_0228_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0228_3_CPROJ/OMEGA_L3_0228_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0231_2_CPROJ/OMEGA_L3_0231_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0231_3_CPROJ/OMEGA_L3_0231_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0232_1_CPROJ/OMEGA_L3_0232_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0232_2_CPROJ/OMEGA_L3_0232_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0232_3_CPROJ/OMEGA_L3_0232_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0243_1_CPROJ/OMEGA_L3_0243_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0243_2_CPROJ/OMEGA_L3_0243_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0243_3_CPROJ/OMEGA_L3_0243_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0248_1_CPROJ/OMEGA_L3_0248_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0248_2_CPROJ/OMEGA_L3_0248_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0248_3_CPROJ/OMEGA_L3_0248_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0259_1_CPROJ/OMEGA_L3_0259_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0259_2_CPROJ/OMEGA_L3_0259_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0266_1_CPROJ/OMEGA_L3_0266_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0266_2_CPROJ/OMEGA_L3_0266_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0270_1_CPROJ/OMEGA_L3_0270_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0270_2_CPROJ/OMEGA_L3_0270_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0270_3_CPROJ/OMEGA_L3_0270_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0278_2_CPROJ/OMEGA_L3_0278_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0278_3_CPROJ/OMEGA_L3_0278_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0278_4_CPROJ/OMEGA_L3_0278_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0280_1_CPROJ/OMEGA_L3_0280_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0280_2_CPROJ/OMEGA_L3_0280_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0280_3_CPROJ/OMEGA_L3_0280_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0284_1_CPROJ/OMEGA_L3_0284_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0284_2_CPROJ/OMEGA_L3_0284_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0284_3_CPROJ/OMEGA_L3_0284_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0284_4_CPROJ/OMEGA_L3_0284_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0285_1_CPROJ/OMEGA_L3_0285_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0285_2_CPROJ/OMEGA_L3_0285_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0286_1_CPROJ/OMEGA_L3_0286_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0286_2_CPROJ/OMEGA_L3_0286_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0286_3_CPROJ/OMEGA_L3_0286_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0286_4_CPROJ/OMEGA_L3_0286_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0291_0_CPROJ/OMEGA_L3_0291_0_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0291_1_CPROJ/OMEGA_L3_0291_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0294_2_CPROJ/OMEGA_L3_0294_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0294_3_CPROJ/OMEGA_L3_0294_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0294_4_CPROJ/OMEGA_L3_0294_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0294_5_CPROJ/OMEGA_L3_0294_5_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_1_CPROJ/OMEGA_L3_0302_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_2_CPROJ/OMEGA_L3_0302_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_3_CPROJ/OMEGA_L3_0302_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_4_CPROJ/OMEGA_L3_0302_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0302_5_CPROJ/OMEGA_L3_0302_5_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0305_1_CPROJ/OMEGA_L3_0305_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0305_2_CPROJ/OMEGA_L3_0305_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0305_3_CPROJ/OMEGA_L3_0305_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0305_4_CPROJ/OMEGA_L3_0305_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0308_1_CPROJ/OMEGA_L3_0308_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0308_2_CPROJ/OMEGA_L3_0308_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0308_3_CPROJ/OMEGA_L3_0308_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0308_4_CPROJ/OMEGA_L3_0308_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0311_1_CPROJ/OMEGA_L3_0311_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0311_2_CPROJ/OMEGA_L3_0311_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0311_3_CPROJ/OMEGA_L3_0311_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0311_4_CPROJ/OMEGA_L3_0311_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0313_1_CPROJ/OMEGA_L3_0313_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0313_2_CPROJ/OMEGA_L3_0313_2_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0313_3_CPROJ/OMEGA_L3_0313_3_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0313_4_CPROJ/OMEGA_L3_0313_4_CPROJ.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./OMEGA_L3_0314_1_CPROJ/OMEGA_L3_0314_1_CPROJ.json",
+      "type": "application/json"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -147,10 +547,10 @@
     "spatial": {
       "bbox": [
         [
-          -150.44799999999998,
+          -179.07100000000003,
           -60.0,
           175.426,
-          44.4375
+          59.9688
         ]
       ]
     },
@@ -158,7 +558,7 @@
       "interval": [
         [
           "2004-01-14T00:19:12.032000Z",
-          "2004-01-29T10:46:21.036000Z"
+          "2004-04-18T08:38:24.080000Z"
         ]
       ]
     }
