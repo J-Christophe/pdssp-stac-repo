@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "scalloped_depression",
+  "properties": {
+    "title": "Locations of \"Scalloped Depressions\"",
+    "start_datetime": "2004-01-08T12:46:15.000Z",
+    "end_datetime": "2010-08-20T00:46:05.000Z",
+    "datetime": "2004-01-08T12:46:15Z",
+    "sci:publications": [
+      {
+        "doi": "10.1016/j.pss.2011.09.004",
+        "citation": "A.S\u00e9journ\u00e9, F.Costard, J.Gargani, R.J.Soare, C.Marmo (2012), Evidence of an eolian ice-rich and stratified permafrost in Utopia Planitia, Mars, In Icarus, Volume 60, Issue 1, 2012, Pages 248-254\n"
+      }
+    ],
+    "ssys:targets": [
+      "Mars"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          75.0,
+          39.0
+        ],
+        [
+          75.0,
+          52.0
+        ],
+        [
+          109.0,
+          52.0
+        ],
+        [
+          109.0,
+          39.0
+        ],
+        [
+          75.0,
+          39.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Mars Surface Features Location Datasets"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Mars Surface Features Location Datasets"
+    }
+  ],
+  "assets": {
+    "json_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/geojson/scalloped_depression.json",
+      "type": "application/geo+json",
+      "title": "GeoJSON data file",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    75.0,
+    39.0,
+    109.0,
+    52.0
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "urn:pdssp:ias:collection:features_datasets"
+}

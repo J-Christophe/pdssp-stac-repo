@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "detections_crateres_benjamin_bultel_icarus",
+  "properties": {
+    "title": "Locations of \"Central Peaks Hydrated Phases Between Isidis And Hellas\"",
+    "start_datetime": "2004-01-08T12:46:15.000Z",
+    "end_datetime": "2010-08-20T00:46:05.000Z",
+    "datetime": "2004-01-08T12:46:15Z",
+    "sci:publications": [
+      {
+        "doi": "10.1016/j.icarus.2015.06.037",
+        "citation": "B. Bultel, C. Quantin-Nataf, M. Andr\u00e9ani, H. Cl\u00e9net, L. Lozac\u2019h (2015), Deep alteration between Hellas and Isidis Basins, In Icarus Volume 260, 2015, Pages 141-160\n"
+      }
+    ],
+    "ssys:targets": [
+      "Mars"
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          65.0,
+          -19.0
+        ],
+        [
+          135.5,
+          -19.0
+        ],
+        [
+          135.5,
+          -2.0
+        ],
+        [
+          65.0,
+          -2.0
+        ],
+        [
+          65.0,
+          -19.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "IAS Planetary Surface Data STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Mars Surface Features Location Datasets"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Mars Surface Features Location Datasets"
+    }
+  ],
+  "assets": {
+    "json_data_file": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/marsdata/geojson/detections_crateres_benjamin_bultel_icarus.json",
+      "type": "application/geo+json",
+      "title": "GeoJSON data file",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    65.0,
+    -19.0,
+    135.5,
+    -2.0
+  ],
+  "stac_extensions": [
+    "https://raw.githubusercontent.com/thareUSGS/ssys/main/json-schema/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "urn:pdssp:ias:collection:features_datasets"
+}
