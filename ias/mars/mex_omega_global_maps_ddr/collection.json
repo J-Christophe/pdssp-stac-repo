@@ -118,15 +118,6 @@
       "url": "https://idoc.ias.universite-paris-saclay.fr"
     },
     {
-      "name": "G\u00e9osciences Paris-Saclay (GEOPS)",
-      "description": "GEOPS is a joint laboratory of the \u201cUniversit\u00e9 de Paris-Sud\u201d (UPSUD) and the \"Centre National\nde la Recherche Scientifique\" (CNRS).\n",
-      "roles": [
-        "producer",
-        "processor"
-      ],
-      "url": "http://geops.geol.u-psud.fr"
-    },
-    {
       "name": "Planetary SUrface Portal (PSUP)",
       "description": "PSUP is a french research service, by Observatoire Paris-Sud and Observatoire de Lyon, to help\nthe distribution of high added-value datasets of planetary surfaces.\n",
       "roles": [
